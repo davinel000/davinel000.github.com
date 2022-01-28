@@ -3,7 +3,7 @@ title: Slava Romanov
 subtitle: Multimedia Artist
 email: davinel000@gmail.com
 description: Working hard to rest smart with cozy lighting and vintage gadgets
-baseurl: #"/" # the subpath of your site, e.g. /blog
+baseurl: "/test" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Viacheslav Romanov
 street_address: Huder str. 1e
