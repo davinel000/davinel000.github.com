@@ -17,23 +17,21 @@
         Viacheslav Romanov: stop-motion video, processing
         Lasse Bornträger: sound
       instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
-      content: To implement the project, the author built a specialized hardware-software complex for recording and processing frame-by-frame animation. The main material used in the animation is metal nails of various sizes. Class “Trick der Sterne” by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)       
+      long: To implement the project, the author built a specialized hardware-software complex for recording and processing frame-by-frame animation. The main material used in the animation is metal nails of various sizes. Class “Trick der Sterne” by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)       
       presentation: The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
       illustrations:
-        - entry: 
-            text: Physical image capture kit and Touch Designer module          
-            image: 
-              - image155.png
-              - image26.png
-              - image58.png
-              - image66.png
-        - entry:
-            text: Actual images from the animation
-            image:
-              - image125.png
-              - image102.png
-              - image30.png
-              - image170.png
+        - text: Physical image capture kit and Touch Designer module          
+          image: 
+            - image155.png
+            - image26.png
+            - image58.png
+            - image66.png
+        - text: Actual images from the animation
+          image:
+            - image125.png
+            - image102.png
+            - image30.png
+            - image170.png
 # DELIMITER
     - title: Non-Safety
       category: video
@@ -54,25 +52,24 @@
         Viacheslav Romanov: concept, saws layer, montage, sound
         Anastasia Guzenkova: concept, drawings
       instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
-      content: Rough and minimalist animated sketches, inspired by the work of William Kentridge, use the textures and shapes of real metal hacksaw blades as a backing. The looping, morphing, unrefined design, framerate shifting video tracks and soundtrack based on the same metal saw blades, create a sense of growing menace. The project continues to explore the capabilities of idiosyncratic hardware-software system for creating non-standard step-by-step animation. Class “Trickfilmkurs” by prof. Kati Barath, Ulrike Isenberg (SoSe21)
+      long: Rough and minimalist animated sketches, inspired by the work of William Kentridge, use the textures and shapes of real metal hacksaw blades as a backing. The looping, morphing, unrefined design, framerate shifting video tracks and soundtrack based on the same metal saw blades, create a sense of growing menace. The project continues to explore the capabilities of idiosyncratic hardware-software system for creating non-standard step-by-step animation. Class “Trickfilmkurs” by prof. Kati Barath, Ulrike Isenberg (SoSe21)
       presentation: The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
       illustrations:
-        - entry:
-            text: Preliminary materials and updated workspace
-            image: 
-              image116.png
-              image55.png
-              image141.png
-              image23.png
-              image165.png
-            text: Actual images from the animation
-            image: 
-              image32.png
-              image42.png
-              image45.png
-              image53.png
-              image174.png
-              image182.png
+        - text: Preliminary materials and updated workspace
+          image: 
+            - image116.png
+            - image55.png
+            - image141.png
+            - image23.png
+            - image165.png
+        - text: Actual images from the animation
+          image: 
+            - image32.png
+            - image42.png
+            - image45.png
+            - image53.png
+            - image174.png
+            - image182.png
 
 # Viacheslav Romanov creative portfolio
 ## About me         
