@@ -1,3 +1,35 @@
+# Structure ideas:
+# 1. Separate base for instruments (name, link)
+# DONE! 2. Separate base for authors (name, link)
+# 3. Store illustrations in project folders (title = folder name, cover in root, subfolders - activities)
+#
+people:
+- &viacheslavromanov
+  name: Viacheslav Romanov
+  url: https://www.facebook.com/viacheslav.romanov.9
+- &anastasiaguzenkova
+  name: Anastasia Guzenkova
+  url: https://www.instagram.com/canishowsmth/
+- &lasseborntraeger
+  name: Lasse Bornträger
+- &qianxunchen
+  name: Qianxun Chen
+- &marionpelekanou
+  name: Marion Pelekanou
+  url: https://mariapelekanou.bandcamp.com/
+- &carolineschlingemann
+  name: Caroline Schlingemann
+  url: https://isthis.eu/caroline/index.html
+- &melissawedekind
+  name: Melissa Wedekind
+  url: https://www.melwedekind-gesang.de/herzlich-willkommen
+- &chihimchik
+  name: Chi Him Chik
+  url: http://www.chihimchik.com/
+
+
+
+works:
     - title: Metal Dreams
       category: video
       image: image3.png
@@ -14,8 +46,8 @@
         - text: exhibition page 
           url: https://www.gadewe.de/archiv-1/
       authors:
-        Viacheslav Romanov: stop-motion video, processing
-        Lasse Bornträger: sound
+        *viacheslavromanov: stop-motion video, processing
+        *lasseborntraeger: sound
       instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
       long: To implement the project, the author built a specialized hardware-software complex for recording and processing frame-by-frame animation. The main material used in the animation is metal nails of various sizes. Class “Trick der Sterne” by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)       
       presentation: The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
@@ -49,8 +81,8 @@
         - text: exhibition page
           url: https://www.gadewe.de/archiv-1/
       authors:
-        Viacheslav Romanov: concept, saws layer, montage, sound
-        Anastasia Guzenkova: concept, drawings
+        *viacheslavromanov:  concept, saws layer, montage, sound
+        *anastasiaguzenkova: concept, drawings
       instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
       long: Rough and minimalist animated sketches, inspired by the work of William Kentridge, use the textures and shapes of real metal hacksaw blades as a backing. The looping, morphing, unrefined design, framerate shifting video tracks and soundtrack based on the same metal saw blades, create a sense of growing menace. The project continues to explore the capabilities of idiosyncratic hardware-software system for creating non-standard step-by-step animation. Class “Trickfilmkurs” by prof. Kati Barath, Ulrike Isenberg (SoSe21)
       presentation: The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
@@ -70,6 +102,38 @@
             - image53.png
             - image174.png
             - image182.png
+# DELIMITER
+    - title: Breathe Performance
+      category: performance
+      image: image120.png
+      year: 2021
+      format: electronic performance
+      description: Sound-generative performance based on the appeal of sensory data to randomness
+      tags:
+      idea: Opening the veil of others' sleep, watching them breathe in a minimalistic setup. When sound entities made of field recordings and synthetic oscillators subordinate to random generation principles. Where 3D soundscape subordinates to sensory data
+      links:
+        - text: performance recording
+          url: https://youtu.be/fQWevuhIIrw
+        - text: 3D sound prototype video
+          url: https://www.youtube.com/watch?v=8B870D55sjY&t=12470s
+        - text: performance announcement
+          url: https://kunstraum34.de/xchanges/
+      authors:
+        *viacheslavromanov:  idea, virtual environment, perf.design
+        *qianxunchen: performing with sensors
+        *carolineschlingemann: performing with sensors
+        *melissawedekind: performing with sensors
+        *chihimchik: saxophone
+      instruments: Derivative TouchDesigner, ZigSim, Zoom H4n Pro, GyrOSC
+      long: 15 virtual sound sources were flying around the audience with filtering parameters controlled separately and randomly by 4 performers in a quadro sound setup. 5 temporal phases meant different stages of sensible sleep, connected to different sets of sound (falling asleep, travelling, escaping from a chase, finding harmony and washing out with rain and sea). Breathing of the performers captured by sensors was their own adventure of finding within the soundscape entities connected to their own scenario and communicate with them. Course  "Electronic in Performative context" by prof. Mattia Bonafini (SoSe-21).
+      presentation: Kunstraum 34 Atelierhaus, Stuttgart, Germany, Xchanges X2, 10.10.21
+      illustrations:
+        - text: Recording sound scenes            
+        - text: building replication and a randomness network
+        - text: place and team
+        - text: performance photo
+
+
 
 # Viacheslav Romanov creative portfolio
 ## About me         

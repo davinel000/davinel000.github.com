@@ -45,7 +45,7 @@ plugins:
 
 # generating pages
 page_gen:
-- data: 'portfolio'
+- data: 'portfolio.works' #IMPORTANT when you have several tables in your yaml portfolio
   template: 'project'
   name: 'title'
   dir: 'projects'

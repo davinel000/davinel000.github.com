@@ -33,19 +33,23 @@ show_tile: true
                 <p>{{ page.description }}</p>
                 <h2>Idea:</h2>
                 <p>{{ page.idea }}</p>
-                
+
                 <h2>Content:</h2>
                 <p>{{ page.long }}</p>
-                <!-- three columns content -->
+            </div>
+        </section>
+        <!-- three columns content -->
+        <section id="two">
+            <div class="inner">
                 <div class="row">
                     <div class="4u 12u$(medium)">
                         <h3>Authors</h3>
                         <p>
                             {% for member in page.authors %}
-                            <ul class = "alt">
-                                <b>{{ member[0] }} </b> </br> {{member[1]}}
-                            </ul>
-                            {% endfor %}
+                        <ul class="alt">
+                            <b>{{ member[0].name }} </b> </br> {{member[1]}}
+                        </ul>
+                        {% endfor %}
 
 
                         </p>
@@ -55,11 +59,11 @@ show_tile: true
                         <p>
                             <!-- looping through page links -->
                             {% for member in page.links %}
-                            <ul class = "alt">
-                                <a href="{{member.url}}"> {{member.text}} </a>
-                            </ul>
-                            {% endfor %}
-                            <!-- looping through page links ended -->
+                        <ul class="alt">
+                            <a href="{{member.url}}"> {{member.text}} </a>
+                        </ul>
+                        {% endfor %}
+                        <!-- looping through page links ended -->
 
                         </p>
                     </div>
@@ -69,35 +73,35 @@ show_tile: true
                     </div>
                 </div>
                 <!-- three columns content end -->
-
-
-
             </div>
 
 
+    </div>
 
-        </section>
 
-        <!-- looping through images links ended -->
-        <div class="box alt">
-            {% for member in page.illustrations %}
-            <!-- <header class="major"></header> -->
-            <div class="inner">
-                <h3>{{ member.text }}</h3>
-            </div>
-            <!-- </header> -->
-            <div class="row 50% uniform">
 
-                {% for link in member.image %}
-                <div class="4u"><span class="image fit"><img src="{{ site.imagefolder }}/{{ link }}" alt="" /></span>
-                </div>
-                {% endfor %}
+    </section>
+
+    <!-- looping through images links ended -->
+    <div class="box alt">
+        {% for member in page.illustrations %}
+        <!-- <header class="major"></header> -->
+        <div class="inner">
+            <h3>{{ member.text }}</h3>
+        </div>
+        <!-- </header> -->
+        <div class="row 50% uniform">
+
+            {% for link in member.image %}
+            <div class="4u"><span class="image fit"><img src="{{ site.imagefolder }}/{{ link }}" alt="" /></span>
             </div>
             {% endfor %}
-
-
         </div>
-        <!-- looping through images links ended -->
+        {% endfor %}
+
+
+    </div>
+    <!-- looping through images links ended -->
 
 
 
