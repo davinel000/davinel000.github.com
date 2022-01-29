@@ -17,7 +17,7 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 30vh; //changing from 60 to make it smaller
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
@@ -95,9 +95,9 @@
 		}
 
 		&.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
+			height: 30vh; //was 75
+			min-height: 20em; //was 30
+			max-height: 50em; //was 50
 
 			&.alt {
 				  opacity: 0.75;

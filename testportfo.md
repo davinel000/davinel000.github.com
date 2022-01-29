@@ -2,6 +2,7 @@
 layout: page
 title: page
 permalink: /portfoliotest/
+show_tile: false
 ---
 
 # Viacheslav Romanov creative portfolio

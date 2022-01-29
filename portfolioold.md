@@ -1,3 +1,7 @@
+---
+show_tile: false
+---
+
 <!-- Copy and paste the converted output. -->
 
 <!-- You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.

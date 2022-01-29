@@ -8,5 +8,4 @@ author: null
 show_tile: false
 ---
 
-Do I really need this part?
-or not
+I'm regularly documenting my works and publish short blog posts to keep everyone updated. Check if you find some interesting data and short guides.
