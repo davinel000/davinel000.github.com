@@ -49,6 +49,7 @@ page_gen:
   template: 'project'
   name: 'title'
   dir: 'projects'
+  index_files: true
 
 
 exclude:
