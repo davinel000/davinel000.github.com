@@ -13,8 +13,9 @@ jobs:
         run: |
           export PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
           gem install --user-install jekyll bundler 
+          gem install jekyll-datapage-generator
           bundle install
-          bundle exec jekyll build --trace -V
+          bundle exec jekyll build --trace -V          
       - name: Install SSH Client 🔑
         uses: webfactory/ssh-agent@v0.2.0
         with:
