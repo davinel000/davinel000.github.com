@@ -31,6 +31,7 @@ people:
 
 works:
     - title: Metal Dreams
+      id: 001
       show_tile: true ## adding here value to test it online
       category: video
       image: image3.png
@@ -67,6 +68,7 @@ works:
             - image170.png
 # DELIMITER
     - title: Non-Safety
+      id: 002
       show_tile: true ## adding here value to test it online
       category: video
       image: image49.png
@@ -106,6 +108,7 @@ works:
             - image182.png
 # DELIMITER
     - title: Breathe Performance
+      id: 003
       show_tile: true ## adding here value to test it online
       category: performance
       image: image120.png
@@ -122,7 +125,7 @@ works:
         - text: performance announcement
           url: https://kunstraum34.de/xchanges/
       authors:
-        *viacheslavromanov:  idea, virtual environment, perf.design
+        *viacheslavromanov: idea, virtual environment, perf.design
         *qianxunchen: performing with sensors
         *carolineschlingemann: performing with sensors
         *melissawedekind: performing with sensors

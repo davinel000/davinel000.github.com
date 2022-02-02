@@ -46,7 +46,7 @@ collections:
   projects:
     output: true
     source: portfolio.yml
-    id_key: title
+    id_key: id
     layout: project
 
 exclude:
