@@ -39,19 +39,6 @@ markdown: kramdown
 sass:
   style: compressed
 
-# plugins are here (=bundle install= to install, copy to _Plugins folder)
-plugins: 
-- jekyll-datapage-generator
-
-# generating pages
-page_gen:
-- data: 'portfolio.works' #IMPORTANT when you have several tables in your yaml portfolio
-  template: 'project'
-  name: 'title'
-  dir: 'projects'
-  index_files: true
-
-
 exclude:
 - "*.gemspec"
 - LICENSE.md
