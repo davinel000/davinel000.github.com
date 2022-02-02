@@ -48,7 +48,7 @@ page_gen:
 - data: 'portfolio.works' #IMPORTANT when you have several tables in your yaml portfolio
   template: 'project'
   name: 'title'
-  dir: ''
+  dir: 'projects'
   index_files: true
 
 
