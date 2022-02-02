@@ -19,10 +19,10 @@
 		cursor: default;
 		height: 30vh; //changing from 60 to make it smaller
 		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
+		max-height: 30em;
+		min-height: 26em;
 		position: relative;
-		top: -3.25em;
+		top: -3.25em; //was 3.25
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
@@ -94,7 +94,7 @@
 			}
 		}
 
-		&.major {
+		&.major { // is used for main page
 			height: 30vh; //was 75
 			min-height: 20em; //was 30
 			max-height: 50em; //was 50
@@ -113,13 +113,17 @@
 
 		body.is-loading & {
 			&:after {
+<<<<<<< HEAD
 				opacity: 1.0;
+=======
+				opacity: 1;//was 1 looks better
+>>>>>>> parent of 703047e (reverting changes)
 			}
 
 			> .inner {
-				@include vendor('filter', 'blur(0.125em)');
-				@include vendor('transform', 'translateX(-0.5em)');
-				opacity: 0;
+				@include vendor('filter', 'blur(0.5em)'); //changed from 0.125
+				@include vendor('transform', 'translateX(-5em)'); //was -5em
+				opacity: 0; //starting opacity of the inner content
 			}
 		}
 
@@ -128,7 +132,7 @@
 		}
 
 		@include breakpoint(small) {
-			@include padding(3em, 0, (2em, 0, 0, 0));
+			@include padding(0em, 0, (2em, 0, 0, 0));
 			height: auto;
 			margin-bottom: -2.75em;
 			max-height: none;
