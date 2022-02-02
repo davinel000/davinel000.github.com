@@ -113,11 +113,11 @@
 
 		body.is-loading & {
 			&:after {
-<<<<<<< HEAD
+
 				opacity: 1.0;
-=======
+
 				opacity: 1;//was 1 looks better
->>>>>>> parent of 703047e (reverting changes)
+
 			}
 
 			> .inner {
