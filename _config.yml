@@ -39,6 +39,16 @@ markdown: kramdown
 sass:
   style: compressed
 
+plugins:
+- pagemaster
+
+collections:
+  projects:
+    output: true
+    source: portfolio.yml
+    id_key: title
+    layout: project
+
 exclude:
 - "*.gemspec"
 - LICENSE.md
