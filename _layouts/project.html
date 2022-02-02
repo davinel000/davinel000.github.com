@@ -1,3 +1,8 @@
+---
+show_tile: true
+nav-menu: false
+---
+
 <!DOCTYPE html>
 <!--
 	Forty by HTML5 UP
@@ -6,36 +11,20 @@
 -->
 <html>
 
+<<<<<<< HEAD
 <!-- ---
 show_tile: true
 nav-menu: false
 --- -->
 
 
+=======
+>>>>>>> parent of 3ebae73 (changed design)
 {% include head.html %}
 
 <body>
 
     {% include header.html %}
-
-    <!-- Banner -->
-    <section id="banner" class="style2">
-        <div class="inner">
-            <span class="image">
-                <img src="{{ site.imagefolder }}/{{ page.image }}" alt="">
-            </span>
-            <header class="major">
-
-                <h1>{{ page.title }}</h1>
-
-            </header>
-            <div class="content">
-
-                <h4>{{ page.description }}</h4>
-
-            </div>
-        </div>
-    </section>
 
 
     <!-- Main -->
@@ -43,20 +32,26 @@ nav-menu: false
 
         <!-- One -->
 
-        <div class="inner">
+        <section id="one">
+            {% if page.image %}<span class="image cover"><img src="{{ site.imagefolder }}/{{ page.image }}"
+                    alt="" /></span>{% endif %}
+            <div class="inner">
 
+                <!-- <header class="major"> -->
+                <h1>{{ page.title }}</h1>
+                <!-- </header> -->
+                <p>{{ page.description }}</p>
+                <h2>Idea:</h2>
+                <p>{{ page.idea }}</p>
 
-            <h2>Idea:</h2>
-            <p>{{ page.idea }}</p>
-
-            <h2>Content:</h2>
-            <p>{{ page.long }}</p>
-        </div>
+                <h2>Content:</h2>
+                <p>{{ page.long }}</p>
+            </div>
         </section>
 
-        {% for file in "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/" %}
-        112
-        {% endfor %}
+{% for file in "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/" %}
+112
+{% endfor %}
 
         <!-- three columns content -->
         <section id="two">

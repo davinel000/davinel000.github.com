@@ -32,7 +32,6 @@ people:
 works:
     - title: Metal Dreams
       show_tile: true ## adding here value to test it online
-      nav-menu: true
       category: video
       image: image3.png
       year: 2021
@@ -69,7 +68,6 @@ works:
 # DELIMITER
     - title: Non-Safety
       show_tile: true ## adding here value to test it online
-      nav-menu: true
       category: video
       image: image49.png
       year: 2021
@@ -109,7 +107,6 @@ works:
 # DELIMITER
     - title: Breathe Performance
       show_tile: true ## adding here value to test it online
-      nav-menu: true
       category: performance
       image: image120.png
       year: 2021
