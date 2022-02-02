@@ -16,7 +16,7 @@ country: Germany
 phone: (+49) 15211091721
 
 # homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
+tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
@@ -46,7 +46,7 @@ plugins:
 # generating pages
 page_gen:
 - data: 'portfolio.works' #IMPORTANT when you have several tables in your yaml portfolio
-  template: 'project'
+  template: 'page'
   name: 'title'
   dir: 'projects'
   index_files: true
