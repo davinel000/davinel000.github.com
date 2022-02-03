@@ -22,9 +22,8 @@ show_tile: true
 			<h4>{{character.diagnosis.description}}</h4>
 		</header>
 		<h5>Description</h5>
-		{{character.diagnosis.long}} </p>
-<p>
-		<h5>Scenario</h5>
+		{{character.diagnosis.long}}
+<p>	<h5>Scenario</h5>
 		{{character.diagnosis.scenario}}
 		</p>
 	</div>
@@ -33,9 +32,9 @@ show_tile: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{{ site.data.MDC-22.network-folder }}{{character.image}}" alt="" data-position="center center" />
-		</a>
+		<!-- <a href="generic.html" class="image"> -->
+		<img src="{{ site.data.MDC-22.network-folder }}{{character.image}}" class="image" alt="" data-position="center center" />
+		<!-- </a> -->
 		<div class="content">
 			<div class="inner">
 				<header class="major">

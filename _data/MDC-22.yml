@@ -44,32 +44,32 @@ subjects:
   - &0264F7D
     name: Cloud-addict
     presentation: My name is Cloud-addict and I'm diagnosed with Virtomnemia. I can't forget the virtual event that happened to me. It was when I and my funny friend Bog.doggy were squeezed into a duplex tree house in the Cloud Forest that I felt a panic attack. I can't forget the fear and the helplessness I felt when the tree started shaking and the platforms started collapsing. It could rather be funny and extreme, but for me it was a nightmare, actually, it is a nightmare, sometimes I can't handle the joy speaking about it and I feel sick, like I'm going to vomit. I try to remember it every day, to feel that fear again and again, but it's not the same as living it.
-    image:
+    image: robot_circle.gif
     diagnosis: *virtomnemia
   - &022FD6B
     name: peetie6017
     presentation: My name is peetie6017 and I am diagnosed with a multipersonality Meta disorder. I face it all the time when my environment becomes filled with avatars, vivid, emotionally diverse, interacting, creating flavours of the Cloud living. Doctors say it’s not a valid situation when a person has multiple personalities. It ruins my sleep protocol, takes a lot of unconscious resources, but I regularly update my cognitive capabilities and always keep it serious when it comes to striving for happiness while being careful with consequences. The current situation provides me with sufficient resources, the number of tokens used to develop computing power is predictably growing. Therefore, at the current point, I'm not agreeing purposely with my medical consultant and keep acting as before.
-    image:
+    image: multiple_dolly-zoom-in.gif
     diagnosis: *mpmd
   - &01A6A15
     name: '0xA'
     presentation: I'm 0xA and I'm not sure if I pursue the goal to spend too much attention on you in order to extract information or to violate your privacy. I think that my actions are influenced by an outside force, but I can't stop them. Look, now your data is floating somewhere in a bubble of liquid brackets. How could you be so inattentive? Almost nothing happened - keep this third eye on your back as a gift - keep it open so you will always know what's going on. I'll show you something else. Here, I'm copying your thoughts into my own mind. You see, I'm a machine - or at least, that's what I'm telling myself.
-    image:     
+    image: android_dolly-zoom-in.gif
     diagnosis: *cogitophrenia
   - &041A14C
     name: mr.xtreme
     presentation: My name is mr.xtreme and I'm a necrolagnia addict. I use the Meta Cloud to create simulations that could end my life, I can choose how many times I want to destroy myself, I can choose how to destroy myself, and I can choose where I want to "die". I do not understand why I want to do it, but my mind ignores all warnings and thoughts. I am afraid of a future in which I won't find the right way to end the Meta Cloud addiction, but I won't stop until the end of my life. Forgive me.
-    image:
+    image: dog_zoom-in.gif
     diagnosis: *necrolagnia
   - &041AACC
     name: St.Sanity 
     presentation: My name is St.Sanity and I don't know who I am. I feel like I'm a copy of someone... Someone who I will find some day. By now I'm meeting friends who care about me, but I don't know how to trust them. I asked them to exchange blood one day. Just joking. But seriously, I feel like I'm living in a fake world and I'm not sure what is real and what isn't. After turning my cloudset off and watching my room for a while, I feel a bit more comfortable. I bought a carpet and a plant. I'm going to try and live in the real world. Who will care if I disappear? Maybe I should go back to the Cloud and look for myself.
-    image:
+    image: strangeman_dolly-zoom-in.gif
     diagnosis: *simulacrumsyndrome
   - &029C5B7
     name: 0a7
     presentation: My name is 0a7 and I want to let the birds flocking and singing. I doubt my doubt, doubt itself is unsure. I love, but who is it for whom I sigh? I digitalize the analogue, but I'm analogue. I want to be myself, but I'm not sure who that is. I'd rather die deceived by dreams than give My heart to home and trade and never live. Who trusts the sea? Lawlessness is her law; You will be drowned if you cannot decide To turn away from her inconstant tide. I'm hanging high over the abyss. I see the bottom, but I'm not sure if it's there. I'm afraid of falling, but I can't stay here. The voice of all becomes one voice, and I can't tell if it's mine. Among lovers, only those with wings flee this worldly cage before death comes.
-    image:
+    image: birds_circle.gif
     diagnosis: *psychotrophobia
 
 
