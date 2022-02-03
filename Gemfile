@@ -7,4 +7,6 @@ group :jekyll_plugins do
   gem 'pagemaster'
 end
 
+gem 'jekyll-datapage-generator'
+
 gem "webrick", "~> 1.7"

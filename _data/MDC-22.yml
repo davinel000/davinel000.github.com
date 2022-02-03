@@ -1,0 +1,75 @@
+network-folder: https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/characters/
+
+disorders:
+  - &virtomnemia
+    code: AO-1201
+    name: Virtomnemia 
+    description: obsessive memories of a virtual event
+    long: Virtomnemia is the pathological, obsessive recall of memories of a past event that took place in a virtual environment. The event may be recalled in great detail, including all sensory impressions, or it may be remembered only in a vague or distorted way. Defined by a combination of two or more of the following symptoms. 1. Recurrent intrusive thoughts about the event (i.e. about the virtual environment, the people involved in the event, or the activities that took place; may be a scene of speaking with a particular avatar, or a moment of changing location, or any other aspect of the event); 2. Persistent attempts to avoid thoughts, conversations, activities, or situations that may remind the person of the event; 3. Distressing emotional reactions (e.g. anxiety, fear, sadness, guilt, shame) to any reminder of the event (including erasure of autohistorical data); 3. Persistent attempts to recreate the event; 4. Marked impairment in functioning due to thoughts or behaviours related to the event (Cloud use deprivation)
+    scenario: A subject recalls a past virtual event in great detail. The event may have taken place days, weeks, or months ago, but the subject's mind is as if it happened only moments ago. The subject may spend hours or even days at a time trying to relive the event, or trying to create an exact replica of it. The subject may also avoid any activity or situation that may remind them of the event, however compulsively they may try to remember it. The subject's life is severely disrupted by their obsession with the event.
+  - &mpmd
+    code: MZ-2203
+    name: MPMD
+    description: multipersonality meta disorder 
+    long: Defined by a combination of two or more of the following. 1. Recurrent, purposeful, and persistent use of the virtual reality identity creation platform known as "Meta Cloud" to create multiple user accounts, each under a different persona; 2. Use of the Meta Cloud to interact with others, including real-life significant others, via automated text, voice, and video; and 3. Persistent obsessive desire to use the Meta Cloud, despite the negative consequences of such use.
+    scenario: A subject invokes the creation of several simultaneously acting avatars, usually by extending cognitive projecting and extending cognitive projection and reinforcing mental disorders and deviant behaviour. Often accompanied by an uncontrolled increase in the load on the biological resources of the body and the physical resources of the network. Results in anxiety, emotional instability and serious exhaustion. Although each persona is a derivative of its host, neural network complementation ensures the continued existence of the persona without the direct involvement of the author over a long period of time.
+  - &simulacrumsyndrome
+    code: QA-1053
+    name: Simulacrum syndrome 
+    description: a person develops a belief that they have been copied from a virtual world and dropped into the real
+    long: The subject's life feels meaningless and without purpose, as if they were copied from a virtual world and dropped into the real world without any explanation or reason. This can lead to feelings of isolation, confusion, and an overall feeling of being lost. Defined by a combination of two or more of the following symptoms. 1. Deep depersonalization leading to emotional exploding in case of live contact with a person in a real life or within a simulation; 2. Persistent and intrusive thoughts about the nature of reality and the self; 3. Feelings of emptiness and a lack of meaning in life; 4. Self-harm causing physical impairment and inability for efficient handling of Meta interfaces; 5. Social withdrawal and isolation.
+    scenario: A subject becomes convinced that they are a copy of someone who exists in a virtual world, and that they have been dropped into the real world without any explanation or reason. This leads to feelings of isolation, confusion, and an overall feeling of being lost. The subject may withdraw from social interaction, and may become physically impaired and unable to efficiently handle Meta interfaces.
+  - &necrolagnia
+    code: SH-1121
+    name: Necrolagnia
+    description: erotic desire to die or "die" in a virtual environment
+    long: Necrolagnia is often caused by the use of the Meta Cloud and its related software, to create or experience sexual arousal or sexual gratification in a simulated environment in which one's death or "Dying" is desired. Defined as a combination of two or more of the following symptoms (the first two are qualifying attributes). 1. Deep Emotional Connection to the Simulation (i.e. immersion); 2. Believe that one's death is desired; 3. Engaging in sexual activity while in the simulation; 4. Feel intense pleasure or other sexual response; 5. Arousal in or out of the simulation.
+    scenario: A subject is interested in death and how to experience it, but only in virtual simulations. Since the Meta Cloud provides the means to create potentially infinite simulations, the subject can choose and create the simulations which will give him or her the most intense experience. This results in a "death-based" addiction, where the subject prefers to amplify the cognitive and sensorial perception through extensive tokenized (and partially non-tokenized) calculations, add-ons and modifications of the Meta Cloud and its software, ultimately resulting in the subject's death.
+  - &cogitophrenia
+    code: SR-1250
+    name: Cogitophrenia
+    description: feeling that one is a computer, as if the program has been written into their bodies
+    long: Usually caused by excessive use of Meta Cloud and its related software, cogitophrenia could be mistaken for agorapotamia, but in cogitophrenia, the person considers his or herself as a non-living machine or program, rather than an open-ended environment or space. The person may feel that their thoughts and actions are not their own, and that they are being controlled by an outside force. Usually leads to hyperactivity and intense upgrading cognitive and navigational abilities. Defined by a combination of two or more of the following symptoms. 1. Intense analysis of the user's thoughts, feelings, and actions in order to understand and control them; 2. Preoccupation with understanding and manipulating the user's cognitive and navigational abilities; 3. Indulgence in self-review or "testing" of the user's cognitive and navigational abilities; 4. Frequent changes in personal identity or role within the Meta Cloud or virtual world; 5. Extensive updating and very high complexity of the avatar
+    scenario: A person frustrates and humiliates their companions, creates unpredictable gaps in communication, asks provocative questions leading to embarrassing situations, behaves in a robotic or "computer-like" manner, mixed with sociopatic-like reactions. In some cases obfuscates his or her identity, and behaves in a manner which seems to be goal-oriented but nonsensical. The person's behavior leads to suspicion of being controlled by an outside force, and makes it difficult for the person to live in the real world. Large amounts of resources from the accelerated consciousness are used for profit, including from illegal operations (such as injecting malicious code and viruses into other people's devices).
+  - &psychotrophobia
+    code: AS-1202
+    name: Psychotrophobia 
+    description: fear that all interfaces within Meta Cloud are purposely designed to steal energy from users
+    long: Psychotrophobia defines itself through deep-seated fear and suspicion that all interfaces within the Meta Cloud are acting in a predatory way, deliberately draining the user's energy and resources for their own benefit. The fear may be accompanied by feelings of paranoia, helplessness, and powerlessness, feeling of exaggerated self-esteem, sometimes obsessive thoughts about the alternative purpose of the simulation design or metaverse, and intrusive thoughts about the safety and security of the user's data. Defined by a combination of two or more of the following symptoms. 1. Fear or suspicion that all interfaces in the Meta Cloud are purposely designed to steal energy from users; 2. Fear or suspicion that all interfaces in the Meta Cloud are purposely designed to control or manipulate users; 3. Fear or suspicion that all interfaces in the Meta Cloud are purposely designed to spy on users; 4. Fear or suspicion that all interfaces in the Meta Cloud are purposely designed to exploit users; 5. Fear or suspicion that all interfaces in the Meta Cloud are purposely designed to deceive users. 6. Obsessive critisizing or questioning the meaning, design, or purpose of interfaces in the Meta Cloud.
+    scenario: A subject is deeply suspicious of interaction, overlook, or manipulation with some specific or multiple simulation scenarios, environments, games, aestetic or logical settings, or other users which could be considered as unreal, intrusive, or unauthorized. They are usually manifested with a feeling of anxiety, worry, or fear that the user will "lose" something important as a result of such interactions (i.e. "steal the soul" or "suck the life"). This fear may be so severe that the subject becomes completely unwilling or unable to use any interface within the Meta Cloud, even if it is necessary for their work or daily life.
+
+
+
+subjects:
+  - &0264F7D
+    name: Cloud-addict
+    presentation: My name is Cloud-addict and I'm diagnosed with Virtomnemia. I can't forget the virtual event that happened to me. It was when I and my funny friend Bog.doggy were squeezed into a duplex tree house in the Cloud Forest that I felt a panic attack. I can't forget the fear and the helplessness I felt when the tree started shaking and the platforms started collapsing. It could rather be funny and extreme, but for me it was a nightmare, actually, it is a nightmare, sometimes I can't handle the joy speaking about it and I feel sick, like I'm going to vomit. I try to remember it every day, to feel that fear again and again, but it's not the same as living it.
+    image:
+    diagnosis: *virtomnemia
+  - &022FD6B
+    name: peetie6017
+    presentation: My name is peetie6017 and I am diagnosed with a multipersonality Meta disorder. I face it all the time when my environment becomes filled with avatars, vivid, emotionally diverse, interacting, creating flavours of the Cloud living. Doctors say it’s not a valid situation when a person has multiple personalities. It ruins my sleep protocol, takes a lot of unconscious resources, but I regularly update my cognitive capabilities and always keep it serious when it comes to striving for happiness while being careful with consequences. The current situation provides me with sufficient resources, the number of tokens used to develop computing power is predictably growing. Therefore, at the current point, I'm not agreeing purposely with my medical consultant and keep acting as before.
+    image:
+    diagnosis: *mpmd
+  - &01A6A15
+    name: '0xA'
+    presentation: I'm 0xA and I'm not sure if I pursue the goal to spend too much attention on you in order to extract information or to violate your privacy. I think that my actions are influenced by an outside force, but I can't stop them. Look, now your data is floating somewhere in a bubble of liquid brackets. How could you be so inattentive? Almost nothing happened - keep this third eye on your back as a gift - keep it open so you will always know what's going on. I'll show you something else. Here, I'm copying your thoughts into my own mind. You see, I'm a machine - or at least, that's what I'm telling myself.
+    image:     
+    diagnosis: *cogitophrenia
+  - &041A14C
+    name: mr.xtreme
+    presentation: My name is mr.xtreme and I'm a necrolagnia addict. I use the Meta Cloud to create simulations that could end my life, I can choose how many times I want to destroy myself, I can choose how to destroy myself, and I can choose where I want to "die". I do not understand why I want to do it, but my mind ignores all warnings and thoughts. I am afraid of a future in which I won't find the right way to end the Meta Cloud addiction, but I won't stop until the end of my life. Forgive me.
+    image:
+    diagnosis: *necrolagnia
+  - &041AACC
+    name: St.Sanity 
+    presentation: My name is St.Sanity and I don't know who I am. I feel like I'm a copy of someone... Someone who I will find some day. By now I'm meeting friends who care about me, but I don't know how to trust them. I asked them to exchange blood one day. Just joking. But seriously, I feel like I'm living in a fake world and I'm not sure what is real and what isn't. After turning my cloudset off and watching my room for a while, I feel a bit more comfortable. I bought a carpet and a plant. I'm going to try and live in the real world. Who will care if I disappear? Maybe I should go back to the Cloud and look for myself.
+    image:
+    diagnosis: *simulacrumsyndrome
+  - &029C5B7
+    name: 0a7
+    presentation: My name is 0a7 and I want to let the birds flocking and singing. I doubt my doubt, doubt itself is unsure. I love, but who is it for whom I sigh? I digitalize the analogue, but I'm analogue. I want to be myself, but I'm not sure who that is. I'd rather die deceived by dreams than give My heart to home and trade and never live. Who trusts the sea? Lawlessness is her law; You will be drowned if you cannot decide To turn away from her inconstant tide. I'm hanging high over the abyss. I see the bottom, but I'm not sure if it's there. I'm afraid of falling, but I can't stay here. The voice of all becomes one voice, and I can't tell if it's mine. Among lovers, only those with wings flee this worldly cage before death comes.
+    image:
+    diagnosis: *psychotrophobia
+
+
