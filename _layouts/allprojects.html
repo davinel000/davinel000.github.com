@@ -17,10 +17,12 @@ nav-menu: false
 
     {% include header.html %}
 
-    {% include project.html %}
+{% for page in site.data.portfolio.works %}
 
+{% include project.html %}
+    
+    {% endfor %}
 
-  
     {% include footer.html %}
 
 </body>

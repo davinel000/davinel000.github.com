@@ -1,0 +1,92 @@
+  <!-- Main -->
+  <div id="main" class="alt">
+
+    <!-- One -->
+
+    <section id="one">
+        {% if page.image %}<span class="image cover"><img src="{{ site.imagefolder }}/{{ page.image }}"
+                alt="" /></span>{% endif %}
+        <div class="inner">
+
+            <!-- <header class="major"> -->
+            <h1>{{ page.title }}</h1>
+            <!-- </header> -->
+            <p>{{ page.description }}</p>
+            <h2>Idea:</h2>
+            <p>{{ page.idea }}</p>
+
+            <h2>Content:</h2>
+            <p>{{ page.long }}</p>
+        </div>
+    </section>
+
+    <!-- {% for file in "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/" %} -->
+    <!-- here we should put a link to api -->
+    <!-- {% endfor %} -->
+
+    <!-- three columns content -->
+    <section id="two">
+        <div class="inner">
+            <div class="row">
+                <div class="4u 12u$(medium)">
+                    <h3>Authors</h3>
+                    <p>
+                        {% for member in page.authors %}
+                    <ul class="alt">
+                        <b>{{ member[0].name }} </b> </br> {{member[1]}}
+                    </ul>
+                    {% endfor %}
+
+
+                    </p>
+                </div>
+                <div class="4u 12u$(medium)">
+                    <h3>Links</h3>
+                    <p>
+                        <!-- looping through page links -->
+                        {% for member in page.links %}
+                    <ul class="alt">
+                        <a href="{{member.url}}" target="_blank"> {{member.text}} </a>
+                    </ul>
+                    {% endfor %}
+                    <!-- looping through page links ended -->
+
+                    </p>
+                </div>
+                <div class="4u$ 12u$(medium)">
+                    <h3>Instruments</h3>
+                    <p>{{ page.instruments }}</p>
+                </div>
+            </div>
+            <!-- three columns content end -->
+        </div>
+
+
+</div>
+
+
+
+</section>
+<section id="three"></section>
+<!-- looping through images links start -->
+
+<div id="main" class="alt">
+    {% for member in page.illustrations %}
+    <div class="inner">
+        <h3>{{ member.text }}</h3>
+    </div>
+    <div class="image-gallery">
+        {% for link in member.image %}
+        <div class="box">
+            <a href="{{ site.imagefolder }}/{{ link }}" target="_blank">
+                <img src="{{ site.imagefolder }}/{{ link }}" alt="{{ member.name }}" class="img-gallery" />
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+
+</section>
+<p></p>
+<p></p>
