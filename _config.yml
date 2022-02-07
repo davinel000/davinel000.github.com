@@ -8,12 +8,12 @@ imagefolder: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images" #public folder 
 
 url: # the base hostname & protocol for your site
 author: Viacheslav Romanov
-street_address: Huder str. 1e
+street_address: 
 city: Bremen
 state: HB
-zip_code: 28197
+zip_code: 
 country: Germany
-phone: (+49) 15211091721
+phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

@@ -1,9 +1,9 @@
 ---
 layout: allprojects
-title: Full portfolio
-landing-title: 'Full portfolio'
+title: Artistic portfolio
+landing-title: 'Artistic portfolio'
 nav-menu: true
-description: null
+description: check all the listed works I have
 image: null
 author: null
 show_tile: true
