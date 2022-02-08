@@ -52,7 +52,6 @@ works:
       show_tile: true ## adding here value to test it online
       category: video
       imagefolder: metal_dreams
-      image: image3.png
       year: 2021
       format: stop-motion
       description: Curious eyes gaze into sparks in the night sky. It is filled with movement that carries messages. 
@@ -72,25 +71,14 @@ works:
       long: To implement the project, the author built a specialized hardware-software complex for recording and processing frame-by-frame animation. The main material used in the animation is metal nails of various sizes. Class “Trick der Sterne” by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)       
       presentation: The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
       illustrations:
-        - text: Physical image capture kit and Touch Designer module          
-          image: 
-            - image155.png
-            - image26.png
-            - image58.png
-            - image66.png
+        - text: Physical image capture kit and Touch Designer module         
         - text: Actual images from the animation
-          image:
-            - image125.png
-            - image102.png
-            - image30.png
-            - image170.png
-# DELIMITER
+
     - title: Non-Safety
       id: 002
       show_tile: true ## adding here value to test it online
       category: video
-      imagefolder: non_safety
-      image: image49.png
+      imagefolder: non_safety      
       year: 2021
       format: stop-motion
       description: Violence at the door slices the world around us with its iron teeth. Do we close our eyes enough to deal with it?
@@ -110,28 +98,15 @@ works:
       long: Rough and minimalist animated sketches, inspired by the work of William Kentridge, use the textures and shapes of real metal hacksaw blades as a backing. The looping, morphing, unrefined design, framerate shifting video tracks and soundtrack based on the same metal saw blades, create a sense of growing menace. The project continues to explore the capabilities of idiosyncratic hardware-software system for creating non-standard step-by-step animation. Class “Trickfilmkurs” by prof. Kati Barath, Ulrike Isenberg (SoSe21)
       presentation: The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
       illustrations:
-        - text: Preliminary materials and updated workspace
-          image: 
-            - image116.png
-            - image55.png
-            - image141.png
-            - image23.png
-            - image165.png
+        - text: Preliminary materials and updated workspace          
         - text: Actual images from the animation
-          image: 
-            - image32.png
-            - image42.png
-            - image45.png
-            - image53.png
-            - image174.png
-            - image182.png
+          
 # DELIMITER
     - title: Breathe Performance
       id: 003
       show_tile: true ## adding here value to test it online
       category: performance
-      imagefolder: breathe_performance
-      image: image120.png
+      imagefolder: breathe_performance      
       year: 2021
       format: electronic performance
       description: Sound-generative performance based on the appeal of sensory data to randomness
@@ -154,12 +129,9 @@ works:
       long: 15 virtual sound sources were flying around the audience with filtering parameters controlled separately and randomly by 4 performers in a quadro sound setup. 5 temporal phases meant different stages of sensible sleep, connected to different sets of sound (falling asleep, travelling, escaping from a chase, finding harmony and washing out with rain and sea). Breathing of the performers captured by sensors was their own adventure of finding within the soundscape entities connected to their own scenario and communicate with them. Course  "Electronic in Performative context" by prof. Mattia Bonafini (SoSe-21).
       presentation: Kunstraum 34 Atelierhaus, Stuttgart, Germany, Xchanges X2, 10.10.21
       illustrations:
-        - text: Recording sound scenes
-          image:          
+        - text: recording sound scenes         
         - text: building replication and a randomness network
-          image:  
-        - text: place and team
-          image:  
+        - text: venue and team          
         - text: performance photo
 
 # DELIMITER
@@ -167,7 +139,7 @@ works:
       id: 004
       show_tile: true ## adding here value to test it online
       category: interactive installation
-      image: 
+      imagefolder: fake_cardboard_window
       year: 2021
       format: interactive installation
       description: Interactive installation about the experience of being lonely in corona times
@@ -195,7 +167,7 @@ works:
       id: 005
       show_tile: true ## adding here value to test it online
       category: generative graphics
-      image: 
+      imagefolder: curiosity
       year: 2020
       format: video
       description: Willingness to take risks by opening the veil of secrecy and, instead of answering, get even more new questions

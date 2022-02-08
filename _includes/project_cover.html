@@ -1,0 +1,18 @@
+<span class="image cover">
+    
+    {% for file in site.static_files %}
+
+    {% unless file.path contains "/1/" or file.path contains "/2/" or file.path contains "/3/" or file.path contains "/4/" or file.path contains "/5/" %}
+    
+
+    {% if file.path contains include.imagefolder %}
+    {% if file.extname == '.png' or file.extname == '.jpg or file.extname == '.jpeg' or file.extname == '.PNG' or
+    file.extname == '.JPEG' or file.extname == '.JPG' %}
+
+    <img src="{{ file.path }}" alt="" />
+
+    {% endif %}
+    {% endif %}
+    {% endunless %}
+    {% endfor %}
+</span>
