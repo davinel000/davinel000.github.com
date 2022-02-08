@@ -1,10 +1,10 @@
-  <!-- Main -->
-  <div id="main" class="alt">
+<!-- Main -->
+<div id="main" class="alt">
 
     <!-- One -->
 
     <section id="one">
-        {% if page.image %}<span class="image cover"><img src="{{ site.imagefolder }}/{{ page.image }}"
+        {% if page.image %}<span class="image cover"><img src="{{ site.imagefolder }}/{{ page.imagefolder }}"
                 alt="" /></span>{% endif %}
         <div class="inner">
 
@@ -17,6 +17,36 @@
 
             <h2>Content:</h2>
             <p>{{ page.long }}</p>
+
+            <!-- sssssssssssssssssssssssssssssssssssssssssssss not working -->
+            <!-- {% assign project_img = site.static_files | where: "path", contains "1" %}
+            {% for project in project_img %}
+            {{forloop.index}}
+            {% endfor %} -->
+
+            <!-- {% include image-gallery.html %} -->
+            {% include image-gallery.html folder="/assets/images/portfolio/metal_dreams/1" %}
+            <!-- {% include image-gallery.html folder="{{ site.imagefolder }}/{{ page.imagefolder }}" %} -->
+
+            <!-- partially working -->
+            <!-- {% assign all_files = site.static_files | map: "path" %}
+            {% for item in all_files %}
+            {% if item contains {{page.imagefolder}} %}
+            {{item}} {{forloop.index}}</br>
+            {% endif %}           
+            
+            {% endfor %} -->
+            <p></p>
+            <p>{{ site.imagefolder }}/{{ page.imagefolder }}</p>
+            <p>{% for file in site.static_files %}
+                <!-- {% if file %}
+                {% endif %}
+                 -->
+                <!-- {{file.path}} -->
+                {% endfor %}
+            </p>
+
+
         </div>
     </section>
 

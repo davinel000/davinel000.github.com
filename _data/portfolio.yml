@@ -51,6 +51,7 @@ works:
       id: 001
       show_tile: true ## adding here value to test it online
       category: video
+      imagefolder: metal_dreams
       image: image3.png
       year: 2021
       format: stop-motion

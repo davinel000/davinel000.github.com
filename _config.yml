@@ -4,7 +4,7 @@ subtitle: Multimedia Artist
 email: davinel000@gmail.com
 description: Working hard to rest smart with cozy lighting and vintage gadgets
 #baseurl: #"/test" # the subpath of your site, e.g. /blog
-imagefolder: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images" #public folder of the website (PCloud) name is added to the address
+imagefolder: "/assets/images/portfolio" # "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images" #public folder of the website (PCloud) name is added to the address
 
 url: # the base hostname & protocol for your site
 author: Viacheslav Romanov
@@ -52,6 +52,7 @@ page_gen:
   # title: 'title'
 
 collections:
+  - portfolio      
   # projects:
   #   output: true
   #   source: 'portfolio.yml'
