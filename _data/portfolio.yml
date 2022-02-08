@@ -89,6 +89,7 @@ works:
       id: 002
       show_tile: true ## adding here value to test it online
       category: video
+      imagefolder: non_safety
       image: image49.png
       year: 2021
       format: stop-motion
@@ -129,6 +130,7 @@ works:
       id: 003
       show_tile: true ## adding here value to test it online
       category: performance
+      imagefolder: breathe_performance
       image: image120.png
       year: 2021
       format: electronic performance
