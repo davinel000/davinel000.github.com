@@ -2,7 +2,7 @@
 <div id="main" class="alt">
 
     <!-- One -->
-    
+
     <section id="one">
 
         {% include project_cover.html imagefolder = page.imagefolder %}
@@ -68,31 +68,17 @@
 <section id="three"></section>
 
 
-
-<!-- {% include image-gallery.html imagefolder = page.imagefolder subfolder = "1" %} -->
-
-
-
-
 <!-- looping through images links start -->
 
 <div id="main" class="alt">
     {% for member in page.illustrations %}
     <div class="inner">
         <h3>{{ member.text }}</h3>
+
+
+        {% include image-gallery.html imagefolder = page.imagefolder subfolder = forloop.index %}
     </div>
 
-    {% include image-gallery.html imagefolder = page.imagefolder subfolder = forloop.index %}
-
-    <!-- <div class="image-gallery">
-        {% for link in member.image %}
-        <div class="box">
-            <a href="{{ site.imagefolder }}/{{ link }}" target="_blank">
-                <img src="{{ site.imagefolder }}/{{ link }}" alt="{{ member.name }}" class="img-gallery" />
-            </a>
-        </div>
-        {% endfor %}
-    </div> -->
     {% endfor %}
 </div>
 

@@ -5,7 +5,7 @@
     {% if file.extname == '.png' or file.extname == '.jpg or file.extname == '.jpeg' or file.extname == '.PNG' or file.extname == '.JPEG' or file.extname == '.JPG' %}
 
     <div class="box">
-        <a href="{{ file.path }}" target="_blank">
+        <a href="{{ file.path }}" target="_blank" style = "border-bottom: none"> 
             <img src="{{ file.path }}" alt="{{ file.name }}" class="img-gallery" />
         </a>
 

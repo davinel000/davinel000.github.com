@@ -39,17 +39,17 @@ markdown: kramdown
 sass:
   style: compressed
 
-plugins:
-- jekyll-datapage-generator
-# - pagemaster
+# plugins:
+# - jekyll-datapage-generator
+# # - pagemaster
 
-page_gen:
-- data: 'portfolio.works'
-  template: 'project'
-  dir: 'projects'
-  index_files: true
-  name: 'title'
-  # title: 'title'
+# page_gen:
+# - data: 'portfolio.works'
+#   template: 'project'
+#   dir: 'projects'
+#   index_files: true
+#   name: 'title'
+#   # title: 'title'
 
 collections:
   - portfolio      
