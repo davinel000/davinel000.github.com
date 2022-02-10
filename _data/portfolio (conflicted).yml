@@ -49,18 +49,10 @@ people:
 - &artyommakarov:
   name: Artyom Makarov
   url:
-- &timsix
+- &timsix:
   name: Tim Six
   url: https://www.facebook.com/sixcreationsix/
-- &mikhailkaryagin
-  name: Mikhail Karyagin
-  url: https://www.facebook.com/profile.php?id=100001817393884
-- &elkhanmamedov
-  name: Elkhan Mamedov
-  url: https://www.facebook.com/eliktron
-- &igordorfman
-  name: Igor Dorfman
-  url: https://www.facebook.com/igor.dorfman.1
+
 
 
 works:
@@ -253,62 +245,34 @@ works:
       id: 008
       category: generative graphics
       imagefolder: red_light_performance
-      year: 2019
+      year: 2020
       format: video
       description: The Poetry of Concrete and the Ripples of Brickwork
       tags:
-      idea: An empty, freshly created and still untouched space of the new leisure complex had completely white walls which were ideal for creating light installations. For this reason, the author decided to select his video footages on architecture thematic - brick buildings of abandoned factories, concrete colonnades of viaducts, road junctions and bridges. In the symbolic act of video performance, the history of places filled with meaning and experience of the past comes into contact with a completely new environment of the future but leaves no material mark.
+      idea: 
       links:
-        - text: Live performance video
-          url: https://youtu.be/JCKsd_0dzWE
-        - text: Performance Venue group
-          url: https://www.facebook.com/events/508844193293533/?active_tab=discussion
+        - text: 
+          url: 
+        - text: 
+          url: 
+        - text: 
+          url: 
       authors:
-        *viacheslavromanov: visuals
-      instruments: Derivative TouchDesigner, Panasonic GH4, Vegas Pro, SoundCloud
-      long: The work is based on author's video footages, filmed in Saint Petersburg in 2019 (Red Triangle abandoned factory, West Speed Diameter and Kanonersky island). The music scene was based on a custom SoundCloud <a ("https://soundcloud.com/lrmlhnvgvrma/sets/lines-23-11-2019">playlist</a>, consisting of instumental and ambient tracks. The selection, processing of content and the creation of effects was carried out right during the performance.
-      presentation: Bring Your Own Beamer Festival, opening of Lines Space, Saint Petersburg, 23 November 2019. The footages were also used during BYOB Bremen, 2021
+        *viacheslavromanov: 
+      instruments: 
+      long: 
+      presentation: 
       illustrations:
-        - text: Photos and screenshots
+        - text: 
+        - text: 
+        - text: 
         # DELIMITER
-    - title: Gold of Parties
-      id: 009
-      category: data visualization
-      imagefolder: gold_of_parties
-      year: 2016
-      format: investigative journalism, analytics
-      description: Who donates money to russian political parties? 
-      tags:
-      idea: Study of the multi-party system simulacrum in Russian political life
-      links:
-        - text: Video experience
-          url: https://www.youtube.com/watch?v=B1RILLglIDM
-        - text: Forbes publication
-          url: https://www.forbes.ru/mneniya/vertikal/326299-zoloto-partii-pochemu-na-vyborakh-v-gosdumu-ne-budet-novykh-igrokov
-        - text: Web-archive of the project
-          url: https://web.archive.org/web/20161114140223/http://partyhard.tilda.ws:80/page208220.html
-        - text: Hachathon archive
-          url: https://te-st.ru/2016/06/28/5-projects-of-the-hackathon-budget-data/        
-      authors:
-        *viacheslavromanov: concept, analysis, visualizaton, web-design
-        *mikhailkaryagin: analysis, texts
-        *elkhanmamedov: data collection
-        *igordorfman: scripts
-      instruments: Tilda.cc, Tableau Public, Thinglink, Open Refine
-      long: The content of a study is embodied in a data investigation long read with interactive infographics. The data source was public information about donations of citizens and organizations to Russian political parties in 2015. We, as Infometer Project Center team at the "DataStories" hackathon (Saint Petersburg, 2015),  analyzed open information about several thousand donations (from 1 EUR to 500K EUR), public procurement and profiles in social networks and visualized it. We identified suspicious identical amounts of donations and connections between donors, “fake parties” with similar identities who received donations from members of other pro-government parties. Violations of donation limits for individual parties have been discovered. Large donations of the same amount from large businesses for getting the opportunity to take place in the party governing bodies were found. A gender and age portrait of donors of various parties was built.
-      presentation: The project won the hackathon Data-Stories in 2016, was republished in Forbes
-      illustrations:
-        - text: All financial reports of parties were downloaded from the Central Election Commission website
-        - text: PDF files were processed by OCR, data was cleansed and structurized
-        - text: Interactive infographics were produced (treemaps and other)
-
-        # DELIMITER
-    - title: Secrets of Housing Service
+    - title: 
       id: 
-      category: data visualization
-      imagefolder: secrets_of_housing_services
-      year: 2017
-      format: investigative journalism, analytics
+      category: generative graphics
+      imagefolder: 
+      year: 
+      format: video
       description: 
       tags:
       idea: 
@@ -356,11 +320,419 @@ works:
         - text: 
         - text: 
 
+        # DELIMITER
+    - title: 
+      id: 
+      category: generative graphics
+      imagefolder: 
+      year: 
+      format: video
+      description: 
+      tags:
+      idea: 
+      links:
+        - text: 
+          url: 
+        - text: 
+          url: 
+        - text: 
+          url: 
+      authors:
+        *viacheslavromanov: 
+      instruments: 
+      long: 
+      presentation: 
+      illustrations:
+        - text: 
+        - text: 
+        - text: 
+
+# ## Generative graphics, performances, interactive installations \
+# Metaphor of the Sea, 2019 (VR)
+
+# Audiovisual adventure through the clouds of associations inside the tunnel of thoughts and images related to the perception of water element
+
+
+# <table>
+#   <tr>
+#    ## Idea
+#    </td>
+#    <td>The experience of creating an immersive and interactive environment for musical expression and perception of the sea through direct and indirect associations.
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Links
+#    </td>
+#    <td><a ("https://www.youtube.com/watch?v=lKDyizwNITY">Pseudo-VR demo</a>
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Team</strong>
+#    </td>
+#    <td>Viacheslav Romanov (idea, scenery, generative graphics, VR setup), Artyom Makarov (sound settings, calimba), Anton Ivanov (textures, background, presentation)
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Instruments
+#    </td>
+#    <td>Derivative TouchDesigner, Oculus Rift S, Electronic kalimba
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Content
+#    </td>
+#    <td>The work reveals the idea and atmosphere of the sea through the effect of immersion in a three-dimensional interactive sound and visual environment. A user in the Oculus Rift moves through a tunnel built of adjectives describing the sea. To move, the user must play his own unique melody on the electronic calimba. During the journey, the user is surrounded by luminous and sounding models of marine life.
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Achievements</strong>
+#    </td>
+#    <td>“Metaphor of the Sea” was successfully presented on “Form of Communication” visual art festival in Saint Petersburg, Russia as the graduation work of students of the course "Visual programming in Kvadrat Youth Center"
+#    </td>
+#   </tr>
+# </table>
+
+
+
+
+# **Main process description:**
+
+
+
+# 1. Textual information, simplified geometry, sounds and 3d audio rendering, as well as Oculus environment, were combinated in Touch Designer
+
+
+# ![alt_text](images/image50.png "image_tooltip")
+
+# ![alt_text](images/image51.png "image_tooltip")
+
+
+
+
+# 2. Audio-interface and audio-reactive modules were added and connected to textures, image filters and camera route.
+
+
+# ![alt_text](images/image52.png "image_tooltip")
+
+
+
+
+# 3. The work was presented to the public at the festival.
+
+
+# ![alt_text](images/image53.png "image_tooltip")
+
+# ![alt_text](images/image54.png "image_tooltip")
+
+
+
+# ![alt_text](images/image55.png "image_tooltip")
+
+# ![alt_text](images/image56.png "image_tooltip")
+
+
+
+# ![alt_text](images/image57.png "image_tooltip")
+
+
+
+# ## Generative graphics, performances, interactive installations \
+# NoiseRoom Fest, 2020 (live)
+
+# Drone&Ambient experience through the language of nature
+
+
+# <table>
+#   <tr>
+#    ## Idea
+#    </td>
+#    <td>Visualization of intangible rhythm, cyclicity, symmetry and harmony of music, through a combination of natural landscapes and geometry
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Links
+#    </td>
+#    <td><a ("https://youtu.be/iMPIqfVS5Mg">Live performance video</a>
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Performers</strong>
+#    </td>
+#    <td>Tim Six (music), Viacheslav Romanov (visuals)
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Instruments
+#    </td>
+#    <td>Derivative TouchDesigner, Panasonic GH4, Vegas Pro, Novation LaunchControl XL
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Content
+#    </td>
+#    <td>The work is based on author's video footages, filmed in Morocco, Berlin and the Leningrad region in 2019. Reflex hunt for rhythm and symmetry was the core theme and was revealed through the spray of a waterfall, blossoming flowers and man-made structures, shifting and changing one to each other in combination with complex geometries.
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Performance Venue</strong>
+#    </td>
+#    <td><a ("https://vk.com/noiseroomfest">NoiseRoom AV Festival</a>, Museum of Sound, GES-21 (Gallery of Experimental Sound #21), Saint Petersburg, 14 March 2020
+# <p>
+# The footages were also used during BYOB Bremen, 2021
+#    </td>
+#   </tr>
+# </table>
+
+
+
+
+# **Main process description:**
+
+# 1. Video footages were filmed in May-July 2019 and converted to HAP format in Vegas
+
+
+# ![alt_text](images/image58.png "image_tooltip")
+
+# ![alt_text](images/image59.png "image_tooltip")
+
+# ![alt_text](images/image60.png "image_tooltip")
+
+# ![alt_text](images/image61.png "image_tooltip")
+
+# ![alt_text](images/image62.png "image_tooltip")
+
+# ![alt_text](images/image63.png "image_tooltip")
+
+
+# 2. A modular interface consisting of videos, effects and additional generative graphics was built in Touch Designer and then connected to the Novation midi-interface
+
+
+# ![alt_text](images/image64.png "image_tooltip")
+
+# ![alt_text](images/image65.png "image_tooltip")
+
+
+# 3. Final live performance was carried out at the festival
+
+
+# ![alt_text](images/image66.png "image_tooltip")
+
+# ![alt_text](images/image67.png "image_tooltip")
+
+
+
+# ## 
+
+
+# ![alt_text](images/image68.png "image_tooltip")
+
+
+
+# ## Generative graphics, performances, interactive installations \
+# Red Light Performance, 2020 (live)
+
+# The Poetry of Concrete and the Ripples of Brickwork
+
+
+# <table>
+#   <tr>
+#    ## Idea
+#    </td>
+#    <td>An empty, freshly created and still untouched space of the new leisure complex had completely white walls which were ideal for creating light installations. For this reason, the author decided to select his video footages on architecture thematic: brick buildings of abandoned factories, concrete colonnades of viaducts, road junctions and bridges. In the symbolic act of video performance, the history of places filled with meaning and experience of the past comes into contact with a completely new environment of the future but leaves no material mark.
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Links
+#    </td>
+#    <td><a ("https://youtu.be/JCKsd_0dzWE">Live performance video</a>
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Performers</strong>
+#    </td>
+#    <td>Viacheslav Romanov (visuals)
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Instruments
+#    </td>
+#    <td>Derivative TouchDesigner, Panasonic GH4, Vegas Pro, SoundCloud
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Content
+#    </td>
+#    <td>The work is based on author's video footages, filmed in Saint Petersburg in 2019 (Red Triangle abandoned factory, West Speed Diameter and Kanonersky island). The music scene was based on a custom SoundCloud <a ("https://soundcloud.com/lrmlhnvgvrma/sets/lines-23-11-2019">playlist</a>, consisting of instumental and ambient tracks. The selection, processing of content and the creation of effects was carried out right during the performance.
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Performance Venue</strong>
+#    </td>
+#    <td><a ("https://www.facebook.com/events/508844193293533/?active_tab=discussion">Bring Your Own Beamer Festival</a>, opening of Lines Space,
+# <p>
+# Saint Petersburg, 23 November 2019
+# <p>
+# The footages were also used during BYOB Bremen, 2021
+#    </td>
+#   </tr>
+# </table>
+
+
+# **Photos and screenshots:**
+
+
+# ![alt_text](images/image69.jpg "image_tooltip")
+
+# ![alt_text](images/image70.jpg "image_tooltip")
+
+# ![alt_text](images/image71.png "image_tooltip")
+
+
+
+# ![alt_text](images/image72.png "image_tooltip")
+
+# ![alt_text](images/image73.png "image_tooltip")
+
+# ![alt_text](images/image74.png "image_tooltip")
+
+# ![alt_text](images/image75.png "image_tooltip")
+
+# ![alt_text](images/image76.png "image_tooltip")
+
+# ![alt_text](images/image77.png "image_tooltip")
+
+# ![alt_text](images/image78.png "image_tooltip")
+
+# ![alt_text](images/image79.png "image_tooltip")
+
+# ![alt_text](images/image80.png "image_tooltip")
+
+# ![alt_text](images/image81.png "image_tooltip")
+
+# ![alt_text](images/image82.png "image_tooltip")
+
+
+
+#     Data visualization,  \
+# 	investigative journalism
+
+
+# ```
+#                 Gold of Parties
+#             Secrets of Housing Service
+#             Attack of the Clowns
+# ```
+
+
+
+                
+
+
+# ![alt_text](images/image83.png "image_tooltip")
+
+
+
+# ## Data visualization, investigative journalism
+
+
+# ## Gold of Parties, 2016
+
+# Who donates money to political parties? 
+
+
+# <table>
+#   <tr>
+#    ## Idea
+#    </td>
+#    <td>Study of the multi-party system simulacrum in Russian political life
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Link</strong>
+#    </td>
+#    <td><a ("https://www.youtube.com/watch?v=B1RILLglIDM">Watch video experience</a>
+# <p>
+# Affiliate media <a ("https://www.forbes.ru/mneniya/vertikal/326299-zoloto-partii-pochemu-na-vyborakh-v-gosdumu-ne-budet-novykh-igrokov">publication</a> (Forbes.ru)   
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Team</strong>
+#    </td>
+#    <td>Viacheslav Romanov (concept, analysis, visualizaton, web-design), Mikhail Karyagin (analysis, texts),  \
+# Elkhan Mamedov (data collection), Igor Dorfman (scripts)
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Instruments
+#    </td>
+#    <td>Tilda.cc, Tableau Public, Thinglink, OpenRefine
+#    </td>
+#   </tr>
+#   <tr>
+#    ## Content
+#    </td>
+#    <td>The content of a study is embodied in a data investigation long read with interactive infographics. The data source was public information about donations of citizens and organizations to Russian political parties in 2015. We, as Infometer Project Center team at the "DataStories" hackathon (Saint Petersburg, 2015),  analyzed open information about several thousand donations (from 1 EUR to 500K EUR), public procurement and profiles in social networks and visualized it.
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Findings</strong>
+#    </td>
+#    <td>We identified suspicious identical amounts of donations and connections between donors, “fake parties” with similar identities who received donations from members of other pro-government parties. Violations of donation limits for individual parties have been discovered. Large donations of the same amount from large businesses for getting the opportunity to take place in the party governing bodies were found. A gender and age portrait of donors of various parties was built.
+#    </td>
+#   </tr>
+#   <tr>
+#    <td><strong>Achievements</strong>
+#    </td>
+#    <td>
+# <ol>
+
+# <li>Publication in federal media (<a ("https://www.forbes.ru/mneniya/vertikal/326299-zoloto-partii-pochemu-na-vyborakh-v-gosdumu-ne-budet-novykh-igrokov">Forbes</a>)
+
+# <li>Over 50K views of the publication
+
+# <li>Hackathon <a ("https://te-st.ru/2016/06/28/5-projects-of-the-hackathon-budget-data/">winner</a>
+# </li>
+# </ol>
+#    </td>
+#   </tr>
+# </table>
+
+
+# **Main process description:**
+
+
+
+# 1. All financial reports of parties were downloaded from the Central Election Commission website
+
+
+# ![alt_text](images/image84.png "image_tooltip")
+
+
+
+
+# 2. PDF files were processed by OCR, data was cleansed and structurized
+
+
+# ![alt_text](images/image85.png "image_tooltip")
+
+
+
+
+# 3. Interactive infographics were produced (treemaps and other)
+
+
+# ![alt_text](images/image86.png "image_tooltip")
+
+
+
+# ![alt_text](images/image87.png "image_tooltip")
+
+
 
 # ## Data visualization,investigative journalism
 
 
-# ## , 2017
+# ## Secrets of Housing Service, 2017
 
 # Three housing services mistakes for which you hold them accountable
 

@@ -49,7 +49,7 @@ sass:
 #   dir: 'projects'
 #   index_files: true
 #   name: 'title'
-#   # title: 'title'
+  # title: 'title'
 
 collections:
   - portfolio      

@@ -84,13 +84,12 @@ img {
 .image-gallery {
 	width: 100%;
 	display: grid;
-	// grid-template-rows: 1fr 1fr;
-	// grid-template-columns: minmax(300px, max-content);
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	//grid-auto-flow: row dense;
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;	
 	justify-content: center;
 	padding: 0px; // was 4px
-	margin-bottom: -5px;
+	//margin-bottom: -5px;
 	
 }
 .box {
