@@ -17,11 +17,30 @@ nav-menu: false
 
     {% include header.html %}
 
-    {% for page in site.data.portfolio.works %}
+    <!-- {% if page.categoryfilter %}
 
+    {% for entity in site.data.portfolio.works %}
+    {% if entity.category contains page.categoryfilter%}
+    {% include project.html %}
+    {% endif %}
+    {% endfor %}
+     -->
+
+     {% assign filtered_projects = site.data.portfolio.works %}
+
+    <!-- if no filtration -->
+    {% else %}
+
+    {% for page in site.data.portfolio.works %}
     {% include project.html %}
 
     {% endfor %}
+    <!-- if no filtration -->
+
+    <!-- {% endif %} -->
+
+
+
 
     {% include footer.html %}
 

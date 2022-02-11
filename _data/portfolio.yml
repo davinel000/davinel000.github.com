@@ -43,10 +43,10 @@ people:
 - &chihimchik
   name: Chi Him Chik
   url: http://www.chihimchik.com/
-- &antonivanov: 
+- &antonivanov 
   name: Anton Ivanov
   url:
-- &artyommakarov:
+- &artyommakarov
   name: Artyom Makarov
   url:
 - &timsix
@@ -61,7 +61,22 @@ people:
 - &igordorfman
   name: Igor Dorfman
   url: https://www.facebook.com/igor.dorfman.1
-
+- &sergeibabushkin
+  name: Sergei Babushkin
+  url: 
+- &irinapankratova
+  name: Irina Pankratova
+  url: https://www.facebook.com/pirairara
+- &mikkopitkanen
+  name: Mikko Pitkänen
+- &ekaterinakalacheva
+  name: Ekaterina Kalacheva
+- &ivanshchupov
+  name: Ivan Shchupov
+- &irinaperevalova
+  name: Irina Perevalova
+- &golosadvokatateam
+  name: Voice of the Bar Project Team
 
 works:
     - title: Metal Dreams
@@ -223,7 +238,8 @@ works:
         - text: Textual information, simplified geometry, sounds and 3d audio rendering, as well as Oculus environment, were combinated in Touch Designer
         - text: Audio-interface and audio-reactive modules were added and connected to textures, image filters and camera route.
         - text: The work was presented to the public at the festival.
-    - title: NoiseRoom Fest
+
+    - title: Noise Room Fest
       id: 007
       category: generative graphics
       imagefolder: noiseroomfest
@@ -247,8 +263,6 @@ works:
         - text: Video footages were filmed in May-July 2019 and converted to HAP format in Vegas
         - text: A modular interface consisting of videos, effects and additional generative graphics was built in Touch Designer and then connected to the Novation midi-interface
         - text: Final live performance was carried out at the festival
-
-        # DELIMITER
     - title: Red Light Performance
       id: 008
       category: generative graphics
@@ -304,950 +318,254 @@ works:
 
         # DELIMITER
     - title: Secrets of Housing Service
-      id: 
+      id: 010
       category: data visualization
       imagefolder: secrets_of_housing_services
       year: 2017
       format: investigative journalism, analytics
-      description: 
+      description: Three housing services mistakes for which you hold them accountable
       tags:
-      idea: 
+      idea: Many citizens do not understand how the amounts are formed in receipts for utilities. We used data mining approach to financial statements of utility companies. We considered explanatory and investigative journalism as an instrument against learned helplessness of city dwellers
       links:
-        - text: 
-          url: 
-        - text: 
-          url: 
-        - text: 
-          url: 
+        - text: Video experience
+          url: https://youtu.be/Mv6pXmjVUuE
+        - text: Affiliate media publication
+          url: https://web.archive.org/web/20190721071653/http://news.nb.dp.ru/a/2017/06/02/CHernaja_kassa_peterburgsko
+        - text: Affiliate media publication
+          url: https://paperpaper.ru/papernews/2017/9/8/calculator/
       authors:
-        *viacheslavromanov: 
-      instruments: 
-      long: 
-      presentation: 
+        *viacheslavromanov: concept, data analysis, visualizaton, texts, web-design
+        *sergeibabushkin: legal analysis
+        *igordorfman: API requests
+        *irinapankratova: idea, affiliated media publication
+      instruments: Tilda.cc, Tableau Public, OpenRefine, API reformagkh.ru, infogr.am
+      long: The content of a study is embodied in a data investigation long read with interactive infographics. The data source was financial statements for 18,000 multi-apartment residential buildings of St.Petersburg from public api. We visualized key findings, prepared simple tips and complaint forms for citizens and an interactive calculator to check accounting mistakes in details for each house in St.Petersburg. We also analyzed the ownership structure of companies. Affiliate media published an article based on our data to expand the audience. Concealment of information, gross errors and discrepancies in reporting were identified (more than 55M EUR in 2016) and reported to officials. After publication housing companies published 58% missing information and corrected part of errors in reporting.
+      presentation: Publications in affiliate regional media DP.ru brought +130K views
       illustrations:
-        - text: 
-        - text: 
-        - text: 
+        - text: Open Data was gathered from reformagkh.ru by api requests
+        - text: Legal acts on utility tariffs were taken as the basis for calculations.
+        - text: Rating of violators was made in Tableau
+        - text: An interactive calculator was presented and repeatedly updated
 
         # DELIMITER
-    - title: 
-      id: 
-      category: generative graphics
-      imagefolder: 
-      year: 
-      format: video
-      description: 
+    - title: Attack of the Clowns
+      id: 011
+      category: data visualization
+      imagefolder: attack_of_the_clowns
+      year: 2016
+      format: investigative journalism, analytics
+      description: Analysis of Russian political party programs
       tags:
-      idea: 
+      idea: Questioning the authenticity of Russian multiparty, we conducted a quantitative and qualitative analysis of the texts of political parties programs.
       links:
-        - text: 
-          url: 
-        - text: 
-          url: 
-        - text: 
-          url: 
+        - text: Video experience
+          url: https://youtu.be/7PxF2DPN0eY
+        - text: Affiliate media publication
+          url: https://echo.msk.ru/blog/echomsk/1838200-echo
       authors:
-        *viacheslavromanov: 
-      instruments: 
-      long: 
-      presentation: 
+        *viacheslavromanov: analysis, visualizaton, web-design
+        *mikhailkaryagin: concept, analysis, texts
+        *mikkopitkanen: scripts
+      instruments: Tilda.cc, Tableau Public, Microsoft Word, Excel, Antiplagiat.ru
+      long: The content of study is embodied in a long read with interactive infographics. The data source were texts of the main and election programs of 77 Russian political parties. We counted mentions of key topics and represented them as word clouds, we checked the texts for plagiarism. We also conducted a hackathon in nature, where we read all the programs and revealed the most ridiculous fragments to present them as is. Excessively short, populist or absurd party programs, as well as direct literal text borrowings in the programs have been discovered. The study proved that most parties are dummies whose programs were not intended to make sense.
+      presentation: The total number of views of publications and infographics was more than 15,000
       illustrations:
-        - text: 
-        - text: 
-        - text: 
-
-
-# ## Data visualization,investigative journalism
-
-
-# ## , 2017
-
-# Three housing services mistakes for which you hold them accountable
-
-
-# ## Idea
-#    <td>Many citizens do not understand how the amounts are formed in receipts for utilities. We used data mining approach to financial statements of utility companies. We considered explanatory and investigative journalism as an instrument against learned helplessness of city dwellers
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://youtu.be/Mv6pXmjVUuE">Watch video experience </a>(YouTube)
-# <p>
-# <a ("http://news.nb.dp.ru/a/2017/06/02/CHernaja_kassa_peterburgsko">first</a> (deleted) and <a ("https://www.dp.ru/a/2017/06/14/DP_sdelal_servis_pozvo">second</a> affiliate media publications
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Team</strong>
-#    </td>
-#    <td>Viacheslav Romanov (concept, data analysis, visualizaton, texts, web-design), Sergei Babushkin (legal analysis), Igor Dorfman (work with API), Irina Pankratova (idea, affiliated media publication)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Tilda.cc, Tableau Public, OpenRefine, API reformagkh.ru, infogr.am 
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>The content of a study is embodied in a data investigation long read with interactive infographics. The data source was financial statements for 18,000 multi-apartment residential buildings of St.Petersburg from public api. We visualized key findings, prepared simple tips and complaint forms for citizens and an interactive calculator to check accounting mistakes in details for each house in St.Petersburg. We also analyzed the ownership structure of companies. Affiliate media published an article based on our data to expand the audience.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Findings</strong>
-#    </td>
-#    <td>Concealment of information, gross errors and discrepancies in reporting were identified (more than 55M EUR in 2016) and reported to officials. After publication housing companies published 58% missing information and corrected part of errors in reporting.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Achievements</strong>
-#    </td>
-#    <td>
-# <ol>
-
-# <li>Publications in affiliate regional media brought +130K views 
-
-# <li>An Open Data Contest 2018 winner
-
-# <li>A <a ("https://www.gov.spb.ru/gov/otrasl/energ_kom/kalkulyator-kommunalnyh-platezhej/">similar official calculator </a>was launched in 2019
-# </li>
-# </ol>
-#    </td>
-#   </tr>
-# </table>
-
-
-# **Main process description:**
-
-# 1. Open Data was gathered from reformagkh.ru by api requests
-
-
-# ![alt_text](images/image88.png "image_tooltip")
-
-
-
-# ![alt_text](images/image89.png "image_tooltip")
-
-
-# 2. Legal acts on utility tariffs were taken as the basis for calculations.
-
-# 3. Rating of violators was made in Tableau
-
-
-# ![alt_text](images/image90.png "image_tooltip")
-
-
-# 4. An interactive calculator was presented and repeatedly updated
-
-
-# ![alt_text](images/image91.png "image_tooltip")
-
-
-
-# ![alt_text](images/image92.png "image_tooltip")
-
-
-
-# ## Data visualization,investigative journalism \
-# Attack of the Clowns, 2016
-
-# Analysis of political party programs
-
-
-# ## Idea
-#    <td>Questioning the authenticity of Russian multiparty, we conducted a quantitative and qualitative analysis of the texts of political parties programs.
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://youtu.be/7PxF2DPN0eY">Watch video experience </a>(YouTube)
-# <p>
-# Affiliate media <a ("https://echo.msk.ru/blog/echomsk/1838200-echo/">publication</a> (Echo.msk.ru)
-# <p>
-# <a ("https://read.infometer.org/clone">Original publication</a> (deleted)
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Team</strong>
-#    </td>
-#    <td>Viacheslav Romanov (analysis, visualizaton, web-design),  \
-# Mikhail Karyagin (concept, analysis, texts), Mikko Pitkänen (script), Infometer team (hackathon)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Tilda.cc, Tableau Public, Microsoft Word, Excel, Antiplagiat.ru
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>The content of study is embodied in a long read with interactive infographics. The data source were texts of the main and election programs of 77 Russian political parties. We counted mentions of key topics and represented them as word clouds, we checked the texts for plagiarism. We also conducted a hackathon in nature, where we read all the programs and revealed the most ridiculous fragments to present them as is.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Findings</strong>
-#    </td>
-#    <td>Excessively short, populist or absurd party programs, as well as direct literal text borrowings in the programs have been discovered. The study proved that most parties are dummies whose programs were not intended to make sense.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Achievements</strong>
-#    </td>
-#    <td>The total number of views of publications and infographics was more than 15,000
-#    </td>
-#   </tr>
-# </table>
-
-
-# **Main process description:**
-
-# 1. Programs were downloaded from Central Election Commission website and parsed  \
-# by Excel macro to get the number of mentions (465 keywords) and literal citations:
-
-
-# ![alt_text](images/image93.png "image_tooltip")
-
-# ![alt_text](images/image94.png "image_tooltip")
-
-
-# 2. An interactive word cloud was built for each party program in Tableau:
-
-
-# ![alt_text](images/image95.png "image_tooltip")
-
-
-# 3. The results of comparative plagiarism tests were carried out through the antiplagiat.ru service, visualized and added to the publication.
-
-
-# ![alt_text](images/image96.png "image_tooltip")
-
-# ![alt_text](images/image97.png "image_tooltip")
-
-
-# 4. At our small suburban hackathon, we conducted live content analysis and put together a collection of idiotic quotes.
-
-
-# ![alt_text](images/image98.png "image_tooltip")
-
-# ![alt_text](images/image99.png "image_tooltip")
-
-# ![alt_text](images/image100.png "image_tooltip")
-
-# ![alt_text](images/image101.png "image_tooltip")
-
-
-# 5. All results, visuals and analytical conclusions were combined in a [single long read](https://read.infometer.org/clone).
-
-
-#     Sonic experiments
-
-
-# ```
-#             Sonic Gun (musical instrument) 
-#             Wave2 (data sonification) 
-#             Distance Synesthesia (data collection) 
-# ```
-
-
-
+        - text: Programs were downloaded from Central Election Commission website and parsed by Excel macro to get the number of mentions (465 keywords) and literal citations
+        - text: An interactive word cloud was built for each party program in Tableau
+        - text: The results of comparative plagiarism tests were carried out through the antiplagiat.ru service, visualized and added to the publication
+        - text: At our small suburban hackathon, we conducted live content analysis and put together a collection of idiotic quotes.
+        - text: All results, visuals and analytical conclusions were combined in a single long read.
+
+    - title: Sonic Gun
+      id: 012
+      category: sonic experiments
+      imagefolder: sonic_gun
+      year: 2021
+      format: musical instrument
+      description: A portable synth and an open platform for sonic experiments and distance
+      tags:
+      idea: The author created a tool for reproducing the synesthetic equivalent of the distance between objects in space in a form of a physical interface that playback sound with different characteristics. The author strived for creating an artifact that provides playful interaction and easy development and updating.
+      links:
+        - text: Video experiments
+          url: https://youtu.be/Zy8pOGqwx0M
+        - text: Klangstrom website
+          url: http://klangstrom-for-arduino.dennisppaul.de/about/
+        - text: Concept video
+          url: https://www.youtube.com/watch?v=I_t3hFfjt9Y
+      authors:
+        *viacheslavromanov 
+      instruments: Arduino, Klangstrom board, Dremel, Soldering iron
+      long: Author decided to embody the musical instrument in the form of a sci-fi gun. It became a fierce means of Sonic Fiction in the form of a console gamepad, attaching an interface to the basic concept of pointing at the target. It uses the Klangstrom board platform and incoming digital and analog signals to generate and process a real-time audio. It gets data from a laser distance sensor (LIDAR) as well as analog input via 6 buttons and a pressure sensor for triggering and changing individual sound parameters - frequency, modulation, filtering. Gives the possibility to modify the signal processing settings to obtain a different sound character within Arduino environment.
+      presentation: Course “New Musical Instruments” by prof. Dennis Paul, HfK Bremen (SoSe21)
+      illustrations:
+        - text: Building physical elements
+        - text: Enclosing the board
+        - text: Testing outside
+
+
+    - title: Wave2
+      id: 013
+      category: sonic experiments
+      imagefolder: wave2
+      year: 2021
+      format: musical instrument
+      description: Generative sonification experiment with covid hyperobject and related statistical data 
+      tags:
+      idea: Inspired by projects to sonify the biological properties of the coronavirus spike protein, the author sought to reproduce in musical generative form the open statistical data on coronavirus infection (from January 2020 to April 2021).
+      links:
+        - text: Original audio
+          url: https://soundcloud.com/lrmlhnvgvrma/waves-mastered-version?si=a1980aea3c8f47279cf2306a5e10d22d
+        - text: Video
+          url: https://vimeo.com/535248819
+        - text: Radioshow page
+          url: http://transient-sensors-and-the-eternal-algorithmic-composition.digitalmedia-bremen.de/radio-show/slavaromanov--waves2
+      authors:
+        *viacheslavromanov
+      instruments: Processing, Wellen library for Processing
+      long: Most of the composition is based on the number of daily and total infections, deaths and recoveries in the world (from the covid observer portal), and Apple mobile activity index (how often users navigated every day). The rhythmic and emotional picture of growing anxiety is formed through binary transformations, minor scales and frequency modulations based on weekly and monthly dynamics. Using the Wellen library for Processing language (developed by Dennis Paul), the author is experimenting with the available classes and methods and plans to create various generative works based on data from cities and countries around the world.
+      presentation: Course “Transient Sensors and Eternal Algorithmic Composition” by prof. Dennis Paul, HfK Bremen (WiSe20-21). Presented on Radio Angrezi Live Show on 12.04.2021
+      illustrations:
+        - text: Working with 2 datasets (COVID Observer and Apple Mobility Trends)
+        - text: Building basic visualizations for composition
+        - text: Building a sketch in Processing
+
+        # DELIMITER
+    - title: Distance Synesthesia
+      id: 014
+      category: sonic experiments
+      imagefolder: distance_synesthesia
+      year: 2021
+      format: data collection instrument
+      description: Reproducing distance through alternative artistic means of expression
+      tags:
+      idea: A rethinking of distance between objects, by reproducing its characteristics through alternative artistic means of expression (generative sound, video). Interaction with the created instrument is showing the significance of the chosen observation point, the trajectory of movement, as well as the environment itself, as they allow to fill the sequence of recorded data, a kind of "choreography".
+      links:
+        - text: Data experiment 1 video
+          url: https://www.youtube.com/watch?v=R4yP0RAigZU
+        - text: Data experiment 2 video
+          url: https://www.youtube.com/watch?v=Q3gZFAg3Pn8
+      authors:
+        *viacheslavromanov 
+      instruments: Arduino, Derivative TouchDesigner, Digital Thermometer
+      long: Distance data is obtained through the laser distance-measuring sensor (LIDAR) and saved as individual sequences to an SD card.  Sound indication allows you to get an idea of the characteristic of the sound in real time. The collected data can be processed in any program working with text files. The device also allows you to send current distance signals via USB cable to the serial port. 
+      presentation: The work was developed during the course "AutomationDistribution – Sites, Technologies, Politics" by Prof. Henrik Nieratschker (WiSe20-21).
+      illustrations:
+        - text: Tool assembly
+        - text: Collected data example (.txt file)
+        - text: Data visualization (sonified as a waveshape) examples
+
+    # DELIMITER
+    - title: Right Swipe
+      id: 015
+      category: applied and UX design
+      imagefolder: right_swipe
+      year: 2015-2020
+      format: souvenirs
+      description: Branded laser cut webcam covers for non-profit and business (in cooperation with Team29.org)
+      tags:
+      idea: Based on the idea of promoting privacy values, the product solves three problems - 1) direct physical protection of the webcam from hacking and surveillance, 2) brand placement of organizations that share importance of protecting personal data, and 3) financial support for non-profit organizations protecting freedom of information.
+      links:
+        - text: Early ads video
+          url: https://youtu.be/d-iz-zMjASg
+      authors:
+        *viacheslavromanov: concept, design, distribution
+        *ekaterinakalacheva: website, package        
+        *ivanshchupov: engineering, production
+      instruments: Corel Draw 13, Laser cutting and engraving station, UV-printing
+      long: Having developed the first unique design and production technology in late 2015, we became trendsetters in the market of these souvenir products in Russia. All profit from selling webcam covers is spent for support of human rights defending, informational, and research activities of the Team 29.
+      presentation: 19 prototyping iterations were made, 6 partner organizations from Russia and abroad ordered more than 4000 pcs.
+      illustrations:
+        - text: Modelling in Corel Draw (design 2015, 2017, 2019, 2020)
+        - text: Laser cutting, engraving, printing and assembling
+        - text: Package design (2017, 2019)
+
+    # DELIMITER
+    - title: Pattern Box
+      id: 016
+      category: applied and UX design
+      imagefolder: pattern_box
+      year: 2015-2017
+      format: video
+      description: Affordable and customizable lighting solutions for home
+      tags:
+      idea: The general idea of the product is to provide a choice of patterns and colors that reflect the individual characteristics of the user. Adjustable glow color allows the user to project the inner world and his or her emotional state on the surrounding objects. In addition, the decorative lamp was made affordable and easy to manufacture (including the possibility of self-assembly and painting)
+      links:
+        - text: Video presentation
+          url: https://youtu.be/ISFYyh7QKG0
+        - text: Online Store
+          url: https://vk.com/market-125827659
+      authors:
+        *viacheslavromanov: design, assembly, painting
+        *irinaperevalova: distribution
+        *ivanshchupov: engineering, production
+      instruments: Corel Draw 13, Laser cut (plywood), paint (acrylic)
+      long: Experimenting with patterns and forms, adding manual finishing assembly and painting, we tried to find the most interesting and non-standard combinations.
+      presentation: 37 pcs. were ordered
+      illustrations:
+        - text: Modelling in Corel Draw and adapting to laser cut. Manual assembly and painting. Adding electrics (AC cords, switches and RGB remote controlled lamps
+        - text: Displaying
+
+
+    # DELIMITER
+    - title: Experimental learning mode for mobile navigation apps
+      id: 017
+      category: applied and UX design
+      imagefolder: experimental_learning_mode
+      year: 2021
+      format: UX concept
+      description: A vivid alternative for better knowing about what is going on around and how to get there
+      tags:
+      idea: By frequently using navigation maps the user becomes stick to the schematic representation of spece rather than to real environment and its landmarks, which leads to the issues with corellating between them. The solution may be found in a navigational mode, aimed to help users with orientation in space by using landmarks and decision points instead of street names
+      links:
+        - text: Concept presentation
+          url: https://www.figma.com/proto/ZA9Tt6VvTMIBJrb0pmrVuS/Untitled?node-id=117%3A4634&starting-point-node-id=117%3A4775
+      authors:
+        *viacheslavromanov
+      instruments: Figma, Google Maps
+      long: The idea is to lesser the timeuse of navigational software, mitigate “dark concepts of HCI”, and help users to better memorize key visual inputs and build stronger orientation connections. 
+      presentation: The concept, including description and animated illustrations, was presented during the course “Interface/Interaction Design” by Prof. Peter von Maydell, HfK Bremen (WiSe 20-21)
+      illustrations:
+        - text: UX concept presentation
         
-
-
-# ## 
-# ![alt_text](images/image102.png "image_tooltip")
-
-
-
-# ## Sonic experiments \
-# Sonic Gun, 2021 (musical instrument)
-
-# A portable synth and an open platform for sonic experiments and distance
-
-
-# ## Idea
-#    <td>The author created a tool for reproducing the synesthetic equivalent of the distance between objects in space in a form of a physical interface that playback sound with different characteristics. The author strived for creating an artifact that provides playful interaction and easy development and updating.
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://youtu.be/Zy8pOGqwx0M">Video experiments</a>, <a ("http://klangstrom-for-arduino.dennisppaul.de/about/">Klangstrom website</a>, <a ("https://www.youtube.com/watch?v=I_t3hFfjt9Y">concept video</a>
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Author</strong>
-#    </td>
-#    <td>Viacheslav Romanov 
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Arduino, Klangstrom board, Dremel, Soldering iron
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>Author decided embody the musical instrument in the form of a sci-fi gun. It became a fierce means of Sonic Fiction in the form of a console gamepad, attaching an interface to the basic concept of pointing at the target. It uses the Klangstrom board platform and incoming digital and analog signals to generate and process a real-time audio. It gets data from a laser distance sensor (LIDAR) as well as analog input via 6 buttons and a pressure sensor for triggering and changing individual sound parameters - frequency, modulation, filtering. Gives the possibility to modify the signal processing settings to obtain a different sound character within Arduino environment.
-# <p>
-# Course: “New Musical Instruments” by prof. Dennis Paul, HfK Bremen (SoSe21)
-#    </td>
-#   </tr>
-# </table>
-
-
-
-        
-
-# **Main process description:**
-
-# **Building physical elements**
-
-
-# ![alt_text](images/image103.png "image_tooltip")
-
-# ![alt_text](images/image104.png "image_tooltip")
-
-# ![alt_text](images/image105.jpg "image_tooltip")
-
-
-
-# ![alt_text](images/image106.jpg "image_tooltip")
-
-# ![alt_text](images/image107.jpg "image_tooltip")
-
-# ![alt_text](images/image108.jpg "image_tooltip")
-
-
-# **Enclosing the board**
-
-
-# ![alt_text](images/image109.png "image_tooltip")
-
-# ![alt_text](images/image110.png "image_tooltip")
-
-# ![alt_text](images/image111.png "image_tooltip")
-
-
-# **Testing outside**
-
-
-# ![alt_text](images/image112.png "image_tooltip")
-
-# ![alt_text](images/image113.png "image_tooltip")
-
-# ![alt_text](images/image114.png "image_tooltip")
-
-
-
-
-
-# ## 
-# ![alt_text](images/image115.png "image_tooltip")
-
-
-
-# ## Sonic experiments \
-# Wave2, 2021 (data sonification)
-
-# Generative sonification experiment with covid hyperobject and related statistical data 
-
-
-# ## Idea
-#    <td>Inspired by projects to sonify the biological properties of the coronavirus spike protein, the author sought to reproduce in musical generative form the open statistical data on coronavirus infection (from January 2020 to April 2021).
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://soundcloud.com/lrmlhnvgvrma/waves-mastered-version?si=a1980aea3c8f47279cf2306a5e10d22d">audio</a>, <a ("https://vimeo.com/535248819#">video</a>, <a ("http://transient-sensors-and-the-eternal-algorithmic-composition.digitalmedia-bremen.de/radio-show/slavaromanov--waves2/">radioshow page</a>
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Performers</strong>
-#    </td>
-#    <td>Viacheslav Romanov 
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Processing, Wellen library for Processing
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>Most of the composition is based on the number of daily and total infections, deaths and recoveries in the world (from the covid observer portal), and Apple mobile activity index (how often users navigated every day).
-# <p>
-# The rhythmic and emotional picture of growing anxiety is formed through binary transformations, minor scales and frequency modulations based on weekly and monthly dynamics.
-# <p>
-# Using the Wellen library for Processing language (developed by Dennis Paul), the author is experimenting with the available classes and methods and plans to create various generative works based on data from cities and countries around the world.
-# <p>
-# Course: “Transient Sensors and Eternal Algorithmic Composition” by prof. Dennis Paul, HfK Bremen (WiSe20-21)
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Presented on</strong>
-#    </td>
-#    <td>Radio Angrezi Live Show on 12.04.2021
-#    </td>
-#   </tr>
-# </table>
-
-
-# **Main process description:**
-
-# **Working with 2 datasets (COVID Observer and Apple Mobility Trends)**
-
-
-# ![alt_text](images/image116.png "image_tooltip")
-  
-# ![alt_text](images/image117.png "image_tooltip")
-
-
-# **Building basic visualizations for composition**
-
-
-# ![alt_text](images/image118.png "image_tooltip")
-
-
-# **Building a sketch in Processing**
-
-
-# ![alt_text](images/image119.png "image_tooltip")
-
-
-
-        
-
-
-# ![alt_text](images/image120.jpg "image_tooltip")
-
-
-
-# ## Sonic experiments \
-# Distance Synesthesia, 2021 (data collection)
-
-# Reproducing distance through alternative artistic means of expression
-
-
-# ## Idea
-#    <td>A rethinking of distance between objects, by reproducing its characteristics through alternative artistic means of expression (generative sound, video). Interaction with the created instrument is showing the significance of the chosen observation point, the trajectory of movement, as well as the environment itself, as they allow to fill the sequence of recorded data, a kind of "choreography".
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://www.youtube.com/watch?v=R4yP0RAigZU">Data experiment 1</a>, <a ("https://www.youtube.com/watch?v=Q3gZFAg3Pn8">Data experiment 2</a>
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Author</strong>
-#    </td>
-#    <td>Viacheslav Romanov 
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Arduino, Derivative TouchDesigner, Digital Thermometer
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>Distance data is obtained through the laser distance-measuring sensor (LIDAR) and saved as individual sequences to an SD card.  Sound indication allows you to get an idea of the characteristic of the sound in real time. The collected data can be processed in any program working with text files. The device also allows you to send current distance signals via USB cable to the serial port. The work was developed during the course "AutomationDistribution – Sites, Technologies, Politics" by Prof. Henrik Nieratschker (WiSe20-21).
-#    </td>
-#   </tr>
-# </table>
-
-
-
-
-# **Main process description:**
-
-# **Tool assembly:**
-
-
-# ![alt_text](images/image121.jpg "image_tooltip")
-
-# ![alt_text](images/image122.jpg "image_tooltip")
-
-# ![alt_text](images/image123.jpg "image_tooltip")
-
-# ![alt_text](images/image124.jpg "image_tooltip")
-
-# ![alt_text](images/image125.jpg "image_tooltip")
-
-
-# **Collected data example (.txt file):**
-
-
-# ![alt_text](images/image126.png "image_tooltip")
-
-
-# **Data visualization (sonified as a waveshape) examples:**
-
-
-# ![alt_text](images/image127.png "image_tooltip")
-
-# ![alt_text](images/image128.png "image_tooltip")
-
-# ![alt_text](images/image129.png "image_tooltip")
-
-
-
-# ![alt_text](images/image130.png "image_tooltip")
-
-# ![alt_text](images/image131.png "image_tooltip")
-
-# ![alt_text](images/image132.png "image_tooltip")
-
-
-
-#         Applied and UX Design
-
-
-# ```
-#             Right Swipe
-#             Pattern Box
-#             Experimental learning mode 
-# 	for mobile navigation apps
-# ```
-
-
-
-
-
-# ![alt_text](images/image133.png "image_tooltip")
-
-
-
-# ## Applied and UX Design \
-# RightSwipe, 2015-2021
-
-# Branded laser cut webcam covers for non-profit  \
-# and business (in cooperation with Team29.org)
-
-
-# ## Idea
-#    <td>Based on the idea of promoting privacy values, the product solves three problems: 1) direct physical protection of the webcam from hacking and surveillance, 2) brand placement of organizations that share importance of protecting personal data, and 3) financial support for non-profit organizations protecting freedom of information.
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://youtu.be/d-iz-zMjASg">Early ads video</a>, sample request via <a ("mailto:davinel000@gmail.com">davinel000@gmail.com</a> 
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Team</strong>
-#    </td>
-#    <td>Viacheslav Romanov (concept, design, distribution), Ekaterina Kalacheva (website, package), Ivan Shchupov (engineering, production)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Corel Draw 13, Laser cut, engraving (acrylic), UV-printing
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>Having developed the first unique design and production technology in late 2015, we became trendsetters in the market of these souvenir products in Russia.
-# <p>
-# All profit from selling webcam covers is spent for support of human rights defending, informational, and research activities of the Team 29.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Achievements</strong>
-#    </td>
-#    <td>
-# <ol>
-
-# <li>19 prototyping iterations
-
-# <li>6 partner organizations from Russia and abroad
-
-# <li>4000+ pcs ordered
-# </li>
-# </ol>
-#    </td>
-#   </tr>
-# </table>
-
-
-# **Main process description:**
-
-
-
-# 1. Modelling in Corel Draw (design 2015, 2017, 2019, 2020)
-
-
-# ![alt_text](images/image134.png "image_tooltip")
-
-# ![alt_text](images/image135.png "image_tooltip")
-
-# ![alt_text](images/image136.png "image_tooltip")
-
-# ![alt_text](images/image137.png "image_tooltip")
-
-
-
-
-# 2. Laser cutting, engraving, printing and assembling
-
-
-# ![alt_text](images/image138.png "image_tooltip")
-
-# ![alt_text](images/image139.png "image_tooltip")
-
-# ![alt_text](images/image140.png "image_tooltip")
-
-# ![alt_text](images/image141.png "image_tooltip")
-
-# ![alt_text](images/image142.png "image_tooltip")
-
-# ![alt_text](images/image143.png "image_tooltip")
-
-# ![alt_text](images/image144.png "image_tooltip")
-
-# ![alt_text](images/image145.png "image_tooltip")
-#  \
-
-
-
-
-# 3. Package design (2017, 2019):
-
-
-# ![alt_text](images/image146.jpg "image_tooltip")
-
-# ![alt_text](images/image147.png "image_tooltip")
-
-# ![alt_text](images/image148.png "image_tooltip")
-
-# ![alt_text](images/image149.png "image_tooltip")
-
-
-
-
-# ![alt_text](images/image150.png "image_tooltip")
-
-
-
-# ## 
-# Applied and Graphic Design \
-# 	Pattern Box, (2015-2017)
-
-# Affordable and customizable lighting solutions for home
-
-
-# ## Idea
-#    <td>The general idea of the product is to provide a choice of patterns and colors that reflect the individual characteristics of the user. Adjustable glow color allows the user to project the inner world and his or her emotional state on the surrounding objects.
-# <p>
-# In addition, the decorative lamp was made affordable and easy to manufacture (including the possibility of self-assembly and painting)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://youtu.be/ISFYyh7QKG0">Video presentation</a>
-# <p>
-# <a ("https://vk.com/market-125827659">Online Store</a>
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Team</strong>
-#    </td>
-#    <td>Viacheslav Romanov (design, assembly, painting), Irina Perevalova (Distribution), Ivan Shchupov (engineering, production)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Corel Draw 13, Laser cut (plywood), paint (acrylic)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>Experimenting with patterns and forms, adding manual finishing assembly and painting, we tried to find the most interesting and non-standard combinations.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Achievements</strong>
-#    </td>
-#    <td>37 pcs ordered
-#    </td>
-#   </tr>
-# </table>
-
-
-
-
-# **Main process description:**
-
-
-
-# 1. Modelling in Corel Draw and adapting to laser cut. Manual assembly and painting. Adding electrics (AC cords, switches and RGB remote controlled lamps)
-
-
-# ![alt_text](images/image151.jpg "image_tooltip")
-
-# ![alt_text](images/image152.png "image_tooltip")
-
-# ![alt_text](images/image153.png "image_tooltip")
-
-
-# 2. Displaying
-
-
-# ![alt_text](images/image154.jpg "image_tooltip")
-
-# ![alt_text](images/image155.png "image_tooltip")
-
-# ![alt_text](images/image156.jpg "image_tooltip")
-
-# ![alt_text](images/image157.jpg "image_tooltip")
-
-
-
-# ![alt_text](images/image158.png "image_tooltip")
-
-
-
-# ## 
-# Applied and Graphic Design \
-# 	Experimental learning mode for mobile navigation apps
-
-
-# ## 
-# (concept, 2021)
-
-# A vivid alternative for better knowing about what’s going around and how to get there
-
-
-# ## Idea
-#    <td>By frequently using navigation maps the user becomes stick to the schematic representation of spece rather than to real environment and its landmarks, which leads to the issues with corellating between them. The solution may be found in a navigational mode, aimed to help users with orientation in space by using landmarks and decision points instead of street names
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("https://www.figma.com/proto/ZA9Tt6VvTMIBJrb0pmrVuS/Untitled?node-id=117%3A4634&starting-point-node-id=117%3A4775">Concept presentation</a>
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Team</strong>
-#    </td>
-#    <td>Viacheslav Romanov 
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Figma, Google Maps
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>The idea is to lesser the timeuse of navigational software, mitigate “dark concepts of HCI”, and help users to better memorize key visual inputs and build stronger orientation connections. The concept, including description and animated illustrations, was presented during the course “Interface/Interaction Design” by Prof. Peter von Maydell, HfK Bremen (WiSe 20-21).
-#    </td>
-#   </tr>
-# </table>
-
-
-
-
-# **Main slides presentation:**
-
-
-# ![alt_text](images/image159.png "image_tooltip")
-
-# ![alt_text](images/image160.png "image_tooltip")
-
-# ![alt_text](images/image161.png "image_tooltip")
-
-
-
-# ![alt_text](images/image162.png "image_tooltip")
-
-# ![alt_text](images/image163.png "image_tooltip")
-
-# ![alt_text](images/image164.png "image_tooltip")
-
-
-
-#         Theory and Science Fiction
-
-
-# ```
-#             Collapsing Time and Matter
-# ```
-
-
-
-        
-
-
-# ## 
-
-# ![alt_text](images/image165.png "image_tooltip")
-
-
-
-# ## 
-# Theory and Science Fiction \
-# 	Collapsing Time and Matter, (2021)
-
-# Media Theory term paper
-
-
-# ## Idea
-#    <td>Discussions about the nature of matter, the relationship between time and space are a component of a whole philosophical branch, including questions of ontological, epistemological nature. The aim of the work is to explore and present the views of Kodwo Eshun and Timothy Morton, in the context of their interpretations of the concepts of time and space, associations with the creative and cultural practices of electronic music, to illustrate and model them in the format of a reproduced dialogue. 
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("http://collapsing.tilda.ws/">Paper website</a>
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Author</strong>
-#    </td>
-#    <td>Viacheslav Romanov
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Tilda.cc, TouchDesigner, YouTube Music, Fuji X20.
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>This term paper explores the interpretation of time and space in the works and interviews of Timothy Morton and Kodwo Eshun, as well as researchers of the topic of environmental criticism, Afrofuturism, and Sonic fiction, by simulating fictitious dialogue in an imaginary environment, with these authors and Oswald Wiener as moderator. The search for interconnections in their approaches draws attention to the importance of the role of language, logic and politics in shaping the perception of time and space. They are changeable in the direction from a monopolistic future and linear time to a multiple futurality free from the predominance of constructions of appropriation and restriction of access. 
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Achievements</strong>
-#    </td>
-#    <td>1.0 grade at the HfK course DIGITAL MEDIA NOW: Mapping contemporary conditions by Profs. Andrea Sick and Henrik Nieratschker
-#    </td>
-#   </tr>
-# </table>
-
-
-# **Screenshots:**
-
-
-# ![alt_text](images/image166.png "image_tooltip")
-
-
-
-# ![alt_text](images/image167.png "image_tooltip")
-
-
-
-# ![alt_text](images/image168.png "image_tooltip")
-
-
-
-#         Event design and Organization
-
-
-# ```
-#             Golosadvokata events
-# ```
-
-
-
-
-
-# ## 
-
-# ![alt_text](images/image169.png "image_tooltip")
-
-
-
-# ## 
-# Event Design and Organization \
-# 	Golos Advokata events, (2017-2021)
-
-# Events for attorneys who care about the future of the community
-
-
-# ## Idea
-#    <td>Russian Bar is part of civil society, but it is fragmented and its rights are constantly violated by law enforcement state agencies and the court. Events of Golos Advokata (“Voice of Bar”) project in various regions of Russia are designed to bring together active members of the community, provide an opportunity to exchange experiences and convey the views of lawyers to the public and the media.
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Links
-#    </td>
-#    <td><a ("http://web.archive.org/web/20200512034255/https://golosadvokata.ru/">Project page from the archive</a> (original site blocked)
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Team</strong>
-#    </td>
-#    <td>Viacheslav Romanov (project coordinator, event design, team management, video streaming, outsourcing management), Elkhan Mamedov (CRM, mailing, event assistant), Ekaterina Prashchuk (content management), Serge Gray (video production), Julia Murashova (editor, community building)
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Instruments
-#    </td>
-#    <td>Tilda.cc, Timepad.ru, Event Canvas, phpList.org, Blackmagic hardware, Resolume Arena, WhatsApp.
-#    </td>
-#   </tr>
-#   <tr>
-#    ## Content
-#    </td>
-#    <td>Since 2017, the media project “Golos Advokata” has been conducting events (attended from 22 to 329 participants) for lawyers from various regions of Russia. Main topic consists of problems of protecting professional rights and the future of the Bar community. We try to make events as interactive as possible, organize a wide discussion, use video broadcasting and video recording to widely present results of events. We use Event Canvas framework for effective planning.
-#    </td>
-#   </tr>
-#   <tr>
-#    <td><strong>Achievements</strong>
-#    </td>
-#    <td>25+ events in Russia and abroad organized by the project team
-# <p>
-# 55 Russian regions out of 85 - geography of event participants.
-# <p>
-# 1436 - total number of event participants since 2017
-#    </td>
-#   </tr>
-# </table>
-
-
-
-
-# **Photos from the events:**
-
-
-# ![alt_text](images/image170.png "image_tooltip")
-
-
-
-# ![alt_text](images/image171.png "image_tooltip")
-
-
-
-# ![alt_text](images/image172.png "image_tooltip")
-
-
-
-# ![alt_text](images/image173.png "image_tooltip")
-
-
-
+    # DELIMITER
+    - title: Collapsing Time and Matter
+      id: 018
+      category: Theory and Science Fiction
+      imagefolder: collapsing_time_and_matter
+      year: 2021
+      format: term paper
+      description: Media theory term paper in fictional multimedia format
+      tags:
+      idea: Discussions about the nature of matter, the relationship between time and space are a component of a whole philosophical branch, including questions of ontological, epistemological nature. The aim of the work is to explore and present the views of Kodwo Eshun and Timothy Morton, in the context of their interpretations of the concepts of time and space, associations with the creative and cultural practices of electronic music, to illustrate and model them in the format of a reproduced dialogue.
+      links:
+        - text: Paper website
+          url: http://collapsing.tilda.ws/
+      authors:
+        *viacheslavromanov
+      instruments: Tilda.cc, TouchDesigner, YouTube Music, Fuji X20.
+      long: This term paper explores the interpretation of time and space in the works and interviews of Timothy Morton and Kodwo Eshun, as well as researchers of the topic of environmental criticism, Afrofuturism, and Sonic fiction, by simulating fictitious dialogue in an imaginary environment, with these authors and Oswald Wiener as moderator. The search for interconnections in their approaches draws attention to the importance of the role of language, logic and politics in shaping the perception of time and space. They are changeable in the direction from a monopolistic future and linear time to a multiple futurality free from the predominance of constructions of appropriation and restriction of access.
+      presentation: HfK Bremen, course DIGITAL MEDIA NOW, Mapping contemporary conditions by Profs. Andrea Sick and Henrik Nieratschker
+      illustrations:
+        - text: Screenshots
+
+  # DELIMITER
+    - title: Golosadvokata events
+      id: 019
+      category: Event design and Organization
+      imagefolder: golosadvokata_events
+      year: 2017-2021
+      format: offline events
+      description: Events for russian lawyers who care about the future of the community
+      tags:
+      idea: Russian Bar is part of civil society, but it is fragmented and its rights are constantly violated by law enforcement state agencies and the court. Events of Golos Advokata (“Voice of Bar”) project in various regions of Russia are designed to bring together active members of the community, provide an opportunity to exchange experiences and convey the views of lawyers to the public and the media.
+      links:
+        - text: Web-archive project page
+          url: https://web.archive.org/web/20200512034255/https://golosadvokata.ru/
+      authors:
+        *viacheslavromanov: project coordinator, event design, team management, video streaming, outsourcing management
+        *golosadvokatateam: information unavailable for security reasons
+      instruments: Tilda.cc, Timepad.ru, Event Canvas, phpList.org, Blackmagic hardware, Resolume Arena, WhatsApp
+      long: Since 2017, the media project “Golos Advokata” ("Voice of the Bar") has been conducting events (attended from 22 to 329 participants) for lawyers from various regions of Russia. Main topic consists of problems of protecting professional rights and the future of the Bar community. We try to make events as interactive as possible, organize a wide discussion, use video broadcasting and video recording to widely present results of events. We use Event Canvas framework for effective planning.
+      presentation: 25 offline events in Russia and abroad were organized by the project team. 55 Russian regions out of 85 - geography of event participants. 1436 - total number of event participants since 2017
+      illustrations:
+        - text: Photos from the events
