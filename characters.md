@@ -51,4 +51,17 @@ show_tile: true
 
 {% endfor %}
 
+
 </div>
+    
+	  
+  
+
+  <br/>
+## Testing lenticular surfaces
+![example1](assets\images\portfolio\posthuman\1.gif)
+  <br/>  
+![example2](assets\images\portfolio\posthuman\2.gif)
+  <br/>
+![example3](assets\images\portfolio\posthuman\3.gif)
+  <br/>

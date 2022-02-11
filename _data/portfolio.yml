@@ -238,7 +238,6 @@ works:
         - text: Textual information, simplified geometry, sounds and 3d audio rendering, as well as Oculus environment, were combinated in Touch Designer
         - text: Audio-interface and audio-reactive modules were added and connected to textures, image filters and camera route.
         - text: The work was presented to the public at the festival.
-
     - title: Noise Room Fest
       id: 007
       category: generative graphics
@@ -375,7 +374,6 @@ works:
         - text: The results of comparative plagiarism tests were carried out through the antiplagiat.ru service, visualized and added to the publication
         - text: At our small suburban hackathon, we conducted live content analysis and put together a collection of idiotic quotes.
         - text: All results, visuals and analytical conclusions were combined in a single long read.
-
     - title: Sonic Gun
       id: 012
       category: sonic experiments
@@ -401,8 +399,6 @@ works:
         - text: Building physical elements
         - text: Enclosing the board
         - text: Testing outside
-
-
     - title: Wave2
       id: 013
       category: sonic experiments
@@ -453,8 +449,6 @@ works:
         - text: Tool assembly
         - text: Collected data example (.txt file)
         - text: Data visualization (sonified as a waveshape) examples
-
-    # DELIMITER
     - title: Right Swipe
       id: 015
       category: applied and UX design
@@ -478,8 +472,6 @@ works:
         - text: Modelling in Corel Draw (design 2015, 2017, 2019, 2020)
         - text: Laser cutting, engraving, printing and assembling
         - text: Package design (2017, 2019)
-
-    # DELIMITER
     - title: Pattern Box
       id: 016
       category: applied and UX design
@@ -504,9 +496,6 @@ works:
       illustrations:
         - text: Modelling in Corel Draw and adapting to laser cut. Manual assembly and painting. Adding electrics (AC cords, switches and RGB remote controlled lamps
         - text: Displaying
-
-
-    # DELIMITER
     - title: Experimental learning mode for mobile navigation apps
       id: 017
       category: applied and UX design
@@ -526,8 +515,6 @@ works:
       presentation: The concept, including description and animated illustrations, was presented during the course “Interface/Interaction Design” by Prof. Peter von Maydell, HfK Bremen (WiSe 20-21)
       illustrations:
         - text: UX concept presentation
-        
-    # DELIMITER
     - title: Collapsing Time and Matter
       id: 018
       category: Theory and Science Fiction
@@ -547,8 +534,6 @@ works:
       presentation: HfK Bremen, course DIGITAL MEDIA NOW, Mapping contemporary conditions by Profs. Andrea Sick and Henrik Nieratschker
       illustrations:
         - text: Screenshots
-
-  # DELIMITER
     - title: Golosadvokata events
       id: 019
       category: Event design and Organization
@@ -569,3 +554,22 @@ works:
       presentation: 25 offline events in Russia and abroad were organized by the project team. 55 Russian regions out of 85 - geography of event participants. 1436 - total number of event participants since 2017
       illustrations:
         - text: Photos from the events
+    # - title: MDC
+    #   id: 020
+    #   category: Theory and Science Fiction
+    #   imagefolder: mdc
+    #   year: 2022
+    #   format: neural network generated multimedia
+    #   description: 
+    #   tags:
+    #   idea: 
+    #   links:
+    #     - text: 
+    #       url: 
+    #   authors:
+    #     *viacheslavromanov: project coordinator, event design, team management, video streaming, outsourcing management
+    #   instruments: Google Collab, GPT-3, Vegas Pro, Superflip
+    #   long: 
+    #   presentation: 
+    #   illustrations:
+    #     - text: 
