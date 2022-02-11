@@ -284,7 +284,7 @@ works:
       illustrations:
         - text: Photos and screenshots
         # DELIMITER
-    - title: Gold of Parties
+    # - title: Gold of Parties
       id: 009
       category: data visualization
       imagefolder: gold_of_parties
@@ -316,7 +316,7 @@ works:
         - text: Interactive infographics were produced (treemaps and other)
 
         # DELIMITER
-    - title: Secrets of Housing Service
+    # - title: Secrets of Housing Service
       id: 010
       category: data visualization
       imagefolder: secrets_of_housing_services
@@ -347,7 +347,7 @@ works:
         - text: An interactive calculator was presented and repeatedly updated
 
         # DELIMITER
-    - title: Attack of the Clowns
+    # - title: Attack of the Clowns
       id: 011
       category: data visualization
       imagefolder: attack_of_the_clowns
@@ -449,7 +449,7 @@ works:
         - text: Tool assembly
         - text: Collected data example (.txt file)
         - text: Data visualization (sonified as a waveshape) examples
-    - title: Right Swipe
+    # - title: Right Swipe
       id: 015
       category: applied and UX design
       imagefolder: right_swipe
@@ -534,7 +534,7 @@ works:
       presentation: HfK Bremen, course DIGITAL MEDIA NOW, Mapping contemporary conditions by Profs. Andrea Sick and Henrik Nieratschker
       illustrations:
         - text: Screenshots
-    - title: Golosadvokata events
+    # - title: Golosadvokata events
       id: 019
       category: Event design and Organization
       imagefolder: golosadvokata_events
