@@ -182,7 +182,7 @@ works:
       authors:
         *viacheslavromanov: idea, virtual environment, performance design        
       instruments: idea, concept, data collection, videos, interface, physical installation
-      long: The project was implemented as an interactive  video installation consisting of 1) adummy painted cardboard wall with a window, 2) projection screen with a video lapse of a city street Saint Petersburg, Russia, window view during self-isolation), 3) LCD screen with daily covid statistics and news headlines, 4) Controller interface (Arduino) for navigating within the timeframe of the first wave of Covid-19 pandemic  (01.04.2020-01.07.2020 - 1 frame per 20 seconds)). 4) The work was developed during the course "Art +/&&|| Design" by prof. Henrik Nieratschker (WiSe20-21).
+      long: The project was implemented as an interactive  video installation consisting of 1) a dummy painted cardboard wall with a window, 2) projection screen with a video lapse of a city street (Saint Petersburg, Russia, window view during self-isolation), 3) LCD screen with daily covid statistics and news headlines, 4) Controller interface (Arduino) for navigating within the timeframe of the first wave of Covid-19 pandemic  (01.04.2020-01.07.2020 - 1 frame per 20 seconds)). 4) The work was developed during the course "Art +/&&|| Design" by prof. Henrik Nieratschker (WiSe20-21).
       presentation: OpenSpace Domshof, Bremen, Germany. 26.06.21-03.07.21. Distance Matters. Coming Together to Stay Apart. 
       illustrations:
         - text: Photo shooting, converting and assembling in a sketch            
@@ -449,6 +449,7 @@ works:
         - text: Tool assembly
         - text: Collected data example (.txt file)
         - text: Data visualization (sonified as a waveshape) examples
+    
     # - title: Right Swipe
     #   id: 015
     #   category: applied and UX design
@@ -472,6 +473,7 @@ works:
     #     - text: Modelling in Corel Draw (design 2015, 2017, 2019, 2020)
     #     - text: Laser cutting, engraving, printing and assembling
     #     - text: Package design (2017, 2019)
+
     - title: Pattern Box
       id: 016
       category: applied and UX design
@@ -534,6 +536,7 @@ works:
       presentation: HfK Bremen, course DIGITAL MEDIA NOW, Mapping contemporary conditions by Profs. Andrea Sick and Henrik Nieratschker
       illustrations:
         - text: Screenshots
+    
     # - title: Golosadvokata events
       id: 019
       category: Event design and Organization
