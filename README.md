@@ -1,50 +1,32 @@
-# Forty - Jekyll Theme
+# A portfolio website
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+The website project for the artist's portfolio was implemented as part of the Mappe course by Prof. Dennis Paul during the winter semester of 2021-22.
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+## Modular structure
+The basis for the generation of the portfolio is a YAML file containing structured information about the works of the author. In the course of testing, the author has turned to tabular, XML, and JSON formats, but has chosen a format with a branching structure and human-readable syntax. The original idea - to generate pages using a plugin ([Datapage Generator](https://github.com/avillafiorita/jekyll-datapage_gen/issues) or [Pagemaster](https://github.com/mnyrop/pagemaster)) was rejected because Github Pages does not allow to deplatform the site with most plugins.
 
-# How to Use
+The potfolio file also contains a database of authors and team members, which project descriptions access through shortcuts. In the future, it may be possible to add a toolbase for direct links and create a page with a list of tools.
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+Data is embedded in elements based on the use of Liquid tags in cyclically called project layouts. The documentation is supplemented with illustrations of the process.
 
-Simply fork this repository and start editing the `_config.yml` file!
+## Projects structure
+Projects are categorized and a table of contents has been added to the overall portfolio. Future plans are to add filter buttons. The [Isotope](https://isotope.metafizzy.co/) module was tested.
 
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+## Illustrations embedding
+Illustrations are saved in the assets folder, each project has its own folder. The image for the project cover is taken from the root of the folder. In the future, it is planned to use the PCloud API for remote storage of illustrations. The grouped illustrations of the project documentation are lined up in a grid and complemented by the plugin-free [Image Gallery script](https://jekyllcodex.org/without-plugin/image-gallery/) from Jekyll Codex.
 
-# Added Features
+## Further developments
+[] Adding actual works to the portfolio
+[] Adding CV's to the site
+[] Adding a system of works filtering
+[] Accompanying the description of current projects with blog entries
+[] Improvement of navigation system
+[] PDF generation based on YAML
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
-
-# Credits
-
-Original README from HTML5 UP:
-
-```
-Forty by HTML5 UP
+# Base
+Based on Forty by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
 
 Credits:
 
