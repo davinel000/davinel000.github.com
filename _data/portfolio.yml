@@ -276,10 +276,12 @@ works:
           url: https://youtu.be/JCKsd_0dzWE
         - text: Performance Venue group
           url: https://www.facebook.com/events/508844193293533/?active_tab=discussion
+        - text: playlist
+          url: https://soundcloud.com/lrmlhnvgvrma/sets/lines-23-11-2019
       authors:
         *viacheslavromanov: visuals
       instruments: Derivative TouchDesigner, Panasonic GH4, Vegas Pro, SoundCloud
-      long: The work is based on author's video footages, filmed in Saint Petersburg in 2019 (Red Triangle abandoned factory, West Speed Diameter and Kanonersky island). The music scene was based on a custom SoundCloud <a ("https://soundcloud.com/lrmlhnvgvrma/sets/lines-23-11-2019">playlist</a>, consisting of instumental and ambient tracks. The selection, processing of content and the creation of effects was carried out right during the performance.
+      long: The work is based on author's video footages, filmed in Saint Petersburg in 2019 (Red Triangle abandoned factory, West Speed Diameter and Kanonersky island). The music scene was based on a custom SoundCloud playlist, consisting of instumental and ambient tracks. The selection, processing of content and the creation of effects was carried out right during the performance.
       presentation: Bring Your Own Beamer Festival, opening of Lines Space, Saint Petersburg, 23 November 2019. The footages were also used during BYOB Bremen, 2021
       illustrations:
         - text: Photos and screenshots
@@ -315,7 +317,7 @@ works:
       category: sonic experiments
       imagefolder: wave2
       year: 2021
-      format: musical instrument
+      format: data sonification
       description: Generative sonification experiment with covid hyperobject and related statistical data 
       tags:
       idea: Inspired by projects to sonify the biological properties of the coronavirus spike protein, the author sought to reproduce in musical generative form the open statistical data on coronavirus infection (from January 2020 to April 2021).

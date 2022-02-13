@@ -4,6 +4,7 @@ title: Elements
 image: assets/images/pic01.jpg
 nav-menu: false
 show_tile: false
+position:
 ---
 
 <!-- Main -->

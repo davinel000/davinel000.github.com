@@ -1,5 +1,6 @@
 <!-- Main -->
 <div id="main" class="alt">
+    <div id="{{page.title}}"></div>
 
     <!-- One -->
 
@@ -9,9 +10,9 @@
 
         <div class="inner">
 
-            <!-- <header class="major"> -->
-            <h1>{{ page.title }}</h1>
-            <!-- </header> -->
+            <header class="major">
+                <h1>{{ page.title }}</h1>
+            </header>
             <p>{{ page.description }}</p>
             <h2>Idea:</h2>
             <p>{{ page.idea }}</p>
@@ -71,15 +72,16 @@
 <!-- looping through images links start -->
 
 <div id="main" class="alt">
-    {% for member in page.illustrations %}
     <div class="inner">
-        <h3>{{ member.text }}</h3>
-
-
-        {% include image-gallery.html imagefolder = page.imagefolder subfolder = forloop.index %}
+        {% for member in page.illustrations %}
+        <h3 style="margin-top:30px">{{ member.text }}</h3>
+        {% include image-gallery.html imagefolder = page.imagefolder subfolder = forloop.index %}        
+        {% endfor %}
+        <!-- <h4><a href="#"> back to top</a></br></h4> -->
+        <a href="#pagetop" class="button">back to top</a>
     </div>
 
-    {% endfor %}
+
 </div>
 
 </section>

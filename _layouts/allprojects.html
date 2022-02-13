@@ -17,6 +17,56 @@ nav-menu: false
 
     {% include header.html %}
 
+    <div id="pagetop"></div>
+    <section id="one">
+        <div class="inner">
+            
+            <header class="major"> <h1 > {{page.title}}</h1> </header>            
+            <!-- <div class="button-group filter-button-group" style="margin-top:-24px;">
+                <a class="button special small" data-filter=".publication">featured</a>
+                <a class="button small" data-filter=".code">all</a>
+                <a class="button small" data-filter="*">active</a>
+            </div> -->
+
+<p>
+
+<!-- 
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script>
+        // init Isotope
+        var $grid = $('.grid').isotope({
+          // options
+        });
+        // filter items on button click
+        $('.filter-button-group').on( 'click', 'a', function() {
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({ filter: filterValue });
+        });
+        $('.button-group a.button').on('click', function(){
+            $('.button-group a.button').removeClass('active');
+            $(this).addClass('active');
+        });
+    </script> -->
+
+
+{% assign categories = site.data.portfolio.works | map: "category" | uniq %}
+
+{% for element in categories %}
+<h3 style="padding-top:20px; margin-bottom:5px;margin-top:0px">{{element}}</h3>
+{% for page in site.data.portfolio.works %}
+
+{% if page.category == element %}
+<a href = "#{{page.title}}"> {{page.title}}</a> <span style="color:rgb(150, 150, 150)"> ({{page.year}}, {{page.format}})</span></br>
+{% endif %}
+
+{% endfor %}
+{% endfor %}
+</div>
+</section>
+</p>
+
     <!-- {% if page.categoryfilter %}
 
     {% for entity in site.data.portfolio.works %}
@@ -34,7 +84,7 @@ nav-menu: false
     {% for page in site.data.portfolio.works %}
     {% include project.html %}
     </br>
-</br>
+    </br>
     {% endfor %}
     <!-- if no filtration -->
 
