@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/davinel000/davinel000.github.com/issues"
   },
-  "homepage": "https://github.com/davinel000/davinel000.github.com#readme",
-  "dependencies": {
-    "isotope-layout": "^3.0.6"
-  }
+  "homepage": "https://github.com/davinel000/davinel000.github.com#readme"
 }
