@@ -3,7 +3,7 @@ title: 'meta disorders classification #22'
 layout: character
 description: 'Posthuman companion. Portraits of avatars described in MDC. '
 image: assets/images/00083.jpg
-nav-menu: true
+nav-menu: false
 show_tile: true
 position: 3
 ---
