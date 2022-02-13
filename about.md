@@ -1,17 +1,32 @@
 ---
 layout: post
 title: about me
-image: site.imagefolder/personal/main.jpg"
+image: 
 description: whoami 
 nav-menu: true
 show_tile: true
 position: 1
 ---
 
-Hi! My name is {{site.title}}, I am {{site.description}}
+<section id="two" class="spotlights">
+	<section>
+		<img src="{% link assets/images/portrait.png  %}" style="max-width:400px;  object-fit:cover;" alt="hi, it's me" data-position="center center" />
+		
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>hi, i'm slava romanov and i'm {{site.description}}</h3>
+				</header>
+				{% for item in site.data.portfolio.about_me %}
+               
+                <p>{{item}}</p>
 
-{% for fact in site.data.portfolio.about_me %}
-{{fact}}
 {% endfor %}
+				<ul class="actions">
+					<li><a href="mailto:{{site.email}}" class="button">write me</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</section>
 
-Feel free to contact me by [email](mailto:davinel000@gmail.com)
