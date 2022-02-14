@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'nice to see you'
 description: null
-image: null
+image: assets\images\index\1.png
 author: null
 show_tile: false
 ---
