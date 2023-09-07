@@ -1,7 +1,11 @@
 ---
 layout: home
 title: Home
+<<<<<<< Updated upstream
 landing-title: 'Hi, my name is Forty'
+=======
+landing-title: 'welcome'
+>>>>>>> Stashed changes
 description: null
 image: null
 author: null

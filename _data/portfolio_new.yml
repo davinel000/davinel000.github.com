@@ -1,0 +1,572 @@
+about_me:
+- I am a multimedia artist, studying at the University of Arts Bremen, Germany (Digital
+  Media M.A.), with a legal, human rights and project management background.  I am
+  interested in how new media affect social environment.
+- I embody my interest in the wide diversity of projects - creating digital media
+  art, video performances, installations, applied design and organizing events, making
+  sound experiments and field recordings, designing online media for human rights
+  sector, data analysis and visualization for journalistic materials.
+- I believe that new interactive and immersive data-driven media are an important
+  component of communication strategies for two-way interaction with the audience.
+works:
+- authors:
+  - contribution: stop-motion video, sound
+    name: Viacheslav Romanov
+  category: video
+  description: A story about how a simple dinner can separate loved ones and friends
+    when the Third breaks through the screen.
+  format: stop-motion
+  id: 019
+  idea: A short frame-by-frame animation on 'At the Table' topic, about the impact
+    of television propaganda and military rhetoric.
+  illustrations:
+  - text: Physical image capture kit and Touch Designer module
+  - text: Actual images from the animation
+  imagefolder: null
+  instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
+  links:
+  - text: video presentation
+    url: https://www.youtube.com/watch?v=hoF9YWCXGP8
+  - text: video from the exhibition
+    url: https://youtu.be/B8gVVMtiYNc
+  - text: exhibition page
+    url: https://www.gadewe.de/archiv-1/
+  long: "To implement the project, the author built a specialized hardware-software\
+    \ complex for recording and processing frame-by-frame animation. The main material\
+    \ used in the animation is metal nails of various sizes. Class \u201CTrick der\
+    \ Sterne\u201D by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)"
+  presentation: Hochschultage, Campus Kino Bremen. The work was screened at the TrickFilm
+    Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
+  show_tile: true
+  tags: null
+  title: Third
+  year: 2022
+- authors:
+  - contribution: stop-motion video, processing
+    name: Viacheslav Romanov
+  - contribution: sound
+    name: '*lasseborntraeger'
+  category: video
+  description: Curious eyes gaze into sparks in the night sky. It is filled with movement
+    that carries messages.
+  format: stop-motion
+  id: 1
+  idea: Is this flow of information trying to mimic reality? Or is this all our interpretation?
+    Let's focus on something simple. And metal. The author set out to explore the
+    possibilities and principles of analog frame-by-frame animation, supplemented
+    by real-time digital image processing. The result is a short animated film about
+    a universe in which nails, an allusion to the digital environment trying to mimic
+    real-world objects.
+  illustrations:
+  - text: Physical image capture kit and Touch Designer module
+  - text: Actual images from the animation
+  imagefolder: metal_dreams
+  instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
+  links:
+  - text: video presentation
+    url: https://www.youtube.com/watch?v=hoF9YWCXGP8
+  - text: video from the exhibition
+    url: https://youtu.be/B8gVVMtiYNc
+  - text: exhibition page
+    url: https://www.gadewe.de/archiv-1/
+  long: "To implement the project, the author built a specialized hardware-software\
+    \ complex for recording and processing frame-by-frame animation. The main material\
+    \ used in the animation is metal nails of various sizes. Class \u201CTrick der\
+    \ Sterne\u201D by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)"
+  presentation: The work was screened at the TrickFilm Abendfestival, Galerie des
+    Westens, Bremen, Germany, 09.10.2021
+  show_tile: true
+  tags: null
+  title: Metal Dreams
+  year: 2021
+- authors:
+  - contribution: concept, saws layer, montage, sound
+    name: Viacheslav Romanov
+  - contribution: concept, drawings
+    name: Anastasia Guzenkova
+  category: video
+  description: Violence at the door slices the world around us with its iron teeth.
+    Do we close our eyes enough to deal with it?
+  format: stop-motion
+  id: 2
+  idea: The author continues to develop interactivity tools for developing step-by-step
+    animations. The result was a short film about the learned helplessness of citizens
+    in the face of repressions, embodied in the image of the teeth of a metal saw.
+    The work draws attention to the problems of Russian civil society and the state's
+    attempt to liquidate the International Memorial, organization protecting the memory
+    of victims of political repression.
+  illustrations:
+  - text: Preliminary materials and updated workspace
+  - text: Actual images from the animation
+  imagefolder: non_safety
+  instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
+  links:
+  - text: video presentation
+    url: https://youtu.be/dtdSBjwnP1Q
+  - text: video from the exhibition
+    url: https://youtu.be/1qbdijwvhPE
+  - text: exhibition page
+    url: https://www.gadewe.de/archiv-1/
+  long: "Rough and minimalist animated sketches, inspired by the work of William Kentridge,\
+    \ use the textures and shapes of real metal hacksaw blades as a backing. The looping,\
+    \ morphing, unrefined design, framerate shifting video tracks and soundtrack based\
+    \ on the same metal saw blades, create a sense of growing menace. The project\
+    \ continues to explore the capabilities of idiosyncratic hardware-software system\
+    \ for creating non-standard step-by-step animation. Class \u201CTrickfilmkurs\u201D\
+    \ by prof. Kati Barath, Ulrike Isenberg (SoSe21)"
+  presentation: The work was screened at the TrickFilm Abendfestival, Galerie des
+    Westens, Bremen, Germany, 09.10.2021
+  show_tile: true
+  tags: null
+  title: Non-Safety
+  year: 2021
+- authors:
+  - contribution: idea, virtual environment, perf.design
+    name: Viacheslav Romanov
+  - contribution: performing with sensors
+    name: '*qianxunchen'
+  - contribution: performing with sensors
+    name: Caroline Schlingemann
+  - contribution: performing with sensors
+    name: Melissa Wedekind
+  - contribution: saxophone
+    name: Chi Him Chik
+  category: performance
+  description: Sound-generative performance based on the appeal of sensory data to
+    randomness
+  format: electronic performance
+  id: 3
+  idea: Opening the veil of others' sleep, watching them breathe in a minimalistic
+    setup. When sound entities made of field recordings and synthetic oscillators
+    subordinate to random generation principles. Where 3D soundscape subordinates
+    to sensory data
+  illustrations:
+  - text: recording sound scenes
+  - text: building replication and a randomness network
+  - text: venue and team
+  - text: performance photo
+  imagefolder: breathe_performance
+  instruments: Derivative TouchDesigner, ZigSim, Zoom H4n Pro, GyrOSC
+  links:
+  - text: performance recording
+    url: https://youtu.be/fQWevuhIIrw
+  - text: 3D sound prototype video
+    url: https://www.youtube.com/watch?v=8B870D55sjY&t=12470s
+  - text: performance announcement
+    url: https://kunstraum34.de/xchanges/
+  long: 15 virtual sound sources were flying around the audience with filtering parameters
+    controlled separately and randomly by 4 performers in a quadro sound setup. 5
+    temporal phases meant different stages of sensible sleep, connected to different
+    sets of sound (falling asleep, travelling, escaping from a chase, finding harmony
+    and washing out with rain and sea). Breathing of the performers captured by sensors
+    was their own adventure of finding within the soundscape entities connected to
+    their own scenario and communicate with them. Course  "Electronic in Performative
+    context" by prof. Mattia Bonafini (SoSe-21).
+  presentation: Kunstraum 34 Atelierhaus, Stuttgart, Germany, Xchanges X2, 10.10.21
+  show_tile: true
+  tags: null
+  title: Breathe Performance
+  year: 2021
+- authors:
+  - contribution: idea, virtual environment, performance design
+    name: Viacheslav Romanov
+  category: interactive installation
+  description: Interactive installation about the experience of being lonely in corona
+    times
+  format: interactive installation
+  id: 4
+  idea: The impossibility to plan and foresee, the lack of trust in authorities, media
+    and statistics, the anxiety had already built a different mental state in people
+    involved in that. The idea of the project is to reflect and try to reproduce the
+    state of the fake environment, loneliness and anxiety through 3 key elements -
+    digital content, material embodiment and a physical interface to connect them.
+    Visitor doesn't have any capability to change the covid stats, the news and the
+    way people on the streets behave.
+  illustrations:
+  - text: Photo shooting, converting and assembling in a sketch
+  - text: Installation prototype modelling in Touch Designer
+  - text: Controller interface prototyping and assembling
+  - text: Physical installation assembling
+  imagefolder: fake_cardboard_window
+  instruments: idea, concept, data collection, videos, interface, physical installation
+  links:
+  - text: video presentation
+    url: https://youtu.be/XzPrJ_i2EJc
+  - text: video from the exhibition
+    url: https://youtu.be/QO96BH34G2k
+  - text: exhibition website
+    url: https://influencerstaubenheim.de/kalender/kunst-design/distance-matters.html
+  long: The project was implemented as an interactive  video installation consisting
+    of 1) a dummy painted cardboard wall with a window, 2) projection screen with
+    a video lapse of a city street (Saint Petersburg, Russia, window view during self-isolation),
+    3) LCD screen with daily covid statistics and news headlines, 4) Controller interface
+    (Arduino) for navigating within the timeframe of the first wave of Covid-19 pandemic  (01.04.2020-01.07.2020
+    - 1 frame per 20 seconds)). 4) The work was developed during the course "Art +/&&||
+    Design" by prof. Henrik Nieratschker (WiSe20-21).
+  presentation: OpenSpace Domshof, Bremen, Germany. 26.06.21-03.07.21. Distance Matters.
+    Coming Together to Stay Apart.
+  show_tile: true
+  tags: null
+  title: Through the Fake Cardboard Window
+  year: 2021
+- authors:
+  - contribution: idea, virtual environment, performance design
+    name: Viacheslav Romanov
+  category: generative graphics
+  description: Willingness to take risks by opening the veil of secrecy and, instead
+    of answering, get even more new questions
+  format: mediascreen video
+  id: 5
+  idea: Representation of Curiosity as the inner core of digital utopia and an unconscious
+    desire to ask a question to the reality.
+  illustrations:
+  - text: The project collected different source of media in TouchDesigner environment
+      and then rendered as a video. Finishing was made and sound was added in Vegas
+      Pro
+  - text: Work was sent to apply for a contest and was published on a website
+  - text: Then it was demonstrated live on a media facade
+  imagefolder: curiosity
+  instruments: Derivative TouchDesigner, Vegas Pro
+  links:
+  - text: video on a media facade
+    url: https://youtu.be/zy-d7VM8pbI
+  - text: original footage
+    url: https://youtu.be/6RnnbVt7LeY
+  - text: Video on a festival contest site
+    url: https://pixelsfest.com/en/#mediafacade
+  long: The work was built by mixing generative graphics and prerecorded video and
+    adapted for demonstaring on a large media facade of Yeltsin Center with unusual
+    shape (2200 square meters). It consisted of three parts, representing the process
+    of transition from Curiosity to action, variability and the desire to capture
+    attention as well as the collective experience as a source of identity formation
+    in the digital environment.
+  presentation: Work was demonstrated on a media facade of Yeltsin Center. Curiosity
+    scored 191 votes in an online competition
+  show_tile: true
+  tags: null
+  title: Curiosity
+  year: 2020
+- authors:
+  - contribution: idea, scenery, generative graphics, VR setup
+    name: Viacheslav Romanov
+  - contribution: textures, background, presentation
+    name: '*antonivanov'
+  - contribution: sound settings, calimba
+    name: '*artyommakarov'
+  category: generative graphics
+  description: Audiovisual adventure through the clouds of associations inside the
+    tunnel of thoughts and images related to the perception of water element
+  format: VR
+  id: 6
+  idea: The experience of creating an immersive and interactive environment for musical
+    expression and perception of the sea through direct and indirect associations.
+  illustrations:
+  - text: Textual information, simplified geometry, sounds and 3d audio rendering,
+      as well as Oculus environment, were combinated in Touch Designer
+  - text: Audio-interface and audio-reactive modules were added and connected to textures,
+      image filters and camera route.
+  - text: The work was presented to the public at the festival.
+  imagefolder: metaphor_of_the_sea
+  instruments: Derivative TouchDesigner, Oculus Rift S, Electronic kalimba
+  links:
+  - text: YouTube demonstration
+    url: https://www.youtube.com/watch?v=lKDyizwNITY
+  long: The work reveals the idea and atmosphere of the sea through the effect of
+    immersion in a three-dimensional interactive sound and visual environment. A user
+    in the Oculus Rift moves through a tunnel built of adjectives describing the sea.
+    To move, the user must play his own unique melody on the electronic calimba. During
+    the journey, the user is surrounded by luminous and sounding models of marine
+    life.
+  presentation: "\u201CMetaphor of the Sea\u201D was successfully presented on \u201C\
+    Form of Communication\u201D visual art festival in Saint Petersburg, Russia as\
+    \ the graduation work of students of the course \"Visual programming in Kvadrat\
+    \ Youth Center\""
+  tags: null
+  title: Metaphor of the Sea
+  year: 2019
+- authors:
+  - contribution: visuals
+    name: Viacheslav Romanov
+  - contribution: drone music
+    name: Tim Six
+  category: generative graphics
+  description: Drone&Ambient experience through the language of nature
+  format: live performance
+  id: 7
+  idea: Visualization of intangible rhythm, cyclicity, symmetry and harmony of music,
+    through a combination of natural landscapes and geometry
+  illustrations:
+  - text: Video footages were filmed in May-July 2019 and converted to HAP format
+      in Vegas
+  - text: A modular interface consisting of videos, effects and additional generative
+      graphics was built in Touch Designer and then connected to the Novation midi-interface
+  - text: Final live performance was carried out at the festival
+  imagefolder: noiseroomfest
+  instruments: Derivative TouchDesigner, Panasonic GH4, Vegas Pro, Novation LaunchControl
+    XL
+  links:
+  - text: Live performance video
+    url: https://youtu.be/iMPIqfVS5Mg
+  - text: Festival group
+    url: https://vk.com/noiseroomfest
+  long: The work is based on author's video footages, filmed in Morocco, Berlin and
+    the Leningrad region in 2019. Reflex hunt for rhythm and symmetry was the core
+    theme and was revealed through the spray of a waterfall, blossoming flowers and
+    man-made structures, shifting and changing one to each other in combination with
+    complex geometries.
+  presentation: Museum of Sound, GES-21 (Gallery of Experimental Sound 21), Saint
+    Petersburg, 14 March 2020. The footages were also used during BYOB Bremen, 2021
+  tags: null
+  title: Noise Room Fest
+  year: 2020
+- authors:
+  - contribution: visuals
+    name: Viacheslav Romanov
+  category: generative graphics
+  description: The Poetry of Concrete and the Ripples of Brickwork
+  format: live performance
+  id: 008
+  idea: An empty, freshly created and still untouched space of the new leisure complex
+    had completely white walls which were ideal for creating light installations.
+    For this reason, the author decided to select his video footages on architecture
+    thematic - brick buildings of abandoned factories, concrete colonnades of viaducts,
+    road junctions and bridges. In the symbolic act of video performance, the history
+    of places filled with meaning and experience of the past comes into contact with
+    a completely new environment of the future but leaves no material mark.
+  illustrations:
+  - text: Photos and screenshots
+  imagefolder: red_light_performance
+  instruments: Derivative TouchDesigner, Panasonic GH4, Vegas Pro, SoundCloud
+  links:
+  - text: Live performance video
+    url: https://youtu.be/JCKsd_0dzWE
+  - text: Performance Venue group
+    url: https://www.facebook.com/events/508844193293533/?active_tab=discussion
+  - text: playlist
+    url: https://soundcloud.com/lrmlhnvgvrma/sets/lines-23-11-2019
+  long: The work is based on author's video footages, filmed in Saint Petersburg in
+    2019 (Red Triangle abandoned factory, West Speed Diameter and Kanonersky island).
+    The music scene was based on a custom SoundCloud playlist, consisting of instumental
+    and ambient tracks. The selection, processing of content and the creation of effects
+    was carried out right during the performance.
+  presentation: Bring Your Own Beamer Festival, opening of Lines Space, Saint Petersburg,
+    23 November 2019. The footages were also used during BYOB Bremen, 2021
+  tags: null
+  title: Red Light Performance
+  year: 2019
+- authors:
+  - contribution: Viacheslav Romanov
+    name: name
+  - contribution: https://www.facebook.com/viacheslav.romanov.9
+    name: url
+  category: sonic experiments
+  description: A portable synth and an open platform for sonic experiments and distance
+  format: musical instrument
+  id: 10
+  idea: The author created a tool for reproducing the synesthetic equivalent of the
+    distance between objects in space in a form of a physical interface that playback
+    sound with different characteristics. The author strived for creating an artifact
+    that provides playful interaction and easy development and updating.
+  illustrations:
+  - text: Building physical elements
+  - text: Enclosing the board
+  - text: Testing outside
+  imagefolder: sonic_gun
+  instruments: Arduino, Klangstrom board, Dremel, Soldering iron
+  links:
+  - text: Video experiments
+    url: https://youtu.be/Zy8pOGqwx0M
+  - text: Klangstrom website
+    url: http://klangstrom-for-arduino.dennisppaul.de/about/
+  - text: Concept video
+    url: https://www.youtube.com/watch?v=I_t3hFfjt9Y
+  long: Author decided to embody the musical instrument in the form of a sci-fi gun.
+    It became a fierce means of Sonic Fiction in the form of a console gamepad, attaching
+    an interface to the basic concept of pointing at the target. It uses the Klangstrom
+    board platform and incoming digital and analog signals to generate and process
+    a real-time audio. It gets data from a laser distance sensor (LIDAR) as well as
+    analog input via 6 buttons and a pressure sensor for triggering and changing individual
+    sound parameters - frequency, modulation, filtering. Gives the possibility to
+    modify the signal processing settings to obtain a different sound character within
+    Arduino environment.
+  presentation: "Course \u201CNew Musical Instruments\u201D by prof. Dennis Paul,\
+    \ HfK Bremen (SoSe21)"
+  tags: null
+  title: Sonic Gun
+  year: 2021
+- authors:
+  - contribution: Viacheslav Romanov
+    name: name
+  - contribution: https://www.facebook.com/viacheslav.romanov.9
+    name: url
+  category: sonic experiments
+  description: Generative sonification experiment with covid hyperobject and related
+    statistical data
+  format: data sonification
+  id: 11
+  idea: Inspired by projects to sonify the biological properties of the coronavirus
+    spike protein, the author sought to reproduce in musical generative form the open
+    statistical data on coronavirus infection (from January 2020 to April 2021).
+  illustrations:
+  - text: Working with 2 datasets (COVID Observer and Apple Mobility Trends)
+  - text: Building basic visualizations for composition
+  - text: Building a sketch in Processing
+  imagefolder: wave2
+  instruments: Processing, Wellen library for Processing
+  links:
+  - text: Original audio
+    url: https://soundcloud.com/lrmlhnvgvrma/waves-mastered-version?si=a1980aea3c8f47279cf2306a5e10d22d
+  - text: Video
+    url: https://vimeo.com/535248819
+  - text: Radioshow page
+    url: http://transient-sensors-and-the-eternal-algorithmic-composition.digitalmedia-bremen.de/radio-show/slavaromanov--waves2
+  long: Most of the composition is based on the number of daily and total infections,
+    deaths and recoveries in the world (from the covid observer portal), and Apple
+    mobile activity index (how often users navigated every day). The rhythmic and
+    emotional picture of growing anxiety is formed through binary transformations,
+    minor scales and frequency modulations based on weekly and monthly dynamics. Using
+    the Wellen library for Processing language (developed by Dennis Paul), the author
+    is experimenting with the available classes and methods and plans to create various
+    generative works based on data from cities and countries around the world.
+  presentation: "Course \u201CTransient Sensors and Eternal Algorithmic Composition\u201D\
+    \ by prof. Dennis Paul, HfK Bremen (WiSe20-21). Presented on Radio Angrezi Live\
+    \ Show on 12.04.2021"
+  tags: null
+  title: Wave2
+  year: 2021
+- authors:
+  - contribution: Viacheslav Romanov
+    name: name
+  - contribution: https://www.facebook.com/viacheslav.romanov.9
+    name: url
+  category: sonic experiments
+  description: Reproducing distance through alternative artistic means of expression
+  format: data collection instrument
+  id: 12
+  idea: A rethinking of distance between objects, by reproducing its characteristics
+    through alternative artistic means of expression (generative sound, video). Interaction
+    with the created instrument is showing the significance of the chosen observation
+    point, the trajectory of movement, as well as the environment itself, as they
+    allow to fill the sequence of recorded data, a kind of "choreography".
+  illustrations:
+  - text: Tool assembly
+  - text: Collected data example (.txt file)
+  - text: Data visualization (sonified as a waveshape) examples
+  imagefolder: distance_synesthesia
+  instruments: Arduino, Derivative TouchDesigner, Digital Thermometer
+  links:
+  - text: Data experiment 1 video
+    url: https://www.youtube.com/watch?v=R4yP0RAigZU
+  - text: Data experiment 2 video
+    url: https://www.youtube.com/watch?v=Q3gZFAg3Pn8
+  long: Distance data is obtained through the laser distance-measuring sensor (LIDAR)
+    and saved as individual sequences to an SD card.  Sound indication allows you
+    to get an idea of the characteristic of the sound in real time. The collected
+    data can be processed in any program working with text files. The device also
+    allows you to send current distance signals via USB cable to the serial port.
+  presentation: "The work was developed during the course \"AutomationDistribution\
+    \ \u2013 Sites, Technologies, Politics\" by Prof. Henrik Nieratschker (WiSe20-21)."
+  tags: null
+  title: Distance Synesthesia
+  year: 2021
+- authors:
+  - contribution: design, assembly, painting
+    name: Viacheslav Romanov
+  - contribution: distribution
+    name: '*irinaperevalova'
+  - contribution: engineering, production
+    name: '*ivanshchupov'
+  category: applied and UX design
+  description: Affordable and customizable lighting solutions for home
+  format: video
+  id: 14
+  idea: The general idea of the product is to provide a choice of patterns and colors
+    that reflect the individual characteristics of the user. Adjustable glow color
+    allows the user to project the inner world and his or her emotional state on the
+    surrounding objects. In addition, the decorative lamp was made affordable and
+    easy to manufacture (including the possibility of self-assembly and painting)
+  illustrations:
+  - text: Modelling in Corel Draw and adapting to laser cut. Manual assembly and painting.
+      Adding electrics (AC cords, switches and RGB remote controlled lamps
+  - text: Displaying
+  imagefolder: home lighting
+  instruments: Corel Draw 13, Laser cut (plywood), paint (acrylic)
+  links:
+  - text: Video presentation
+    url: https://youtu.be/ISFYyh7QKG0
+  - text: Online Store
+    url: https://vk.com/market-125827659
+  long: Experimenting with patterns and forms, adding manual finishing assembly and
+    painting, we tried to find the most interesting and non-standard combinations.
+  presentation: 37 pcs. were ordered
+  tags: null
+  title: Pattern Box
+  year: 2015-2017
+- authors:
+  - contribution: Viacheslav Romanov
+    name: name
+  - contribution: https://www.facebook.com/viacheslav.romanov.9
+    name: url
+  category: applied and UX design
+  description: A vivid alternative for better knowing about what is going on around
+    and how to get there
+  format: UX concept
+  id: 15
+  idea: By frequently using navigation maps the user becomes stick to the schematic
+    representation of spece rather than to real environment and its landmarks, which
+    leads to the issues with corellating between them. The solution may be found in
+    a navigational mode, aimed to help users with orientation in space by using landmarks
+    and decision points instead of street names
+  illustrations:
+  - text: UX concept presentation
+  imagefolder: experimental_learning_mode
+  instruments: Figma, Google Maps
+  links:
+  - text: Concept presentation
+    url: https://www.figma.com/proto/ZA9Tt6VvTMIBJrb0pmrVuS/Untitled?node-id=117%3A4634&starting-point-node-id=117%3A4775
+  long: "The idea is to lesser the timeuse of navigational software, mitigate \u201C\
+    dark concepts of HCI\u201D, and help users to better memorize key visual inputs\
+    \ and build stronger orientation connections."
+  presentation: "The concept, including description and animated illustrations, was\
+    \ presented during the course \u201CInterface/Interaction Design\u201D by Prof.\
+    \ Peter von Maydell, HfK Bremen (WiSe 20-21)"
+  tags: null
+  title: Experimental learning mode for mobile navigation apps
+  year: 2021
+- authors:
+  - contribution: Viacheslav Romanov
+    name: name
+  - contribution: https://www.facebook.com/viacheslav.romanov.9
+    name: url
+  category: theory and science fiction
+  description: Media theory term paper in fictional multimedia format
+  format: term paper
+  id: 018
+  idea: Discussions about the nature of matter, the relationship between time and
+    space are a component of a whole philosophical branch, including questions of
+    ontological, epistemological nature. The aim of the work is to explore and present
+    the views of Kodwo Eshun and Timothy Morton, in the context of their interpretations
+    of the concepts of time and space, associations with the creative and cultural
+    practices of electronic music, to illustrate and model them in the format of a
+    reproduced dialogue.
+  illustrations:
+  - text: Screenshots
+  imagefolder: collapsing_time_and_matter
+  instruments: Tilda.cc, TouchDesigner, YouTube Music, Fuji X20.
+  links:
+  - text: Paper website
+    url: http://collapsing.tilda.ws/
+  long: This term paper explores the interpretation of time and space in the works
+    and interviews of Timothy Morton and Kodwo Eshun, as well as researchers of the
+    topic of environmental criticism, Afrofuturism, and Sonic fiction, by simulating
+    fictitious dialogue in an imaginary environment, with these authors and Oswald
+    Wiener as moderator. The search for interconnections in their approaches draws
+    attention to the importance of the role of language, logic and politics in shaping
+    the perception of time and space. They are changeable in the direction from a
+    monopolistic future and linear time to a multiple futurality free from the predominance
+    of constructions of appropriation and restriction of access.
+  presentation: HfK Bremen, course DIGITAL MEDIA NOW, Mapping contemporary conditions
+    by Profs. Andrea Sick and Henrik Nieratschker
+  tags: null
+  title: Collapsing Time and Matter
+  year: 2021

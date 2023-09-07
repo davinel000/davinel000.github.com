@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<!-- here's the filter bar script -->
+<script defer src="{{ site.baseurl }}/js/filter_bar.js"></script>
+{% include head.html %}
+
+
+<body>
+
+    {% include header.html %}
+
+    <section id="banner" class="style2">
+        <div class="inner">
+            <span class="image">
+                <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+            </span>
+            <header class="major">
+
+                <h1>{{ page.title }}</h1>
+
+            </header>
+            <div class="content">
+
+                {{ page.description }}
+
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Main -->
+    <div id="main" class="alt">
+        <div id="{{page.title}}"></div>
+
+        <!-- One -->
+        <section id="one">
+            {% include project_cover.html imagefolder = page.imagefolder %}
+            <div class="inner">
+                <p>{{page.content}}</p>
+
+            </div>
+        </section>
+
+        <!-- Three columns content -->
+        <section id="two">
+            <div class="inner">
+                <div class="row">
+                    <div class="4u 12u$(medium)">
+                        <h3>Authors</h3>
+                        <p>
+                            {% for member in page.authors %}
+                                <ul class="alt">
+                                    <b>{{ member[0].name }} </b> </br> {{member[1]}}
+                                </ul>
+                            {% endfor %}
+                        </p>
+                    </div>
+                    <div class="4u 12u$(medium)">
+                        <h3>Links</h3>
+                        <p>
+                            {% for member in page.links %}
+                                <ul class="alt">
+                                    <a href="{{member.url}}" target="_blank"> {{member.text}} </a>
+                                </ul>
+                            {% endfor %}
+                        </p>
+                    </div>
+                    <div class="4u$ 12u$(medium)">
+                        <h3>Instruments</h3>
+                        <p>{{ page.instruments }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image galleries -->
+        <div id="main" class="alt">
+            <div class="inner">
+                {% for member in page.illustrations %}
+                    <h3 style="margin-top:30px">{{ member.text }}</h3>
+                    {% include image-gallery.html imagefolder = page.imagefolder subfolder = forloop.index %}
+                {% endfor %}
+                <a href="#pagetop" class="button">back to top</a>
+            </div>
+        </div>
+    </div>
+</body>

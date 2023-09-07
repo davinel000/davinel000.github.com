@@ -1,0 +1,38 @@
+// filter_bar.scss
+
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter-option {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  
+    // Add transitions for smooth effects
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f2f2f2;
+    }
+  
+    &.active {
+      background-color: #ccc;
+      border-color: #333;
+    }
+  }
+  
+  .category-list,
+  .tag-list,
+  .year-list {
+    display: flex;
+    flex-wrap: wrap;
+  
+    .filter-option {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
