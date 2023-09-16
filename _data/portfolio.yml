@@ -78,6 +78,7 @@ people:
   name: Voice of the Bar Project Team
 
 works:
+
     - title: Third
       id: 019
       show_tile: true ## adding here value to test it online
@@ -99,22 +100,18 @@ works:
         *viacheslavromanov: stop-motion video, sound        
       instruments: Derivative TouchDesigner, Panasonic GH4, Blackmagic ATEM Mini, Vegas
       long: To implement the project, the author built a specialized hardware-software complex for recording and processing frame-by-frame animation. The main material used in the animation is metal nails of various sizes. Class “Trick der Sterne” by prof. Kati Barath, Ulrike Isenberg (WiSe20-21)       
-      presentation: Hochschultage, Campus Kino Bremen
-      The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
+      presentation: Hochschultage, Campus Kino Bremen. The work was screened at the TrickFilm Abendfestival, Galerie des Westens, Bremen, Germany, 09.10.2021
       illustrations:
         - text: Physical image capture kit and Touch Designer module         
         - text: Actual images from the animation
 
-      - title: In the Style of
-      - title: Edit Wars
-      - title: Clean it Up!
-      - title: Third
-      - Frese Design Preis Jury tour
-      - Hochschultage Jury tour
-      - Bibliotek Calk, Bremen Stadtbibliothek
-
-
-
+      # - title: In the Style of
+      # - title: Edit Wars
+      # - title: Clean it Up!
+      # - title: Third
+      # - Frese Design Preis Jury tour
+      # - Hochschultage Jury tour
+      # - Bibliotek Kalk, Bremen Stadtbibliothek
     - title: Metal Dreams
       id: 001
       show_tile: true ## adding here value to test it online

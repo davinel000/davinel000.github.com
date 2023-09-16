@@ -3,6 +3,29 @@
 {% elsif 'pages' == site.tiles-source %}
 {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" | sort: "position" %}
 {% endif %}
+
+
+<!-- Updating tiles 16.09.2023 to make it assemble from both pages and posts -->
+
+{% assign tiles = "" | split: "" %} <!-- Initialize an empty array -->
+
+{% if 'posts' == site.tiles-source or 'both' == site.tiles-source %}
+  {% assign tiles = site.posts | where_exp: "item", "item.show_tile != false" | sort: "position" %}
+{% endif %}
+
+{% if 'pages' == site.tiles-source or 'both' == site.tiles-source %}
+  {% assign page_tiles = site.html_pages | where_exp: "item", "item.show_tile != false" | sort: "position" %}
+  {% if 'both' == site.tiles-source %}
+    {% assign tiles = tiles | concat: page_tiles %} <!-- Merge arrays if both are needed -->
+  {% else %}
+    {% assign tiles = page_tiles %}
+  {% endif %}
+{% endif %}
+
+<!-- At this point, tiles will contain the correct items based on site.tiles-source -->
+
+
+
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
 

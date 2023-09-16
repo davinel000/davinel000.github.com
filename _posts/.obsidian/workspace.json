@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "8ce0dd388f05ea10",
+    "type": "split",
+    "children": [
+      {
+        "id": "608d418e2e59747b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d660c297ec8c7ee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-09-05-TheForgettingMachine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0529029838ccbcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "25f59d5ef31825dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c295d62fb829d67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1ea4563ebca3cbc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Interaction",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62632360ecc94dc6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5ad0e9b88bb49bdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "39de62e81bbe3fcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "597d7d09ad637fb6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023-09-05-TheForgettingMachine.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9762d78632dcaf4e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023-09-05-TheForgettingMachine.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3822d5ab952b3cc7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "773ee34f60e860ac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023-09-05-TheForgettingMachine.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "d660c297ec8c7ee4",
+  "lastOpenFiles": [
+    "2023-06-17-HumanizingTheMachine.md",
+    "2023-09-05.md",
+    "2023-09-05-TheForgettingMachine.md",
+    "2017-08-01-PatternBox.md",
+    "2019-11-23-RedLightPerformance.md",
+    "2019-10-25-MetaphorOfTheSea.md",
+    "2021-09-01-MetalDreams.md",
+    "2023-05-19-DeCode.md",
+    "2021-05-09-Wave2.md",
+    "2022-06-15-Third.md",
+    "2022-10-10-EditWarsProject.md",
+    "2021-09-29-CollapsingTimeAndMatter.md",
+    "2021-10-09-NonSafety.md",
+    "2021-10-10-BreathePerformance.md",
+    "2022-08-09-CleanItUp.md",
+    "2022-08-01-DigitalSuprematism.md"
+  ]
+}

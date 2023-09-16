@@ -6,176 +6,176 @@
 
 /* Banner */
 
-	#banner {
-		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/index/1.png")'); 
-		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		border-bottom: 0 !important;
-		cursor: default;
-		height: 30vh; //changing from 60 to make it smaller
-		margin-bottom: -3.25em;
-		max-height: 30em;
-		min-height: 26em;
+#banner {
+	@include vendor('align-items', 'center');
+	@include vendor('background-image', 'url("../images/index/1.png")'); 
+	@include vendor('display', 'flex');
+	@include padding(4em, 0, (2em, 0, 0, 0));
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 0 !important;
+	cursor: default;
+	height: 30vh; //changing from 60 to make it smaller
+	margin-bottom: -3.25em;
+	max-height: 30em;
+	min-height: 26em;
+	position: relative;
+	top: -3.25em; //was 3.25
+
+	&:after {
+		@include vendor('transition', 'opacity #{_duration(banner)} ease');
+		@include vendor('transition-delay', '0.75s');
+		@include vendor('pointer-events', 'none');
+		background-color: _palette(bg);
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		opacity: 0.9;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	h1 {
+		font-size: 3.25em;
+	}
+
+	> .inner {
+		@include vendor('transition', (
+			'opacity 1.5s ease',
+			'transform 0.5s ease-out',
+			'filter 0.5s ease',
+			'-webkit-filter 0.5s ease'
+		));
+		padding: 0 !important;
 		position: relative;
-		top: -3.25em; //was 3.25
+		z-index: 2;
 
-		&:after {
-			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
-			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0.9;
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
+		.image {
+			display: none;
 		}
 
-		h1 {
-			font-size: 3.25em;
-		}
+		header {
+			width: auto;
 
-		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
-			padding: 0 !important;
-			position: relative;
-			z-index: 2;
-
-			.image {
-				display: none;
-			}
-
-			header {
+			> :first-child {
 				width: auto;
 
-				> :first-child {
-					width: auto;
-
-					&:after {
-						max-width: 100%;
-					}
-				}
-			}
-
-			.content {
-				@include vendor('display', 'flex');
-				@include vendor('align-items', 'center');
-				margin: 0 0 _size(element-margin) 0;
-
-				> * {
-					margin-left: 1.5em;
-					margin-bottom: 0;
-				}
-
-				> :first-child {
-					margin-left: 0;
-				}
-
-				p {
-					font-size: 0.7em;
-					font-weight: _font(weight-bold);
-					letter-spacing: _font(letter-spacing-alt);
-					text-transform: uppercase;
+				&:after {
+					max-width: 100%;
 				}
 			}
 		}
 
-		&.major { // is used for main page
-			height: 30vh; //was 75
-			min-height: 20em; //was 30
-			max-height: 50em; //was 50
+		.content {
+			@include vendor('display', 'flex');
+			@include vendor('align-items', 'center');
+			margin: 0 0 _size(element-margin) 0;
 
-			&.alt {
-				  opacity: 0.75;
-			}
-		}
-
-		&.style1 { &:after { background-color: _palette(accent1); } }
-		&.style2 { &:after { background-color: _palette(accent2); } }
-		&.style3 { &:after { background-color: _palette(accent3); } }
-		&.style4 { &:after { background-color: _palette(accent4); } }
-		&.style5 { &:after { background-color: _palette(accent5); } }
-		&.style6 { &:after { background-color: _palette(accent6); } }
-
-		body.is-loading & {
-			&:after {
-
-				opacity: 1.0;
-
-				opacity: 1;//was 1 looks better
-
+			> * {
+				margin-left: 1.5em;
+				margin-bottom: 0;
 			}
 
-			> .inner {
-				@include vendor('filter', 'blur(0.5em)'); //changed from 0.125
-				@include vendor('transform', 'translateX(-5em)'); //was -5em
-				opacity: 0; //starting opacity of the inner content
-			}
-		}
-
-		@include breakpoint(large) {
-			background-attachment: scroll;
-		}
-
-		@include breakpoint(small) {
-			@include padding(0em, 0, (2em, 0, 0, 0));
-			height: auto;
-			margin-bottom: -2.75em;
-			max-height: none;
-			min-height: 0;
-			top: -2.75em;
-
-			h1 {
-				font-size: 2em;
+			> :first-child {
+				margin-left: 0;
 			}
 
-			> .inner {
-				.content {
-					display: block;
-
-					> * {
-						margin-left: 0;
-						margin-bottom: _size(element-margin);
-					}
-				}
-			}
-
-			&.major {
-				height: auto;
-				min-height: 0;
-				max-height: none;
-			}
-		}
-
-		@include breakpoint(xsmall) {
-			@include padding(4em, 0, (2em, 0, 0, 0));
-
-			> .inner {
-				.content {
-					p {
-						br {
-							display: none;
-						}
-					}
-				}
-			}
-
-			&.major {
-				@include padding(6em, 0, (2em, 0, 0, 0));
+			p {
+				font-size: 0.7em;
+				font-weight: _font(weight-bold);
+				letter-spacing: _font(letter-spacing-alt);
+				text-transform: uppercase;
 			}
 		}
 	}
+
+	&.major { // is used for main page
+		height: 30vh; //was 75
+		min-height: 20em; //was 30
+		max-height: 50em; //was 50
+
+		&.alt {
+			  opacity: 0.75;
+		}
+	}
+
+	&.style1 { &:after { background-color: _palette(accent1); } }
+	&.style2 { &:after { background-color: _palette(accent2); } }
+	&.style3 { &:after { background-color: _palette(accent3); } }
+	&.style4 { &:after { background-color: _palette(accent4); } }
+	&.style5 { &:after { background-color: _palette(accent5); } }
+	&.style6 { &:after { background-color: _palette(accent6); } }
+
+	body.is-loading & {
+		&:after {
+
+			opacity: 1.0;
+
+			opacity: 1;//was 1 looks better
+
+		}
+
+		> .inner {
+			@include vendor('filter', 'blur(0.5em)'); //changed from 0.125
+			@include vendor('transform', 'translateX(-5em)'); //was -5em
+			opacity: 0; //starting opacity of the inner content
+		}
+	}
+
+	@include breakpoint(large) {
+		background-attachment: scroll;
+	}
+
+	@include breakpoint(small) {
+		@include padding(0em, 0, (2em, 0, 0, 0));
+		height: auto;
+		margin-bottom: -2.75em;
+		max-height: none;
+		min-height: 0;
+		top: -2.75em;
+
+		h1 {
+			font-size: 2em;
+		}
+
+		> .inner {
+			.content {
+				display: block;
+
+				> * {
+					margin-left: 0;
+					margin-bottom: _size(element-margin);
+				}
+			}
+		}
+
+		&.major {
+			height: auto;
+			min-height: 0;
+			max-height: none;
+		}
+	}
+
+	@include breakpoint(xsmall) {
+		@include padding(4em, 0, (2em, 0, 0, 0));
+
+		> .inner {
+			.content {
+				p {
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+
+		&.major {
+			@include padding(6em, 0, (2em, 0, 0, 0));
+		}
+	}
+}

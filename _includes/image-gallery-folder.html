@@ -1,0 +1,66 @@
+<style>
+    .image-gallery-folder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-height: 600px; /* Set the maximum height */
+        overflow: auto;
+    }
+    .box {
+        flex: 1;
+        min-width: calc(20% - 10px); /* Adjust this value for your needs */
+        margin: 5px;
+    }
+    .img-gallery {
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+
+<div class="image-gallery">
+    {% for file in site.static_files %}
+    {% assign postfix = include.subfolder | prepend: "/" %}
+    {% if file.path contains include.imagefolder and file.path contains postfix %}
+        {% if file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.PNG' or file.extname == '.JPEG' or file.extname == '.JPG' %}
+            <div class="box">
+                <a href="{{ file.path }}" target="_blank" data-lightbox="gallery" data-title="{{ file.name }}" style = "border-bottom: none"> <!-- Make sure to add the required attributes for Lightbox -->
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-gallery" />
+                </a>
+            </div>
+        {% endif %}
+    {% endif %}
+    {% endfor %}
+</div>
+
+
+
+
+
+<!-- <style>
+    
+    .image-gallery-folder {overflow: auto; margin-left: -1%!important;}
+    .image-gallery-folder li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery-folder li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery-folder li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery-folder li a img {width: 100%; display: block;}
+</style> -->
+
+
+
+
+<!-- <div class="image-gallery-folder">
+    {% for file in site.static_files %}
+    {% assign postfix = include.subfolder | prepend: "/" %}
+    {% if file.path contains include.imagefolder and file.path contains postfix %}
+        {% if file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.PNG' or file.extname == '.JPEG' or file.extname == '.JPG' %}
+            <div class="box">
+                <a href="{{ file.path }}" target="_blank" style = "border-bottom: none"> 
+                    <img src="{{ file.path }}" alt="{{ file.name }}" class="img-gallery" />
+                </a>
+            </div>
+        {% endif %}
+    {% endif %}
+    {% endfor %}
+</div> -->
+
+
