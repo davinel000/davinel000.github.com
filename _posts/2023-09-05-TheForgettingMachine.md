@@ -18,12 +18,6 @@ image: assets/images/portfolio/forgetting_machine/Slide4.jpg
 ## Idea
 The Forgetting Machine is an experimental artistic study that interprets the principles of how our memory operates, distorts, and reimagines events. It features a self-driving agent that combines both old and new visual projection mediums. This agent engages in an interplay of feedback loops, machine dialogues, generative captions, and overlays imagery onto 1970s-1980s discarded diaslides of an unidentified Bremen family. The title of the artwork is derived from the eponymous book by neuroscientist Rodrigo Quian Quiroga, who studies memory dynamics and narratives.
 
-## Long Description
-This project manifests the collaborative vision of 14 artists and researchers under the guidance of Peter Kirn. It premiered on the stage of the Folkwang Music School in Essen, as part of the "Blaues Rauschen" festival's Open Sound HackLab. Leveraging state-of-the-art AI algorithms, including GANprompts for "machine self" representation, the performance destabilizes the boundaries between the human and the algorithmic. It provokes audiences to rethink the ethical, cultural, and technological implications of AI's increasingly pervasive role in shaping our actions, perceptions, and values.
-
-## Presentation
-The performance premiered on June 17, 2023, as a culmination of a four-day intensive HackLab. Each act dynamically integrated ChatGPT-generated dramaturgical instructions, forming an ever-evolving theatrical narrative. The venue transformed into a techno-sensory playground where sound and visuals were manipulated through human movement, and feedback loops with AI offered a cyclical, interactive experience.
-
 ## Video introduction (part of the installation)
 {% include youtube.html id="dukXhJ3mwgw" %}
 
