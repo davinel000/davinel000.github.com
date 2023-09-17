@@ -9,7 +9,7 @@ id: 004
 nav-menu: true
 show_tile: true
 position: 3
-image: assets/images/portfolio/edit_wars/main.jpg
+image: /assets/images/portfolio/edit_wars/main.jpg
 ---
 
 ## Idea
