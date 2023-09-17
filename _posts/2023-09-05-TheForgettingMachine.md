@@ -69,7 +69,7 @@ The final exhibition is scheduled to be held from November 20-27, 2023, at UMZU 
 4. Genova, Lisa and Lisa Monteggia. [“How the Brain Remembers.” YouTube, uploaded by Vanderbilt University, 2021](https://www.youtube.com/watch?v=FhflBSfCrCM) 
 5. Genova, Lisa. [“How Your Memory Works – and Why Forgetting Is Totally OK.” YouTube, uploaded by TED, 2021](https://www.youtube.com/watch?v=Irx0tC92fdE)
 6. Storage, Daniel. [“Memory Errors, Forgetting, and Learning” YouTube, uploaded by Daniel Storage, 2020](https://www.youtube.com/watch?v=p9Fx5DcnVwk)
-7. Miller, Brooke. [“Memory Errors | Psychology”. YouTube, uploaded by Course Hero, 2019](https://www.youtube.com/watch?v=p9Fx5DcnVwk)
+7. Miller, Brooke. [“Memory Errors Psychology”. YouTube, uploaded by Course Hero, 2019](https://www.youtube.com/watch?v=p9Fx5DcnVwk)
 8. Atchison, Kristin. [“Introduction to Psychology:6.3 - Memory- Forgetting” YouTube, uploaded by Dr. Kristin Atchison, 2019](https://www.youtube.com/watch?v=p9Fx5DcnVwk)
 9. Yale, Kathleen et al. [“Remembering and Forgetting: Crash Course Psychology #14.” YouTube, uploaded by CrashCourse, 2014](https://www.youtube.com/watch?v=HVWbrNls-Kw)
 10. Morris, Richard G.M. [“Forgetting is a part of memory.” YouTube, uploaded by TEDx Talks, 2017](https://www.youtube.com/watch?v=vNyZmSg92HI)
