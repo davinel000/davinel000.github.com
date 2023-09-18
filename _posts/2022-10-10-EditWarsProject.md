@@ -65,12 +65,21 @@ The project was honored as the winner in the Artists for Media track of the Medi
 ## Project Team
 
 The Edit Wars team consists of:
-- Alberto Harres: Web Development
-- Antonio Hofmeister Ribeiro: Web Development
-- Lucy Savelyeva: Design
-- Maya Guseva: Analytics
-- Slava Romanov: Team Lead, Sonification, 3D Models & Prototyping
-- Sofya Ozga: Analytics, SMM
+- Alberto Harres, Artist and Developer
+- Antonio Hofmeister Ribeiro, Artist and Developer
+- Lucy Saribegyan, Artist and Designer
+- Maiia Guseva, Data Analyst
+- Slava Romanov, Media Artist, Team Lead
+- Sofya Ozga, Artist and Researcher
+
+## Tools used
+- GDELT GDG Big dataset and Google BigQuery for extracting relevant headlines
+- BERTopic and SpaCy, via Google Colab for topic clusterization and building word combination tables
+- Tableau Public for creating a research dashboard with regex filtering
+- 3d-force-graph library for rendering the Word connection graph
+- a website hosted on Netlify
+- Derivative TouchDesigner creating an "Outer" audiovisual piece
+- Unity for creating an "Inner" audiovisual piece
 
 ## Funding
 
