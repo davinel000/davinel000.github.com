@@ -78,3 +78,37 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+
+// Cookies.
+/* Updated Cookie Banner Styles */
+/* One-line Cookie Banner Styles */
+/* Revised One-line Cookie Banner Styles */
+/* Corrected One-line Cookie Banner Styles */
+.cookie-banner {
+	position: fixed;
+	bottom: 0; /* Position at the bottom */
+	left: 0;
+	right: 0; /* Stretch to the right edge */
+	background-color: rgba(0, 0, 0, 0.7); /* Example background */
+	padding: 0.5em; /* Minimal padding */
+	z-index: 1000;
+	display: flex; /* Flexbox layout */
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+  }
+  
+  .cookie-banner p {
+	margin: 0; /* Remove margin */
+	flex-grow: 1; /* Allow the text to take up available space */
+	text-align: center; /* Center the text */
+  }
+  
+  /* Corrected Button Styling */
+  .accept-cookies {
+	margin: 0; /* Remove default margin */
+	padding: 0.5em 1em; /* Adjust padding */
+	display: inline-block; /* Make it inline */
+	flex-shrink: 0; /* Prevent the button from shrinking */
+  }
+  
+  

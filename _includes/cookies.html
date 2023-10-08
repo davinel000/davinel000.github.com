@@ -1,0 +1,20 @@
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+    <button id="accept-cookies" class="accept-cookies">Accept</button>
+  </div>
+
+  <script>
+    // Check if the cookie banner has been accepted
+    if (document.cookie.indexOf('cookieBannerAccepted=true') === -1) {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }
+  
+    // When the "Accept" button is clicked
+    document.getElementById('accept-cookies').addEventListener('click', function() {
+      // Set a cookie to remember that the banner has been accepted
+      document.cookie = 'cookieBannerAccepted=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+      
+      // Hide the cookie banner
+      document.getElementById('cookie-banner').style.display = 'none';
+    });
+  </script>
