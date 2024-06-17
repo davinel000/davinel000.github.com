@@ -18,9 +18,8 @@ image:  assets/images/portfolio/in_the_style_of/main.png
 
 Using body tracking, canvas and projection mapping, it brings to light generative metaphors and interpretations of ongoing events. The authorship is purposefully indistinct, straddling between the chosen technique, the prompts, the stylization of other artists' works, and AI outputs. The pieces draw from the work of Felix Nussbaum, who painted under political repression, using early generative models of Disco Diffusion for obtaining specific metaphorical depth.
 
-<!-- insert youtube video about an artwork -->
 {% include youtube.html id="kNpG_OWO6x0" %}
-
+*Author commentary*
 
 ## Presentation
 
