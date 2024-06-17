@@ -19,12 +19,14 @@ image:  assets/images/portfolio/in_the_style_of/main.png
 Using body tracking, canvas and projection mapping, it brings to light generative metaphors and interpretations of ongoing events. The authorship is purposefully indistinct, straddling between the chosen technique, the prompts, the stylization of other artists' works, and AI outputs. The pieces draw from the work of Felix Nussbaum, who painted under political repression, using early generative models of Disco Diffusion for obtaining specific metaphorical depth.
 
 <!-- insert youtube video about an artwork -->
-{% include youtube.html id="Waa8pnL6WdM" %}
+{% include youtube.html id="kNpG_OWO6x0" %}
 
 
 ## Presentation
 
-Initially showcased at Hochschultage 2022 (Hochschule für Künste Bremen, July 2-3, 2022) as a two-layered installation, "In the Style of" was later adapted for the Brixen Water Light Lab (May 3-21, 2023) in the medieval Kloster Neustift's reading room. [Project Documentation on SPILL Young Masters](https://spill.hfk-bremen.de/slava-romanov/)
+Initially showcased at Hochschultage 2022 (Hochschule für Künste Bremen, July 2-3, 2022) as a two-layered installation, "In the Style of" was later adapted for the Brixen Water Light Lab (May 3-21, 2023, Brixen, II) in the medieval Kloster Neustift's reading room. [Project Documentation on SPILL Young Masters](https://spill.hfk-bremen.de/slava-romanov/)
+
+From January 26 to February 11, 2024, the arwork was hosted by the [LUNA Young Masters Festival](https://mediaartfriesland.nl/archief-en/luna-2024-en/2024-ym-romanov-slava-en/) (Leeuwarden, NL) 
 
 {% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_style_of/gallery/" %}
 Photos: Jimi Liu, Klaas Klee, Studio Bettina Pelz, Jennifer Braun, Slava Romanov
