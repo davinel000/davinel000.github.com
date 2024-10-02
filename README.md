@@ -15,13 +15,22 @@ Projects are categorized and a table of contents has been added to the overall p
 ## Illustrations embedding
 Illustrations are saved in the assets folder, each project has its own folder. The image for the project cover is taken from the root of the folder. In the future, it is planned to use the PCloud API for remote storage of illustrations. The grouped illustrations of the project documentation are lined up in a grid and complemented by the plugin-free [Image Gallery script](https://jekyllcodex.org/without-plugin/image-gallery/) from Jekyll Codex.
 
+## Bugfixes needed:
+- [] Hamburger menu - remove or fix content
+- [] Fix banner images in project description
+
+
+
 ## Further developments
-[] Adding actual works to the portfolio
-[] Adding CV's to the site
-[] Adding a system of works filtering
-[] Accompanying the description of current projects with blog entries
-[] Improvement of navigation system
-[] PDF generation based on YAML
+- [] Add favicon
+- [] Adding actual works to the portfolio
+- [] Adding CV's to the site
+- [] Adding a system of works filtering
+- [] Accompanying the description of current projects with blog entries
+- [] Improvement of navigation system
+- [] PDF generation based on YAML
+
+
 
 # Base
 Based on Forty by HTML5 UP

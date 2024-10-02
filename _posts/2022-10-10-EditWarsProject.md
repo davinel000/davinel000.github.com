@@ -43,6 +43,12 @@ This installation transforms narratives into auditory and visual experiences, of
 {% include image-gallery-folder.html imagefolder="/assets/images/portfolio/edit_wars/exhibition/" %}
 *Photos: Slava Romanov, Antonio Hofmeister Ribeiro, TAZ.de*
 
+## Interactive Installation: “Propaganda Narrative Soundscapes: Dashboard”
+
+This installation, adapted for portable format, presents the detailed research insights of the Edit Wars project in a dashboard interface, combining them with realtime propaganda websites load on the second screen, and a sonified feedback within 3 7-minute soundscapes, with temporal and topical touchscreen navigation.
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/edit_wars/hdw/" %}
+*Photos: Slava Romanov*
+
 ## Presentation
 
 "Edit Wars" has been presented at multiple exhibitions:
@@ -51,12 +57,13 @@ This installation transforms narratives into auditory and visual experiences, of
 - ["Cases of Spaces"](http://www.top-ev.de/other/cases-of-spaces/), TOP, Berlin (15.02.2023)
 - Iterations, HfK Bremen Master Project Exhibition, Bremen (5-10.05.2022)
 - [Temporary Spaces class exhibition](https://vimeo.com/857817288), Hochschultage 2023, HfK Bremen (8-9.07.2023)
+- [In den Stadtlöchern](https://www.hausderwissenschaft.de/In-den-Startloechern.html) at Haus der Wissenschaft, Bremen (09.11.2023-21.02.2024)
+- [International Symposium "Sybioses: Life in Future Imperfect"](https://www.nsuweb.org/study-circles/circle-2-cybioses-life-in-the-future-imperfect/), organized by Nordic Summer University, Vilnius (06-09.03.2024)
 
-Next exhibition of the Edit Wars Project is planned in 08.11.2023-20.02.2024, in the Haus der Wissenschaft, Bremen
 
-<!-- ВСТАВИТЬ СЮДА ГАЛЕРЕЮ -->
 
-The project was realized as the Master project within the HfK Digital Media program (Winter Semester 2022-2023), with support from professors including Dennis Paul, Petra Klusmeyer, Andrea Sick, Peter Von Maydell, and Ralf Bäcker.
+
+The project was launched as the Master project within the HfK Digital Media program (Winter Semester 2022-2023), with support from professors including Dennis Paul, Petra Klusmeyer, Andrea Sick, Peter Von Maydell, and Ralf Bäcker.
 
 The project was honored as the winner in the Artists for Media track of the Mediafutures program at DemoDays 2022 in Paris. 
 
@@ -114,4 +121,7 @@ Highlighted by esteemed media outlets such as [TAZ](https://taz.de/Kunstprojekt-
 - Feb-Apr 2023: Feedback collection, funding search, and grant applications
 - May 2023: "Propaganda Narrative Soundscapes: Outer" presentation
 - Jun 2023: Mediafutures DemoDays 2023 keynote speech
+- Sep-Oct 2023: Development of the Dashboard interface
+- Nov 2023 - Feb 2024: Exhibition in Bremen
+- Mar 2024: Exhibition in Vilnius
 
