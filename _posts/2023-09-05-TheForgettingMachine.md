@@ -12,7 +12,7 @@ id: 3
 description: an experimental artistic study interpreting the principles of how our memory operates, distorts and reimagines the events taking place
 nav-menu: true
 show_tile: true
-position: 1
+position: 2
 image: assets/images/portfolio/forgetting_machine/Slide4.jpg
 ---
 ## Idea
@@ -57,7 +57,7 @@ The artwork utilizes:
 
 ## Presentation
 The documentation of the artwork was presented on September 5, 2023, at Open Space Domshof Bremen. 
-The final exhibition is scheduled to be held from November 20-27, 2023, at UMZU Bremen.
+The work was exhibited November 20-27, 2023, at UMZU Bremen.
 
 ![Presentation photo](/assets/images/portfolio/forgetting_machine/photo David Bartusch -Open-Space-Expanded-Animation.jpg)
 *photo: David Bartusch*

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "8ce0dd388f05ea10",
+    "id": "98b10e0fcb8c2f8a",
     "type": "split",
     "children": [
       {
-        "id": "608d418e2e59747b",
+        "id": "f255e6764514253a",
         "type": "tabs",
         "children": [
           {
-            "id": "d660c297ec8c7ee4",
+            "id": "1d19bea6db1f7d07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-09-05-TheForgettingMachine.md",
+                "file": "_posts/2021-11-21-SonicGun.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a0529029838ccbcb",
+    "id": "0c75f7ac376212e5",
     "type": "split",
     "children": [
       {
-        "id": "25f59d5ef31825dc",
+        "id": "2f19a44eaeb11fa6",
         "type": "tabs",
         "children": [
           {
-            "id": "8c295d62fb829d67",
+            "id": "98d7ff2bc26ab81d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +43,12 @@
             }
           },
           {
-            "id": "f1ea4563ebca3cbc",
+            "id": "27e8d3ec33865793",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Interaction",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "62632360ecc94dc6",
+            "id": "a0b195be619f6e30",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "5ad0e9b88bb49bdc",
+    "id": "85e6a690a193431b",
     "type": "split",
     "children": [
       {
-        "id": "39de62e81bbe3fcc",
+        "id": "c99e1fde3ac16542",
         "type": "tabs",
         "children": [
           {
-            "id": "597d7d09ad637fb6",
+            "id": "a0ef4672152eefdf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-09-05-TheForgettingMachine.md",
+                "file": "_posts/2021-11-21-SonicGun.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "9762d78632dcaf4e",
+            "id": "dbe137e7c3479986",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-09-05-TheForgettingMachine.md",
+                "file": "_posts/2021-11-21-SonicGun.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3822d5ab952b3cc7",
+            "id": "7524188cc0aa00f9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "773ee34f60e860ac",
+            "id": "3349cb579eb52b4e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-09-05-TheForgettingMachine.md"
+                "file": "_posts/2021-11-21-SonicGun.md"
               }
             }
           }
@@ -138,37 +138,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "d660c297ec8c7ee4",
+  "active": "1d19bea6db1f7d07",
   "lastOpenFiles": [
-    "2023-06-17-HumanizingTheMachine.md",
-    "2021-03-18-IsolateGame.md",
-    "2021-01-06-ExperimentalLearningMode.md",
-    "2020-03-14-NoiseRoomFest.md",
-    "2020-03-14-Curiosity.md",
-    "2019-11-23-RedLightPerformance.md",
-    "2022-06-15-Third.md",
-    "2022-08-01-DigitalSuprematism.md",
-    "2022-08-09-CleanItUp.md",
-    "2022-07-03-InTheStyleOf.md",
-    "2021-10-10-BreathePerformance.md",
-    "2022-10-10-EditWarsProject.md",
-    "2023-05-19-DeCode.md",
-    "2023-09-05-TheForgettingMachine.md",
-    "editwars.md",
-    "2023-09-05.md",
-    "2017-08-01-PatternBox.md",
-    "2019-10-25-MetaphorOfTheSea.md",
-    "2021-09-01-MetalDreams.md",
-    "2021-05-09-Wave2.md",
-    "2021-09-29-CollapsingTimeAndMatter.md",
-    "2021-10-09-NonSafety.md"
+    "_posts/2023-06-17-HumanizingTheMachine.md",
+    "_posts/2023-05-19-DeCode.md",
+    "_posts/2023-09-05-TheForgettingMachine.md",
+    "_posts/2021-05-09-Wave2.md",
+    "_posts/2021-11-21-SonicGun.md",
+    "_posts/2022-10-10-EditWarsProject.md"
   ]
 }

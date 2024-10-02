@@ -48,6 +48,6 @@ Digital Suprematism was created as part of the "Algorithmic Thinking with Proces
 
 The installation is based on the Processing programming language, a tool tailored for artists. It employs a variety of algorithms and data structures, such as Perlin noise and ArrayLists, to generate its images. User interaction is a key component, allowing for a dynamic and ever-changing artistic experience.
 
-## Authorship
+## Authors
 
 - Slava Romanov: Concept, design, implementation, and exploration
