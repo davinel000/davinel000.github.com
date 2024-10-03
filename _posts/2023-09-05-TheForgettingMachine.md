@@ -12,7 +12,7 @@ id: 3
 description: an experimental artistic study interpreting the principles of how our memory operates, distorts and reimagines the events taking place
 nav-menu: true
 show_tile: true
-position: 2
+position: 3
 image: assets/images/portfolio/forgetting_machine/Slide4.jpg
 ---
 ## Idea
