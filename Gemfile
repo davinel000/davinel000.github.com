@@ -9,4 +9,4 @@ end
 
 gem 'jekyll-datapage-generator'
 
-gem "webrick", "~> 1.7"
+gem 'webrick', '~> 1.7'

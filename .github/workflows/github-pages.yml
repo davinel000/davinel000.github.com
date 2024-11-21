@@ -3,41 +3,33 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master # Срабатывает на пуш в ветку master
 
 jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout the repository
-      - uses: actions/checkout@v3
-      
-      # 2. Cache Ruby gems to speed up builds
-      - name: Cache Ruby gems
-        uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      
-      # 3. Set up Ruby environment
-      - name: Setup Ruby
+      # 1. Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Setup Ruby
+      - name: Setup Ruby environment
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Укажите версию Ruby, подходящую для вашего проекта
-      
-      # 4. Install dependencies
-      - name: Install Dependencies
-        run: bundle install
-      
-      # 5. Build the Jekyll site
-      - name: Build Jekyll Site
+          ruby-version: '3.1' # Совместимо с Jekyll 4.2
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      # 4. Build the Jekyll site
+      - name: Build Jekyll site
         run: bundle exec jekyll build
-      
-      # 6. Deploy to GitHub Pages
+
+      # 5. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+        with
