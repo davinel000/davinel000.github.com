@@ -9,13 +9,35 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+      # 1. Checkout the repository
+      - uses: actions/checkout@v3
+      
+      # 2. Cache Ruby gems to speed up builds
+      - name: Cache Ruby gems
+        uses: actions/cache@v3
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses:  helaili/jekyll-action@v2
+      
+      # 3. Set up Ruby environment
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ruby-version: '3.1' # Укажите версию Ruby, подходящую для вашего проекта
+      
+      # 4. Install dependencies
+      - name: Install Dependencies
+        run: bundle install
+      
+      # 5. Build the Jekyll site
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+      
+      # 6. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
