@@ -23,7 +23,7 @@ position: 1
 image: assets/images/portfolio/sutum/main.png
 ---
 
-[ENGLISH VERSION](https://www.slavaromanov.art/interactive%20installation/2024/10/02/Sutum.html)
+[ENGLISH VERSION](https://www.slavaromanov.art/2024/shootoom)
 
 ## Idee
 
