@@ -3,7 +3,10 @@ layout: project_for_catalogue
 title: On Prompt - Humanizing the Machine Self
 year: 2023
 date: 2023-06-17
-category: Performance
+category: performance
+permalink: /:year/:slug
+
+
 tags: [AI, Human-Computer Interaction, Ethics, Theater, Performance, StableDiffusion, TouchDesigner, Team work]
 id: 003
 description: An intermedial theater performance probing the ethical, cultural, and technological intersections between AI and human beings.

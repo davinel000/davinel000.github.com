@@ -3,7 +3,9 @@ layout: project_for_catalogue
 title: Edit Wars Project
 year: 2022
 description: Deconstructing Russian propaganda narratives through data research, aiming to raise awareness against information manipulation
-category: Transdisciplinary
+category: transdisciplinary
+permalink: /:year/:slug
+
 tags: [propaganda, ethics, installation, sonification, datajournalism, stablediffusion, touchdesigner, teamwork]
 id: 004
 nav-menu: true

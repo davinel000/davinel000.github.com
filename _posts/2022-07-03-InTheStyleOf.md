@@ -3,7 +3,7 @@ layout: project_for_catalogue
 title: In the Style of
 year: 2022
 description: An interactive series of AI-generated graphic pieces exploring challenges of critical political artistic expression under war and state censorship conditions
-category: interactive multimedia installation
+category: installation
 format: Interactive multimedia installation utilizing canvas and projection mapping.
 id: 002
 nav-menu: true

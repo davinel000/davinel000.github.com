@@ -3,7 +3,11 @@ layout: project_for_catalogue
 title: The Forgetting Machine
 year: 2023
 date: 2023-09-05
-category: interactive installation
+category: installation
+permalink: /:year/:slug
+
+
+
 tags:
   - AI
   - StableDiffusion

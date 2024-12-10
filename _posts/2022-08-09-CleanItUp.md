@@ -3,7 +3,9 @@ layout: project_for_catalogue
 title: Clean It Up!
 year: 2022
 description: Dive into the hectic life of a university student as you manage studies, work, daily chores, and the daunting task of cleaning up a messy apartment before your birthday arrives.
-category: Game
+category: game
+permalink: /:year/:slug
+
 tags: [Unity, Course project]
 id: 002
 nav-menu: true

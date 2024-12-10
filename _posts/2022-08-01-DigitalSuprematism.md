@@ -3,7 +3,7 @@ layout: project_for_catalogue
 title: Digital Suprematism
 year: 2022
 description: An exploration of Suprematism through an interactive generator of avant-garde images, seeking to blend foundational artistic principles with computational creativity.
-category: Generative Art
+category: graphics
 id: 003
 nav-menu: true
 show_tile: false
