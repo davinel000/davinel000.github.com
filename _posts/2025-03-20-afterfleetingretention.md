@@ -2,7 +2,7 @@
 layout: project_for_catalogue
 title: after (fleeting retention)
 year: 2025
-date: 2024-10-02
+date: 2025-03-20
 category: installation
 permalink: /:year/:slug
 
@@ -19,7 +19,7 @@ id: 6
 description: An immersive audiovisual experience exploring the ephemeral nature of memory through fleeting afterimages
 nav-menu: true
 show_tile: true
-position: 1
+position: 2
 image: assets/images/portfolio/after/main.jpg
 ---
 
@@ -48,13 +48,17 @@ Here, the intense LED flash often produces an inverted afterimage on the retina,
 
 By decontextualizing these negatives - by removing explicit dates or locations - the installation prioritizes direct sensory engagement over narrative: each viewer pieces together his or her own fragmented story, or surrenders to the ephemeral moment in which meaning remains out of reach.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2072141928&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lrmlhnvgvrma" title="Вячеслав Романов" target="_blank" style="color: #cccccc; text-decoration: none;">Вячеслав Романов</a> · <a href="https://soundcloud.com/lrmlhnvgvrma/after" title="after (fleeting retention) - 30 min fragment" target="_blank" style="color: #cccccc; text-decoration: none;">after (fleeting retention) - 30 min fragment</a></div>
+*Listen to the 30-min fragment of audio experience:*
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2072141928&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lrmlhnvgvrma" title="Вячеслав Романов" target="_blank" style="color: #cccccc; text-decoration: none;">slava romanov</a> · <a href="https://soundcloud.com/lrmlhnvgvrma/after" title="after (fleeting retention) - 30 min fragment" target="_blank" style="color: #cccccc; text-decoration: none;">after (fleeting retention) - 30 min fragment</a></div>
+
+
 
 ## Technical Side
 
 The project utilizes a combination of technologies and materials:
 
-- **Modified Kodak Carousel Projector**: Equipped with an ultra-bright LED (~200W), Microcontroller controlled slide advance (ESP32-C3 + MOSFET + relay); Wide angle lens allows floor-to-ceiling projection 81 archive slides
+- **Modified Kodak Carousel Projector**: Equipped with an ultra-bright LED (~200W), Wireless microcontroller controlled flash and slide advance (ESP32-C3 + MOSFET + relay); Wide angle lens allows floor-to-ceiling projection of 81 archive slides
 - **Negative images** from 1950s East/West Germany and colour photos from early 2000s Lüdenscheid Thematically grouped (traffic, childhood, society, animals, etc.).
 - **Generative ambient sound**: Created using Bespoke Synth on an Intel NUC, outputting to 300W bi-amp Stereo system; Random sound triggers (10-40 seconds), aligned with bursts of light and an asynchronized LFO-based patterns for a constantly evolving audio texture 
 - **Installation setup**: Dark environment (with low-light neutral red light safety navigation) to maximize contrast and intensify afterimages
