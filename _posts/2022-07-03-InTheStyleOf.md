@@ -8,7 +8,7 @@ format: Interactive multimedia installation utilizing canvas and projection mapp
 id: 002
 nav-menu: true
 show_tile: true
-position: 2
+position: 5
 image:  assets/images/portfolio/in_the_style_of/main.png
 ---
 

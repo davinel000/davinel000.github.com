@@ -10,7 +10,7 @@ tags: [propaganda, ethics, installation, sonification, datajournalism, stabledif
 id: 004
 nav-menu: true
 show_tile: true
-position: 4
+position: 6
 image: /assets/images/portfolio/edit_wars/main.jpg
 ---
 
