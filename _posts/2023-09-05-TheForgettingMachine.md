@@ -11,8 +11,9 @@ permalink: /:year/:slug
 tags:
   - AI
   - StableDiffusion
-  - old_media
+  - old media
 id: 3
+
 description: an experimental artistic study interpreting the principles of how our memory operates, distorts and reimagines the events taking place
 nav-menu: true
 show_tile: true

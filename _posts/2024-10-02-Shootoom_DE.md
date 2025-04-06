@@ -1,7 +1,7 @@
 ---
 layout: project_for_catalogue
 title: Šūtum
-year: 2023
+year: 2024
 date: 2024-10-02
 category: installation
 permalink: /:year/:slug
@@ -73,17 +73,17 @@ Das Projekt nutzt eine Kombination aus Technologien und Materialien:
 
 ## Präsentation
 
-**Šūtum** wurde auf dem **Goldstücke**-Festival in Gelsenkirchen (DE) vom **2. bis 6. Oktober** präsentiert und lud die Besucher ein, über die Kontinuität und Wandelbarkeit von Gesetzen und Normen nachzudenken. Die Installation bietet ein meditatives Erlebnis, während die Betrachter die auftauchenden und verschwindenden Bilder beobachten und persönliche Assoziationen und Reflexionen über Gerechtigkeit, Geschichte und Moderne hervorrufen.
+**Šūtum** wurde auf dem [**Goldstücke Festival**](https://2024.goldstuecke.net/de/slava-romanov/) in Gelsenkirchen (DE) vom **2. bis 6. Oktober 2024** präsentiert und lud die Besucher ein, über die Kontinuität und die Veränderlichkeit von Gesetzen und Normen nachzudenken. Der zweite Auftritt des Kunstwerks fand während des [**Lichtrouten Festival**](https://lichtrouten.de/slava-romanov/) in Lüdenscheid (DE), 20. bis 29. März 2025, im verlassenen Forum am Sternplatz statt. Die Installation bot dem Betrachter eine meditative Erfahrung beim Betrachten der auftauchenden und verschwindenden Bilder, die persönliche Assoziationen und Reflexionen über Gerechtigkeit, Geschichte und Modernität hervorriefen.
 
-![Im Raum](\assets\images\portfolio\sutum\Sutum - Credits Slava Romanov4.png)
-
-*Foto: Slava Romanov*
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/sutum/second/" %}
+*Foto: Slava Romanov, Lars Gonikman, Jennifer Braun*
 
 Das Projekt wurde unter der Anleitung von Professor **Lorenz Potthast** (Konzeptualisierung) und Professorin **Bettina Pelz** (kuratiorische Unterstützung und Mentoring) realisiert.
 
 ## Links
 
-- [Ausstellungsprofil auf der Goldstücke Festival-Website](https://2024.goldstuecke.net/de/slava-romanov/)
+- [Ausstellungsprofil auf der Website des Goldstücke-Festivals](https://2024.goldstuecke.net/de/slava-romanov/)
+- [Ausstellungsprofil auf der Website des Lichtrouten Festivals](https://lichtrouten.de/slava-romanov/)
 
 ## Autor
 
