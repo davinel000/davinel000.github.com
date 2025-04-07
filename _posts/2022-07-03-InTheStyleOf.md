@@ -10,6 +10,7 @@ nav-menu: true
 show_tile: true
 position: 5
 image:  assets/images/portfolio/in_the_style_of/main.png
+permalink: /:year/:slug
 ---
 
 ## Idea
