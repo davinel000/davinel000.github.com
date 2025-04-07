@@ -9,6 +9,7 @@ nav-menu: true
 show_tile: false
 image:
 tags: [Term paper, Processing, Generative graphics, Study project]
+permalink: /:year/:slug
 ---
 
 ## Idea
@@ -31,11 +32,18 @@ The approach is focusing on fundamental artistic principles rather than mere sha
 
 Digital Suprematism was created as part of the "Algorithmic Thinking with Processing" course under the guidance of Professor Frieder Nake. The project was exhibited as a testament to the convergence of art and technology, serving as a bridge between traditional Suprematist principles and contemporary generative art practices. 
 
+## Interactive Sketch in P5.js
+<!-- Подключаем саму библиотеку p5 (через CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+<!-- Подключаем ваш скетч, расположенный в /assets/js/sketch.js -->
+<script src="/assets/js/digitalsuprematism.js"></script>
+
+
 ## Links
 
 - [Video Presentation](https://youtu.be/w6Qv1XuXxVY)
-- [Processing Sketch](link)
-- [Term Paper](link)
+<!-- - [Processing Sketch](link) -->
+<!-- - [Term Paper](link) -->
   
 ## Sources & References
 

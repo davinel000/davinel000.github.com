@@ -16,7 +16,7 @@ tags:
   - Mixed Media
 id: 5
 
-description: Eine Erforschung der Vergänglichkeit von Gesetzen und Normen durch ephemere Lichtgravuren auf Stein
+description: Erforschung der Vergänglichkeit von Gesetzen und Normen durch ephemere Lichtschnitzereien auf Stein
 nav-menu: false
 show_tile: false
 position: 1

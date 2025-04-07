@@ -16,7 +16,7 @@ tags:
 
 id: 6
 
-description: An immersive audiovisual experience exploring the ephemeral nature of memory through fleeting afterimages
+description: Immersive audiovisual experience that highlights the transient nature of memory through afterimages
 nav-menu: true
 show_tile: true
 position: 2

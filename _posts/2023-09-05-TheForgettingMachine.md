@@ -14,10 +14,10 @@ tags:
   - old media
 id: 3
 
-description: an experimental artistic study interpreting the principles of how our memory operates, distorts and reimagines the events taking place
+description: Experimental artistic study that interprets the principles of how our memory works, distorts and reimagines the events taking place
 nav-menu: true
 show_tile: true
-position: 3
+position: 5
 image: assets/images/portfolio/forgetting_machine/Slide4.jpg
 ---
 ## Idea
