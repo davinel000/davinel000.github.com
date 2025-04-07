@@ -18,12 +18,12 @@ description: Experimental artistic study that interprets the principles of how o
 nav-menu: true
 show_tile: true
 position: 5
-image: assets/images/portfolio/forgetting_machine/Slide4.jpg
+image: /assets/images/portfolio/forgetting_machine/Slide4.jpg
 ---
 ## Idea
 The Forgetting Machine is an experimental artistic study that interprets the principles of how our memory operates, distorts, and reimagines events. It features a self-driving agent that combines both old and new visual projection mediums. This agent engages in an interplay of feedback loops, machine dialogues, generative captions, and overlays imagery onto 1970s-1980s discarded diaslides of an unidentified Bremen family. The title of the artwork is derived from the eponymous book by neuroscientist Rodrigo Quian Quiroga, who studies memory dynamics and narratives.
 
-## Video introduction (part of the installation)
+## Video introduction
 {% include youtube.html id="dukXhJ3mwgw" %}
 
 ## Context

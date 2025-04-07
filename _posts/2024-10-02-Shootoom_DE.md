@@ -20,7 +20,7 @@ description: Erforschung der Vergänglichkeit von Gesetzen und Normen durch ephe
 nav-menu: false
 show_tile: false
 position: 1
-image: assets/images/portfolio/sutum/main.png
+image: /assets/images/portfolio/sutum/main.png
 ---
 
 [ENGLISH VERSION](https://www.slavaromanov.art/2024/shootoom)

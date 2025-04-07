@@ -20,7 +20,7 @@ description: Immersive audiovisual experience that highlights the transient natu
 nav-menu: true
 show_tile: true
 position: 2
-image: assets/images/portfolio/after/main.jpg
+image: /assets/images/portfolio/after/main.jpg
 ---
 
 <!-- [DEUTSCH VERSION](https://www.slavaromanov.art/2025/nachfleuchtigeerrinerungen) -->
