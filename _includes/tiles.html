@@ -4,7 +4,6 @@
 {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" | sort: "position" %}
 {% endif %}
 
-
 <!-- Updating tiles 16.09.2023 to make it assemble from both pages and posts -->
 
 {% assign tiles = "" | split: "" %} <!-- Initialize an empty array -->
@@ -24,36 +23,27 @@
 
 <!-- At this point, tiles will contain the correct items based on site.tiles-source -->
 
-
-
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
 
   {% assign remainder = forloop.index | modulo: 2 %}
 
-  <article>
-    <span class="image">
-      <!-- <img src="{{site.url}}/{{ tile.image }}" alt="{{ tile.title }}" /> -->
-      <!-- <img src="{{ tile.image | relative_url }}" alt="{{ tile.title }}" /> -->
-      <img src="{{ tile.image | absolute_url }}" alt="{{ tile.title }}" />
-    </span>
+  <!-- Добавляем inline background-image -->
+  <article style="background-image: url('{{ tile.image | absolute_url }}');">
+    
+    <!-- убираем <span class="image"> и <img>, потому что background-image всё решает -->
 
     {% if remainder == 1 %}
-
     <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
       <p>{{ tile.description }}</p>
-
     </header>
-
-
     {% else %}
     <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
       <p>{{ tile.description }}</p>
     </header>
     {% endif %}
-
 
   </article>
   {% endfor %}
