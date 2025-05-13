@@ -30,8 +30,8 @@ image: /assets/images/portfolio/after/main.jpg
 **after (fleeting retention)** is an immersive audiovisual experience that explores the ephemeral nature of memory through fleeting afterimages. In darkness, archival photographic negatives from the 1950s to the 2000s are briefly illuminated by intense bursts of LED flashes from a modified Kodak Carousel projector, synchronised to generative sounds. These momentary visual imprints linger briefly on the retina and inevitably fade, emphasising the fragility of our perception and memory.
 
 
-<!-- ## Video documentation
-{% include youtube.html id="gDVWrk6QsbM" %} -->
+## Video documentation
+{% include youtube.html id="Nuw8eS_uwYE" %} -->
 
 By deliberately fragmenting the original narratives of these slides, after (fleeting retention) invites visitors to piece together new meanings - or to surrender to the fleeting moment. In the sudden glow of each flash, one may catch a glimpse of a family scene, an architectural detail, a feat of labour or a hunting expedition, yet the image almost immediately dissolves into a lingering silhouette on the retina. Through this ephemeral cycle, the installation encourages reflection on how quickly we form, distort and lose visual impressions.
 

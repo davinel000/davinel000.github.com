@@ -51,6 +51,10 @@ This installation, adapted for portable format, presents the detailed research i
 {% include image-gallery-folder.html imagefolder="/assets/images/portfolio/edit_wars/hdw/" %}
 *Photos: Slava Romanov*
 
+
+### Touch interface demo
+{% include youtube.html id="b8eU9eQYDXc&t=123s" %} -->
+
 ## Presentation
 
 "Edit Wars" has been presented at multiple exhibitions:
