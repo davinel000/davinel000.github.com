@@ -53,7 +53,7 @@ This installation, adapted for portable format, presents the detailed research i
 
 
 ### Touch interface demo
-{% include youtube.html id="b8eU9eQYDXc&t=123s" %} -->
+{% include youtube.html id="b8eU9eQYDXc"%}
 
 ## Presentation
 
