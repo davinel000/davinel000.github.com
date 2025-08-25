@@ -129,5 +129,7 @@ Highlighted by esteemed media outlets such as [TAZ](https://taz.de/Kunstprojekt-
 - Jun 2023: Mediafutures DemoDays 2023 keynote speech
 - Sep-Oct 2023: Development of the Dashboard interface
 - Nov 2023 - Feb 2024: Exhibition in Bremen
-- Mar 2024: Exhibition in Vilnius
+- Mar 2024: Exhibition in Vilnius at the winter session of Cybioses Circle (Nordic Summer University)
+- Aug 2024: Presentation at the summer session of Cybioses Circle (NSU),Løgumkloster (DK)
+- Aug 2025: Presentation of the project at Discuss Data Lab Bremen with a small installation showcase
 
