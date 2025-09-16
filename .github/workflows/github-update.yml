@@ -1,3 +1,12 @@
+name: (disabled) legacy github-update
+on:
+  workflow_dispatch:  # запуск только вручную
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This workflow is intentionally disabled."
+
 # name: Build and Deploy GIT Update
 # on: [push]
 # jobs:
