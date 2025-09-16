@@ -12,7 +12,7 @@ id: 003
 description: An intermedial theater performance probing the ethical, cultural, and technological intersections between AI and human beings.
 nav-menu: true
 show_tile: false
-position: 4
+position: 7
 image: (insert-image-url)
 ---
 ## Idea

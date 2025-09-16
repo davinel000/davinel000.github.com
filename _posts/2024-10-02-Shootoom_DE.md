@@ -19,7 +19,7 @@ id: 5
 description: Erforschung der Vergänglichkeit von Gesetzen und Normen durch ephemere Lichtschnitzereien auf Stein
 nav-menu: false
 show_tile: false
-position: 1
+position: 2
 image: /assets/images/portfolio/sutum/main.png
 ---
 

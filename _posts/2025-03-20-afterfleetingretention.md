@@ -19,7 +19,7 @@ id: 6
 description: Immersive audiovisual experience that highlights the transient nature of memory through afterimages
 nav-menu: true
 show_tile: true
-position: 2
+position: 3
 image: /assets/images/portfolio/after/main.jpg
 ---
 
