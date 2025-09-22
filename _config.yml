@@ -39,6 +39,8 @@ markdown: kramdown
 sass:
   style: compressed
 
+future: true
+
 # plugins:
 # - jekyll-datapage-generator
 # # - pagemaster

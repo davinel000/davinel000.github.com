@@ -28,9 +28,9 @@ The performance premiered on June 17, 2023, as a culmination of a four-day inten
 [Humanizing the Machine Self Online Gallery](https://humanized-machine-self.common.garden/)
 [To Perform Ask ChatGPT](https://youtu.be/FGiAPUmgwjI)
 [Performance Video excerpt](https://youtube.com/shorts/On9Ct4QwR20)
-
+<!-- 
 ## Illustrations
-Image Photo: (Photographer's Name)
+Image Photo:  -->
 
 ## Format
 Intermedial theater performance incorporating sound art, live coding, motion control, and AI-generated dramaturgy.
