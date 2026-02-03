@@ -12,10 +12,18 @@
 
     {% include header.html %}
 
-    <section id="banner" class="style2">
+    {% assign banner_image = page.hero_image | default: page.image %}
+    {% if banner_image %}
+        {% assign banner_image_url = banner_image %}
+        {% unless banner_image contains '://' %}
+            {% assign banner_image_url = banner_image | relative_url %}
+        {% endunless %}
+    {% endif %}
+
+    <section id="banner" class="style2"{% if banner_image_url %} style="--banner-image: url('{{ banner_image_url }}');"{% endif %}>
         <div class="inner">
             <span class="image">
-                <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                {% if banner_image_url %}<img src="{{ banner_image_url }}" alt="">{% endif %}
             </span>
             <header class="major">
 

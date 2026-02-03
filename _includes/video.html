@@ -1,0 +1,30 @@
+{% assign video_src = include.src %}
+{% if video_src %}
+  {% assign video_src_url = video_src %}
+  {% unless video_src contains '://' %}
+    {% assign video_src_url = video_src | relative_url %}
+  {% endunless %}
+{% endif %}
+
+{% assign poster_src = include.poster %}
+{% if poster_src %}
+  {% assign poster_src_url = poster_src %}
+  {% unless poster_src contains '://' %}
+    {% assign poster_src_url = poster_src | relative_url %}
+  {% endunless %}
+{% endif %}
+
+<figure class="video-embed">
+  <video controls playsinline preload="metadata"{% if poster_src_url %} poster="{{ poster_src_url }}"{% endif %}>
+    {% if video_src_url %}
+      <source src="{{ video_src_url }}"{% if include.type %} type="{{ include.type }}"{% endif %}>
+    {% endif %}
+    Your browser does not support the video tag.
+  </video>
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+  {% if video_src_url %}
+    <p class="video-download"><a href="{{ video_src_url }}">Download video</a></p>
+  {% endif %}
+</figure>
