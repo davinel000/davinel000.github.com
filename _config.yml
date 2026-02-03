@@ -41,9 +41,8 @@ sass:
 
 future: true
 
-# plugins:
-# - jekyll-datapage-generator
-# # - pagemaster
+plugins:
+  - jekyll-sitemap
 
 # page_gen:
 # - data: 'portfolio.works'

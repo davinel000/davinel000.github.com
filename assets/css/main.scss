@@ -81,6 +81,25 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
+// Video embed
+.video-embed {
+	margin: 2em 0;
+}
+
+.video-embed video {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.video-embed figcaption,
+.video-embed .video-download {
+	font-size: 0.9em;
+	opacity: 0.8;
+	margin-top: 0.5em;
+}
+
 // Cookies.
 /* Updated Cookie Banner Styles */
 /* One-line Cookie Banner Styles */

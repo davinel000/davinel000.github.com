@@ -6,7 +6,7 @@
     
 
     {% if file.path contains include.imagefolder %}
-    {% if file.extname == '.png' or file.extname == '.jpg or file.extname == '.jpeg' or file.extname == '.PNG' or
+    {% if file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.PNG' or
     file.extname == '.JPEG' or file.extname == '.JPG' %}
 
     <img src="{{ file.path }}" alt="" />
