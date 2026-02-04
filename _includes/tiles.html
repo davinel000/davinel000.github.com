@@ -29,7 +29,7 @@
   {% assign remainder = forloop.index | modulo: 2 %}
 
   <!-- Добавляем inline background-image -->
-  <article style="background-image: url('{{ tile.image | absolute_url }}');">
+  <article style="background-image: url('{{ tile.image | relative_url }}');">
     
     <!-- убираем <span class="image"> и <img>, потому что background-image всё решает -->
 

@@ -25,13 +25,9 @@ tiles-count: 12
 # You need to restart jekyll for changes to have an effect
 socials:
   GitHub: https://github.com/davinel000
-  GitLab:
-  Google-Plus: 
   Instagram: https://www.instagram.com/davinel000/
   LinkedIn: https://www.linkedin.com/in/slavaromanov/
-  Twitter: 
   Facebook: https://www.facebook.com/viacheslav.romanov.9/ 
-  Slack:
 
 # build settings
 markdown: kramdown
