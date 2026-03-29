@@ -2,7 +2,9 @@
 title: Slava Romanov
 subtitle: Data Artist & Multimedia Developer
 email: davinel000@gmail.com
-description: working hard to rest smart with cozy lighting and vintage gadgets
+description:  #working hard to rest smart with cozy lighting and vintage gadgets
+#description: real-time data driven generative art and multimedia development
+
 baseurl: "" #"/test" # the subpath of your site, e.g. /blog
 imagefolder: "/assets/images/portfolio" # "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images" #public folder of the website (PCloud) name is added to the address
 
