@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'welcome'
+landing-title: 'Interactive systems, installations, and performance'
 description: null
 image: null
 author: null

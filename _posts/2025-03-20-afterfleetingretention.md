@@ -22,7 +22,7 @@ related_projects_eyebrow: See Also
 related_projects_heading: More projects
 related_projects:
   - title: UNGROUND
-    url: "/2025/unground/"
+    url: "/2025/unground"
     description: Kinetic typography installation about fragmented meaning in the news cycle.
   - title: Šūtum
     url: "/2024/shootoom"
