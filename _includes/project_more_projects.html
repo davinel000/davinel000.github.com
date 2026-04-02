@@ -1,0 +1,18 @@
+{% if page.related_projects and page.related_projects.size > 0 %}
+<section class="project-more">
+  <div class="project-more__header">
+    <p class="project-more__eyebrow">{{ page.related_projects_eyebrow | default: "See Also" }}</p>
+    <h2>{{ page.related_projects_heading | default: "More projects" }}</h2>
+  </div>
+  <div class="project-more__grid">
+    {% for project in page.related_projects %}
+    <a class="project-more__card" href="{{ project.url | relative_url }}">
+      <span class="project-more__title">{{ project.title }}</span>
+      {% if project.description %}
+      <span class="project-more__description">{{ project.description }}</span>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

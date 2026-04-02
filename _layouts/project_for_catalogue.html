@@ -51,8 +51,9 @@
         <section id="one">
             {% include project_cover.html imagefolder = page.imagefolder %}
             <div class="inner">
+                {% include project_language_switch.html %}
                 {{ page.content }}
-
+                {% include project_more_projects.html %}
             </div>
         </section>
  

@@ -1,0 +1,5 @@
+{% if page.alternate_url and page.alternate_label %}
+<nav class="project-language-switch" aria-label="Language switch">
+  <a href="{{ page.alternate_url | relative_url }}">{{ page.alternate_label }}</a>
+</nav>
+{% endif %}

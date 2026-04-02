@@ -146,5 +146,88 @@
 	line-height: 1;
 	padding: 0.55em 1.1em;
 }
+
+.project-language-switch {
+	margin: 0 0 2.5em 0;
+	padding-bottom: 0.85em;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+	font-size: 0.8em;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+.project-language-switch a {
+	border-bottom: 0;
+	color: inherit;
+}
+
+.project-language-switch a:hover {
+	color: _palette(accent2);
+}
+
+.project-more {
+	margin-top: 4em;
+	padding: 2em 0 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.project-more__header {
+	margin-bottom: 1.5em;
+}
+
+.project-more__eyebrow {
+	margin: 0 0 0.35em 0;
+	font-size: 0.75em;
+	letter-spacing: 0.2em;
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+
+.project-more__header h2 {
+	margin: 0;
+}
+
+.project-more__grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1em;
+}
+
+.project-more__card {
+	display: block;
+	padding: 1.1em 1.2em;
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	background: rgba(255, 255, 255, 0.03);
+	text-decoration: none;
+	transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.project-more__card:hover {
+	border-color: _palette(accent2);
+	background: rgba(255, 255, 255, 0.06);
+	transform: translateY(-2px);
+}
+
+.project-more__title,
+.project-more__description {
+	display: block;
+}
+
+.project-more__title {
+	margin-bottom: 0.35em;
+	font-weight: 600;
+}
+
+.project-more__description {
+	font-size: 0.9em;
+	line-height: 1.6;
+	opacity: 0.8;
+}
+
+@include breakpoint(small) {
+	.project-more__grid {
+		grid-template-columns: 1fr;
+	}
+}
   
   
