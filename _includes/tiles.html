@@ -1,4 +1,4 @@
-{% if 'posts' == site.tiles-source %}
+﻿{% if 'posts' == site.tiles-source %}
 {% assign tiles = site.posts %}
 {% elsif 'pages' == site.tiles-source %}
 {% assign tiles = site.html_pages | where_exp: "item", "item.show_tile != false" | sort: "position" %}
@@ -6,7 +6,7 @@
 
 <!-- Updating tiles 16.09.2023 to make it assemble from both pages and posts -->
 
-{% assign tiles = "" | split: "" %} <!-- Initialize an empty array -->
+{% assign tiles = "" | split: "" %}
 
 {% if 'posts' == site.tiles-source or 'both' == site.tiles-source %}
   {% assign tiles = site.posts | where_exp: "item", "item.show_tile != false" | sort: "position" %}
@@ -15,23 +15,22 @@
 {% if 'pages' == site.tiles-source or 'both' == site.tiles-source %}
   {% assign page_tiles = site.html_pages | where_exp: "item", "item.show_tile != false" | sort: "position" %}
   {% if 'both' == site.tiles-source %}
-    {% assign tiles = tiles | concat: page_tiles %} <!-- Merge arrays if both are needed -->
+    {% assign tiles = tiles | concat: page_tiles %}
   {% else %}
     {% assign tiles = page_tiles %}
   {% endif %}
 {% endif %}
 
-<!-- At this point, tiles will contain the correct items based on site.tiles-source -->
-
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
-
   {% assign remainder = forloop.index | modulo: 2 %}
 
-  <!-- Добавляем inline background-image -->
-  <article style="background-image: url('{{ tile.image | relative_url }}');">
-    
-    <!-- убираем <span class="image"> и <img>, потому что background-image всё решает -->
+  <article{% if tile.image %} style="background-image: url('{{ tile.image | relative_url }}');"{% endif %}>
+    {% if tile.image %}
+    <span class="image" aria-hidden="true">
+      <img src="{{ tile.image | relative_url }}" alt="">
+    </span>
+    {% endif %}
 
     {% if remainder == 1 %}
     <header class="major">
