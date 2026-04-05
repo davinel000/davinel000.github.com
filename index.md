@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Art, Code, Production'
+landing-title: 'Art + Code + Production'
 description: null
 image: null
 author: null
