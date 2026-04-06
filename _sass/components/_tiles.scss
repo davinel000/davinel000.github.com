@@ -50,6 +50,11 @@
 				z-index: 3;
 			}
 
+			p {
+				opacity: 0.72;
+				@include vendor('transition', 'opacity 0.25s ease');
+			}
+
 			h3 {
 				font-size: 1.75em;
 
@@ -97,6 +102,10 @@
 			}
 
 			&:hover {
+				p {
+					opacity: 1;
+				}
+
 				&:before {
 					opacity: 0.25;
 				}
