@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Slava Romanov / Intro
-description: Lightweight mobile-first introduction page.
+title: Intro
+description: about me
 permalink: /a/
 image: /assets/images/portfolio/umbra/main.png
 nav-menu: false

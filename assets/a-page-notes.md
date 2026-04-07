@@ -1,5 +1,15 @@
 # /a replacement notes
 
+---
+layout: post
+title: /a 
+# image: assets/images/portrait.png
+description: notes 
+nav-menu: true
+show_tile: false
+---
+
+
 This landing page lives in `/a` and is implemented in:
 
 - `/a.md`

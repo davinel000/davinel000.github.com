@@ -4,7 +4,7 @@ title: About me
 # image: assets/images/portrait.png
 description: whoami 
 nav-menu: true
-show_tile: true
+show_tile: false
 ---
 
 Hi! My name is {{site.title}}, I am {{site.description}}
