@@ -3,7 +3,7 @@ layout: page
 title: Intro
 description: about me
 permalink: /a/
-image: /assets/images/portfolio/umbra/main.png
+image: /assets/images/index/1.png
 nav-menu: false
 ---
 
