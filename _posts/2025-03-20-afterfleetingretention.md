@@ -58,7 +58,12 @@ By decontextualising these negatives, by removing explicit dates or locations, t
 
 *Listen to the 30-minute fragment of the audio experience:*
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2072141928&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lrmlhnvgvrma" title="slava romanov" target="_blank" style="color: #cccccc; text-decoration: none;">slava romanov</a> · <a href="https://soundcloud.com/lrmlhnvgvrma/after" title="after (fleeting retention) - 30 min fragment" target="_blank" style="color: #cccccc; text-decoration: none;">after (fleeting retention) - 30 min fragment</a></div>
+<div class="embed-block">
+  <iframe height="166" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2072141928&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  <div class="embed-block__meta">
+    <a href="https://soundcloud.com/lrmlhnvgvrma" title="slava romanov" target="_blank">slava romanov</a> · <a href="https://soundcloud.com/lrmlhnvgvrma/after" title="after (fleeting retention) - 30 min fragment" target="_blank">after (fleeting retention) - 30 min fragment</a>
+  </div>
+</div>
 
 ## Technical Side
 
