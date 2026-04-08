@@ -1,0 +1,40 @@
+{% assign project = include.project %}
+<article class="project-strip" id="{{ project.id }}">
+  <p class="project-strip__label project-strip__label--section">{{ project.section_label }}</p>
+  <div class="project-strip__panel project-strip__panel--visual">
+    {% include networking-folder-gallery.html
+      folder=project.gallery_folder
+      limit=project.gallery_limit
+      title=project.title
+    %}
+    <div class="project-strip__copy">
+      <h3>{{ project.title }}</h3>
+      <p class="project-strip__summary">{{ project.summary }}</p>
+      <p class="project-strip__body">{{ project.body }}</p>
+      <ul class="project-strip__tags">
+        {% for tag in project.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+
+      {% if project.related_projects %}
+      <details class="project-switcher">
+        <summary>{{ project.related_title | default: "Show related projects" }}</summary>
+        <div class="project-switcher__grid">
+          {% for related in project.related_projects %}
+          <article class="project-mini">
+            {% if related.image %}
+            <img src="{{ related.image | relative_url }}" alt="{{ related.alt | default: related.title }}">
+            {% endif %}
+            <div>
+              <h4>{{ related.title }}</h4>
+              <p>{{ related.text }}</p>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+    </div>
+  </div>
+</article>

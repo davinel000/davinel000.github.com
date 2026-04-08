@@ -1,0 +1,5 @@
+<div class="networking-page__cta-group">
+  {% for cta in include.items %}
+  <a class="{{ cta.class | default: 'button' }}" href="{{ cta.href }}"{% if cta.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ cta.label }}</a>
+  {% endfor %}
+</div>

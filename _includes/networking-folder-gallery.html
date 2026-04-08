@@ -1,0 +1,17 @@
+{% assign gallery_limit = include.limit | default: 4 %}
+{% assign gallery_files = site.static_files
+  | where_exp: "file", "file.path contains include.folder"
+  | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.PNG' or file.extname == '.JPG' or file.extname == '.JPEG'"
+  | sort: "path"
+%}
+
+<div class="project-gallery">
+  <!-- Configure gallery source folder in a.md front matter via `gallery_folder`. -->
+  <div class="project-gallery__track" aria-label="{{ include.title }} gallery">
+    {% for file in gallery_files limit: gallery_limit %}
+    <figure class="project-gallery__slide">
+      <img src="{{ file.path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}">
+    </figure>
+    {% endfor %}
+  </div>
+</div>
