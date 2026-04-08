@@ -1,17 +1,41 @@
-{% assign gallery_limit = include.limit | default: 4 %}
-{% assign gallery_files = site.static_files
-  | where_exp: "file", "file.path contains include.folder"
-  | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.PNG' or file.extname == '.JPG' or file.extname == '.JPEG'"
-  | sort: "path"
-%}
+{% assign folder = include.gallery.folder %}
+{% assign carousel_folder = include.gallery.carousel_folder %}
+{% if carousel_folder %}
+  {% assign folder = folder | append: carousel_folder %}
+{% endif %}
+{% assign explicit_files = include.gallery.files %}
+{% assign gallery_limit = include.gallery.limit | default: 12 %}
+
+{% if explicit_files %}
+  {% assign ordered_files = "" | split: "" %}
+  {% for name in explicit_files %}
+    {% assign relative_path = folder | append: name %}
+    {% assign match = site.static_files | where: "path", relative_path | first %}
+    {% if match %}
+      {% assign ordered_files = ordered_files | push: match %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign ordered_files = site.static_files
+    | where_exp: "file", "file.path contains folder"
+    | where_exp: "file", "file.extname == '.png' or file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.PNG' or file.extname == '.JPG' or file.extname == '.JPEG'"
+    | sort: "path"
+  %}
+{% endif %}
 
 <div class="project-gallery">
-  <!-- Configure gallery source folder in a.md front matter via `gallery_folder`. -->
-  <div class="project-gallery__track" aria-label="{{ include.title }} gallery">
-    {% for file in gallery_files limit: gallery_limit %}
+  <!-- Configure gallery with either explicit files or a folder / carousel_folder in a.md front matter. -->
+  <div class="project-gallery__track image-gallery" aria-label="{{ include.title }} gallery">
+    {% if ordered_files.size > 0 %}
+    {% for file in ordered_files limit: gallery_limit %}
     <figure class="project-gallery__slide">
-      <img src="{{ file.path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}">
+      <a class="project-gallery__lightbox-link" href="{{ file.path | relative_url }}" aria-label="Open {{ include.title }} image {{ forloop.index }}">
+        <img src="{{ file.path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}">
+      </a>
     </figure>
     {% endfor %}
+    {% else %}
+    <div class="project-gallery__fallback" aria-hidden="true"></div>
+    {% endif %}
   </div>
 </div>

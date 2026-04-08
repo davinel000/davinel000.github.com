@@ -1,0 +1,13 @@
+<section class="networking-page__section networking-page__section--spacious" id="selected-directions">
+  <div class="networking-page__inner">
+    <div class="direction-grid" data-direction-grid>
+      {% for item in include.section.items %}
+      <a class="direction-card" href="{{ item.href }}" data-direction-key="{{ item.key }}">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+        <span class="direction-card__link">{{ item.link_label | default: "Open project" }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

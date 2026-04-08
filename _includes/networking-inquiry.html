@@ -1,0 +1,13 @@
+<section class="networking-page__section networking-page__section--spacious" id="inquiry">
+  <div class="networking-page__inner">
+    <div class="networking-note">
+      <p class="networking-note__label">{{ include.section.title }}</p>
+      <p class="networking-note__text">{{ include.section.text }}</p>
+      {% if include.section.link_href %}
+      <p class="networking-note__link">
+        <a href="{{ include.section.link_href }}" {% if include.section.link_external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ include.section.link_label }}</a>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</section>

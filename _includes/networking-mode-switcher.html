@@ -1,0 +1,11 @@
+<div class="networking-mode-switcher" aria-label="Audience mode">
+  {% for mode in include.modes.items %}
+  <button
+    class="networking-mode-switcher__button{% if mode.key == include.modes.default %} is-active{% endif %}"
+    type="button"
+    data-mode-button="{{ mode.key }}"
+    aria-pressed="{% if mode.key == include.modes.default %}true{% else %}false{% endif %}">
+    {{ mode.label }}
+  </button>
+  {% endfor %}
+</div>

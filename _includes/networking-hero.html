@@ -1,0 +1,24 @@
+<section class="networking-page__hero" id="top">
+  <div class="networking-page__inner networking-page__hero-inner">
+    <div class="networking-page__hero-copy">
+      {% assign default_mode = include.modes.items | where: "key", include.modes.default | first %}
+      <p class="networking-page__subtitle">{{ include.hero.subtitle }}</p>
+      <h1>{{ include.hero.title }}</h1>
+      <p class="networking-page__lede">{{ include.hero.lede }}</p>
+
+      {% include networking-mode-switcher.html modes=include.modes %}
+
+      <p class="networking-page__support" data-mode-support>{{ default_mode.support }}</p>
+
+      {% include networking-cta-group.html items=include.hero.ctas %}
+    </div>
+
+    <div class="networking-page__hero-media" aria-hidden="true">
+      {% for item in include.hero.media %}
+      <figure class="networking-page__hero-frame{% if forloop.first %} is-primary{% endif %}">
+        <img src="{{ item.src | relative_url }}" alt="">
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+<section class="networking-page__section networking-page__section--spacious" id="contact">
+  <div class="networking-page__inner">
+    <h2>{{ include.section.title }}</h2>
+    {% if include.section.intro %}
+    <p class="networking-page__section-intro">{{ include.section.intro }}</p>
+    {% endif %}
+
+    <div class="networking-page__contact-grid">
+      {% for item in include.section.items %}
+      <a class="networking-contact" href="{{ item.href }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+        <span class="networking-contact__label">{{ item.label }}</span>
+        <strong>{{ item.value }}</strong>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

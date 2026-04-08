@@ -1,118 +1,32 @@
 <div class="networking-page">
-  <section class="networking-page__hero" id="top">
-    <div class="networking-page__hero-media" aria-hidden="true">
-      {% for item in page.hero.media %}
-      <figure><img src="{{ item.src | relative_url }}" alt=""></figure>
-      {% endfor %}
-    </div>
-
-    <div class="networking-page__inner networking-page__hero-inner">
-      <div class="networking-page__hero-copy">
-        <p class="networking-page__subtitle">{{ page.hero.subtitle }}</p>
-        <h1>{{ page.hero.title }}</h1>
-        <p class="networking-page__lede">{{ page.hero.lede }}</p>
-        <p class="networking-page__support">{{ page.hero.support }}</p>
-
-        {% include networking-cta-group.html items=page.hero.ctas %}
-
-        <ul class="networking-page__tags" aria-label="Focus areas">
-          {% for tag in page.hero.tags %}
-          <li>{{ tag }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="networking-page__section networking-page__section--spacious" id="selected-directions">
+  {% include networking-hero.html hero=page.hero modes=page.audience_modes %}
+  <section class="networking-page__tag-strip" aria-label="Focus areas">
     <div class="networking-page__inner">
-      <div class="networking-page__section-copy">
-        <h2>{{ page.selected_directions.title }}</h2>
-        <p>{{ page.selected_directions.intro }}</p>
-      </div>
-
-      <div class="direction-grid">
-        {% for item in page.selected_directions.items %}
-        <article class="direction-card">
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.text }}</p>
-          <a href="{{ item.href }}">{{ item.link_label | default: "Featured project" }}</a>
-        </article>
+      <ul class="networking-page__tags networking-page__tags--strip">
+        {% for tag in page.hero.tags %}
+        <li>{{ tag }}</li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </section>
+  {% include networking-directions.html section=page.selected_directions %}
 
   <section class="networking-page__section networking-page__section--spacious" id="featured-projects">
     <div class="networking-page__inner">
       <h2>{{ page.featured_projects_title }}</h2>
-
-      {% for project in page.featured_projects %}
-      {% include networking-project-block.html project=project %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="networking-page__section networking-page__section--spacious" id="bring">
-    <div class="networking-page__inner">
-      <h2>{{ page.contributions.title }}</h2>
-
-      <div class="networking-page__grid networking-page__grid--compact">
-        {% for item in page.contributions.items %}
-        <article class="networking-tile">
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.text }}</p>
-        </article>
+      <div class="networking-projects" data-featured-projects>
+        {% for project in page.featured_projects %}
+        {% include networking-project-block.html project=project %}
         {% endfor %}
       </div>
     </div>
   </section>
 
-  <section class="networking-page__section networking-page__section--spacious" id="angle">
-    <div class="networking-page__inner">
-      <h2>{{ page.angles.title }}</h2>
+  {% include networking-contributions.html section=page.contributions %}
+  {% include networking-currently.html section=page.currently %}
+  {% include networking-inquiry.html section=page.inquiry %}
+  {% include networking-contact.html section=page.contact %}
 
-      <div class="networking-page__angles">
-        {% for item in page.angles.items %}
-        <article class="networking-card">
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.text }}</p>
-        </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="networking-page__section networking-page__section--spacious" id="currently">
-    <div class="networking-page__inner">
-      <h2>{{ page.currently.title }}</h2>
-      <div class="networking-card networking-card--single">
-        <p>{{ page.currently.text }}</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="networking-page__section networking-page__section--spacious" id="inquiry">
-    <div class="networking-page__inner">
-      <h2>{{ page.inquiry.title }}</h2>
-      <div class="networking-card networking-card--single networking-card--research">
-        <p>{{ page.inquiry.text }}</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="networking-page__section networking-page__section--spacious" id="contact">
-    <div class="networking-page__inner">
-      <h2>{{ page.contact.title }}</h2>
-
-      <div class="networking-page__contact-grid">
-        {% for item in page.contact.items %}
-        <a class="networking-contact" href="{{ item.href }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
-          <span class="networking-contact__label">{{ item.label }}</span>
-          <strong>{{ item.value }}</strong>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+  <script id="networking-audience-config" type="application/json">{{ page.audience_modes | jsonify }}</script>
+  <script defer src="{{ '/assets/js/networking-a.js' | relative_url }}"></script>
 </div>
