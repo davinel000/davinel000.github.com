@@ -30,12 +30,13 @@ Used images by project:
   - `Sutum`: `/assets/images/portfolio/sutum/main.png`
   - `PNCTM`: `/assets/images/portfolio/pnctm/main.JPG`
 
-Assets still missing or weak:
+Still intentionally waiting for a later phase:
 
-- `Chronoportale`: enough for a compact related-project card, but not yet curated here as a full gallery
-- `CV` link is intentionally hidden for now and will be added back later
+- dedicated standalone project pages for the newly surfaced related projects
+- CV link and any document-download strategy
+- final content deepening for project-specific detail
 
 Implementation note:
 
-- Galleries use CSS scroll-snap and no page-specific JS
-- Additional projects are revealed with lightweight `details` blocks inside each featured direction
+- galleries use CSS scroll-snap and hidden scrollbars, with no page-specific JS
+- related projects are revealed with lightweight `details` blocks inside each featured direction
