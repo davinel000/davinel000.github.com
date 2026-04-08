@@ -1,0 +1,15 @@
+<section class="networking-page__section networking-page__section--spacious" id="bring">
+  <div class="networking-page__inner">
+    <h2>{{ include.section.title }}</h2>
+
+    <div class="networking-page__grid networking-page__grid--compact">
+      {% for item in include.section.items %}
+      <article class="networking-tile">
+        <p class="networking-tile__number">{{ item.number }}</p>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,26 @@
+<section class="networking-page__hero" id="top">
+  <div class="networking-page__hero-media" aria-hidden="true">
+    {% for item in include.hero.media %}
+    <figure><img src="{{ item.src | relative_url }}" alt=""></figure>
+    {% endfor %}
+  </div>
+
+  <div class="networking-page__inner networking-page__hero-inner">
+    <div class="networking-page__hero-copy">
+      <p class="networking-page__subtitle">{{ include.hero.subtitle }}</p>
+      <h1>{{ include.hero.title }}</h1>
+      <p class="networking-page__lede">{{ include.hero.lede }}</p>
+      <p class="networking-page__support" data-mode-support>{{ include.hero.support }}</p>
+
+      {% include networking-cta-group.html items=include.hero.ctas %}
+
+      <ul class="networking-page__tags" aria-label="Focus areas">
+        {% for tag in include.hero.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+
+      {% include networking-mode-switcher.html modes=include.modes %}
+    </div>
+  </div>
+</section>

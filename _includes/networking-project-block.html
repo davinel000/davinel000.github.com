@@ -1,40 +1,37 @@
 {% assign project = include.project %}
-<article class="project-strip" id="{{ project.id }}">
-  <p class="project-strip__label project-strip__label--section">{{ project.section_label }}</p>
-  <div class="project-strip__panel project-strip__panel--visual">
-    {% include networking-folder-gallery.html
-      folder=project.gallery_folder
-      limit=project.gallery_limit
-      title=project.title
-    %}
+<article class="project-strip" id="{{ project.id }}" data-project-key="{{ project.key }}">
+  <div class="project-strip__top">
+    <p class="project-strip__label project-strip__label--section">{{ project.section_label }}</p>
+
+    {% if project.cases.size > 1 %}
+    <div class="project-switcher-chips" role="tablist" aria-label="{{ project.section_label }} related projects">
+      {% for case in project.cases %}
+      <button
+        class="project-switcher-chips__button{% if forloop.first %} is-active{% endif %}"
+        type="button"
+        data-project-chip="{{ project.key }}"
+        data-project-case="{{ case.key }}"
+        aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">
+        {{ case.chip }}
+      </button>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  {% for case in project.cases %}
+  <div class="project-strip__panel project-strip__panel--visual{% if forloop.first %} is-active{% endif %}" data-project-panel="{{ case.key }}"{% unless forloop.first %} hidden{% endunless %}>
+    {% include networking-folder-gallery.html gallery=case.gallery title=case.title %}
     <div class="project-strip__copy">
-      <h3>{{ project.title }}</h3>
-      <p class="project-strip__summary">{{ project.summary }}</p>
-      <p class="project-strip__body">{{ project.body }}</p>
+      <h3>{{ case.title }}</h3>
+      <p class="project-strip__summary">{{ case.summary }}</p>
+      <p class="project-strip__body">{{ case.body }}</p>
       <ul class="project-strip__tags">
-        {% for tag in project.tags %}
+        {% for tag in case.tags %}
         <li>{{ tag }}</li>
         {% endfor %}
       </ul>
-
-      {% if project.related_projects %}
-      <details class="project-switcher">
-        <summary>{{ project.related_title | default: "Show related projects" }}</summary>
-        <div class="project-switcher__grid">
-          {% for related in project.related_projects %}
-          <article class="project-mini">
-            {% if related.image %}
-            <img src="{{ related.image | relative_url }}" alt="{{ related.alt | default: related.title }}">
-            {% endif %}
-            <div>
-              <h4>{{ related.title }}</h4>
-              <p>{{ related.text }}</p>
-            </div>
-          </article>
-          {% endfor %}
-        </div>
-      </details>
-      {% endif %}
     </div>
   </div>
+  {% endfor %}
 </article>
