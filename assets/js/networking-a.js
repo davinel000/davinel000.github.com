@@ -66,6 +66,23 @@
       let startScrollLeft = 0;
       let moved = false;
       let suppressClick = false;
+      let loopTimer = null;
+      let hasInteracted = false;
+
+      function resetToFirstSlide() {
+        track.scrollLeft = 0;
+      }
+
+      function wrapTrackIfNeeded() {
+        const maxScroll = track.scrollWidth - track.clientWidth;
+        if (maxScroll <= 0) return;
+
+        if (track.scrollLeft >= maxScroll - 2) {
+          track.scrollLeft = 0;
+        } else if (track.scrollLeft <= 2) {
+          track.scrollLeft = maxScroll;
+        }
+      }
 
       track.querySelectorAll("img").forEach((image) => {
         image.setAttribute("draggable", "false");
@@ -101,6 +118,7 @@
       track.addEventListener("mousedown", (event) => {
         if (event.button !== 0) return;
         const link = event.target.closest(".project-gallery__lightbox-link");
+        hasInteracted = true;
         isMouseDragging = true;
         startX = event.clientX;
         startScrollLeft = track.scrollLeft;
@@ -133,6 +151,27 @@
             suppressClick = false;
           }, 0);
         }
+      });
+
+      track.addEventListener(
+        "touchstart",
+        () => {
+          hasInteracted = true;
+        },
+        { passive: true },
+      );
+
+      track.addEventListener("scroll", () => {
+        window.clearTimeout(loopTimer);
+        loopTimer = window.setTimeout(() => {
+          if (hasInteracted && !isMouseDragging && track.children.length > 1) {
+            wrapTrackIfNeeded();
+          }
+        }, 140);
+      });
+
+      window.requestAnimationFrame(() => {
+        resetToFirstSlide();
       });
     });
   }
@@ -202,6 +241,15 @@
         const active = panel.getAttribute("data-project-panel") === caseKey;
         panel.classList.toggle("is-active", active);
         panel.hidden = !active;
+
+        if (active) {
+          const track = panel.querySelector(".project-gallery__track");
+          if (track) {
+            window.requestAnimationFrame(() => {
+              track.scrollLeft = 0;
+            });
+          }
+        }
       });
     });
   });
