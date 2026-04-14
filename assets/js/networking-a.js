@@ -14,6 +14,14 @@
   const directionGrid = document.querySelector("[data-direction-grid]");
   const projectContainer = document.querySelector("[data-featured-projects]");
   const defaultModeKey = config.default || "studios";
+  const hashAliases = {
+    "#s": "studios",
+    "#studios": "studios",
+    "#f": "festivals",
+    "#festivals": "festivals",
+    "#c": "collaborators",
+    "#collaborators": "collaborators",
+  };
 
   const directionNodes = new Map(
     Array.from(document.querySelectorAll("[data-direction-key]")).map((node) => [
@@ -157,9 +165,23 @@
     }
   }
 
+  function applyModeFromHash() {
+    const modeKey = hashAliases[window.location.hash.toLowerCase()];
+    if (modeKey) {
+      applyMode(modeKey);
+      return true;
+    }
+    return false;
+  }
+
   modeButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      applyMode(button.getAttribute("data-mode-button"));
+      const modeKey = button.getAttribute("data-mode-button");
+      applyMode(modeKey);
+      const shortHash = `#${modeKey.charAt(0)}`;
+      if (window.location.hash !== shortHash) {
+        history.replaceState(null, "", shortHash);
+      }
     });
   });
 
@@ -185,5 +207,14 @@
   });
 
   initProjectGalleries();
-  applyMode(defaultModeKey);
+
+  if (!applyModeFromHash()) {
+    applyMode(defaultModeKey);
+  }
+
+  window.addEventListener("hashchange", () => {
+    if (!applyModeFromHash()) {
+      applyMode(defaultModeKey);
+    }
+  });
 })();

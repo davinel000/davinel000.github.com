@@ -682,6 +682,15 @@
     border-radius: 1.1rem;
   }
 
+  .networking-mode-switcher__button {
+    min-width: 0;
+    padding: 0.5rem 0.35rem;
+    font-size: 0.82rem;
+    letter-spacing: 0.01em;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+
   .networking-page__section {
     padding-bottom: 5rem;
   }
