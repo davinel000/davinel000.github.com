@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Šūtum - Technical Rider</title>
+    <title>Šūtum - Presentation &amp; Technical Rider</title>
     <style>
 @page {
   size: A4;
-  margin: 20mm 16mm 16mm 16mm;
+  margin: 26mm 16mm 16mm 16mm;
+}
+
+@page cover {
+  size: A4;
+  margin: 0;
 }
 
 html {
@@ -22,26 +27,34 @@ body {
 }
 
 .cover-page {
+  page: cover;
   position: relative;
-  height: calc(297mm - 36mm);
-  margin: -20mm -16mm 0 -16mm;
+  width: 210mm;
+  height: 297mm;
   break-after: page;
   color: #ffffff;
   overflow: hidden;
 }
 
+.cover-page--fullbleed {
+  margin: 0;
+}
+
 .cover-page__image {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cover-page--fullbleed .cover-page__image {
+  inset: -3px;
 }
 
 .cover-page__content {
   position: absolute;
   left: 18mm;
   right: 18mm;
-  bottom: 22mm;
+  bottom: 36mm;
   z-index: 2;
 }
 
@@ -68,10 +81,21 @@ body {
 }
 
 .cover-page__label {
-  margin-top: 7pt;
-  font-size: 14pt;
+  margin-top: 0;
+  font-size: 15.5pt;
+  font-weight: 600;
   letter-spacing: 0.02em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: 0.96;
+}
+
+.cover-page__format {
+  margin-top: 7pt;
+  margin-bottom: 3pt;
+  font-size: 11.8pt;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 0.9;
 }
 
 .cover-page__credit {
@@ -86,7 +110,7 @@ body {
 }
 
 .rider-body {
-  margin-top: 6mm;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -162,127 +186,140 @@ figure {
   text-align: right;
 }
 
+.page-break {
+  break-before: page;
+  page-break-before: always;
+  height: 0;
+}
+
     </style>
   </head>
   <body>
-    <section class="cover-page">
-      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('file:///E:/PROJECTS_LOCAL/WEBSITE/davinel000.github.com/assets/images/portfolio/sutum/carousel/1.jpg');"></div>
+    <section class="cover-page cover-page--fullbleed">
+      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Copie de Slava Romanov. GOLDSTUECKE Gelsenkirchen 2024. Photo Lars Gonikman-1.jpg'); background-size: cover; background-position: center center;"></div>
       <div class="cover-page__content">
         <div class="cover-page__title-row">
           <h1>Šūtum</h1>
           <div class="cover-page__year">(2024)</div>
         </div>
-        <div class="cover-page__label">Technical Rider</div>
+        <div class="cover-page__format">Laser installation</div>
+        <div class="cover-page__label">Presentation &amp; Technical Rider</div>
       </div>
       <div class="cover-page__credit">Goldstücke, Gelsenkirchen. Photo: Lars Gonikman</div>
     </section>
 
     <main class="rider-body">
 <h1>Šūtum</h1>
-<h2>Short Description</h2>
-<p><em>Šūtum</em> is a mixed media installation that reflects on the impermanence of laws, norms, and their interpretations. Utilizing an ultraviolet laser and photochromic pigments, the artwork creates ephemeral images of ancient laws on a stone surface that gradually disappear, symbolizing the fragility and mutability of human constructs.</p>
-<p>The project utilizes a combination of technologies and materials. A self-assembled galvanometer scanner with a focused 405 nm laser produces both immediate and gradually evolving visual forms, while the photochromic surface allows the projected traces to emerge and fade over time.</p>
-<h2>Core Components</h2>
+<p><em>Šūtum</em> is a laser installation reflecting on the impermanence of laws, norms, and their interpretations. A thin ultraviolet beam writes Akkadian cuneiform inscriptions derived from the Laws of Hammurabi onto a stone surface, while translated phrases appear outside the stone in formulations of the talion principle. As each new sign is written, the earliest traces slowly begin to disappear, so that the cycle continuously rewrites and erases ancient laws on the same surface.</p>
+<p>During exhibition, the audience observes a slow process of inscription and fading: line by line, the stone becomes temporarily legible, then loses its earliest marks as the writing continues. The work stages law not as a fixed monument, but as a fragile visual event that appears, persists briefly, and vanishes again. More documentation, images, and video can be found on the project page: <a href="https://www.slavaromanov.art/2024/shootoom">slavaromanov.art/2024/shootoom</a>.</p>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava Romanov. GOLDSTUECKE Gelsenkirchen 2024. Photo Jennifer Braun-3773.jpg" alt="Goldstücke, Gelsenkirchen. Photo: Jennifer Braun"><figcaption>Goldstücke, Gelsenkirchen. Photo: Jennifer Braun</figcaption></figure>
+
+<div class="page-break"></div>
+
+<h2>Technical Rider</h2>
+<h3>Core Components</h3>
+<p>The installation includes one autonomous laser projection module. The module includes:</p>
 <ul>
-<li>Laser projection device with integrated galvo and programmed microcontroller</li>
-<li>405 nm low-power laser module</li>
+<li>one 405 nm low-power laser module</li>
+<li>integrated galvanometer system</li>
+<li>programmed microcontroller</li>
+</ul>
+<p>Additional core elements of the work include:</p>
+<ul>
+<li>one flat stone coated with photochromic foil</li>
+<li>underlying treated paper</li>
+<li>focused lighting system with two narrow-angle LED spots</li>
+<li>support tripods, adapters, and connection cables</li>
+</ul>
+<h3>Dimensions / Duration / Scalability</h3>
+<ul>
+<li>Approximate installation footprint: 250 x 150 x 170 cm</li>
+<li>Typical cycle duration: approx. 4 to 5 minutes</li>
+<li>The projected text develops in three cycles for each line</li>
+<li>The installation can be adapted to comparable darkened exhibition situations upon consultation</li>
+</ul>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Sutum - Credits Slava Romanov1.png" alt="Šūtum. Photo: Slava Romanov"><figcaption>Šūtum. Photo: Slava Romanov</figcaption></figure>
+
+<h3>Spatial Requirements</h3>
+<ul>
+<li>Minimum recommended space: 2.5 x 4 m</li>
+<li>A completely dark room is strongly recommended</li>
+<li>Daylight or direct sunlight must not reach the installation</li>
+<li>Ambient light from other sources should be reduced as much as possible</li>
+<li>Stable, clean, and non-reflective flooring is required</li>
+<li>The space should be protected from high humidity, dust, and dirt</li>
+<li>The installation benefits from a contained or alcove-like setup with audience access primarily from one side</li>
+<li>Surface preparation is carried out by the artist on site</li>
+<li>The underlying treated paper is also prepared on site</li>
+</ul>
+<h3>Technical Requirements Provided by Venue</h3>
+<ul>
+<li>220 V / 50 Hz / max. 3 A, Schuko plug system</li>
+<li>Dark-colored power extension with at least 4 sockets</li>
+<li>Power is required for the autonomous laser device and focused light sources</li>
+<li>Maximum distance from power supply to the work: approx. 4 m</li>
+<li>A separate visible power switch or clearly identifiable on/off access for the laser device is recommended as a safety measure</li>
+</ul>
+<h3>Components Provided by Artist</h3>
+<ul>
+<li>Autonomous laser projection device utilizing a 405 nm low-power laser module</li>
+<li>Integrated galvanometer and programmed microcontroller inside the projection device</li>
+<li>Tripod for the laser unit and one light source</li>
+<li>Small tripod for the second light source</li>
+<li>Charging cables, adapters, and USB extension where required</li>
 <li>Flat stone coated with photochromic foil</li>
-<li>Underlying treated paper or fabric</li>
-<li>Focused lighting system with two narrow-angle LED spots</li>
-<li>Support tripods, adapters, and connection cables</li>
-<li>Control computer and monitor in the currently documented version</li>
+<li>Roll of treated paper placed beneath the stone</li>
 </ul>
-<h2>Dimensions / Duration / Scalability</h2>
-<ul>
-<li>Installation footprint: 250 x 150 x 170 cm</li>
-<li>Packed dimensions:</li>
-<li>60 x 40 x 40 cm Eurobox, estimated mass 20 kg</li>
-<li>50 x 50 x 15 cm cardboard box with stone, estimated mass 12 kg</li>
-<li>One 120 cm roll of underlying treated paper</li>
-<li>Projection duration is variable</li>
-<li>Typical choreography runs in cycles of 4 to 5 minutes, total 3 cycles</li>
-<li>Project scaling is adaptable upon consultation</li>
-</ul>
-<h2>Spatial Requirements</h2>
-<ul>
-<li>Minimum space required: 2.5 x 4 m</li>
-<li>A completely dark room is mandatory</li>
-<li>Ambient light from external sources should be reduced as much as possible</li>
-<li>Stable, clean, and non-reflective flooring is essential</li>
-<li>The space should be free from high humidity and dirt</li>
-<li>In the original exhibition concept, the room atmosphere may evoke a found artifact, excavation site, or abandoned building</li>
-<li>Surface preparation is carried out by the artist</li>
-<li>The underlying paper or fabric is coated on site</li>
-<li>Recommendations for alternative materials can be discussed in advance</li>
-</ul>
-<h2>Technical Requirements Provided by Venue</h2>
-<ul>
-<li>220 V / 50 Hz / max 3 A, Schuko plug system</li>
-<li>Dark-colored power extension with at least 5 plugs</li>
-<li>Power is needed for light sources, laser device, control computer, and service monitor</li>
-<li>Maximum distance of plugs from artwork: 4 m</li>
-<li>Box or masking structure for hiding the PC near the artwork</li>
-<li>Laser Safety Officer review is recommended for installation</li>
-<li>Separate power extension with visible on/off indication for the laser device as a safety measure</li>
-<li>Luminescent tape to limit visitor access to the stone area</li>
-</ul>
-<h2>Components Provided by Artist</h2>
-<ul>
-<li>Laser projection device utilizing a 405 nm 20 mW laser module</li>
-<li>Integrated galvo and microcontroller</li>
-<li>Tripod for laser and one light source</li>
-<li>Small tripod for second light source</li>
-<li>Charging cables, adapters, and USB extension</li>
-<li>M-ITX PC with Windows and TouchDesigner in the documented version</li>
-<li>Portable monitor, mouse, and keyboard</li>
-<li>Flat stone coated with photochromic foil</li>
-<li>Roll of paper or fabric placed beneath the stone</li>
-</ul>
-<h2>Sound</h2>
-<p>The artwork does not include sound and can be installed relatively close to works that use sound, provided that the neighboring sound level is not too high.</p>
-<h2>Light</h2>
+<h3>Sound</h3>
+<p>The artwork does not include sound and can be installed near sound-based works, provided that neighboring sound levels do not disturb the visual concentration of the piece.</p>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava%20Romanov.%20LICHTROUTEN%20Luedenscheid%202025.%20Photo%20Lars%20Gonikman.-7433.jpg" alt="Lichtrouten, Lüdenscheid. Photo: Lars Gonikman"><figcaption>Lichtrouten, Lüdenscheid. Photo: Lars Gonikman</figcaption></figure>
+
+<h3>Light</h3>
 <ul>
 <li>Two adjustable LED spots with narrow focus are required</li>
-<li>Their positions should avoid casting shadows onto the laser path</li>
-<li>Reflections should be minimized</li>
+<li>Their positioning should avoid shadows across the laser path</li>
+<li>Reflections and stray light should be minimized</li>
 </ul>
-<h2>Safety</h2>
+<h3>Safety</h3>
 <ul>
-<li>The 405 nm laser module in the documented rider version uses 20 mW and is classified as 3B at the lower range</li>
-<li>Controlled conditions are required to prevent accidental exposure</li>
-<li>LSO assistance is recommended</li>
-<li>Signage and restricted access are recommended during setup</li>
-<li>The controlling PC should remain hidden and inaccessible to visitors</li>
-<li>The presence of a mediator or supervising staff member on site is highly recommended</li>
+<li>The installation should be arranged so that audience access remains on one side wherever possible</li>
+<li>A visible physical barrier and/or luminous floor marking is recommended to prevent visitors from stepping into the laser area</li>
+<li>The beam path and reflective angles must be aligned so that unintended reflections are not directed toward visitors</li>
+<li>Laser safety conditions are determined by the artist during setup and should remain unchanged during exhibition</li>
+<li>Additional technical supervision or a venue contact person nearby is recommended, especially in open or difficult spatial situations</li>
+<li>A dead-man switch or equivalent emergency interruption option should be available on site</li>
 </ul>
-<h2>Transport</h2>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Sutum - Credits Slava Romanov3.png" alt="Šūtum. Photo: Slava Romanov"><figcaption>Šūtum. Photo: Slava Romanov</figcaption></figure>
+
+<h3>Transport</h3>
 <ul>
-<li>The work is delivered in one standard plastic Eurobox together with two additional boxes</li>
+<li>One Eurobox containing the technical components measures approx. 60 x 40 x 40 cm and weighs approx. 10 kg</li>
+<li>One cardboard box containing the stone measures approx. 50 x 50 x 15 cm and weighs approx. 12 kg</li>
+<li>One roll of treated paper is transported separately</li>
 <li>The artwork is fragile and must be handled with care</li>
-<li>Transportation safety measures are provided by the artist</li>
 </ul>
-<h2>Setup / Deinstallation</h2>
+<h3>Setup / Deinstallation</h3>
 <ul>
-<li>Installation time: approximately 12 hours</li>
-<li>The artist provides on-site installation</li>
-<li>Assistance may be required for darkening the space and enclosing doorways with Molton</li>
-<li>Light positioning, laser safety adjustment, and final calibration should be carried out on site</li>
+<li>Approximate installation time: up to 12 hours</li>
+<li>The artist carries out the on-site setup</li>
+<li>Venue assistance may be required for darkening the room and managing doorways or light leaks</li>
+<li>Final light positioning, laser safety adjustment, and calibration are carried out on site</li>
 </ul>
-<h2>Daily Operation</h2>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava Romanov. GOLDSTUECKE Gelsenkirchen 2024. Photo Lars Gonikman-1 (2).jpg" alt="Goldstücke, Gelsenkirchen. Photo: Lars Gonikman"><figcaption>Goldstücke, Gelsenkirchen. Photo: Lars Gonikman</figcaption></figure>
+
+<h3>Daily Operation</h3>
 <ul>
-<li>Switch on the light sources</li>
-<li>Switch on the laser module</li>
-<li>Turn on the control computer by pressing the power button</li>
-<li>The system should be visually checked during operation</li>
+<li>The installation may be organized for scheduled operation via timer</li>
+<li>Daily startup and shutdown should nevertheless be visually checked by responsible staff</li>
+<li>Light sources and laser output should be briefly verified during opening procedures</li>
 </ul>
-<h2>Maintenance</h2>
+<h3>Maintenance</h3>
 <ul>
-<li>In the documented version, the PC turns off automatically at the predefined time</li>
-<li>Light sources and laser module then need to be switched off manually</li>
-<li>Regular operational checks of the laser output, alignment, and treated surfaces are recommended</li>
-<li>The current exhibition version may be updated in the future, so this rider should be revised when the autonomous setup is finalized</li>
+<li>Regular operational checks of laser output, alignment, and treated surfaces are recommended</li>
+<li>The installation is designed for autonomous operation, but should not be treated as fully unattended</li>
+<li>Longer exhibition durations should include periodic technical inspection by the artist or in coordination with the venue</li>
 </ul>
-<h2>Insurance Value</h2>
+<h3>Insurance Value</h3>
 <ul>
 <li>UV laser and components: EUR 3000</li>
 <li>Coated surfaces: EUR 1000</li>
