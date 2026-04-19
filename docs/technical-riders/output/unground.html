@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UNGROUND - Präsentation &amp; Technischer Rider</title>
+    <style>
+@page {
+  size: A4;
+  margin: 26mm 16mm 16mm 16mm;
+}
+
+@page cover {
+  size: A4;
+  margin: 0;
+}
+
+html {
+  font-size: 12.2pt;
+}
+
+body {
+  margin: 0;
+  color: #1f1f1f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.cover-page {
+  page: cover;
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  break-after: page;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.cover-page--fullbleed {
+  margin: 0;
+}
+
+.cover-page__image {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+}
+
+.cover-page--fullbleed .cover-page__image {
+  inset: -3px;
+}
+
+.cover-page__content {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 36mm;
+  z-index: 2;
+}
+
+.cover-page__title-row {
+  display: flex;
+  gap: 8pt;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cover-page h1 {
+  margin: 0;
+  font-size: 31pt;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+.cover-page__year {
+  font-size: 20pt;
+  opacity: 0.92;
+}
+
+.cover-page__label {
+  margin-top: 0;
+  font-size: 15.5pt;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: 0.96;
+}
+
+.cover-page__format {
+  margin-top: 7pt;
+  margin-bottom: 3pt;
+  font-size: 11.8pt;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 0.9;
+}
+
+.cover-page__credit {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 8mm;
+  z-index: 2;
+  font-size: 7.2pt;
+  color: rgba(255, 255, 255, 0.82);
+  text-align: right;
+}
+
+.rider-body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  page-break-after: avoid;
+}
+
+h1 {
+  margin: 0 0 8pt 0;
+  font-size: 19pt;
+  line-height: 1.15;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+h2 {
+  margin: 16pt 0 6pt 0;
+  font-size: 14.4pt;
+  line-height: 1.2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+h3 {
+  margin: 12pt 0 5pt 0;
+  font-size: 12.2pt;
+  line-height: 1.2;
+  text-transform: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 9pt 0;
+  font-size: 11.6pt;
+}
+
+ul, ol {
+  margin: 0 0 11pt 1.25rem;
+  padding: 0;
+  font-size: 11.5pt;
+  line-height: 1.15;
+}
+
+li {
+  margin: 0 0 2pt 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+hr {
+  margin: 18pt 0;
+  border: 0;
+  border-top: 0.7pt solid #c8c8c8;
+}
+
+figure {
+  margin: 16pt 0;
+}
+
+.body-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  break-inside: avoid;
+}
+
+.body-figure figcaption {
+  margin-top: 5pt;
+  font-size: 8pt;
+  color: #7f7f7f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+}
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+  height: 0;
+}
+
+    </style>
+  </head>
+  <body>
+    <section class="cover-page cover-page--fullbleed">
+      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/unground/mirrored%20Slava%20Romanov.%20LICHTROUTEN%20Luedenscheid%202025.%20%20Photo%20Jennifer%20Braun.jpg'); background-size: cover; background-position: center center;"></div>
+      <div class="cover-page__content">
+        <div class="cover-page__title-row">
+          <h1>UNGROUND</h1>
+          <div class="cover-page__year">(2025)</div>
+        </div>
+        <div class="cover-page__format">Kinetische Lichtinstallation</div>
+        <div class="cover-page__label">Präsentation &amp; Technischer Rider</div>
+      </div>
+      <div class="cover-page__credit">Lichtrouten, Lüdenscheid. Foto: Slava Romanov</div>
+    </section>
+
+    <main class="rider-body">
+<h1>UNGROUND</h1>
+<p><em>UNGROUND</em> ist eine kinetische typografische Lichtinstallation, die auf den Buchstaben des deutschen Wortes <em>ORDNUNG</em> basiert. Die Buchstaben rotieren ununterbrochen und deuten immer wieder instabile Kombinationen an, ohne sich jemals zum ursprünglichen Wort zu fügen. Die Arbeit reflektiert einen Zustand instabiler Aufmerksamkeit und die wiederholte Suche nach Sinn in einer Atmosphäre permanenter Updates.</p>
+<p>Die Installation ist für eine flexible Platzierung in abgedunkelten Innenräumen konzipiert und kann entweder als Gruppe von Projektionseinheiten auf einer Wand oder als über den Ausstellungsraum verteilte Konstellation präsentiert werden. Während der Ausstellung beobachten die Besucher:innen kontinuierlich rotierende leuchtende Kreise mit Buchstaben, die scheinbar immer wieder kurz davorstehen, lesbare Kombinationen zu bilden, jedoch nie zu einer stabilen Ordnung gelangen. Weitere Dokumentation, Bilder und Video sind auf der Projektseite verfügbar: <a href="https://www.slavaromanov.art/2025/unground-de/">slavaromanov.art/2025/unground-de</a>.</p>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/unground/mirrored%20Slava%20Romanov%20LICHTROUTEN%20Luedenscheid%202025%20Foto%20Jennifer%20Braun-0134.jpg" alt="Lichtrouten, Lüdenscheid. Foto: Lars Gonikman"><figcaption>Lichtrouten, Lüdenscheid. Foto: Lars Gonikman</figcaption></figure>
+
+<div class="page-break"></div>
+
+<h2>Technischer Rider</h2>
+<h3>Zentrale Komponenten</h3>
+<p>Die Installation umfasst in der Standardversion drei Projektionseinheiten. Jede Einheit besteht aus:</p>
+<ul>
+<li>einer modifizierten LED-Projektionseinheit auf Basis eines Gobo-Projektorgehäuses</li>
+<li>einer transparenten rotierenden Kapsel mit gefertigten Buchstaben</li>
+<li>internen Motor- und Kühlungskomponenten</li>
+<li>Verkabelung und Netzteil</li>
+</ul>
+<p>Eine Erweiterung auf eine vierte Einheit ist optional möglich.</p>
+<h3>Dimensionen / Laufzeit / Skalierbarkeit</h3>
+<ul>
+<li>Empfohlener Abstand zur Projektionsfläche: ca. 250 bis 400 cm, je nach gewünschter Größe</li>
+<li>Empfohlene Wandbreite für eine lineare Anordnung: bis ca. 600 cm</li>
+<li>Die Installation kann auch auf mehrere Orte innerhalb einer Ausstellung verteilt werden</li>
+<li>Ein möglichst rechtwinkliger Winkel zur Projektionsfläche wird dringend empfohlen</li>
+<li>Deckenabhängung, erhöhte Montage oder bodennahe Positionierung sind möglich, sofern der Winkel nahe bei 90 Grad bleibt</li>
+<li>Kontinuierlicher Betrieb während der Öffnungszeiten</li>
+</ul>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/unground/mirrored%20Slava%20Romanov%20LICHTROUTEN%20Luedenscheid%202025%20Foto%20Jennifer%20Braun-8590.jpg" alt="Lichtrouten, Lüdenscheid. Foto: Jennifer Braun"><figcaption>Lichtrouten, Lüdenscheid. Foto: Jennifer Braun</figcaption></figure>
+
+<h3>Räumliche Anforderungen</h3>
+<ul>
+<li>Ein abgedunkelter oder dunkler Raum wird dringend empfohlen</li>
+<li>Die Projektionsfläche sollte hell, gleichmäßig gestrichen und visuell ruhig sein</li>
+<li>Die Arbeit profitiert von flurartigen oder gelenkten Betrachtungssituationen, kann aber auch an offene Ausstellungslayouts angepasst werden</li>
+<li>Trockene und stabile Innenraumbedingungen sind erforderlich</li>
+<li>Starke konkurrierende Lichtquellen sollten so weit wie möglich reduziert werden</li>
+</ul>
+<h3>Technische Anforderungen Seitens Der Institution</h3>
+<ul>
+<li>220 V / 50 Hz Stromversorgung, Schuko</li>
+<li>Ca. 60 W Leistungsbedarf pro Einheit</li>
+<li>Dunkle Mehrfachsteckdose mit ausreichend Anschlüssen für die endgültige Anzahl der Projektionseinheiten</li>
+<li>Ausreichender Abstand zwischen den Steckplätzen wird empfohlen, da die DC-Netzteile zusätzlichen physischen Platz benötigen</li>
+<li>Eine technische Assistenz oder Aufsichtsperson seitens der Institution wird während des Aufbaus dringend empfohlen</li>
+</ul>
+<h3>Vom Künstler Bereitgestellte Komponenten</h3>
+<ul>
+<li>Modifizierte LED-Projektionseinheiten</li>
+<li>Rotierende Kapseln mit gefertigten Buchstaben</li>
+<li>Verbindungskabel und Netzteile</li>
+<li>Montage- oder Standzubehör</li>
+<li>Grundlegende Werkzeuge für Aufbau und Ausrichtung</li>
+<li>Eine digitale Zeitschaltuhr für Einrichtung oder zeitgesteuerten Betrieb</li>
+</ul>
+<p>Die ursprünglichen Projektionseinheiten basieren auf ADJ Icon GS Gehäusen, die intern für den Betrieb mit 12-V-LED, Lüfter und zugehörigen DC-Komponenten modifiziert wurden, um einen sichereren und stabileren Langzeitbetrieb zu ermöglichen.</p>
+<h3>Ton</h3>
+<p>Die Arbeit enthält keinen Ton und kann in der Nähe von Klangarbeiten installiert werden, solange die Projektion visuell gut lesbar bleibt.</p>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/unground/crop_UNGROUND2.jpg" alt="Lichtrouten, Lüdenscheid. Foto: Slava Romanov"><figcaption>Lichtrouten, Lüdenscheid. Foto: Slava Romanov</figcaption></figure>
+
+<h3>Sicherheit</h3>
+<ul>
+<li>Die Projektionseinheiten müssen sicher positioniert und gegen unbeabsichtigten Kontakt geschützt werden</li>
+<li>Kabel müssen sicher geführt und falls nötig abgeklebt werden</li>
+<li>Besucher:innen dürfen keinen direkten Zugang zu rotierenden internen Komponenten haben</li>
+</ul>
+<h3>Transport</h3>
+<ul>
+<li>Eine Transportbox mit bis zu 4 Projektionseinheiten misst ca. 40 x 60 x 60 cm und wiegt bis zu ca. 8 kg</li>
+<li>Optische, lichttechnische und mechanische Komponenten müssen mit Sorgfalt behandelt werden</li>
+</ul>
+<h3>Aufbau / Abbau</h3>
+<ul>
+<li>Geschätzte Aufbauzeit: 4 bis 6 Stunden, abhängig von den Raumbedingungen</li>
+<li>Fokus, Abstände und Projektionseinrichtung sollten vor Ort eingestellt werden</li>
+<li>Unterstützung seitens der Institution ist erforderlich, wenn erhöhte Platzierungen oder verlegte Stromleitungen notwendig sind</li>
+</ul>
+<h3>Täglicher Betrieb</h3>
+<ul>
+<li>Eine tägliche Sichtkontrolle der Projektionseinheiten wird empfohlen</li>
+<li>Die Position der Einheiten sollte überprüft werden, wenn das Publikum dicht an der Arbeit vorbeigeht</li>
+<li>Das tägliche Ein- und Ausschalten kann über digitale Zeitschaltuhren organisiert werden</li>
+<li>Eine Zeitschaltuhr kann vom Künstler bereitgestellt werden; zusätzliche Timer müssen gegebenenfalls von der Institution gestellt oder in die Produktionskosten aufgenommen werden</li>
+</ul>
+<h3>Wartung</h3>
+<ul>
+<li>Die Arbeit ist als wartungsarme Lichtinstallation konzipiert</li>
+<li>Regelmäßige Kontrollen von Fokus, Motorfunktion und Stromverteilung werden empfohlen</li>
+<li>Bei längeren Ausstellungsdauern sollten gelegentliche technische Inspektionen eingeplant werden</li>
+</ul>
+<h3>Produktions- / Anpassungshinweis</h3>
+<p>Die aktuelle Installation erfordert für eine langfristige Ausstellungsversion zusätzliche Fertigung und Anpassung, darunter verbesserte Kapseln, ausgetauschte Kühllüfter, ausgetauschte Motoren, Zeitschaltuhren und LED-bezogene Ersatzkomponenten. Die geschätzten zusätzlichen Produktionskosten für einen belastbaren Langzeitaufbau sollten abhängig von der endgültigen Ausstellungskonstellation separat besprochen werden.</p>
+<h3>Versicherungswert</h3>
+<ul>
+<li>Modifizierte Projektionseinheiten: ca. EUR 200 pro Stück</li>
+<li>Interne Kapseln mit Buchstaben: ca. EUR 50 pro Stück</li>
+<li>Ersatz-LED- und Kühlungskomponenten: abhängig von der finalen Version separat zu besprechen</li>
+<li>Der endgültige Versicherungswert sollte bestätigt werden, sobald die finale Anzahl der Einheiten feststeht</li>
+</ul>
+
+
+    </main>
+  </body>
+</html>

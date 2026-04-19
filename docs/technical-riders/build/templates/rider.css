@@ -1,0 +1,186 @@
+@page {
+  size: A4;
+  margin: 26mm 16mm 16mm 16mm;
+}
+
+@page cover {
+  size: A4;
+  margin: 0;
+}
+
+html {
+  font-size: 12.2pt;
+}
+
+body {
+  margin: 0;
+  color: #1f1f1f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.cover-page {
+  page: cover;
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  break-after: page;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.cover-page--fullbleed {
+  margin: 0;
+}
+
+.cover-page__image {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+}
+
+.cover-page--fullbleed .cover-page__image {
+  inset: -3px;
+}
+
+.cover-page__content {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 36mm;
+  z-index: 2;
+}
+
+.cover-page__title-row {
+  display: flex;
+  gap: 8pt;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cover-page h1 {
+  margin: 0;
+  font-size: 31pt;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+.cover-page__year {
+  font-size: 20pt;
+  opacity: 0.92;
+}
+
+.cover-page__label {
+  margin-top: 0;
+  font-size: 15.5pt;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: 0.96;
+}
+
+.cover-page__format {
+  margin-top: 7pt;
+  margin-bottom: 3pt;
+  font-size: 11.8pt;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 0.9;
+}
+
+.cover-page__credit {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 8mm;
+  z-index: 2;
+  font-size: 7.2pt;
+  color: rgba(255, 255, 255, 0.82);
+  text-align: right;
+}
+
+.rider-body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  page-break-after: avoid;
+}
+
+h1 {
+  margin: 0 0 8pt 0;
+  font-size: 19pt;
+  line-height: 1.15;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+h2 {
+  margin: 16pt 0 6pt 0;
+  font-size: 14.4pt;
+  line-height: 1.2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+h3 {
+  margin: 12pt 0 5pt 0;
+  font-size: 12.2pt;
+  line-height: 1.2;
+  text-transform: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 9pt 0;
+  font-size: 11.6pt;
+}
+
+ul, ol {
+  margin: 0 0 11pt 1.25rem;
+  padding: 0;
+  font-size: 11.5pt;
+  line-height: 1.15;
+}
+
+li {
+  margin: 0 0 2pt 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+hr {
+  margin: 18pt 0;
+  border: 0;
+  border-top: 0.7pt solid #c8c8c8;
+}
+
+figure {
+  margin: 16pt 0;
+}
+
+.body-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  break-inside: avoid;
+}
+
+.body-figure figcaption {
+  margin-top: 5pt;
+  font-size: 8pt;
+  color: #7f7f7f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+}
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+  height: 0;
+}

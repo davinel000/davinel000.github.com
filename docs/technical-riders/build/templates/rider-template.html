@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{TITLE}} - {{DOCUMENT_LABEL}}</title>
+    <style>
+{{STYLE}}
+    </style>
+  </head>
+  <body>
+    <section class="{{COVER_PAGE_CLASS}}">
+      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('{{COVER_IMAGE_URL}}'); background-size: {{COVER_FIT}}; background-position: {{COVER_POSITION}};"></div>
+      <div class="cover-page__content">
+        <div class="cover-page__title-row">
+          <h1>{{TITLE}}</h1>
+          <div class="cover-page__year">({{YEAR}})</div>
+        </div>
+        <div class="cover-page__format">{{FORMAT_LABEL}}</div>
+        <div class="cover-page__label">{{DOCUMENT_LABEL}}</div>
+      </div>
+      <div class="cover-page__credit">{{COVER_CREDIT}}</div>
+    </section>
+
+    <main class="rider-body">
+{{BODY_HTML}}
+    </main>
+  </body>
+</html>

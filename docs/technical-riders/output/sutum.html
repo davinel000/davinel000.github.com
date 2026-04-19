@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Šūtum - Technical Rider</title>
+    <style>
+@page {
+  size: A4;
+  margin: 20mm 16mm 16mm 16mm;
+}
+
+html {
+  font-size: 12.2pt;
+}
+
+body {
+  margin: 0;
+  color: #1f1f1f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.cover-page {
+  position: relative;
+  height: calc(297mm - 36mm);
+  margin: -20mm -16mm 0 -16mm;
+  break-after: page;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.cover-page__image {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.cover-page__content {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 22mm;
+  z-index: 2;
+}
+
+.cover-page__title-row {
+  display: flex;
+  gap: 8pt;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cover-page h1 {
+  margin: 0;
+  font-size: 31pt;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+.cover-page__year {
+  font-size: 20pt;
+  opacity: 0.92;
+}
+
+.cover-page__label {
+  margin-top: 7pt;
+  font-size: 14pt;
+  letter-spacing: 0.02em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cover-page__credit {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 8mm;
+  z-index: 2;
+  font-size: 7.2pt;
+  color: rgba(255, 255, 255, 0.82);
+  text-align: right;
+}
+
+.rider-body {
+  margin-top: 6mm;
+}
+
+h1, h2, h3, h4 {
+  page-break-after: avoid;
+}
+
+h1 {
+  margin: 0 0 8pt 0;
+  font-size: 19pt;
+  line-height: 1.15;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+h2 {
+  margin: 16pt 0 6pt 0;
+  font-size: 14.4pt;
+  line-height: 1.2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+h3 {
+  margin: 12pt 0 5pt 0;
+  font-size: 12.2pt;
+  line-height: 1.2;
+  text-transform: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 9pt 0;
+  font-size: 11.6pt;
+}
+
+ul, ol {
+  margin: 0 0 11pt 1.25rem;
+  padding: 0;
+  font-size: 11.5pt;
+  line-height: 1.15;
+}
+
+li {
+  margin: 0 0 2pt 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+hr {
+  margin: 18pt 0;
+  border: 0;
+  border-top: 0.7pt solid #c8c8c8;
+}
+
+figure {
+  margin: 16pt 0;
+}
+
+.body-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  break-inside: avoid;
+}
+
+.body-figure figcaption {
+  margin-top: 5pt;
+  font-size: 8pt;
+  color: #7f7f7f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+}
+
+    </style>
+  </head>
+  <body>
+    <section class="cover-page">
+      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('file:///E:/PROJECTS_LOCAL/WEBSITE/davinel000.github.com/assets/images/portfolio/sutum/carousel/1.jpg');"></div>
+      <div class="cover-page__content">
+        <div class="cover-page__title-row">
+          <h1>Šūtum</h1>
+          <div class="cover-page__year">(2024)</div>
+        </div>
+        <div class="cover-page__label">Technical Rider</div>
+      </div>
+      <div class="cover-page__credit">Goldstücke, Gelsenkirchen. Photo: Lars Gonikman</div>
+    </section>
+
+    <main class="rider-body">
+<h1>Šūtum</h1>
+<h2>Short Description</h2>
+<p><em>Šūtum</em> is a mixed media installation that reflects on the impermanence of laws, norms, and their interpretations. Utilizing an ultraviolet laser and photochromic pigments, the artwork creates ephemeral images of ancient laws on a stone surface that gradually disappear, symbolizing the fragility and mutability of human constructs.</p>
+<p>The project utilizes a combination of technologies and materials. A self-assembled galvanometer scanner with a focused 405 nm laser produces both immediate and gradually evolving visual forms, while the photochromic surface allows the projected traces to emerge and fade over time.</p>
+<h2>Core Components</h2>
+<ul>
+<li>Laser projection device with integrated galvo and programmed microcontroller</li>
+<li>405 nm low-power laser module</li>
+<li>Flat stone coated with photochromic foil</li>
+<li>Underlying treated paper or fabric</li>
+<li>Focused lighting system with two narrow-angle LED spots</li>
+<li>Support tripods, adapters, and connection cables</li>
+<li>Control computer and monitor in the currently documented version</li>
+</ul>
+<h2>Dimensions / Duration / Scalability</h2>
+<ul>
+<li>Installation footprint: 250 x 150 x 170 cm</li>
+<li>Packed dimensions:</li>
+<li>60 x 40 x 40 cm Eurobox, estimated mass 20 kg</li>
+<li>50 x 50 x 15 cm cardboard box with stone, estimated mass 12 kg</li>
+<li>One 120 cm roll of underlying treated paper</li>
+<li>Projection duration is variable</li>
+<li>Typical choreography runs in cycles of 4 to 5 minutes, total 3 cycles</li>
+<li>Project scaling is adaptable upon consultation</li>
+</ul>
+<h2>Spatial Requirements</h2>
+<ul>
+<li>Minimum space required: 2.5 x 4 m</li>
+<li>A completely dark room is mandatory</li>
+<li>Ambient light from external sources should be reduced as much as possible</li>
+<li>Stable, clean, and non-reflective flooring is essential</li>
+<li>The space should be free from high humidity and dirt</li>
+<li>In the original exhibition concept, the room atmosphere may evoke a found artifact, excavation site, or abandoned building</li>
+<li>Surface preparation is carried out by the artist</li>
+<li>The underlying paper or fabric is coated on site</li>
+<li>Recommendations for alternative materials can be discussed in advance</li>
+</ul>
+<h2>Technical Requirements Provided by Venue</h2>
+<ul>
+<li>220 V / 50 Hz / max 3 A, Schuko plug system</li>
+<li>Dark-colored power extension with at least 5 plugs</li>
+<li>Power is needed for light sources, laser device, control computer, and service monitor</li>
+<li>Maximum distance of plugs from artwork: 4 m</li>
+<li>Box or masking structure for hiding the PC near the artwork</li>
+<li>Laser Safety Officer review is recommended for installation</li>
+<li>Separate power extension with visible on/off indication for the laser device as a safety measure</li>
+<li>Luminescent tape to limit visitor access to the stone area</li>
+</ul>
+<h2>Components Provided by Artist</h2>
+<ul>
+<li>Laser projection device utilizing a 405 nm 20 mW laser module</li>
+<li>Integrated galvo and microcontroller</li>
+<li>Tripod for laser and one light source</li>
+<li>Small tripod for second light source</li>
+<li>Charging cables, adapters, and USB extension</li>
+<li>M-ITX PC with Windows and TouchDesigner in the documented version</li>
+<li>Portable monitor, mouse, and keyboard</li>
+<li>Flat stone coated with photochromic foil</li>
+<li>Roll of paper or fabric placed beneath the stone</li>
+</ul>
+<h2>Sound</h2>
+<p>The artwork does not include sound and can be installed relatively close to works that use sound, provided that the neighboring sound level is not too high.</p>
+<h2>Light</h2>
+<ul>
+<li>Two adjustable LED spots with narrow focus are required</li>
+<li>Their positions should avoid casting shadows onto the laser path</li>
+<li>Reflections should be minimized</li>
+</ul>
+<h2>Safety</h2>
+<ul>
+<li>The 405 nm laser module in the documented rider version uses 20 mW and is classified as 3B at the lower range</li>
+<li>Controlled conditions are required to prevent accidental exposure</li>
+<li>LSO assistance is recommended</li>
+<li>Signage and restricted access are recommended during setup</li>
+<li>The controlling PC should remain hidden and inaccessible to visitors</li>
+<li>The presence of a mediator or supervising staff member on site is highly recommended</li>
+</ul>
+<h2>Transport</h2>
+<ul>
+<li>The work is delivered in one standard plastic Eurobox together with two additional boxes</li>
+<li>The artwork is fragile and must be handled with care</li>
+<li>Transportation safety measures are provided by the artist</li>
+</ul>
+<h2>Setup / Deinstallation</h2>
+<ul>
+<li>Installation time: approximately 12 hours</li>
+<li>The artist provides on-site installation</li>
+<li>Assistance may be required for darkening the space and enclosing doorways with Molton</li>
+<li>Light positioning, laser safety adjustment, and final calibration should be carried out on site</li>
+</ul>
+<h2>Daily Operation</h2>
+<ul>
+<li>Switch on the light sources</li>
+<li>Switch on the laser module</li>
+<li>Turn on the control computer by pressing the power button</li>
+<li>The system should be visually checked during operation</li>
+</ul>
+<h2>Maintenance</h2>
+<ul>
+<li>In the documented version, the PC turns off automatically at the predefined time</li>
+<li>Light sources and laser module then need to be switched off manually</li>
+<li>Regular operational checks of the laser output, alignment, and treated surfaces are recommended</li>
+<li>The current exhibition version may be updated in the future, so this rider should be revised when the autonomous setup is finalized</li>
+</ul>
+<h2>Insurance Value</h2>
+<ul>
+<li>UV laser and components: EUR 3000</li>
+<li>Coated surfaces: EUR 1000</li>
+<li>Packaging: EUR 200</li>
+<li>Total insurance value: EUR 4200</li>
+</ul>
+
+
+    </main>
+  </body>
+</html>
