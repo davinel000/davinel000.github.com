@@ -58,6 +58,17 @@ Die Besucherinnen und Besucher sehen, wie drei Gobo-Projektoren rotierende Buchs
 
 Das Projekt speist sich auch aus der persönlichen Erfahrung des Künstlers, Nachrichtenseiten dutzende Male am Tag zu überprüfen, eine Gewohnheit, die nicht zu Kontrolle, sondern zu Erschöpfung und Leere führt. Dieses emotionale Ausbrennen steht im Zentrum von **UNGROUND**: Indem die Arbeit das Ideal von Ordnung visuell zerlegt, regt sie dazu an, darüber nachzudenken, wie wir den unaufhörlichen Informationsstrom verarbeiten, aufnehmen und manchmal in ihm untergehen.
 
+## Teaser
+
+<div class="video-embed-limit video-embed-limit--portrait">
+{% include video.html
+   src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/UNGROUND_teaser.mp4"
+   poster="/assets/images/portfolio/unground/main.jpg"
+   type="video/mp4"
+   caption="UNGROUND - vertikaler Teaser"
+%}
+</div>
+
 ## Technische Umsetzung
 
 **3D-gedruckte Buchstaben in rotierenden Kapseln**  

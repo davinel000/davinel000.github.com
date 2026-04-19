@@ -147,6 +147,26 @@
 	margin-top: 0.5em;
 }
 
+.video-embed-limit {
+	margin: 2em 0;
+}
+
+.video-embed-limit .video-embed {
+	margin: 0;
+}
+
+.video-embed-limit--portrait {
+	max-width: min(28rem, 100%);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@include breakpoint(small) {
+	.video-embed-limit--portrait {
+		max-width: min(24rem, 100%);
+	}
+}
+
 // Cookies.
 /* Updated Cookie Banner Styles */
 /* One-line Cookie Banner Styles */
