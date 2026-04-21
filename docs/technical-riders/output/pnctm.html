@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PNCTM - Technical Rider</title>
+    <title>PNCTM - Präsentation &amp; Technischer Rider</title>
     <style>
 @page {
   size: A4;
-  margin: 20mm 16mm 16mm 16mm;
+  margin: 26mm 16mm 16mm 16mm;
+}
+
+@page cover {
+  size: A4;
+  margin: 0;
 }
 
 html {
@@ -22,26 +27,34 @@ body {
 }
 
 .cover-page {
+  page: cover;
   position: relative;
-  height: calc(297mm - 36mm);
-  margin: -20mm -16mm 0 -16mm;
+  width: 210mm;
+  height: 297mm;
   break-after: page;
   color: #ffffff;
   overflow: hidden;
 }
 
+.cover-page--fullbleed {
+  margin: 0;
+}
+
 .cover-page__image {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cover-page--fullbleed .cover-page__image {
+  inset: -3px;
 }
 
 .cover-page__content {
   position: absolute;
   left: 18mm;
   right: 18mm;
-  bottom: 22mm;
+  bottom: 36mm;
   z-index: 2;
 }
 
@@ -68,10 +81,21 @@ body {
 }
 
 .cover-page__label {
-  margin-top: 7pt;
-  font-size: 14pt;
+  margin-top: 0;
+  font-size: 15.5pt;
+  font-weight: 600;
   letter-spacing: 0.02em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: 0.96;
+}
+
+.cover-page__format {
+  margin-top: 7pt;
+  margin-bottom: 3pt;
+  font-size: 11.8pt;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 0.9;
 }
 
 .cover-page__credit {
@@ -86,7 +110,7 @@ body {
 }
 
 .rider-body {
-  margin-top: 6mm;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -145,12 +169,16 @@ hr {
 
 figure {
   margin: 16pt 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .body-figure img {
   width: 100%;
+  max-height: 155mm;
   height: auto;
   display: block;
+  object-fit: contain;
   break-inside: avoid;
 }
 
@@ -162,124 +190,151 @@ figure {
   text-align: right;
 }
 
+.page-break {
+  break-before: page;
+  page-break-before: always;
+  height: 0;
+}
+
     </style>
   </head>
   <body>
-    <section class="cover-page">
-      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('file:///E:/PROJECTS_LOCAL/WEBSITE/davinel000.github.com/assets/images/portfolio/pnctm/main.JPG');"></div>
+    <section class="cover-page cover-page--fullbleed">
+      <div class="cover-page__image" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.42)), url('https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/mainP6460070_edit.11.jpg'); background-size: cover; background-position: center center;"></div>
       <div class="cover-page__content">
         <div class="cover-page__title-row">
           <h1>PNCTM</h1>
           <div class="cover-page__year">(2024)</div>
         </div>
-        <div class="cover-page__label">Technical Rider</div>
+        <div class="cover-page__format">Interaktive Multimedia-Installation</div>
+        <div class="cover-page__label">Präsentation &amp; Technischer Rider</div>
       </div>
-      <div class="cover-page__credit">Studies of Change, Bremen. Photo: Hsun Hsiang Hsu</div>
+      <div class="cover-page__credit">Studies of Change, Bremen. Foto: Slava Romanov</div>
     </section>
 
     <main class="rider-body">
 <h1>PNCTM</h1>
-<h2>Short Description</h2>
-<p><em>PNCTM</em> is a multimedia interactive installation that reanimates historical diaslides using AI and generative tools, creating a reflective dialogue about the impermanence and malleability of memory. The installation features three frame boxes with integrated screens displaying dynamic animations beneath historical slides, enhanced by interactive magnifying lenses and an immersive ambient soundtrack.</p>
-<p>Each frame box stands on a small pedestal and consists of a curated archive diaslide overlaid on a compact high-definition screen. A media player and a magnifying glass allow individual perception of the visual story. The audiovisual content employs generative AI techniques based on the original diaslide content and its interpretation, together with audio and video processing algorithms.</p>
-<h2>Core Components</h2>
+<p><em>PNCTM</em> ist eine interaktive Multimedia-Installation, die historische Dias mithilfe von KI und generativen Werkzeugen reanimiert und einen reflektierenden Dialog über die Vergänglichkeit und Formbarkeit von Erinnerung eröffnet. Die Installation besteht aus drei kompakten Fotoboxen, in denen Archivdias über kleinen hochauflösenden Bildschirmen platziert sind. Dynamische Bildsequenzen, leise Klangtexturen und Vergrößerungslinsen verwandeln jede Box in eine konzentrierte Betrachtungsstation.</p>
+<p>Der:die Besucher:in beugt sich über das kleine Objekt und blickt mit einer kompakten Lupe durch ein analoges Dia auf eine animierte Handlung, die sich unter und um dieses Bild entfaltet. Digitale Pixel interpretieren, erweitern und stören den fotografischen Erinnerungsträger, während die betrachtende Person Teil einer größeren Interpretationsmaschine wird: Das menschliche Auge, das erinnerte oder imaginierte Bild und die künstliche Interpretation des Ausgangsmaterials beeinflussen einander fortlaufend. Weitere Dokumentation, Bilder und Video sind auf der Projektseite verfügbar: <a href="https://www.slavaromanov.art/2024/PNCTM">slavaromanov.art/2024/PNCTM</a>.</p>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/HsunHsiangHsuSDIM0552.jpg" alt="Studies of Change, Bremen. Foto: Hsun Hsiang Hsu"><figcaption>Studies of Change, Bremen. Foto: Hsun Hsiang Hsu</figcaption></figure>
+
+<div class="page-break"></div>
+
+<h2>Technischer Rider</h2>
+<h3>Zentrale Komponenten</h3>
+<p>Die Installation umfasst drei Fotoboxen. Jede Fotobox enthält:</p>
 <ul>
-<li>Three photoboxes with integrated HD screens</li>
-<li>Curated archive diaslides</li>
-<li>Integrated Android media players</li>
-<li>Magnifying lenses for each viewing station</li>
-<li>Small speaker-based audio playback</li>
-<li>Three stands for presentation</li>
-<li>Cooling, cabling, adapters, and remote controls</li>
+<li>MDF-Fotorahmen</li>
+<li>5-Zoll-FHD-Vorschau-Display, Lilliput A5</li>
+<li>integrierten Android-Mediaplayer</li>
+<li>individuelles Gehäuse, Kabel, Transformator, Ein-/Aus-Schalter, Fernbedienungsempfänger und Montageplatte</li>
+<li>aktive Luftkühlung</li>
+<li>Archivdia und Plexiglasfläche</li>
 </ul>
-<h2>Dimensions / Duration / Scalability</h2>
+<p>Weitere zentrale Elemente sind:</p>
 <ul>
-<li>Each frame box on a stand: 35 x 35 x 120 cm</li>
-<li>Total installation size: 250 x 35 x 120 cm</li>
-<li>Duration of each video: 3 minutes, cyclical</li>
-<li>Packed dimensions: 60 x 40 x 40 cm Eurobox</li>
-<li>Packed mass: approximately 15 kg including disassembled stands</li>
+<li>drei vorfokussierte Vergrößerungslinsen</li>
+<li>zwei Fernbedienungen für Android-Mediaplayer mit Batterien</li>
+<li>drei 12 V / 3 A Netzteile</li>
+<li>Verlängerungskabel für 12-V-Netzteile</li>
+<li>Reinigungszubehör für Plexiglasflächen</li>
 </ul>
-<h2>Spatial Requirements</h2>
+<h3>Dimensionen / Laufzeit / Skalierbarkeit</h3>
 <ul>
-<li>Minimum room size: 350 x 250 cm</li>
-<li>Alternative arrangements for non-standard rooms are possible after discussion</li>
-<li>A separated and enclosed room is highly recommended</li>
-<li>The room should be completely dark</li>
-<li>Low-brightness red artificial light may be used</li>
-<li>A dark curtain or other light trap at the entrance is recommended</li>
-<li>Wall color should be compatible with the red light environment</li>
-<li>The space should be free from high humidity, dirt, and dust</li>
+<li>Jede Fotobox auf einem Ständer: ca. 35 x 35 x 120 cm</li>
+<li>Gesamte Installationsgröße in linearer Anordnung: ca. 250 x 35 x 120 cm</li>
+<li>Dauer jedes Videos: ca. 3 Minuten, zyklisch</li>
+<li>Alternative Anordnungen für nicht standardisierte Räume sind nach Absprache möglich</li>
+<li>Die Objekte können auch über mehrere Räume verteilt werden, sofern dies zum Ausstellungskonzept passt</li>
 </ul>
-<h2>Technical Requirements Provided by Venue</h2>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/Hsun%20Hsiang%20Hsu%20studies%20of%20change_001.jpg" alt="Studies of Change, Bremen. Foto: Hsun Hsiang Hsu"><figcaption>Studies of Change, Bremen. Foto: Hsun Hsiang Hsu</figcaption></figure>
+
+<h3>Räumliche Anforderungen</h3>
 <ul>
-<li>220 V / 50 Hz / max 3 A, Schuko plug system</li>
-<li>Dark-colored power extension with at least 4 plugs</li>
-<li>Three plugs are needed for 12 V / 3 A adapters</li>
-<li>One additional plug may be needed for an optional light source</li>
-<li>Maximum distance of plugs from artwork: 2 m</li>
+<li>Mindestgröße für alle drei Fotoboxen: ca. 350 x 250 cm</li>
+<li>Ein separater und geschlossener Raum wird für eine intime und konzentrierte Interaktion dringend empfohlen</li>
+<li>Der Raum sollte vollständig dunkel oder sehr gut abgedunkelt sein</li>
+<li>Schwaches rotes Kunstlicht wird zur Orientierung verwendet</li>
+<li>Ein dunkler Vorhang oder eine andere Lichtschleuse am Eingang wird empfohlen</li>
+<li>Die Wandfarbe sollte mit der roten Lichtumgebung harmonieren</li>
+<li>Der Raum sollte frei von hoher Luftfeuchtigkeit, Schmutz und Staub sein</li>
+<li>Akustische Trennung von lauten benachbarten Arbeiten wird empfohlen</li>
 </ul>
-<h2>Components Provided by Artist</h2>
+<h3>Technische Anforderungen Seitens Der Institution</h3>
 <ul>
-<li>3 photoboxes, each containing:</li>
-<li>MDF-made photo frame</li>
-<li>5-inch FHD photo preview screen, Lilliput A5</li>
-<li>Integrated Android media player</li>
-<li>Custom casing, cables, transformer, on/off switch, remote receiver, and mounting board</li>
-<li>Active air cooling</li>
-<li>3 pre-focused magnifying lenses</li>
-<li>3 speaker stands</li>
-<li>2 remote controls for Android media players with batteries</li>
-<li>3 x 12 V / 3 A adapters</li>
-<li>3 extension cables for 12 V adapters: 2 m, 4 m, and 7 m</li>
-<li>Cleaning accessories for glass surfaces</li>
+<li>220 V / 50 Hz / max. 3 A, Schuko</li>
+<li>Dunkle Verlängerung oder Mehrfachsteckdose mit mindestens 4 Anschlüssen</li>
+<li>Drei Anschlüsse werden für 12 V / 3 A Netzteile benötigt</li>
+<li>Ein zusätzlicher Anschluss kann für eine optionale Lichtquelle erforderlich sein</li>
+<li>Empfohlene maximale Entfernung der Anschlüsse zur Arbeit: ca. 2 m</li>
+<li>Drei stabile Ständer, ca. 120 cm hoch oder höhenverstellbar</li>
+<li>Die Ständer sollten eine sichere Befestigung der Fotoboxen ermöglichen, zum Beispiel mit Kabelbindern oder einer vergleichbaren nicht-invasiven Befestigung</li>
+<li>Die Vergrößerungslinsen sollten mit einer Schnur oder einer ähnlichen Sicherungslösung an den Ständern befestigt werden, um Herunterfallen oder unbeabsichtigtes Entfernen zu verhindern</li>
 </ul>
-<h2>Sound</h2>
-<p>The artwork includes a soft sound composition played through small speakers integrated into the HD screens. It requires its own acoustic space to avoid interference from other artworks. Headphones or additional speakers are not suitable.</p>
-<h2>Light</h2>
+<h3>Vom Künstler Bereitgestellte Komponenten</h3>
 <ul>
-<li>Red light sources can be used on location</li>
-<li>White light with a red filter can also be adapted upon discussion</li>
-<li>Red wall washers are recommended</li>
-<li>Light positioning should avoid strong reflections on the glossy surfaces of the photoboxes</li>
+<li>3 Fotoboxen mit integrierten Bildschirmen und Mediaplayern</li>
+<li>Kuratierte Archivdias</li>
+<li>3 vorfokussierte Vergrößerungslinsen</li>
+<li>2 Fernbedienungen für Android-Mediaplayer mit Batterien</li>
+<li>3 x 12 V / 3 A Netzteile</li>
+<li>3 Verlängerungskabel für 12-V-Netzteile: ca. 2 m, 4 m und 7 m</li>
+<li>Reinigungszubehör für Plexiglasflächen</li>
+<li>Ersatz-Plexiglasflächen können für längere Ausstellungen bereitgestellt werden und erfordern gegebenenfalls ein kleines zusätzliches Produktionsbudget</li>
 </ul>
-<h2>Safety</h2>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/KIKK24_Photos_Jiawen_uffline%20(41).JPG" alt="KIKK, Namur. Foto: Slava Romanov"><figcaption>KIKK, Namur. Foto: Slava Romanov</figcaption></figure>
+
+<h3>Ton</h3>
+<p>Die Arbeit enthält eine leise Klangkomposition, die über kleine, in die HD-Displays integrierte Lautsprecher abgespielt wird. Sie benötigt einen eigenen akustischen Raum, um Interferenzen mit anderen Arbeiten zu vermeiden. Kopfhörer oder zusätzliche Lautsprecher sind für die beabsichtigte Besucher:innenerfahrung nicht geeignet.</p>
+<h3>Licht</h3>
 <ul>
-<li>The photoboxes are attached to their stands in a way that still allows access to the power switch</li>
-<li>The magnifying lenses are secured to prevent falling or accidental removal</li>
-<li>The installation should remain protected against accidental movement by visitors</li>
+<li>Rote Lichtquellen können vor Ort verwendet werden</li>
+<li>Weißes Licht mit rotem Filter kann nach Absprache ebenfalls angepasst werden</li>
+<li>Rote Wallwasher werden empfohlen</li>
+<li>Die Positionierung der Lichtquellen sollte starke Reflexionen auf den glänzenden Oberflächen der Fotoboxen vermeiden</li>
 </ul>
-<h2>Transport</h2>
+<h3>Sicherheit</h3>
 <ul>
-<li>The artwork is delivered in a standard plastic Eurobox with lid</li>
-<li>The artwork is fragile and must be handled with care</li>
-<li>Transportation safety measures are provided by the artist</li>
+<li>Die Fotoboxen sollten sicher an den Ständern befestigt werden, während der Zugang zum Ein-/Aus-Schalter erhalten bleibt</li>
+<li>Vergrößerungslinsen müssen gesichert werden, um Herunterfallen oder unbeabsichtigtes Entfernen zu verhindern</li>
+<li>Die Installation sollte gegen unbeabsichtigtes Verschieben durch Besucher:innen geschützt bleiben</li>
+<li>Regelmäßige Aufsicht durch das Personal der Institution wird während der Öffnungszeiten empfohlen</li>
 </ul>
-<h2>Setup / Deinstallation</h2>
+<h3>Transport</h3>
 <ul>
-<li>Installation time: approximately 8 hours</li>
-<li>The artist provides on-site installation</li>
-<li>Assistance may be needed for preparing the space, darkening light sources, and enclosing doorways with Molton</li>
+<li>Die Arbeit wird in einer Standard-Kunststoff-Eurobox mit Deckel geliefert</li>
+<li>Verpackungsmaße: ca. 60 x 40 x 40 cm</li>
+<li>Gewicht ohne Ständer: ca. 7 kg</li>
+<li>Die Arbeit ist fragil und muss mit Sorgfalt behandelt werden</li>
+<li>Der Transport sollte von der Institution organisiert und getragen werden, sofern nichts anderes vereinbart wurde</li>
 </ul>
-<h2>Daily Operation</h2>
+<h3>Aufbau / Abbau</h3>
 <ul>
-<li>Daily switching on and off is required</li>
-<li>Power should be checked individually for the screens and related components</li>
-<li>Glass covers and magnifying lenses should be cleaned regularly with the provided accessories</li>
+<li>Geschätzte Aufbauzeit: bis zu 6 Stunden</li>
+<li>Der Künstler kann den Aufbau vor Ort übernehmen oder detaillierte Aufbauanweisungen bereitstellen</li>
+<li>Unterstützung kann für Raumvorbereitung, Abdunkelung, Positionierung der Ständer und das Schließen von Türöffnungen mit Molton erforderlich sein</li>
 </ul>
-<h2>Maintenance</h2>
+<figure class="body-figure"><img src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/Photo%20edits_studiesofchange_slavaromanov%20(1).jpg" alt="Studies of Change, Bremen. Foto: Slava Romanov"><figcaption>Studies of Change, Bremen. Foto: Slava Romanov</figcaption></figure>
+
+<h3>Täglicher Betrieb</h3>
 <ul>
-<li>Regular maintenance includes daily cleaning of glass covers and magnifying lenses</li>
-<li>Daily switching on and off is part of the standard operating routine</li>
-<li>Detailed instructions for switching and troubleshooting are available upon request</li>
-<li>An autostart procedure can be adapted to exhibition requirements</li>
+<li>Tägliches Ein- und Ausschalten ist erforderlich, sofern kein anderer Betriebsmodus vereinbart wurde</li>
+<li>Die Stromversorgung sollte für Bildschirme und zugehörige Komponenten einzeln überprüft werden</li>
+<li>Plexiglasabdeckungen und Vergrößerungslinsen sollten regelmäßig mit dem bereitgestellten Zubehör gereinigt werden</li>
+<li>Eine Autostart-Prozedur kann an die Ausstellungsanforderungen angepasst werden</li>
 </ul>
-<h2>Insurance Value</h2>
+<h3>Wartung</h3>
 <ul>
-<li>Photoboxes: EUR 2000 each</li>
-<li>Stands: EUR 200 each</li>
-<li>Eurobox packaging: EUR 200</li>
-<li>Total insurance value: EUR 6800</li>
+<li>Regelmäßige Wartung umfasst die Reinigung von Plexiglasabdeckungen und Vergrößerungslinsen</li>
+<li>Detaillierte Anweisungen zum Einschalten und zur Behebung typischer Fehler sind auf Anfrage verfügbar</li>
+<li>Bei längeren Ausstellungszeiträumen werden periodische Kontrollen von Bildschirmwiedergabe, Kühlung und Befestigungsstabilität empfohlen</li>
+<li>Ersatz-Plexiglasflächen können für längere Präsentationen sinnvoll sein und als kleine Produktionskosten besprochen werden</li>
+</ul>
+<h3>Versicherungswert</h3>
+<ul>
+<li>Fotoboxen: EUR 2000 pro Stück</li>
+<li>Eurobox-Verpackung: EUR 200</li>
+<li>Gesamtversicherungswert: EUR 6200</li>
 </ul>
 
 

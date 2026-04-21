@@ -1,13 +1,14 @@
-﻿---
+---
 title: "after (fleeting retention)"
 year: "2025"
 artistName: "Slava Romanov"
 role: "Data Artist and Multimedia Developer"
 website: "https://www.slavaromanov.art/"
-documentLabel: "Technical Rider"
+documentLabel: "Presentation & Technical Rider"
 runningTitle: "after (fleeting retention)"
-coverImage: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava%20Romanov%20-%20Lichtrouten%20L%C3%BCdenscheid%20-%20Photo%20Slava%20Romanov%20(44).JPG"
-coverCredit: "Lichtrouten, LÃ¼denscheid. Photo: Slava Romanov"
+formatLabel: "Immersive audiovisual installation"
+coverImage: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/coverSlava Romanov - Lichtrouten Lüdenscheid - Photo Slava Romanov (35).JPG"
+coverCredit: "Lichtrouten, Lüdenscheid. Photo: Slava Romanov"
 coverFullBleed: true
 coverFit: "cover"
 coverPosition: "center center"
@@ -15,55 +16,69 @@ outputPdf: "after-fleeting-retention-rider-en.pdf"
 inlineFigures:
   - id: "audience"
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava%20Romanov.%20LICHTROUTEN%20Luedenscheid%202025.%20Photo%C2%A0Lars%20Gonikman.-5232(1).jpg"
-    caption: "Lichtrouten, LÃ¼denscheid. Photo: Lars Gonikman"
+    caption: "Lichtrouten, Lüdenscheid. Photo: Lars Gonikman"
   - id: "slides"
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava%20Romanov%20-%20Lichtrouten%20L%C3%BCdenscheid%20-%20Photo%20Slava%20Romanov%20(32).JPG"
-    caption: "Lichtrouten, LÃ¼denscheid. Photo: Slava Romanov"
+    caption: "Lichtrouten, Lüdenscheid. Photo: Slava Romanov"
+  - id: "station"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava Romanov - Lichtrouten Lüdenscheid - Photo Slava Romanov (23).JPG"
+    caption: "Lichtrouten, Lüdenscheid. Photo: Slava Romanov"
+  - id: "empty"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava Romanov LICHTROUTEN Luedenscheid 2025 Foto Jennifer Braun-8623.jpg"
+    caption: "Lichtrouten, Lüdenscheid. Photo: Jennifer Braun"
 ---
 # after (fleeting retention)
 
-## Short Description
+*after (fleeting retention)* is an immersive audiovisual installation about afterimages, unstable memory, and the fragility of visual interpretation. A modified Kodak Carousel projector with an intense LED flash system reveals archival photographic negatives for brief moments in synchrony with a generative sound environment. The work fragments the original narratives of the images and turns them into short visual events that appear, linger briefly as visual traces, and disappear again.
 
-*after (fleeting retention)* is an immersive audiovisual installation exploring the ephemerality of memory through powerful LED flashes and generative ambient sound. A modified Kodak Carousel slide projector displays semicontextualized black-and-white negatives, triggering fleeting afterimages in the viewer's perception. Random sequencing and brief bursts of light accentuate the instability of recollection and create a tense relation between visual intensity and slow sonic drift.
+Visitors enter a dark, visually reduced space in which only faint contours remain visible between flash events. Within this sensory uncertainty, bright synchronized bursts of image and sound repeatedly interrupt the darkness. The residual traces of the negatives linger briefly on the retina, prompting each viewer to assemble private connections between image fragments, sound, memory, and personal interpretation. More documentation, images, and video can be found on the project page: [slavaromanov.art/2025/afterfleetingretention](https://www.slavaromanov.art/2025/afterfleetingretention).
 
 {{FIGURE:audience}}
 
-## Core Components
+{{PAGEBREAK}}
 
-- Modified Kodak Carousel slide projector with wide-angle lens
-- Ultra-bright LED light source with heat sink
-- ESP32-based microcontroller for flash and slide switching
-- 81-slide carousel with archival negatives
-- Intel NUC running generative audio software
-- Audio interface and stereo loudspeaker system
-- Low-level red navigation light
+## Technical Rider
 
-{{FIGURE:slides}}
+### Core Components
 
-## Dimensions / Duration / Scalability
+The installation includes one projection and playback system. Its core components include:
 
-- Approximate installation footprint: 3.5 m wide x 3.5 m deep
-- Minimum room size: 4 x 4 m
-- Recommended room size: larger enclosed room with comfortable visitor circulation
-- Projection distance should allow a large-scale image, ideally floor-to-ceiling if the room permits
-- Packed dimensions:
-- 1 Eurobox, 40 x 60 x 40 cm, approx. 15 kg
-- 2 loudspeakers, approx. 12 kg each, plus stands
-- 1 projector tripod or stand, approx. 6 kg
+  - modified Kodak Carousel slide projector with wide-angle lens
+  - ultra-bright LED light source with heat sink
+  - microcontroller-based flash and slide switching system
+  - archival slide carousel with photographic negatives
+  - compact PC running generative audio software
+  - audio interface
+
+Additional installation elements include:
+
+  - local stereo loudspeaker system
+  - projector stand or mounted support solution
+  - low-level red navigation light
+
+{{FIGURE:station}}
+
+### Dimensions / Duration / Scalability
+
+- Approximate installation footprint: approx. 2 x 2 m for the protected projection and control setup
+- Projection distance should allow a large-scale image, ideally close to floor-to-ceiling if the room permits
 - Sound and flashes run continuously during opening hours
-- Flash events are brief and variable
-- Slide transitions occur unpredictably
+- Flash events are brief and variable, typically approx. 0.1 to 2 seconds
+- Slide switching occurs unpredictably during operation
 
-## Spatial Requirements
+### Spatial Requirements
 
-- A separated and enclosed room is strongly recommended
+- Minimum recommended room size: approx. 5 x 5 m
+- A larger enclosed room is strongly recommended, ideally around 8 x 5 m or comparable
 - Full blackout is required
 - A double curtain or similar light-trap at the entrance is recommended
-- Stable flooring with minimal reflective surfaces
 - Mid-to-high sound level requires acoustic separation from neighboring works
+- Stable flooring with minimal reflective surfaces is required
 - Low humidity, low dust, and generally clean conditions are required for reliable operation
 
-## Technical Requirements Provided by Venue
+{{FIGURE:empty}}
+
+### Technical Requirements Provided by Venue
 
 - 220 V / 50 Hz / approx. 3 A, Schuko
 - Dark-colored power strip with at least 6 outlets
@@ -73,87 +88,89 @@ inlineFigures:
 - One or two low-intensity red LED fixtures or red-filter lamps near the entrance
 - Gaffer tape or cable covers for floor cable management
 - Warning sign for bright flashes and dark-room conditions
+- Two loudspeakers, minimum approx. 100 W each, suitable for the room size
+- Local production support for a protected projector position perpendicular to the projection wall
+- If the projector must stand within the room, a protective barrier from all sides is required so visitors cannot enter the projection setup in darkness
 - If applicable, additional local archival negatives can be discussed in advance
 
-## Components Provided by Artist
+### Components Provided by Artist
 
 - Kodak Carousel projector with wide-angle 36 mm lens
 - Modified LED light source with heat sink
 - Microcontroller-based flash and slide switching system
 - Archival slide carousel
-- Intel NUC with generative audio software
-- Behringer UMC1820 audio interface
-- Two 150 W loudspeakers on stands
-- Projector stand
+- Compact PC with generative audio software
+- Audio interface
+- Projector stand or support hardware as agreed
 - Audio, USB, and power cables
 - Protective packaging
 
-## Sound
+### Sound
 
 The installation uses a generative drone-ambient soundtrack with random accent peaks linked to flash events. The work should ideally be presented in an acoustically separated environment. Sound bleed to or from neighboring works should be minimized.
 
-## Light
+{{FIGURE:slides}}
+
+### Light
 
 - The room should remain fully dark during operation
 - No white ambient light should remain visible
 - Low red navigation light is acceptable and recommended for orientation
 
-## Safety
+### Safety
 
 - Bright flashes may affect photosensitive visitors; warning signage at the entrance is required
-- Visitors need minimal orientation guidance in the dark space
-- All stands and loudspeakers must be positioned securely
-- Cables must be taped down or protected
-- The LED module requires ventilation and stable heat management
-- Control devices and audio interface should be placed away from foot traffic
-- Periodic supervision by venue staff is recommended
+- The room should remain free of sharp obstacles and unsafe circulation paths in darkness
+- Visitor capacity inside the room should be monitored so the space does not become overcrowded during peak moments
+- A clearly accessible emergency option for switching on room light should be available
+- The projector setup, loudspeakers, and control devices must remain outside direct visitor access
+- Cables must be taped down or otherwise protected
+- The LED module requires stable ventilation and heat management
+- Periodic supervision by venue staff is recommended during opening hours; in situations with high visitor traffic or groups of children, a staff member should remain nearby
 
-## Transport
+### Transport
 
-- 1 Eurobox with projector, control system, and cables
-- 2 loudspeakers with stands in separate transport units, or compatible local stereo system by agreement
+- 1 Eurobox, approx. 40 x 60 x 40 cm, approx. 15 kg
 - 1 projector stand or tripod bag
+- Additional transport case for compact control components if required
 - All equipment is fragile and must be handled with care
 
-## Setup / Deinstallation
+### Setup / Deinstallation
 
 - Approximate installation time: 1 working day
 - Room blackout should be prepared before final setup if possible
 - Projector position, focus, sound calibration, and flash testing should be completed by the artist
-- Local assistance may be needed for blackout setup, cable routing, and handling loudspeakers
+- Local assistance may be needed for blackout setup, cable routing, and installation of the protective barrier or support structure
 
-## Daily Operation
+### Daily Operation
 
-- Turn on Intel NUC, then audio interface, then loudspeakers
+- Switch on the compact PC, then audio interface, then loudspeakers
 - The microcontroller runs automatically after startup
 - Check that the slide carousel advances correctly
 - Check that no slide is jammed and that the lens remains clean
-- Basic visual inspection of cables, stands, and ventilation is recommended each day
+- Basic visual inspection of cables, stands, ventilation, and speaker status is recommended each day
 
-## Maintenance
+### Maintenance
 
-- The work contains mechanical and optical components that may require periodic adjustment
+- The work contains mechanical, optical, and electronic components that may require periodic adjustment
 - The slide carousel transport, flash behavior, LED cooling, and audio chain should be checked regularly
 - For long exhibition periods, maintenance or troubleshooting by the artist may become necessary
 - For multi-month exhibitions, service conditions and possible travel costs should be agreed in advance
+- Spare LED-related replacement components may require an additional production budget for long-duration exhibitions
 
-## Insurance Value
+### Production / Adaptation Note
+
+For long-term exhibition use, additional preparation or spare components may be required, especially for the LED flash module and other wear-sensitive technical elements. Any such production or adaptation costs should be discussed separately depending on the final exhibition duration and setup.
+
+### Insurance Value
 
 - Kodak Carousel projector: EUR 500
 - Wide-angle 36 mm lens: EUR 500
 - LED module and heat sink: EUR 400
 - Microcontroller and relay system: EUR 1000
-- Slide carousel with archival negatives: EUR 1000
-- Intel NUC: EUR 300
+- Slide carousel with archival negatives: EUR 2000
+- Compact PC: EUR 500
 - Audio interface: EUR 200
-- Loudspeakers and stands: EUR 700
 - Cables and miscellaneous components: EUR 500
 - Packaging: EUR 200
-- Total insurance value: EUR 5300
-
-## Additional Notes
-
-- The artist provides on-site installation when possible
-- The work can be adapted to specific room situations after prior discussion
-- Automatic shutdown can be configured if venue opening hours are fixed
-
+- Total insurance value: EUR 5800

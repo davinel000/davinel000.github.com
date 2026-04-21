@@ -18,7 +18,7 @@ inlineFigures:
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava Romanov. GOLDSTUECKE Gelsenkirchen 2024. Photo Jennifer Braun-3773.jpg"
     caption: "Goldstücke, Gelsenkirchen. Photo: Jennifer Braun"
   - id: "audience"
-    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava%20Romanov.%20LICHTROUTEN%20Luedenscheid%202025.%20Photo%20Lars%20Gonikman.-7433.jpg"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava%20Romanov.%20LICHTROUTEN%20Luedenscheid%202025.%20Photo%C2%A0Lars%20Gonikman.-7472.jpg"
     caption: "Lichtrouten, Lüdenscheid. Photo: Lars Gonikman"
   - id: "closeup"
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Sutum - Credits Slava Romanov1.png"
@@ -26,9 +26,6 @@ inlineFigures:
   - id: "laserout"
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Sutum - Credits Slava Romanov3.png"
     caption: "Šūtum. Photo: Slava Romanov"
-  - id: "audience2"
-    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/sutum/Slava Romanov. GOLDSTUECKE Gelsenkirchen 2024. Photo Lars Gonikman-1 (2).jpg"
-    caption: "Goldstücke, Gelsenkirchen. Photo: Lars Gonikman"
 ---
 # Šūtum
 
@@ -132,8 +129,6 @@ The artwork does not include sound and can be installed near sound-based works, 
 - The artist carries out the on-site setup
 - Venue assistance may be required for darkening the room and managing doorways or light leaks
 - Final light positioning, laser safety adjustment, and calibration are carried out on site
-
-{{FIGURE:audience2}}
 
 ### Daily Operation
 

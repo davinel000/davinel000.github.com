@@ -4,124 +4,155 @@ year: "2024"
 artistName: "Slava Romanov"
 role: "Data Artist and Multimedia Developer"
 website: "https://www.slavaromanov.art/"
-documentLabel: "Technical Rider"
+documentLabel: "Presentation & Technical Rider"
 runningTitle: "PNCTM"
-coverImage: "../../../../assets/images/portfolio/pnctm/main.JPG"
-coverCredit: "Studies of Change, Bremen. Photo: Hsun Hsiang Hsu"
+formatLabel: "Interactive multimedia installation"
+coverImage: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/mainP6460070_edit.11.jpg"
+coverCredit: "Studies of Change, Bremen. Photo: Slava Romanov"
+coverFullBleed: true
+coverFit: "cover"
+coverPosition: "center center"
 outputPdf: "pnctm-rider-en.pdf"
 inlineFigures:
   - id: "audience"
-    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava%20Romanov.%20LICHTROUTEN%20Luedenscheid%202025.%20Photo%C2%A0Lars%20Gonikman.-5232(1).jpg"
-    caption: "Lichtrouten, LÃ¼denscheid. Photo: Lars Gonikman"
-  - id: "slides"
-    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/after_fleeting_retention/Slava%20Romanov%20-%20Lichtrouten%20L%C3%BCdenscheid%20-%20Photo%20Slava%20Romanov%20(32).JPG"
-    caption: "Lichtrouten, LÃ¼denscheid. Photo: Slava Romanov"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/Photo%20edits_studiesofchange_slavaromanov%20(1).jpg"
+    caption: "Studies of Change, Bremen. Photo: Slava Romanov"
+  - id: "installation"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/Hsun%20Hsiang%20Hsu%20studies%20of%20change_001.jpg"
+    caption: "Studies of Change, Bremen. Photo: Hsun Hsiang Hsu"
+  - id: "closeup"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/KIKK24_Photos_Jiawen_uffline%20(41).JPG"
+    caption: "KIKK, Namur. Photo: Slava Romanov"
+  - id: "overview"
+    path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/HsunHsiangHsuSDIM0552.jpg"
+    caption: "Studies of Change, Bremen. Photo: Hsun Hsiang Hsu"
 ---
 # PNCTM
 
-## Short Description
+*PNCTM* is an interactive multimedia installation that reanimates historical diaslides through AI and generative tools, creating a reflective dialogue about the impermanence and malleability of memory. The installation consists of three compact frame boxes in which archival slides are placed over small high-definition screens. Dynamic image sequences, soft sound textures, and magnifying lenses transform each box into a focused viewing station.
 
-*PNCTM* is a multimedia interactive installation that reanimates historical diaslides using AI and generative tools, creating a reflective dialogue about the impermanence and malleability of memory. The installation features three frame boxes with integrated screens displaying dynamic animations beneath historical slides, enhanced by interactive magnifying lenses and an immersive ambient soundtrack.
+Leaning toward the small object, the visitor uses a compact magnifying lens to look through an analogue slide and into an animated action unfolding beneath and around it. Digital pixels interpret, extend, and disturb the photographic memory carrier, while the viewer becomes part of a larger machine of interpretation: the human eye, the remembered or imagined image, and the artificial interpretation of the source material continuously affect one another. More documentation, images, and video can be found on the project page: [slavaromanov.art/2024/PNCTM](https://www.slavaromanov.art/2024/PNCTM).
 
-Each frame box stands on a small pedestal and consists of a curated archive diaslide overlaid on a compact high-definition screen. A media player and a magnifying glass allow individual perception of the visual story. The audiovisual content employs generative AI techniques based on the original diaslide content and its interpretation, together with audio and video processing algorithms.
+{{FIGURE:overview}}
 
-## Core Components
+{{PAGEBREAK}}
 
-- Three photoboxes with integrated HD screens
-- Curated archive diaslides
-- Integrated Android media players
-- Magnifying lenses for each viewing station
-- Small speaker-based audio playback
-- Three stands for presentation
-- Cooling, cabling, adapters, and remote controls
+## Technical Rider
 
-## Dimensions / Duration / Scalability
+### Core Components
 
-- Each frame box on a stand: 35 x 35 x 120 cm
-- Total installation size: 250 x 35 x 120 cm
-- Duration of each video: 3 minutes, cyclical
-- Packed dimensions: 60 x 40 x 40 cm Eurobox
-- Packed mass: approximately 15 kg including disassembled stands
+The installation includes three photoboxes. Each photobox contains:
 
-## Spatial Requirements
+  - MDF-made photo frame
+  - 5-inch FHD photo preview screen, Lilliput A5
+  - integrated Android media player
+  - custom casing, cables, transformer, on/off switch, remote receiver, and mounting board
+  - active air cooling
+  - archive diaslide and plexiglass surface
 
-- Minimum room size: 350 x 250 cm
-- Alternative arrangements for non-standard rooms are possible after discussion
-- A separated and enclosed room is highly recommended
-- The room should be completely dark
-- Low-brightness red artificial light may be used
+Additional core elements include:
+
+  - three pre-focused magnifying lenses
+  - two remote controls for Android media players with batteries
+  - three 12 V / 3 A adapters
+  - extension cables for 12 V adapters
+  - cleaning accessories for plexiglass surfaces
+
+### Dimensions / Duration / Scalability
+
+- Each frame box on a stand: approx. 35 x 35 x 120 cm
+- Total installation size in a linear arrangement: approx. 250 x 35 x 120 cm
+- Duration of each video: approx. 3 minutes, cyclical
+- Alternative arrangements for non-standard rooms are possible upon discussion
+- The objects can also be distributed across several spaces if this fits the exhibition concept
+
+{{FIGURE:installation}}
+
+### Spatial Requirements
+
+- Minimum room size for all three frame boxes: approx. 350 x 250 cm
+- A separated and enclosed room is highly recommended for intimate and focused interaction
+- The room should be completely dark or very well dimmed
+- Low-brightness red artificial light will be used for orientation
 - A dark curtain or other light trap at the entrance is recommended
 - Wall color should be compatible with the red light environment
 - The space should be free from high humidity, dirt, and dust
+- Acoustic separation from loud neighboring works is recommended
 
-## Technical Requirements Provided by Venue
+### Technical Requirements Provided by Venue
 
-- 220 V / 50 Hz / max 3 A, Schuko plug system
+- 220 V / 50 Hz / max. 3 A, Schuko plug system
 - Dark-colored power extension with at least 4 plugs
 - Three plugs are needed for 12 V / 3 A adapters
 - One additional plug may be needed for an optional light source
-- Maximum distance of plugs from artwork: 2 m
+- Maximum recommended distance of plugs from artwork: approx. 2 m
+- Three stable stands, approx. 120 cm high or height-adjustable
+- Stands should allow secure attachment of the photoboxes, for example with cable ties or comparable non-invasive fixing
+- The magnifying lenses should be secured to the stands with a cord or similar safety solution to prevent falling or accidental removal
 
-## Components Provided by Artist
+### Components Provided by Artist
 
-- 3 photoboxes, each containing:
-- MDF-made photo frame
-- 5-inch FHD photo preview screen, Lilliput A5
-- Integrated Android media player
-- Custom casing, cables, transformer, on/off switch, remote receiver, and mounting board
-- Active air cooling
+- 3 photoboxes with integrated screens and media players
+- Curated archive diaslides
 - 3 pre-focused magnifying lenses
-- 3 speaker stands
 - 2 remote controls for Android media players with batteries
 - 3 x 12 V / 3 A adapters
-- 3 extension cables for 12 V adapters: 2 m, 4 m, and 7 m
-- Cleaning accessories for glass surfaces
+- 3 extension cables for 12 V adapters: approx. 2 m, 4 m, and 7 m
+- Cleaning accessories for plexiglass surfaces
+- Spare plexiglass surfaces may be provided for longer exhibitions and may require a small additional production budget
 
-## Sound
+{{FIGURE:closeup}}
 
-The artwork includes a soft sound composition played through small speakers integrated into the HD screens. It requires its own acoustic space to avoid interference from other artworks. Headphones or additional speakers are not suitable.
+### Sound
 
-## Light
+The artwork includes a soft sound composition played through small speakers integrated into the HD screens. It requires its own acoustic space to avoid interference from other artworks. Headphones or additional speakers are not suitable for the intended visitor experience.
+
+### Light
 
 - Red light sources can be used on location
 - White light with a red filter can also be adapted upon discussion
 - Red wall washers are recommended
 - Light positioning should avoid strong reflections on the glossy surfaces of the photoboxes
 
-## Safety
+### Safety
 
-- The photoboxes are attached to their stands in a way that still allows access to the power switch
-- The magnifying lenses are secured to prevent falling or accidental removal
+- The photoboxes should be securely attached to the stands while still allowing access to the power switch
+- Magnifying lenses must be secured to prevent falling or accidental removal
 - The installation should remain protected against accidental movement by visitors
+- Periodic supervision by venue staff is recommended during opening hours
 
-## Transport
+### Transport
 
-- The artwork is delivered in a standard plastic Eurobox with lid
+- The artwork is delivered in one standard plastic Eurobox with lid
+- Packed dimensions: approx. 60 x 40 x 40 cm
+- Packed mass without stands: approx. 7 kg
 - The artwork is fragile and must be handled with care
-- Transportation safety measures are provided by the artist
+- Transportation should be arranged and covered by the venue unless agreed otherwise
 
-## Setup / Deinstallation
+### Setup / Deinstallation
 
-- Installation time: approximately 8 hours
-- The artist provides on-site installation
-- Assistance may be needed for preparing the space, darkening light sources, and enclosing doorways with Molton
+- Approximate installation time: up to 6 hours
+- The artist can provide on-site installation or detailed setup instructions
+- Assistance may be needed for preparing the space, darkening light sources, positioning stands, and enclosing doorways with Molton
 
-## Daily Operation
+{{FIGURE:audience}}
 
-- Daily switching on and off is required
+### Daily Operation
+
+- Daily switching on and off is required unless another operating mode is agreed
 - Power should be checked individually for the screens and related components
 - Glass covers and magnifying lenses should be cleaned regularly with the provided accessories
-
-## Maintenance
-
-- Regular maintenance includes daily cleaning of glass covers and magnifying lenses
-- Daily switching on and off is part of the standard operating routine
-- Detailed instructions for switching and troubleshooting are available upon request
 - An autostart procedure can be adapted to exhibition requirements
 
-## Insurance Value
+### Maintenance
+
+- Regular maintenance includes cleaning of plexiglass covers and magnifying lenses
+- Detailed instructions for switching and troubleshooting are available upon request
+- For long exhibition periods, periodic checks of screen playback, cooling, and mounting stability are recommended
+- Replacement plexiglass surfaces may be useful for longer presentations and can be discussed as a small production cost
+
+### Insurance Value
 
 - Photoboxes: EUR 2000 each
-- Stands: EUR 200 each
 - Eurobox packaging: EUR 200
-- Total insurance value: EUR 6800
+- Total insurance value: EUR 6200
