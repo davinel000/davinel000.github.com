@@ -50,7 +50,8 @@
             {% include filter_bar.html %}
 
 
-                {% for project in site.posts %}
+                {% assign catalogue_projects = site.posts | where_exp: "item", "item.lang != 'de'" %}
+                {% for project in catalogue_projects %}
                 <div class="project-row" data-category="{{ project.category }}" data-tags="{{ project.tags | join: ',' }}" data-year="{{ project.year }}" style="display: flex; margin-bottom: 2em;">
                     <!-- Image Part (1/3) -->
 
