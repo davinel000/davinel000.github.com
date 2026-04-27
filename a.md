@@ -6,7 +6,7 @@ permalink: /a/
 image: /assets/images/portfolio/in_the_digital_shadow/overview/P6560441.JPG
 nav-menu: false
 show_tile: true
-position: 1.9
+position: 98
 
 hero:
   subtitle: Data Artist & Multimedia Developer

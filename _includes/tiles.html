@@ -1,16 +1,14 @@
 {% assign tiles = "" | split: "" %}
 
 {% if "posts" == site.tiles-source or "both" == site.tiles-source %}
-  {% assign post_tiles = site.posts | where_exp: "item", "item.show_tile == true and item.lang != 'de'" %}
+  {% assign post_tiles = site.posts | where_exp: "item", "item.show_tile == true and item.lang != 'de'" | sort: "position" %}
   {% assign tiles = tiles | concat: post_tiles %}
 {% endif %}
 
 {% if "pages" == site.tiles-source or "both" == site.tiles-source %}
-  {% assign page_tiles = site.html_pages | where_exp: "item", "item.show_tile == true" %}
+  {% assign page_tiles = site.html_pages | where_exp: "item", "item.show_tile == true" | sort: "position" %}
   {% assign tiles = tiles | concat: page_tiles %}
 {% endif %}
-
-{% assign tiles = tiles | sort: "position" %}
 
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
