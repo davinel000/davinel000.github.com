@@ -51,8 +51,12 @@
 			}
 
 			p {
-				opacity: 0.72;
-				@include vendor('transition', 'opacity 0.25s ease');
+				color: rgba(255, 255, 255, 0.08);
+				opacity: 1;
+				@include vendor('transition', (
+					'color 0.25s ease',
+					'opacity 0.25s ease'
+				));
 			}
 
 			h3 {
@@ -101,9 +105,11 @@
 				z-index: 1;
 			}
 
-			&:hover {
+			&:hover,
+			&:focus-within {
 				p {
-					opacity: 1;
+					color: _palette(fg);
+					opacity: 0.95;
 				}
 
 				&:before {
@@ -150,6 +156,10 @@
 
 				h3 {
 					font-size: 1.5em;
+				}
+
+				p {
+					color: rgba(255, 255, 255, 0.18);
 				}
 			}
 		}
