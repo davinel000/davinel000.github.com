@@ -20,8 +20,8 @@ lang: en
 
 description: Interactive AV installation that turns captured visitor traces into a spatial memory system.
 nav-menu: false
-show_tile: false
-position: 0.5
+show_tile: true
+position: 0
 image: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
 hero_image: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
 
