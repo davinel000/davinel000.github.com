@@ -18,7 +18,7 @@ tags:
 id: 10
 lang: en
 
-description: Interactive AV installation that turns captured visitor traces into a spatial memory system.
+description: Interactive AV installation that turns visitor traces into a spatial memory system.
 nav-menu: false
 show_tile: true
 position: 0
@@ -47,6 +47,12 @@ The installation works with the hidden residue of creative production: files, sc
 
 The work can be presented as a room-scale installation, a research-based artwork, or a public encounter with computational memory. Its research layer remains available for contexts that need it, but the primary form is an installation for visitors, bodies, and space.
 
+- **Format**: Interactive audiovisual installation
+- **Medium**: Projection, point-cloud capture, real-time media system, light objects, sound, computer vision, red-line interaction
+- **Core elements**: 3 x 3 x 3 m projection chamber, six light-sound objects, Allocate Station, resonating metal plate, perforated text plaques, spatial sound
+- **Space**: Approx. 12 x 12 x 4 m minimum footprint recommended for the full installation setup
+- **System**: Depth cameras, projectors, ten-channel sound, DMX lighting, OpenCV red-line detection, networked TouchDesigner control logic
+
 ## Documentation video
 
 {% include video.html
@@ -55,18 +61,6 @@ The work can be presented as a room-scale installation, a research-based artwork
    type="video/mp4"
    caption="in the digital shadow - video documentation excerpt"
 %}
-
-## Installation Views - Jimi Liu
-
-{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/selected/" limit=6 %}
-
-*Photos: Jimi Liu.*
-
-## Installation Views - Additional Documentation
-
-{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/overview/" limit=6 %}
-
-*Photos: Slava Romanov.*
 
 ## Spatial System
 
@@ -79,6 +73,8 @@ The installation is organised through four connected modules:
 
 The system keeps running between direct interactions. Recorded shadows wander, disappear, reappear, and accumulate. Visitor actions can make the room denser: projection surfaces fill with traces, sound thickens, red light intensifies, and the system approaches overload. At the threshold it flashes, produces noise, clears slots, and returns to a quieter state.
 
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/spatial/" limit=6 %}
+
 ## Interaction
 
 Inside the Collection Chamber, a visitor's body becomes a point-cloud trace. Touching the resonating metal plate starts a short recording window of roughly fifteen seconds, linking body movement with contact sound.
@@ -87,41 +83,28 @@ At the Allocate Station, visitors draw a red mark on paper. The gesture comes fr
 
 The room moves through five states: `empty`, `wandering`, `collection`, `overload`, and `flush`. These states shape the timing, density, brightness, sound pressure, and visibility of stored traces.
 
-## Research Layer
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/interaction/" limit=6 %}
 
-The installation grew out of the artistic research project and M.A. thesis **in the digital shadow: An Embodied Debrief** at the Digital Media M.A., University of the Arts Bremen. The research rereads the production process of [**umbra**](/2025/umbra) through traces that usually stay outside public documentation: communication, budgets, project files, schedules, AI-assisted workflows, bodily strain, and recovery.
+## Artistic Research
 
-The thesis proposes **Embodied Debrief** as a method for returning to a completed production through its residues. Four operational modes organise the research and inform the installation logic:
+The installation emerges from the afterlife of [**umbra: In the Digital Shadow**](/2025/umbra), an audiovisual performance developed by Slava Romanov and Chi Him Chik in 2025. Parts of that production return here as material, spatial logic, and stored pressure: the cube, point-cloud bodies, projection surfaces, technical remnants, and the question of agency between human performer and computational system.
 
-- **Collect** - accumulation of files, notes, messages, purchases, recordings, and technical states.
-- **Allocate** - distribution of time, money, attention, space, and system capacity.
-- **Delegate** - work and responsibility moving across collaborators, software, AI systems, hardware, and infrastructure.
-- **Overload** - the point where density, coordination, expectation, and embodied capacity exceed a workable limit.
+The research asks how creative production can be read through what remains after completion: files, schedules, budgets, messages, AI-assisted workflows, delegated work, fatigue, and recovery. **Embodied Debrief** names this return to a completed project through its residues. The installation translates that method into states of collection, allocation, overload, and release.
 
-The public research repository contains the thesis PDF, selected datasets, diagrams, methodology notes, and extended documentation prepared for HfK Bremen.
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/research/" limit=1 %}
+
+The written M.A. thesis **in the digital shadow: An Embodied Debrief** was developed at the Digital Media M.A., University of the Arts Bremen. It contains the extended research argument, methodology, analytical diagrams, and references. The public repository provides the thesis PDF, selected datasets, diagrams, technical notes, and extended documentation prepared for HfK Bremen.
 
 Research repository: [github.com/davinel000/inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)  
 Thesis PDF: [romanov_in_the_digital_shadow.pdf](https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf)
 
-## Origin
-
-The work emerges from [**umbra: In the Digital Shadow**](/2025/umbra), an audiovisual performance developed by Slava Romanov and Chi Him Chik in 2025. It reuses and transforms parts of that production: the cube, projection surfaces, point-cloud logic, recorded bodily presence, and the question of agency between human performer and computational system.
-
-Here those elements become a self-running environment. The performance's afterlife is reorganised into a spatial system of memory, allocation, overload, and release.
-
 ## Presentation
 
-Presented in Halle 1, HfK Bremen, 31 March - 2 April 2026. Final colloquium: 2 April 2026.
-
-## Technical And Material Notes
-
-- **Format**: Interactive installation / artistic research environment
-- **Medium**: Projection, point-cloud capture, real-time media system, light objects, sound, computer vision, red-line interaction
-- **Core elements**: 3 x 3 x 3 m projection chamber, six light-sound objects, Allocate Station, resonating metal plate, perforated text plaques, spatial sound
-- **Visual language**: Darkness, red light, white point-cloud bodies, layered shadows, pixel noise, glitch, overload states
-- **System**: Depth cameras, projectors, ten-channel sound, DMX lighting, OpenCV red-line detection, networked TouchDesigner control logic
+Presented in Halle 1, HfK Bremen, 31 March - 2 April 2026.
 
 Technical rider, installation requirements, and extended documentation are available on request: [node@slavaromanov.art](mailto:node@slavaromanov.art)
+
+*Photos: Jimi Liu and Slava Romanov.*
 
 ## Credits
 
