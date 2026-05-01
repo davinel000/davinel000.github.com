@@ -18,7 +18,7 @@ tags:
 id: 10
 lang: en
 
-description: Interactive audiovisual installation that records visitors as point-cloud shadows and redistributes them through a spatial memory system.
+description: Interactive AV installation that turns captured visitor traces into a spatial memory system.
 nav-menu: false
 show_tile: false
 position: 0.5
@@ -51,16 +51,22 @@ The work can be presented as a room-scale installation, a research-based artwork
 
 {% include video.html
    src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
-   poster="/assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg"
+   poster="/assets/images/portfolio/in_the_digital_shadow/video/teaser-poster.jpg"
    type="video/mp4"
    caption="in the digital shadow - video documentation excerpt"
 %}
 
-## Installation Views
+## Installation Views - Jimi Liu
 
-{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/selected/" %}
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/selected/" limit=6 %}
 
 *Photos: Jimi Liu.*
+
+## Installation Views - Additional Documentation
+
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/overview/" limit=6 %}
+
+*Photos: Slava Romanov.*
 
 ## Spatial System
 
