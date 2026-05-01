@@ -43,7 +43,7 @@ related_projects:
 
 **in the digital shadow** is an interactive audiovisual installation built as a spatial memory system. Visitors enter a projection chamber, become recorded as point-cloud shadows, and see those traces return through projection surfaces, light objects, and sound.
 
-The installation works with the hidden residue of creative production: files, schedules, budgets, chats, self-tracking marks, delegated work, technical leftovers, fatigue, and recovery. These materials are translated into a room that collects, stores, allocates, overloads, and partially releases traces.
+The installation interprets creative labour through the residue it leaves behind. Files, schedules, budgets, chats, self-tracking marks, delegated work, technical leftovers, fatigue, and recovery form the research material behind the work. In the space, these pressures become a system that collects, stores, allocates, overloads, and partially releases visitor traces.
 
 The work can be presented as a room-scale installation, a research-based artwork, or a public encounter with computational memory. Its research layer remains available for contexts that need it, but the primary form is an installation for visitors, bodies, and space.
 
