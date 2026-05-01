@@ -11,6 +11,11 @@
       <h3>{{ case.title }}</h3>
       <p class="project-strip__summary">{{ case.summary }}</p>
       <p class="project-strip__body">{{ case.body }}</p>
+      {% if case.detail_href %}
+      <p class="project-strip__actions">
+        <a class="button small" href="{{ case.detail_href | relative_url }}">{{ case.detail_label | default: "Project details" }}</a>
+      </p>
+      {% endif %}
       <ul class="project-strip__tags">
         {% for tag in case.tags %}
         <li>{{ tag }}</li>

@@ -3,7 +3,7 @@ layout: page
 title: About
 description: Nice to meet you. Let's collaborate.
 permalink: /a/
-image: /assets/images/portfolio/in_the_digital_shadow/overview/P6560441.JPG
+image: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
 nav-menu: false
 show_tile: true
 position: 98
@@ -14,7 +14,7 @@ hero:
   lede: Art, code, and production for immersive systems, installations, and performative media.
   media:
     - src: /assets/images/portfolio/i_see_time/overview/0J0A1769.jpg
-    - src: /assets/images/portfolio/in_the_digital_shadow/overview/P6560441.JPG
+    - src: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
     - src: /assets/images/portfolio/umbra/carousel/1.png
   ctas:
     - label: Follow on Instagram
@@ -142,9 +142,11 @@ featured_projects:
         title: in the digital shadow
         summary: An interactive audiovisual system that records, accumulates, and redistributes visitors' traces.
         body: Point clouds, light, and sound are collected, stored, and reallocated across a shifting installation environment - turning memory, overload, and release into a spatial metaphor for creative production.
+        detail_href: /2026/in-the-digital-shadow
+        detail_label: Project details
         gallery:
           folder: /assets/images/portfolio/in_the_digital_shadow/
-          carousel_folder: carousel/
+          carousel_folder: selected/
         tags:
           - interactive installation
           - point clouds
@@ -155,6 +157,8 @@ featured_projects:
         title: "\u0160\u016Btum"
         summary: Light, material, and historical reference assembled as a precise exhibition situation.
         body: A physical-digital installation built through light, surface, and historical framing, with exhibition logic treated as part of the work itself.
+        detail_href: /2024/shootoom
+        detail_label: Project details
         gallery:
           folder: /assets/images/portfolio/sutum/
           carousel_folder: carousel/
@@ -167,6 +171,8 @@ featured_projects:
         title: PNCTM
         summary: Memory-focused installation work built through physical media, AI interpretation, and embodied viewing.
         body: An installation direction where archival fragments, generative interpretation, and the bodily act of looking are composed into one spatial experience.
+        detail_href: /2024/pnctm
+        detail_label: Project details
         gallery:
           folder: /assets/images/portfolio/pnctm/
           carousel_folder: carousel/
@@ -184,6 +190,8 @@ featured_projects:
         title: umbra
         summary: AV performance with human-machine co-improvisation.
         body: A live system where the performer's body becomes a data source for depth-based capture, generative visuals, and evolving digital doubles - staged through a motorised screen and multi-layered projection logic.
+        detail_href: /2025/umbra
+        detail_label: Project details
         gallery:
           folder: /assets/images/portfolio/umbra/
           carousel_folder: carousel/

@@ -489,6 +489,17 @@
   line-height: 1.6;
 }
 
+.project-strip__actions {
+  margin: 0;
+}
+
+.project-strip__actions .button {
+  margin: 0;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
 .project-strip__tags {
   display: flex;
   flex-wrap: wrap;

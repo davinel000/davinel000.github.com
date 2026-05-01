@@ -159,7 +159,12 @@
 				}
 
 				p {
-					color: rgba(255, 255, 255, 0.18);
+					color: _palette(fg);
+					opacity: 0.95;
+				}
+
+				&:before {
+					opacity: 0.45;
 				}
 			}
 		}
