@@ -3,7 +3,7 @@ layout: page
 title: About
 description: Nice to meet you. Let's collaborate.
 permalink: /a/
-image: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
+image: /assets/images/portfolio/i_see_time/overview/0J0A1769.jpg
 nav-menu: false
 show_tile: true
 position: 98
