@@ -39,21 +39,9 @@ related_projects:
     description: Kinetic typographic light installation about unstable attention and fragmented meaning.
 ---
 
-## Overview
-
-**in the digital shadow** is an interactive audiovisual installation built as a spatial memory system. Visitors enter a projection chamber, become recorded as point-cloud shadows, and see those traces return through projection surfaces, light objects, and sound.
-
-The installation interprets creative labour through the residue it leaves behind. Files, schedules, budgets, chats, self-tracking marks, delegated work, technical leftovers, fatigue, and recovery form the research material behind the work. In the space, these pressures become a system that collects, stores, allocates, overloads, and partially releases visitor traces.
-
-The work can be presented as a room-scale installation, a research-based artwork, or a public encounter with computational memory. Its research layer remains available for contexts that need it, but the primary form is an installation for visitors, bodies, and space.
-
 - **Format**: Interactive audiovisual installation
-- **Medium**: Projection, point-cloud capture, real-time media system, light objects, sound, computer vision, red-line interaction
-- **Core elements**: 3 x 3 x 3 m projection chamber, six light-sound objects, Allocate Station, resonating metal plate, perforated text plaques, spatial sound
-- **Space**: Approx. 12 x 12 x 4 m minimum footprint recommended for the full installation setup
-- **System**: Depth cameras, projectors, ten-channel sound, DMX lighting, OpenCV red-line detection, networked TouchDesigner control logic
-
-## Documentation video
+- **Medium**: Projections, point-cloud & sound capture, real-time, light objects, spatial sound, computer vision, embodied interaction
+- **Space**: 12 x 12 x 4 m minimum footprint for the full installation setup
 
 {% include video.html
    src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
@@ -61,6 +49,15 @@ The work can be presented as a room-scale installation, a research-based artwork
    type="video/mp4"
    caption="in the digital shadow - video documentation excerpt"
 %}
+
+## Overview
+
+**in the digital shadow** is an interactive audiovisual installation built as a spatial memory system. Visitors enter a projection chamber, become recorded as point-cloud shadows, and see those traces return through projection surfaces, light objects, and sound.
+
+The installation interprets creative labour through the residue it leaves behind. Files, schedules, budgets, chats, self-tracking marks, delegated work, technical leftovers, fatigue, and recovery form the research material behind the work. In the space, these pressures become a system that collects, stores, allocates, overloads, and partially releases visitor traces.
+
+
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/spatial/" limit=6 %}
 
 ## Spatial System
 
@@ -73,7 +70,7 @@ The installation is organised through four connected modules:
 
 The system keeps running between direct interactions. Recorded shadows wander, disappear, reappear, and accumulate. Visitor actions can make the room denser: projection surfaces fill with traces, sound thickens, red light intensifies, and the system approaches overload. At the threshold it flashes, produces noise, clears slots, and returns to a quieter state.
 
-{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/spatial/" limit=6 %}
+{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/interaction/" limit=6 %}
 
 ## Interaction
 
@@ -83,9 +80,9 @@ At the Allocate Station, visitors draw a red mark on paper. The gesture comes fr
 
 The room moves through five states: `empty`, `wandering`, `collection`, `overload`, and `flush`. These states shape the timing, density, brightness, sound pressure, and visibility of stored traces.
 
-{% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/interaction/" limit=6 %}
 
-## Artistic Research
+
+## Research Context
 
 The installation emerges from the afterlife of [**umbra: In the Digital Shadow**](/2025/umbra), an audiovisual performance developed by Slava Romanov and Chi Him Chik in 2025. Parts of that production return here as material, spatial logic, and stored pressure: the cube, point-cloud bodies, projection surfaces, technical remnants, and the question of agency between human performer and computational system.
 
@@ -93,23 +90,17 @@ The research asks how creative production can be read through what remains after
 
 {% include image-gallery-folder.html imagefolder="/assets/images/portfolio/in_the_digital_shadow/research/" limit=1 %}
 
-The written M.A. thesis **in the digital shadow: An Embodied Debrief** was developed at the Digital Media M.A., University of the Arts Bremen. It contains the extended research argument, methodology, analytical diagrams, and references. The public repository provides the thesis PDF, selected datasets, diagrams, technical notes, and extended documentation prepared for HfK Bremen.
-
-Research repository: [github.com/davinel000/inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)  
-Thesis PDF: [romanov_in_the_digital_shadow.pdf](https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf)
+The publication [**in the digital shadow: An Embodied Debrief**](https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf) contains the extended research argument, methodology, analytical diagrams, and references. The [public repository](https://github.com/davinel000/inthedigitalshadow) provides the thesis PDF, selected datasets, diagrams, technical notes, and extended documentation prepared for HfK Bremen.
 
 ## Presentation
 
-Presented in Halle 1, HfK Bremen, 31 March - 2 April 2026.
+Presented HfK Bremen, 31 March - 2 April 2026.
 
 Technical rider, installation requirements, and extended documentation are available on request: [node@slavaromanov.art](mailto:node@slavaromanov.art)
-
-*Photos: Jimi Liu and Slava Romanov.*
 
 ## Credits
 
 Concept, system, installation - **Slava Romanov**  
 Related performance origin - **umbra: In the Digital Shadow**, by Slava Romanov and Chi Him Chik  
-Supervision / research context - **Dennis P. Paul**, **Ralf Baecker**, Digital Media M.A., University of the Arts Bremen  
+Supervision - **Dennis P. Paul**, **Ralf Baecker**, Digital Media M.A., University of the Arts Bremen  
 Photography - **Jimi Liu**, **Slava Romanov**  
-Acknowledgements - **Chi Him Chik**, **Jimi Liu**, collaborators and supporters of the original production and exhibition context
