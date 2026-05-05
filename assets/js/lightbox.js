@@ -42,8 +42,9 @@ function setGallery(el) {
     elements.forEach(element => {
         element.classList.remove('gallery');
 	});
-	if(el.closest('ul, p, .image-gallery')) {
-		var link_elements = el.closest('ul, p, .image-gallery').querySelectorAll("a[class*='lightbox-']");
+	var galleryContainer = el.closest('ul, p, .image-gallery, .dataviz-project__gallery');
+	if(galleryContainer) {
+		var link_elements = galleryContainer.querySelectorAll("a[class*='lightbox-']");
 		link_elements.forEach(link_element => {
 			link_element.classList.remove('current');
 		});
@@ -74,6 +75,100 @@ function setGallery(el) {
 			gallery_elements[prevkey].click();
 		});
 	}
+}
+
+function lightboxNavigate(direction) {
+    var galleryElements = document.querySelectorAll('a.gallery');
+    if (!galleryElements.length) return;
+
+    var currentKey;
+    Object.keys(galleryElements).forEach(function(k) {
+        if (galleryElements[k].classList.contains('current')) currentKey = parseInt(k);
+    });
+
+    if (currentKey === undefined) return;
+
+    var targetKey = direction === 'next'
+        ? (currentKey === galleryElements.length - 1 ? 0 : currentKey + 1)
+        : (currentKey === 0 ? galleryElements.length - 1 : currentKey - 1);
+
+    galleryElements[targetKey].click();
+}
+
+function setupProjectGalleries() {
+    var galleryShells = document.querySelectorAll('[data-gallery-shell]');
+
+    function updateShell(shell) {
+        var isDesktop = window.innerWidth >= 981;
+        var track = shell.querySelector('.dataviz-project__gallery');
+        var figures = shell.querySelectorAll('.dataviz-project__figure');
+        var prev = shell.querySelector('[data-gallery-prev]');
+        var next = shell.querySelector('[data-gallery-next]');
+        var status = shell.querySelector('[data-gallery-status]');
+        var visibleCount = 3;
+        var maxIndex = Math.max(0, figures.length - visibleCount);
+
+        if (!isDesktop) {
+            shell.dataset.galleryIndex = '0';
+            track.style.transform = '';
+            if (prev) prev.disabled = true;
+            if (next) next.disabled = true;
+            if (status) status.textContent = '1 / ' + figures.length;
+            return;
+        }
+
+        var index = parseInt(shell.dataset.galleryIndex || '0', 10);
+        if (Number.isNaN(index)) index = 0;
+        index = Math.max(0, Math.min(index, maxIndex));
+        shell.dataset.galleryIndex = String(index);
+
+        var gap = 14.4;
+        if (window.getComputedStyle(track).gap) {
+            gap = parseFloat(window.getComputedStyle(track).gap) || gap;
+        }
+
+        var viewport = shell.querySelector('.dataviz-project__gallery-viewport');
+        var viewportWidth = viewport.clientWidth;
+        var itemWidth = (viewportWidth - gap * (visibleCount - 1)) / visibleCount;
+        var offset = index * (itemWidth + gap);
+
+        track.style.transform = 'translateX(-' + offset + 'px)';
+
+        if (prev) prev.disabled = index === 0;
+        if (next) next.disabled = index >= maxIndex;
+        if (status) status.textContent = (index + 1) + '–' + Math.min(index + visibleCount, figures.length) + ' / ' + figures.length;
+    }
+
+    galleryShells.forEach(function(shell) {
+        var prev = shell.querySelector('[data-gallery-prev]');
+        var next = shell.querySelector('[data-gallery-next]');
+
+        if (shell.dataset.galleryBound === 'true') return;
+        shell.dataset.galleryBound = 'true';
+        shell.dataset.galleryIndex = '0';
+
+        if (prev) {
+            prev.addEventListener('click', function() {
+                var current = parseInt(shell.dataset.galleryIndex || '0', 10);
+                shell.dataset.galleryIndex = String(Math.max(0, current - 1));
+                updateShell(shell);
+            });
+        }
+
+        if (next) {
+            next.addEventListener('click', function() {
+                var current = parseInt(shell.dataset.galleryIndex || '0', 10);
+                shell.dataset.galleryIndex = String(current + 1);
+                updateShell(shell);
+            });
+        }
+
+        updateShell(shell);
+    });
+
+    window.addEventListener('resize', function() {
+        galleryShells.forEach(updateShell);
+    });
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -113,6 +208,26 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('lightbox').style.display = 'none';
         }
     });
+
+    document.addEventListener("keydown", function(event) {
+        var lightbox = document.getElementById('lightbox');
+        if (!lightbox || lightbox.style.display !== 'block') return;
+
+        if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            lightboxNavigate('next');
+        }
+
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            lightboxNavigate('prev');
+        }
+
+        if (event.key === 'Escape') {
+            lightbox.innerHTML = '';
+            lightbox.style.display = 'none';
+        }
+    });
     
     //add the youtube lightbox on click
     var elements = document.querySelectorAll('a.lightbox-youtube');
@@ -131,11 +246,14 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
-            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
+            var caption = this.getAttribute('data-caption') || this.getAttribute('title') || '';
+            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+caption+'</span>';
             document.getElementById('lightbox').style.display = 'block';
 
             setGallery(this);
         });
     });
+
+    setupProjectGalleries();
 
 });

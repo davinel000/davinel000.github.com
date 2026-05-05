@@ -1,0 +1,419 @@
+.dataviz-portfolio-shell {
+  min-height: 100vh;
+}
+
+.dataviz-portfolio {
+  --dv-bg: #0d1117;
+  --dv-bg-soft: #111827;
+  --dv-panel: rgba(255, 255, 255, 0.05);
+  --dv-panel-strong: rgba(255, 255, 255, 0.08);
+  --dv-line: rgba(255, 255, 255, 0.12);
+  --dv-text: rgba(248, 250, 252, 0.96);
+  --dv-muted: rgba(226, 232, 240, 0.72);
+  --dv-accent: #74c0fc;
+  --dv-accent-soft: rgba(116, 192, 252, 0.14);
+  color: var(--dv-text);
+  background:
+    radial-gradient(circle at top left, rgba(116, 192, 252, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(72, 187, 120, 0.08), transparent 24%),
+    linear-gradient(180deg, #0b0f14 0%, var(--dv-bg) 38%, #0b0f14 100%);
+}
+
+.dataviz-portfolio *,
+.dataviz-portfolio *::before,
+.dataviz-portfolio *::after {
+  box-sizing: border-box;
+}
+
+.dataviz-portfolio a {
+  border-bottom-color: rgba(116, 192, 252, 0.4);
+}
+
+.dataviz-portfolio a:hover {
+  color: var(--dv-accent);
+}
+
+.dataviz-portfolio__inner {
+  width: min(100% - 3rem, 86rem);
+  margin: 0 auto;
+}
+
+.dataviz-portfolio__hero {
+  padding: clamp(2.6rem, 5vw, 3.8rem) 0 2rem;
+}
+
+.dataviz-portfolio__hero .dataviz-portfolio__inner {
+  display: block;
+}
+
+.dataviz-portfolio__eyebrow,
+.dataviz-portfolio__section-label,
+.dataviz-project__year,
+.dataviz-portfolio__hero-panel-label,
+.dataviz-portfolio__fact-label {
+  margin: 0 0 0.65rem;
+  color: var(--dv-accent);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.dataviz-portfolio h1,
+.dataviz-portfolio h2,
+.dataviz-portfolio h3,
+.dataviz-portfolio h4,
+.dataviz-portfolio strong {
+  color: var(--dv-text);
+}
+
+.dataviz-portfolio h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  text-transform: none;
+}
+
+.dataviz-portfolio__lede {
+  margin: 0.7rem 0 0;
+  max-width: 42rem;
+  color: var(--dv-muted);
+  font-size: clamp(0.96rem, 1.3vw, 1.05rem);
+  line-height: 1.5;
+}
+
+.dataviz-portfolio__hero-profile {
+  margin-top: 1.2rem;
+}
+
+.dataviz-project__links a,
+.dataviz-portfolio__fact-card,
+.dataviz-portfolio__contact-card {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
+}
+
+.dataviz-project__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--dv-line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--dv-text);
+  font-size: 0.88rem;
+  line-height: 1.2;
+}
+
+.dataviz-portfolio__facts,
+.dataviz-portfolio__contact-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.dataviz-project,
+.dataviz-portfolio__fact-card,
+.dataviz-portfolio__contact-card {
+  border: 1px solid var(--dv-line);
+  border-radius: 1.5rem;
+  background: var(--dv-panel);
+}
+
+.dataviz-portfolio__fact-card,
+.dataviz-portfolio__contact-card {
+  padding: 1.15rem 1.2rem;
+}
+
+.dataviz-portfolio__fact-card p:last-child,
+.dataviz-portfolio__contact-card p:last-child {
+  margin: 0;
+  color: var(--dv-muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.dataviz-portfolio__section {
+  padding: 0 0 5.5rem;
+}
+
+.dataviz-portfolio__section--intro {
+  padding-top: 0;
+}
+
+.dataviz-portfolio__section--compact {
+  padding-bottom: 4rem;
+}
+
+.dataviz-portfolio__section-head {
+  max-width: 46rem;
+  margin-bottom: 1.6rem;
+}
+
+.dataviz-portfolio__section-head h2 {
+  margin: 0;
+  font-size: clamp(1.85rem, 3vw, 2.6rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  text-transform: none;
+}
+
+.dataviz-portfolio__intro-grid {
+  display: grid;
+  gap: 1rem;
+  max-width: 52rem;
+  margin-bottom: 1.4rem;
+}
+
+.dataviz-portfolio__intro-grid p,
+.dataviz-project__main p,
+.dataviz-project__subtitle,
+.dataviz-project__details dd,
+.dataviz-project__figure figcaption {
+  color: var(--dv-muted);
+}
+
+.dataviz-portfolio__projects {
+  display: grid;
+  gap: 2rem;
+}
+
+.dataviz-project {
+  padding: 1.1rem;
+}
+
+.dataviz-project__header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.85fr);
+  gap: 1rem;
+  align-items: end;
+  padding: 0.35rem 0.35rem 1.35rem;
+}
+
+.dataviz-project__header h3 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  text-transform: none;
+}
+
+.dataviz-project__subtitle {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.dataviz-project__gallery-shell {
+  position: relative;
+}
+
+.dataviz-project__gallery-viewport {
+  overflow: visible;
+}
+
+.dataviz-project__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.dataviz-project__gallery-nav,
+.dataviz-project__gallery-status {
+  display: none;
+}
+
+.dataviz-project__gallery-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 1px solid var(--dv-line);
+  border-radius: 999px;
+  background: rgba(11, 15, 20, 0.86);
+  color: var(--dv-text);
+  font-size: 1.5rem;
+  line-height: 1;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.dataviz-project__gallery-nav:hover {
+  color: var(--dv-accent);
+}
+
+.dataviz-project__gallery-nav:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.dataviz-project__gallery-nav--prev {
+  left: -0.45rem;
+}
+
+.dataviz-project__gallery-nav--next {
+  right: -0.45rem;
+}
+
+.dataviz-project__gallery-status {
+  margin: 0.7rem 0 0;
+  color: var(--dv-muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.dataviz-project__figure {
+  margin: 0;
+}
+
+.dataviz-project__figure a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--dv-line);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.dataviz-project__figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
+}
+
+.dataviz-project__content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(18rem, 0.85fr);
+  gap: 1.2rem;
+  margin-top: 1.45rem;
+}
+
+.dataviz-project__main {
+  display: grid;
+  gap: 0.65rem;
+  padding-top: 0.45rem;
+}
+
+.dataviz-project__main p,
+.dataviz-project__details dd,
+.dataviz-portfolio__intro-grid p {
+  margin: 0;
+  font-size: 1.06rem;
+  line-height: 1.72;
+}
+
+.dataviz-project__details {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--dv-line);
+  border-radius: 1.1rem;
+  background: var(--dv-panel-strong);
+}
+
+.dataviz-project__details dl,
+.dataviz-project__links {
+  margin: 0;
+  padding: 0;
+}
+
+.dataviz-project__details dl {
+  display: grid;
+  gap: 0.95rem;
+}
+
+.dataviz-project__details dt {
+  margin: 0 0 0.28rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dv-text);
+}
+
+.dataviz-project__details dd {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.dataviz-project__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.dataviz-portfolio__facts,
+.dataviz-portfolio__contact-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 980px) {
+  .dataviz-portfolio__hero .dataviz-portfolio__inner,
+  .dataviz-project__header,
+  .dataviz-project__content {
+    grid-template-columns: 1fr;
+  }
+
+  .dataviz-project__gallery,
+  .dataviz-portfolio__facts,
+  .dataviz-portfolio__contact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 981px) {
+  .dataviz-project__gallery-shell.is-paged .dataviz-project__gallery-viewport {
+    overflow: hidden;
+  }
+
+  .dataviz-project__gallery-shell.is-paged .dataviz-project__gallery {
+    display: flex;
+    align-items: stretch;
+    transition: transform 220ms ease;
+    will-change: transform;
+  }
+
+  .dataviz-project__gallery-shell.is-paged .dataviz-project__figure {
+    flex: 0 0 calc((100% - 1.8rem) / 3);
+  }
+
+  .dataviz-project__gallery-shell.is-paged .dataviz-project__gallery-nav,
+  .dataviz-project__gallery-shell.is-paged .dataviz-project__gallery-status {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .dataviz-portfolio__inner {
+    width: min(100% - 1.5rem, 86rem);
+  }
+
+  .dataviz-portfolio__hero {
+    padding-top: 2.4rem;
+  }
+
+  .dataviz-portfolio__section {
+    padding-bottom: 4rem;
+  }
+
+  .dataviz-project {
+    padding: 0.85rem;
+  }
+
+  .dataviz-project__header {
+    padding: 0.2rem 0.2rem 0.85rem;
+  }
+
+  .dataviz-project__gallery,
+  .dataviz-portfolio__facts,
+  .dataviz-portfolio__contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dataviz-project__figure img {
+    aspect-ratio: 4 / 3;
+  }
+}

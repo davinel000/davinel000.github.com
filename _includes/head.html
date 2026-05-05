@@ -6,6 +6,10 @@
 	{% if meta_description %}
 	<meta name="description" content="{{ meta_description | escape }}">
 	{% endif %}
+	{% if page.noindex %}
+	<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+	<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+	{% endif %}
 	<link rel="canonical" href="{{ page.url | absolute_url }}">
 
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">

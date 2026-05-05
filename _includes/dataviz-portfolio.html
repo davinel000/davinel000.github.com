@@ -1,0 +1,214 @@
+{% assign portfolio = site.data.portfolios.dataviz_ru %}
+
+<div class="dataviz-portfolio">
+  <section class="dataviz-portfolio__hero">
+    <div class="dataviz-portfolio__inner">
+      <div class="dataviz-portfolio__hero-copy">
+        <h1>{{ portfolio.hero.eyebrow }}</h1>
+        {% if portfolio.profile %}
+        <div class="dataviz-portfolio__hero-profile">
+          <div class="dataviz-portfolio__intro-grid">
+            {% for paragraph in portfolio.profile.paragraphs %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+
+          <div class="dataviz-portfolio__facts">
+            {% for fact in portfolio.profile.facts %}
+            <article class="dataviz-portfolio__fact-card">
+              <p class="dataviz-portfolio__fact-label">{{ fact.label }}</p>
+              <p>{{ fact.text }}</p>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+        {% elsif portfolio.hero.lede %}
+        <p class="dataviz-portfolio__lede">{{ portfolio.hero.lede }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+  <section class="dataviz-portfolio__section">
+    <div class="dataviz-portfolio__inner">
+      <div class="dataviz-portfolio__section-head">
+        <p class="dataviz-portfolio__section-label">{{ portfolio.projects_label }}</p>
+        <h2>{% if portfolio.projects_title and portfolio.projects_title != "" %}{{ portfolio.projects_title }}{% else %}{{ portfolio.hero.title }}{% endif %}</h2>
+      </div>
+
+      <div class="dataviz-portfolio__projects">
+        {% for project in portfolio.projects %}
+        <article class="dataviz-project" id="{{ project.slug }}">
+          <div class="dataviz-project__header">
+            <div>
+              <p class="dataviz-project__year">{{ project.period }}</p>
+              <h3>{{ project.title }}</h3>
+            </div>
+            <p class="dataviz-project__subtitle">{{ project.subtitle }}</p>
+          </div>
+
+          {% assign project_image_count = project.images | size %}
+          <div class="dataviz-project__gallery-shell{% if project_image_count > 3 %} is-paged{% endif %}"{% if project_image_count > 3 %} data-gallery-shell{% endif %}>
+            {% if project_image_count > 3 %}
+            <button class="dataviz-project__gallery-nav dataviz-project__gallery-nav--prev" type="button" aria-label="Предыдущие изображения" data-gallery-prev>&lsaquo;</button>
+            {% endif %}
+
+            <div class="dataviz-project__gallery-viewport">
+              <div class="dataviz-project__gallery">
+                {% for image in project.images %}
+                <figure class="dataviz-project__figure">
+                  <a href="{{ image.src | relative_url }}" class="gallery" data-caption="{{ image.caption | escape }}" style="border-bottom: none;">
+                    <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}">
+                  </a>
+                </figure>
+                {% endfor %}
+              </div>
+            </div>
+
+            {% if project_image_count > 3 %}
+            <button class="dataviz-project__gallery-nav dataviz-project__gallery-nav--next" type="button" aria-label="Следующие изображения" data-gallery-next>&rsaquo;</button>
+            <p class="dataviz-project__gallery-status" data-gallery-status>1 / {{ project_image_count }}</p>
+            {% endif %}
+          </div>
+
+          <div class="dataviz-project__content">
+            <div class="dataviz-project__main">
+              {% for paragraph in project.description %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+
+            <aside class="dataviz-project__details">
+              <dl>
+                <div>
+                  <dt>Роль</dt>
+                  <dd>{{ project.role }}</dd>
+                </div>
+                <div>
+                  <dt>Инструменты</dt>
+                  <dd>{{ project.tools }}</dd>
+                </div>
+                {% if project.team %}
+                <div>
+                  <dt>Команда</dt>
+                  <dd>{{ project.team }}</dd>
+                </div>
+                {% endif %}
+                {% if project.metrics %}
+                <div>
+                  <dt>Результат</dt>
+                  <dd>{{ project.metrics }}</dd>
+                </div>
+                {% endif %}
+              </dl>
+
+              {% if project.links %}
+              <ul class="dataviz-project__links">
+                {% for link in project.links %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </aside>
+          </div>
+        </article>
+        {% endfor %}
+
+        <article class="dataviz-project" id="{{ portfolio.extra_case.slug }}">
+          <div class="dataviz-project__header">
+            <div>
+              <p class="dataviz-project__year">{{ portfolio.extra_case.period }}</p>
+              <h3>{{ portfolio.extra_case.name }}</h3>
+            </div>
+            <p class="dataviz-project__subtitle">{{ portfolio.extra_case.subtitle }}</p>
+          </div>
+
+          {% assign extra_case_image_count = portfolio.extra_case.images | size %}
+          <div class="dataviz-project__gallery-shell{% if extra_case_image_count > 3 %} is-paged{% endif %}"{% if extra_case_image_count > 3 %} data-gallery-shell{% endif %}>
+            {% if extra_case_image_count > 3 %}
+            <button class="dataviz-project__gallery-nav dataviz-project__gallery-nav--prev" type="button" aria-label="Предыдущие изображения" data-gallery-prev>&lsaquo;</button>
+            {% endif %}
+
+            <div class="dataviz-project__gallery-viewport">
+              <div class="dataviz-project__gallery">
+                {% for image in portfolio.extra_case.images %}
+                <figure class="dataviz-project__figure">
+                  <a href="{{ image.src | relative_url }}" class="gallery" data-caption="{{ image.caption | escape }}" style="border-bottom: none;">
+                    <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}">
+                  </a>
+                </figure>
+                {% endfor %}
+              </div>
+            </div>
+
+            {% if extra_case_image_count > 3 %}
+            <button class="dataviz-project__gallery-nav dataviz-project__gallery-nav--next" type="button" aria-label="Следующие изображения" data-gallery-next>&rsaquo;</button>
+            <p class="dataviz-project__gallery-status" data-gallery-status>1 / {{ extra_case_image_count }}</p>
+            {% endif %}
+          </div>
+
+          <div class="dataviz-project__content">
+            <div class="dataviz-project__main">
+              {% for paragraph in portfolio.extra_case.description %}
+              <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+
+            <aside class="dataviz-project__details">
+              <dl>
+                <div>
+                  <dt>Роль</dt>
+                  <dd>{{ portfolio.extra_case.role }}</dd>
+                </div>
+                <div>
+                  <dt>Инструменты</dt>
+                  <dd>{{ portfolio.extra_case.tools }}</dd>
+                </div>
+                {% if portfolio.extra_case.team %}
+                <div>
+                  <dt>Команда</dt>
+                  <dd>{{ portfolio.extra_case.team }}</dd>
+                </div>
+                {% endif %}
+                {% if portfolio.extra_case.metrics %}
+                <div>
+                  <dt>Результат</dt>
+                  <dd>{{ portfolio.extra_case.metrics }}</dd>
+                </div>
+                {% endif %}
+              </dl>
+
+              <ul class="dataviz-project__links">
+                {% for link in portfolio.extra_case.links %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a></li>
+                {% endfor %}
+              </ul>
+            </aside>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="dataviz-portfolio__section dataviz-portfolio__section--compact">
+    <div class="dataviz-portfolio__inner">
+      <div class="dataviz-portfolio__section-head">
+        <p class="dataviz-portfolio__section-label">{{ portfolio.contacts.label }}</p>
+        <h2>{{ portfolio.contacts.title }}</h2>
+      </div>
+
+      <div class="dataviz-portfolio__contact-grid">
+        {% for contact in portfolio.contacts.items %}
+        <article class="dataviz-portfolio__contact-card">
+          <p class="dataviz-portfolio__fact-label">{{ contact.label }}</p>
+          {% if contact.url %}
+          <p><a href="{{ contact.url }}" target="_blank" rel="noopener noreferrer">{{ contact.value }}</a></p>
+          {% else %}
+          <p>{{ contact.value }}</p>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>

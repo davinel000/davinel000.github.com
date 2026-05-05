@@ -1,0 +1,241 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: "Вячеслав (Слава) Романов"
+  headline: "Визуализация данных, исследовательские дашборды, civic tech"
+  location: "Бремен, Германия"
+  email: "node@slavaromanov.art"
+  phone: "+49-15211091721"
+  website: "https://www.slavaromanov.art/"
+  social_networks:
+    - network: "LinkedIn"
+      username: "slavaromanov"
+    - network: "GitHub"
+      username: "davinel000"
+  custom_connections:
+    - fontawesome_icon: "chart-line"
+      placeholder: "Tableau Public"
+      url: "https://public.tableau.com/app/profile/viacheslav.romanov"
+  sections:
+    Профиль:
+      - "Специалист на стыке **аналитики, визуализации данных и проектной работы**. С 2012 года работаю с правозащитными и civic tech проектами, а с 2015 года регулярно делаю исследовательские дашборды, лонгриды и визуальные материалы на основе открытых данных. Особенно интересны задачи, где нужно не просто нарисовать график, а превратить данные в понятный исследовательский инструмент или убедительный публичный нарратив."
+      - "Умею работать и как самостоятельный визуализатор, и как человек, который собирает процесс целиком: поиск и очистка данных, структура истории, прототипирование, дизайн визуальных блоков, коммуникация с аналитиками, журналистами и разработчиками. Хорошо понимаю тематику цензуры, блокировок, доступа к информации и правозащитных исследований."
+    Ключевые навыки:
+      - label: "Визуализация данных"
+        details: "Tableau, Datawrapper, Infogram, Figma, Illustrator, Tilda, статические и интерактивные визуализации"
+      - label: "Данные и анализ"
+        details: "поиск и сбор открытых данных, очистка табличных данных, исследовательские выборки, BERTopic, регулярные выражения, базовая автоматизация пайплайнов"
+      - label: "Технический стек"
+        details: "Python, TouchDesigner, p5.js, базовый d3.js, Google Sheets, Markdown, Git"
+      - label: "Проектная работа"
+        details: "civic tech, human rights, лонгриды, исследовательские спецпроекты, координация малых междисциплинарных команд"
+      - label: "Языки"
+        details: "Русский — родной, английский — C1, немецкий — B2"
+    Опыт работы:
+      - company: "Институт развития свободы информации / Проектный центр «Инфометр»"
+        position: "Исследователь / аналитик / участник проектов по визуализации данных"
+        location: "Россия / удаленно"
+        start_date: "2012-01"
+        end_date: "2020-12"
+        highlights:
+          - "Занимался исследованиями и аналитикой в проектах, связанных с доступом к информации, мониторингом официальных сайтов и открытыми данными."
+          - "Участвовал в подготовке визуализаций, лонгридов и исследовательских материалов для публичных и экспертных аудиторий."
+          - "Сотрудничал с аналитиками, редакторами, журналистами и разработчиками, помогая превращать сырые данные в понятные визуальные истории."
+      - company: "Проекты по защите профессиональных прав адвокатов / «Голос адвоката»"
+        position: "Аналитик / проектный координатор / community manager"
+        location: "Россия / удаленно"
+        start_date: "2017-01"
+        end_date: "2022-12"
+        highlights:
+          - "Работал над проектами, посвященными нарушениям профессиональных прав адвокатов, их публичному освещению и систематизации данных."
+          - "Совмещал аналитическую, организационную и контрактную работу с подготовкой визуальных материалов и исследовательских публикаций."
+          - "Участвовал в анализе и визуализации данных о нарушениях прав адвокатов, в том числе в формате карт, диаграмм и компактных исследовательских спецматериалов."
+      - company: "Edit Wars"
+        position: "Тимлид / дизайн, визуализация данных и дата-аналитика"
+        location: "Германия / международная команда"
+        start_date: "2022-01"
+        end_date: "2024-12"
+        highlights:
+          - "Отвечал за лидерство в проекте на стыке исследования пропагандистских нарративов, визуализации данных и художественной инсталляции."
+          - "Координировал работу команды и отвечал за дизайн, визуализацию данных и аналитическую часть проекта."
+          - "Работал с корпусом примерно из 500 000 заголовков, собирал исследовательские Tableau-интерфейсы и визуальные материалы для веб-платформы и публичного показа."
+      - company: "Self-employed"
+        position: "Дата-художник / мультимедиа-разработчик"
+        location: "Бремен, Германия"
+        start_date: "2022-03"
+        end_date: "present"
+        highlights:
+          - "Как самозанятый в Германии разрабатываю интерактивные и генеративные визуальные системы на TouchDesigner и Python."
+          - "Работаю на стыке дата-арта, мультимедийной разработки и визуального сторителлинга."
+          - "Сотрудничаю с URBANSCREEN и другими проектами, где нужны медиапрограмминг, визуальная логика и аккуратная работа со сложными структурами данных."
+    Образование:
+      - institution: "University of the Arts Bremen"
+        area: "Digital Media / Media Design"
+        degree: "M.A."
+        start_date: "2020-10"
+        end_date: "2026-04"
+        location: "Бремен, Германия"
+        highlights:
+          - "Курсы и практика: creative coding, interface design, мультимедийные системы, визуальные интерфейсы."
+      - institution: "Уральская государственная юридическая академия"
+        area: "Юриспруденция"
+        degree: "Диплом специалиста"
+        start_date: "2006-09"
+        end_date: "2011-06"
+        location: "Екатеринбург, Россия"
+    Дополнительно:
+      - bullet: "В 2017 году участвовал в **Data Communication Fellowship** в Грузии."
+      - bullet: "Имею статус самозанятого в Германии; могу работать проектно."
+      - bullet: "Готов быстро включаться в исследовательские и прикладные задачи по теме цензуры, блокировок и мониторинга цифровой среды."
+design:
+  theme: moderncv
+  page:
+    size: a4
+    top_margin: 0.7in
+    bottom_margin: 0.65in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: false
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(34, 62, 86)
+    headline: rgb(34, 62, 86)
+    connections: rgb(34, 62, 86)
+    section_titles: rgb(34, 62, 86)
+    links: rgb(34, 62, 86)
+    footer: rgb(120, 120, 120)
+    top_note: rgb(120, 120, 120)
+  typography:
+    line_spacing: 0.58em
+    alignment: left
+    date_and_location_column_alignment: right
+    font_family:
+      body: Source Sans 3
+      name: Source Sans 3
+      headline: Source Sans 3
+      connections: Source Sans 3
+      section_titles: Source Sans 3
+    font_size:
+      body: 9.6pt
+      name: 24pt
+      headline: 11pt
+      connections: 9.3pt
+      section_titles: 1.2em
+    bold:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+  links:
+    underline: true
+    show_external_link_icon: false
+  header:
+    alignment: left
+    space_below_name: 0.45cm
+    space_below_headline: 0.35cm
+    space_below_connections: 0.4cm
+    connections:
+      phone_number_format: international
+      hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ""
+      space_between_connections: 0.42cm
+  section_titles:
+    type: moderncv
+    line_thickness: 0.15cm
+    space_above: 0.55cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.9em
+    space_between_text_based_entries: 0.25em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 3.9cm
+    side_space: 0cm
+    space_between_columns: 0.3cm
+    allow_page_break: false
+    short_second_row: false
+    highlights:
+      bullet: "•"
+      nested_bullet: "•"
+      space_left: 0cm
+      space_above: 0.15cm
+      space_between_items: 0.1cm
+      space_between_bullet_and_text: 0.3em
+  templates:
+    footer: "*NAME — PAGE_NUMBER/TOTAL_PAGES*"
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, DEGREE, AREA -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: DATE
+    normal_entry:
+      main_column: |-
+        **NAME** -- **LOCATION**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+    experience_entry:
+      main_column: |-
+        **POSITION**, COMPANY -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+locale:
+  language: russian
+  last_updated: "Обновлено"
+  month: "месяц"
+  months: "месяцев"
+  year: "год"
+  years: "лет"
+  present: "настоящее время"
+  month_abbreviations:
+    - "янв"
+    - "фев"
+    - "мар"
+    - "апр"
+    - "май"
+    - "июн"
+    - "июл"
+    - "авг"
+    - "сен"
+    - "окт"
+    - "ноя"
+    - "дек"
+  month_names:
+    - "январь"
+    - "февраль"
+    - "март"
+    - "апрель"
+    - "май"
+    - "июнь"
+    - "июль"
+    - "август"
+    - "сентябрь"
+    - "октябрь"
+    - "ноябрь"
+    - "декабрь"
+settings:
+  current_date: "2026-05-04"
+  render_command:
+    pdf_path: "rendercv_output/teplitsa_cv_ru.pdf"
+    markdown_path: "rendercv_output/teplitsa_cv_ru.md"
+    html_path: "rendercv_output/teplitsa_cv_ru.html"
+    png_path: "rendercv_output/teplitsa_cv_ru.png"
+    typst_path: "rendercv_output/teplitsa_cv_ru.typ"
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords:
+    - "Tableau"
+    - "Datawrapper"
+    - "Python"
+    - "TouchDesigner"
+    - "civic tech"
+    - "human rights"

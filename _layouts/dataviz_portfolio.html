@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+{% include head.html %}
+{% include google-analytics.html %}
+
+<body class="is-loading">
+  <main class="dataviz-portfolio-shell">
+    {{ content }}
+  </main>
+
+  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.scrolly.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.scrollex.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/skel.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/util.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+</body>
+
+</html>
