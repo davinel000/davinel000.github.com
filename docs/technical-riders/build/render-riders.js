@@ -1,12 +1,28 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { pathToFileURL } = require('url');
 
 function getBundledModule(name) {
   const candidates = [];
   const execDir = path.dirname(process.execPath);
-  candidates.push(path.resolve(execDir, '..', 'node_modules', name));
-  candidates.push(path.resolve(execDir, '..', '..', 'node_modules', name));
+  const nodeModuleDirs = [
+    path.resolve(execDir, '..', 'node_modules'),
+    path.resolve(execDir, '..', '..', 'node_modules'),
+  ];
+
+  for (const nodeModulesDir of nodeModuleDirs) {
+    candidates.push(path.join(nodeModulesDir, name));
+
+    const pnpmDir = path.join(nodeModulesDir, '.pnpm');
+    if (fs.existsSync(pnpmDir)) {
+      for (const entry of fs.readdirSync(pnpmDir, { withFileTypes: true })) {
+        if (entry.isDirectory() && (entry.name === name || entry.name.startsWith(`${name}@`))) {
+          candidates.push(path.join(pnpmDir, entry.name, 'node_modules', name));
+        }
+      }
+    }
+  }
 
   if (process.env.CODEX_NODE_MODULES) {
     candidates.unshift(path.resolve(process.env.CODEX_NODE_MODULES, name));
@@ -26,12 +42,14 @@ function getBundledModule(name) {
 const { marked } = getBundledModule('marked');
 const playwright = getBundledModule('playwright');
 const { PDFDocument, StandardFonts, rgb, PDFName, PDFString } = getBundledModule('pdf-lib');
+const sharp = getBundledModule('sharp');
 
 const ROOT = path.resolve(__dirname, '..');
 const PROJECTS_DIR = path.join(ROOT, 'projects');
 const TEMPLATE_PATH = path.join(__dirname, 'templates', 'rider-template.html');
 const CSS_PATH = path.join(__dirname, 'templates', 'rider.css');
 const OUTPUT_DIR = path.join(ROOT, 'output');
+const OPTIMIZED_IMAGES_DIR = path.join(OUTPUT_DIR, '.optimized-images');
 const BROWSER_CANDIDATES = [
   process.env.TECHNICAL_RIDER_BROWSER,
   'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
@@ -50,6 +68,19 @@ function escapeHtml(value) {
 
 function pathToFileUrl(filePath) {
   return pathToFileURL(path.resolve(filePath)).href;
+}
+
+function fileToDataUrl(filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  const mimeMap = {
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.png': 'image/png',
+    '.webp': 'image/webp',
+  };
+  const mime = mimeMap[ext] || 'application/octet-stream';
+  const buffer = fs.readFileSync(filePath);
+  return `data:${mime};base64,${buffer.toString('base64')}`;
 }
 
 function readTemplate(filePath) {
@@ -73,6 +104,75 @@ function resolveAssetPath(baseDir, value) {
   if (!value) return '';
   if (isWebUrl(value)) return value;
   return path.resolve(baseDir, value);
+}
+
+function hashKey(value) {
+  return crypto.createHash('sha1').update(String(value)).digest('hex');
+}
+
+async function readSourceBuffer(sourcePath) {
+  if (isWebUrl(sourcePath)) {
+    const response = await fetch(sourcePath);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch image: ${sourcePath} (${response.status})`);
+    }
+    return Buffer.from(await response.arrayBuffer());
+  }
+  return fs.readFileSync(sourcePath);
+}
+
+async function optimizeImage(sourcePath, variant) {
+  if (!sourcePath) return '';
+
+  const configByVariant = {
+    cover: { width: 2200, height: 3200, quality: 78 },
+    figure: { width: 1600, height: 1600, quality: 78 },
+  };
+
+  const config = configByVariant[variant] || configByVariant.figure;
+  fs.mkdirSync(OPTIMIZED_IMAGES_DIR, { recursive: true });
+
+  const cacheKey = hashKey(`${sourcePath}|${variant}|${config.width}|${config.height}|${config.quality}`);
+  const defaultOutputPath = path.join(OPTIMIZED_IMAGES_DIR, `${cacheKey}.jpg`);
+  const pngOutputPath = path.join(OPTIMIZED_IMAGES_DIR, `${cacheKey}.png`);
+
+  if (fs.existsSync(defaultOutputPath)) {
+    return fileToDataUrl(defaultOutputPath);
+  }
+  if (fs.existsSync(pngOutputPath)) {
+    return fileToDataUrl(pngOutputPath);
+  }
+
+  try {
+    const sourceBuffer = await readSourceBuffer(sourcePath);
+    const image = sharp(sourceBuffer, { failOn: 'none' }).rotate();
+    const metadata = await image.metadata();
+
+    const resized = image.resize({
+      width: config.width,
+      height: config.height,
+      fit: 'inside',
+      withoutEnlargement: true,
+    });
+
+    if (metadata.hasAlpha) {
+      await resized.png({
+        compressionLevel: 9,
+        palette: true,
+        quality: 85,
+      }).toFile(pngOutputPath);
+      return fileToDataUrl(pngOutputPath);
+    }
+
+    await resized.jpeg({
+      quality: config.quality,
+      mozjpeg: true,
+      progressive: true,
+    }).toFile(defaultOutputPath);
+    return fileToDataUrl(defaultOutputPath);
+  } catch (error) {
+    return isWebUrl(sourcePath) ? sourcePath : pathToFileUrl(sourcePath);
+  }
 }
 
 function parseScalar(value) {
@@ -197,32 +297,42 @@ function sanitizeHeaderText(value) {
     .replace(/đ/g, 'd');
 }
 
-function renderFigure(figure, baseDir) {
+async function renderFigure(figure, baseDir) {
   if (!figure || !figure.path) {
     return '';
   }
 
   const imagePath = resolveAssetPath(baseDir, figure.path);
-  const imageUrl = isWebUrl(imagePath) ? imagePath : pathToFileUrl(imagePath);
+  const imageUrl = await optimizeImage(imagePath, 'figure');
   const caption = figure.caption ? `<figcaption>${escapeHtml(figure.caption)}</figcaption>` : '';
 
   const className = `body-figure${figure.className ? ` ${figure.className}` : ''}`;
   return `<figure class="${className}"><img src="${imageUrl}" alt="${escapeHtml(figure.alt || figure.caption || '')}">${caption}</figure>`;
 }
 
-function buildBodyHtml(markdown, figures, baseDir) {
+async function buildBodyHtml(markdown, figures, baseDir) {
   const safeFigures = Array.isArray(figures) ? figures : [];
   const figureMap = new Map(safeFigures.map((figure) => [figure.id, figure]));
+  const figureIdsInMarkdown = [...markdown.matchAll(/\{\{FIGURE:([a-zA-Z0-9_-]+)\}\}/g)].map((match) => match[1]);
+  const inlineFigureHtml = new Map();
+
+  for (const id of figureIdsInMarkdown) {
+    if (!inlineFigureHtml.has(id) && figureMap.has(id)) {
+      inlineFigureHtml.set(id, await renderFigure(figureMap.get(id), baseDir));
+    }
+  }
+
   const withInlineFigures = markdown
-    .replace(/\{\{FIGURE:([a-zA-Z0-9_-]+)\}\}/g, (_match, id) => {
-    const figure = figureMap.get(id);
-    return figure ? renderFigure(figure, baseDir) : '';
-    })
+    .replace(/\{\{FIGURE:([a-zA-Z0-9_-]+)\}\}/g, (_match, id) => inlineFigureHtml.get(id) || '')
     .replace(/\{\{PAGEBREAK\}\}/g, '<div class="page-break"></div>');
 
   const body = marked.parse(withInlineFigures);
   const unusedFigures = safeFigures.filter((figure) => !figure.id || !markdown.includes(`{{FIGURE:${figure.id}}}`));
-  const figureHtml = unusedFigures.map((figure) => renderFigure(figure, baseDir)).join('\n');
+  const renderedUnused = [];
+  for (const figure of unusedFigures) {
+    renderedUnused.push(await renderFigure(figure, baseDir));
+  }
+  const figureHtml = renderedUnused.join('\n');
   return `${body}\n${figureHtml}`;
 }
 
@@ -280,8 +390,8 @@ async function renderEntry(browser, entry) {
   const baseDir = path.dirname(entry.markdownPath);
 
   const resolvedCover = resolveAssetPath(baseDir, metadata.coverImage);
-  const coverImageUrl = isWebUrl(resolvedCover) ? resolvedCover : pathToFileUrl(resolvedCover);
-  const bodyHtml = buildBodyHtml(markdown, metadata.inlineFigures, baseDir);
+  const coverImageUrl = await optimizeImage(resolvedCover, 'cover');
+  const bodyHtml = await buildBodyHtml(markdown, metadata.inlineFigures, baseDir);
   const html = applyTemplate(template, {
     STYLE: css,
     TITLE: escapeHtml(metadata.title || ''),

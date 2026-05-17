@@ -26,6 +26,9 @@ inlineFigures:
   - id: "overview"
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/HsunHsiangHsuSDIM0552.jpg"
     caption: "Studies of Change, Bremen. Foto: Hsun Hsiang Hsu"
+  - id: "boxrear"
+    path: "../../../../assets/images/portfolio/pnctm/box.jpg"
+    caption: "PNCTM Rückseite. Foto: Slava Romanov"
 ---
 # PNCTM
 
@@ -43,12 +46,13 @@ Der:die Besucher:in beugt sich über das kleine Objekt und blickt mit einer komp
 
 Die Installation umfasst drei Fotoboxen. Jede Fotobox enthält:
 
-  - MDF-Fotorahmen
+  - schwarze MDF-Mediabox
+  - Acryl-Frontfläche
   - 5-Zoll-FHD-Vorschau-Display, Lilliput A5
   - integrierten Android-Mediaplayer
   - individuelles Gehäuse, Kabel, Transformator, Ein-/Aus-Schalter, Fernbedienungsempfänger und Montageplatte
   - aktive Luftkühlung
-  - Archivdia und Plexiglasfläche
+  - ein Archivdia
 
 Weitere zentrale Elemente sind:
 
@@ -60,8 +64,9 @@ Weitere zentrale Elemente sind:
 
 ### Dimensionen / Laufzeit / Skalierbarkeit
 
-- Jede Fotobox auf einem Ständer: ca. 35 x 35 x 120 cm
-- Gesamte Installationsgröße in linearer Anordnung: ca. 250 x 35 x 120 cm
+- Maße jedes Medienobjekts: ca. 265 x 215 x 55 mm
+- Empfohlene Maße der Ständer: ca. 35 x 35 x 110-120 cm
+- Gesamte Installationsgröße in linearer Anordnung auf Ständern: ca. 250 x 35 x 120 cm
 - Dauer jedes Videos: ca. 3 Minuten, zyklisch
 - Alternative Anordnungen für nicht standardisierte Räume sind nach Absprache möglich
 - Die Objekte können auch über mehrere Räume verteilt werden, sofern dies zum Ausstellungskonzept passt
@@ -89,17 +94,18 @@ Weitere zentrale Elemente sind:
 - Drei stabile Ständer, ca. 120 cm hoch oder höhenverstellbar
 - Die Ständer sollten eine sichere Befestigung der Fotoboxen ermöglichen, zum Beispiel mit Kabelbindern oder einer vergleichbaren nicht-invasiven Befestigung
 - Die Vergrößerungslinsen sollten mit einer Schnur oder einer ähnlichen Sicherungslösung an den Ständern befestigt werden, um Herunterfallen oder unbeabsichtigtes Entfernen zu verhindern
+- Die Fotoboxen selbst sollten ebenfalls mit dünnen Sicherungsseilen oder einer vergleichbaren unauffälligen Lösung an den Ständern gesichert werden
 
 ### Vom Künstler Bereitgestellte Komponenten
 
 - 3 Fotoboxen mit integrierten Bildschirmen und Mediaplayern
 - Kuratierte Archivdias
-- 3 vorfokussierte Vergrößerungslinsen
+- 3 modifizierte Carson-LumiLoupe-Lupen
 - 2 Fernbedienungen für Android-Mediaplayer mit Batterien
 - 3 x 12 V / 3 A Netzteile
 - 3 Verlängerungskabel für 12-V-Netzteile: ca. 2 m, 4 m und 7 m
-- Reinigungszubehör für Plexiglasflächen
-- Ersatz-Plexiglasflächen können für längere Ausstellungen bereitgestellt werden und erfordern gegebenenfalls ein kleines zusätzliches Produktionsbudget
+- Reinigungszubehör für Acrylflächen
+- Ersatz-Acrylfronten können für längere Ausstellungen bereitgestellt werden und erfordern gegebenenfalls ein kleines zusätzliches Produktionsbudget
 
 {{FIGURE:closeup}}
 
@@ -119,6 +125,7 @@ Die Arbeit enthält eine leise Klangkomposition, die über kleine, in die HD-Dis
 - Die Fotoboxen sollten sicher an den Ständern befestigt werden, während der Zugang zum Ein-/Aus-Schalter erhalten bleibt
 - Vergrößerungslinsen müssen gesichert werden, um Herunterfallen oder unbeabsichtigtes Entfernen zu verhindern
 - Die Installation sollte gegen unbeabsichtigtes Verschieben durch Besucher:innen geschützt bleiben
+- Die Medienobjekte werden über 12 V / 3 A Netzteile versorgt; Kabel und Netzteile sollten für Besucher:innen unzugänglich bleiben
 - Regelmäßige Aufsicht durch das Personal der Institution wird während der Öffnungszeiten empfohlen
 
 ### Transport
@@ -140,16 +147,21 @@ Die Arbeit enthält eine leise Klangkomposition, die über kleine, in die HD-Dis
 ### Täglicher Betrieb
 
 - Tägliches Ein- und Ausschalten ist erforderlich, sofern kein anderer Betriebsmodus vereinbart wurde
-- Die Stromversorgung sollte für Bildschirme und zugehörige Komponenten einzeln überprüft werden
-- Plexiglasabdeckungen und Vergrößerungslinsen sollten regelmäßig mit dem bereitgestellten Zubehör gereinigt werden
+- Die Android-TV-Mediaplayer starten automatisch, sobald die Bildschirme mit Strom versorgt werden
+- Die Bildschirme selbst müssen manuell über die markierte rückseitige Öffnung an jeder Box eingeschaltet werden
+- Das Ausschalten kann durch Trennen der Stromversorgung des gesamten Netzwerks erfolgen
+- Alternativ kann der Ton der Mediaplayer bei Bedarf per Fernbedienung stummgeschaltet werden
+- Acrylabdeckungen und Vergrößerungslinsen sollten regelmäßig mit dem bereitgestellten Zubehör gereinigt werden
 - Eine Autostart-Prozedur kann an die Ausstellungsanforderungen angepasst werden
+
+{{FIGURE:boxrear}}
 
 ### Wartung
 
-- Regelmäßige Wartung umfasst die Reinigung von Plexiglasabdeckungen und Vergrößerungslinsen
+- Regelmäßige Wartung umfasst die Reinigung von Acrylabdeckungen und Vergrößerungslinsen
 - Detaillierte Anweisungen zum Einschalten und zur Behebung typischer Fehler sind auf Anfrage verfügbar
 - Bei längeren Ausstellungszeiträumen werden periodische Kontrollen von Bildschirmwiedergabe, Kühlung und Befestigungsstabilität empfohlen
-- Ersatz-Plexiglasflächen können für längere Präsentationen sinnvoll sein und als kleine Produktionskosten besprochen werden
+- Ersatz-Acrylfronten können für längere Präsentationen sinnvoll sein und als kleine Produktionskosten besprochen werden
 
 ### Versicherungswert
 

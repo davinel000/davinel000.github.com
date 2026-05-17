@@ -40,8 +40,8 @@ related_projects:
 ---
 
 - **Format**: Interactive audiovisual installation
-- **Medium**: Projections, point-cloud & sound capture, real-time, light objects, spatial sound, computer vision, embodied interaction
-- **Space**: 12 x 12 x 4 m minimum footprint for the full installation setup
+- **Medium**: Projections, point-cloud & sound capture, real-time, Light Pillars, spatial sound, computer vision, embodied interaction
+- **Space**: approx. 12 x 15 m minimum footprint and 3.5 m ceiling height for the full installation setup
 
 {% include video.html
    src="https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
@@ -52,7 +52,7 @@ related_projects:
 
 ## Overview
 
-**in the digital shadow** is an interactive audiovisual installation built as a spatial memory system. Visitors enter a projection chamber, become recorded as point-cloud shadows, and see those traces return through projection surfaces, light objects, and sound.
+**in the digital shadow** is an interactive audiovisual installation built as a spatial memory system. Visitors enter a projection chamber, become recorded as point-cloud shadows, and see those traces return through projection surfaces, Light Pillars, and spatial sound.
 
 The installation interprets creative labour through the residue it leaves behind. Files, schedules, budgets, chats, self-tracking marks, delegated work, technical leftovers, fatigue, and recovery form the research material behind the work. In the space, these pressures become a system that collects, stores, allocates, overloads, and partially releases visitor traces.
 
@@ -61,12 +61,12 @@ The installation interprets creative labour through the residue it leaves behind
 
 ## Spatial System
 
-The installation is organised through four connected modules:
+The installation is organised through connected modules:
 
 - **Collection Chamber** - a 3 x 3 x 3 m projection cube where visitors are captured by depth cameras and returned as live and recalled point-cloud bodies.
-- **Light-sound objects** - six distributed memory slots with projection fabric, speakers, and DMX lights that carry fragments through the room.
+- **Light Pillars** - six distributed aluminium-and-fabric objects with speakers and DMX lights that carry recorded fragments through the room.
 - **Allocate Station** - an illuminated drawing surface where a red line assigns a stored shadow to one of the available slots.
-- **Control contour** - a networked media system that manages capture, playback, state transitions, sound, light, and overload behaviour.
+- **Control system** - a networked media system that manages capture, playback, state transitions, sound, light, and overload behaviour.
 
 The system keeps running between direct interactions. Recorded shadows wander, disappear, reappear, and accumulate. Visitor actions can make the room denser: projection surfaces fill with traces, sound thickens, red light intensifies, and the system approaches overload. At the threshold it flashes, produces noise, clears slots, and returns to a quieter state.
 

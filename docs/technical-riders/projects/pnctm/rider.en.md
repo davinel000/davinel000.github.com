@@ -26,6 +26,9 @@ inlineFigures:
   - id: "overview"
     path: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/images/tech_riders/pnctm/HsunHsiangHsuSDIM0552.jpg"
     caption: "Studies of Change, Bremen. Photo: Hsun Hsiang Hsu"
+  - id: "boxrear"
+    path: "../../../../assets/images/portfolio/pnctm/box.jpg"
+    caption: "PNCTM rear view. Photo: Slava Romanov"
 ---
 # PNCTM
 
@@ -43,12 +46,13 @@ Leaning toward the small object, the visitor uses a compact magnifying lens to l
 
 The installation includes three photoboxes. Each photobox contains:
 
-  - MDF-made photo frame
+  - black MDF media box
+  - acrylic front surface
   - 5-inch FHD photo preview screen, Lilliput A5
   - integrated Android media player
   - custom casing, cables, transformer, on/off switch, remote receiver, and mounting board
   - active air cooling
-  - archive diaslide and plexiglass surface
+  - one archive diaslide
 
 Additional core elements include:
 
@@ -60,8 +64,9 @@ Additional core elements include:
 
 ### Dimensions / Duration / Scalability
 
-- Each frame box on a stand: approx. 35 x 35 x 120 cm
-- Total installation size in a linear arrangement: approx. 250 x 35 x 120 cm
+- Dimensions of each media object: approx. 265 x 215 x 55 mm
+- Recommended stand size: approx. 35 x 35 x 110-120 cm
+- Total installation size in a linear arrangement on stands: approx. 250 x 35 x 120 cm
 - Duration of each video: approx. 3 minutes, cyclical
 - Alternative arrangements for non-standard rooms are possible upon discussion
 - The objects can also be distributed across several spaces if this fits the exhibition concept
@@ -89,17 +94,18 @@ Additional core elements include:
 - Three stable stands, approx. 120 cm high or height-adjustable
 - Stands should allow secure attachment of the photoboxes, for example with cable ties or comparable non-invasive fixing
 - The magnifying lenses should be secured to the stands with a cord or similar safety solution to prevent falling or accidental removal
+- The photoboxes themselves should also be secured to the stands with thin safety cables or a comparable unobtrusive solution
 
 ### Components Provided by Artist
 
 - 3 photoboxes with integrated screens and media players
 - Curated archive diaslides
-- 3 pre-focused magnifying lenses
+- 3 modified Carson LumiLoupe magnifiers
 - 2 remote controls for Android media players with batteries
 - 3 x 12 V / 3 A adapters
 - 3 extension cables for 12 V adapters: approx. 2 m, 4 m, and 7 m
-- Cleaning accessories for plexiglass surfaces
-- Spare plexiglass surfaces may be provided for longer exhibitions and may require a small additional production budget
+- Cleaning accessories for acrylic surfaces
+- Spare acrylic front surfaces may be provided for longer exhibitions and may require a small additional production budget
 
 {{FIGURE:closeup}}
 
@@ -119,6 +125,7 @@ The artwork includes a soft sound composition played through small speakers inte
 - The photoboxes should be securely attached to the stands while still allowing access to the power switch
 - Magnifying lenses must be secured to prevent falling or accidental removal
 - The installation should remain protected against accidental movement by visitors
+- The media objects are powered by 12 V / 3 A adapters; cables and adapters should remain inaccessible to visitors
 - Periodic supervision by venue staff is recommended during opening hours
 
 ### Transport
@@ -140,16 +147,21 @@ The artwork includes a soft sound composition played through small speakers inte
 ### Daily Operation
 
 - Daily switching on and off is required unless another operating mode is agreed
-- Power should be checked individually for the screens and related components
-- Glass covers and magnifying lenses should be cleaned regularly with the provided accessories
+- The Android TV media players start automatically when the screens receive power
+- The screens themselves must be switched on manually via the marked rear access hole on each box
+- Shutdown may be done by disconnecting power to the full installation network
+- Alternatively, sound on the media players may be muted by remote control if needed
+- Acrylic covers and magnifying lenses should be cleaned regularly with the provided accessories
 - An autostart procedure can be adapted to exhibition requirements
+
+{{FIGURE:boxrear}}
 
 ### Maintenance
 
-- Regular maintenance includes cleaning of plexiglass covers and magnifying lenses
+- Regular maintenance includes cleaning of acrylic covers and magnifying lenses
 - Detailed instructions for switching and troubleshooting are available upon request
 - For long exhibition periods, periodic checks of screen playback, cooling, and mounting stability are recommended
-- Replacement plexiglass surfaces may be useful for longer presentations and can be discussed as a small production cost
+- Replacement acrylic front surfaces may be useful for longer presentations and can be discussed as a small production cost
 
 ### Insurance Value
 
