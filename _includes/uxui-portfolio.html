@@ -33,7 +33,9 @@
     <div class="dataviz-portfolio__inner">
       <div class="dataviz-portfolio__section-head">
         <p class="dataviz-portfolio__section-label">{{ portfolio.projects_label }}</p>
-        <h2>{% if portfolio.projects_title and portfolio.projects_title != "" %}{{ portfolio.projects_title }}{% else %}{{ portfolio.hero.title }}{% endif %}</h2>
+        {% if portfolio.projects_title and portfolio.projects_title != "" %}
+        <h2>{{ portfolio.projects_title }}</h2>
+        {% endif %}
       </div>
 
       <div class="dataviz-portfolio__projects">
