@@ -31,9 +31,12 @@
   <div class="project-gallery__track image-gallery" aria-label="{{ include.title }} gallery">
     {% if ordered_files.size > 0 %}
     {% for file in ordered_files limit: gallery_limit %}
+    {% assign networking_image_path = file.path | replace_first: '/assets/images/portfolio/', '/assets/images/networking-a/portfolio/' %}
+    {% assign networking_image_stem = networking_image_path | split: '.' | pop | join: '.' %}
+    {% assign networking_image_path = networking_image_stem | append: '.webp' %}
     <figure class="project-gallery__slide">
-      <a class="project-gallery__lightbox-link" href="{{ file.path | relative_url }}" aria-label="Open {{ include.title }} image {{ forloop.index }}">
-        <img src="{{ file.path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}" loading="lazy" decoding="async">
+      <a class="project-gallery__lightbox-link" href="{{ networking_image_path | relative_url }}" aria-label="Open {{ include.title }} image {{ forloop.index }}">
+        <img src="{{ networking_image_path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}" loading="lazy" decoding="async">
       </a>
     </figure>
     {% endfor %}

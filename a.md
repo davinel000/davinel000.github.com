@@ -3,7 +3,7 @@ layout: page
 title: Data Artist & Multimedia Developer
 description: Slava Romanov — data artist and multimedia developer working with TouchDesigner, Python, interactive installations, live visuals, and real-time media systems.
 permalink: /a/
-image: /assets/images/portfolio/i_see_time/overview/0J0A1769.jpg
+image: /assets/images/networking-a/portfolio/i_see_time/overview/0J0A1769.webp
 nav-menu: false
 show_tile: true
 position: 98
@@ -13,9 +13,9 @@ hero:
   title: Slava Romanov
   lede: Art, code, and production for immersive systems, installations, and performative media.
   media:
-    - src: /assets/images/portfolio/i_see_time/overview/0J0A1769.jpg
-    - src: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
-    - src: /assets/images/portfolio/umbra/carousel/1.png
+    - src: /assets/images/networking-a/portfolio/i_see_time/overview/0J0A1769.webp
+    - src: /assets/images/networking-a/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.webp
+    - src: /assets/images/networking-a/portfolio/umbra/carousel/1.webp
   ctas:
     - label: GitHub / Code
       href: https://github.com/davinel000
