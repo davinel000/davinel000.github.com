@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-description: Nice to meet you. Let's collaborate.
+title: Data Artist & Multimedia Developer
+description: Slava Romanov — data artist and multimedia developer working with TouchDesigner, Python, interactive installations, live visuals, and real-time media systems.
 permalink: /a/
 image: /assets/images/portfolio/i_see_time/overview/0J0A1769.jpg
 nav-menu: false
@@ -17,9 +17,13 @@ hero:
     - src: /assets/images/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.jpg
     - src: /assets/images/portfolio/umbra/carousel/1.png
   ctas:
+    - label: GitHub / Code
+      href: https://github.com/davinel000
+      class: button special
+      external: true
     - label: Follow on Instagram
       href: https://www.instagram.com/davinel000/
-      class: button special
+      class: button
       external: true
   tags:
     - TouchDesigner
@@ -239,10 +243,17 @@ contact:
     - label: Email
       value: node@slavaromanov.art
       href: mailto:node@slavaromanov.art
+    - label: GitHub
+      value: davinel000
+      href: https://github.com/davinel000
+      external: true
     - label: LinkedIn
       value: slavaromanov
       href: https://www.linkedin.com/in/slavaromanov/
       external: true
+    - label: Save contact
+      value: vCard (.vcf)
+      href: /slava-romanov.vcf
 ---
 
 {% include networking-page.html %}
