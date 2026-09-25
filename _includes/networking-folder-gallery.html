@@ -4,7 +4,7 @@
   {% assign folder = folder | append: carousel_folder %}
 {% endif %}
 {% assign explicit_files = include.gallery.files %}
-{% assign gallery_limit = include.gallery.limit | default: 12 %}
+{% assign gallery_limit = include.gallery.limit | default: 4 %}
 
 {% assign ordered_files = "" | split: "" %}
 
@@ -33,7 +33,7 @@
     {% for file in ordered_files limit: gallery_limit %}
     <figure class="project-gallery__slide">
       <a class="project-gallery__lightbox-link" href="{{ file.path | relative_url }}" aria-label="Open {{ include.title }} image {{ forloop.index }}">
-        <img src="{{ file.path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}">
+        <img src="{{ file.path | relative_url }}" alt="{{ include.title }} image {{ forloop.index }}" loading="lazy" decoding="async">
       </a>
     </figure>
     {% endfor %}
