@@ -11,7 +11,7 @@ position: 98
 hero:
   subtitle: Data Artist & Multimedia Developer
   title: Slava Romanov
-  lede: Art, code, and production for immersive systems, installations, and performative media.
+  lede: I am a Bremen-based data artist and multimedia developer working across interactive installations, real-time systems, and live performance. I combine data, sensing, projection, light, and sound to turn research-driven ideas and complex narratives into spatial experiences.
   media:
     - src: /assets/images/networking-a/portfolio/i_see_time/overview/0J0A1769.webp
     - src: /assets/images/networking-a/portfolio/in_the_digital_shadow/selected/01-installation-view-jimi-liu.webp
@@ -40,7 +40,7 @@ audience_modes:
   items:
     - key: studios
       label: Studios
-      support: For public-facing systems, cultural installations, and production-ready delivery.
+      support: For public-facing systems, cultural institutions, and production-ready delivery.
       direction_order:
         - systems
         - installations
