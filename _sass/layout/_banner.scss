@@ -78,6 +78,16 @@
 			}
 		}
 
+		.home-bio {
+			max-width: 52rem;
+			margin: 1.1rem 0 0;
+			font-size: 1.02em;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 1.55;
+			text-transform: none;
+		}
+
 		.content {
 			@include vendor('display', 'flex');
 			@include vendor('align-items', 'center');
