@@ -26,6 +26,9 @@
                     <!-- <li><a href="#one" class="button next scrolly">Get Started</a></li> -->
                 </ul>
             </div>
+            {% if page.bio %}
+            <p class="home-bio">{{ page.bio }}</p>
+            {% endif %}
         </div>
     </section>
 
