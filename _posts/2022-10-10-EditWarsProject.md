@@ -47,7 +47,7 @@ This installation transforms narratives into auditory and visual experiences, of
 
 ## Interactive Installation: “Propaganda Narrative Soundscapes: Dashboard”
 
-This installation, adapted for portable format, presents the detailed research insights of the Edit Wars project in a dashboard interface, combining them with realtime propaganda websites load on the second screen, and a sonified feedback within 3 7-minute soundscapes, with temporal and topical touchscreen navigation.
+This installation, adapted for a portable format, presents detailed research insights from the Edit Wars project through a dashboard interface. It combines real-time propaganda website feeds on a second screen with sonified feedback across three seven-minute soundscapes, navigable by time and topic via a touchscreen.
 {% include image-gallery-folder.html imagefolder="/assets/images/portfolio/edit_wars/hdw/" %}
 *Photos: Slava Romanov*
 
@@ -59,12 +59,13 @@ This installation, adapted for portable format, presents the detailed research i
 
 "Edit Wars" has been presented at multiple exhibitions:
 
-- ["Propaganda Narrative Soundscapes"](https://www.hfk-bremen.de/t/neuigkeiten-und-presse/n/kooperation-des-studiengangs-digitale-medien-der-hfk-bremen-mit-edit-wars), Tor40, Bremen (2-5.02.2023)
-- ["Cases of Spaces"](http://www.top-ev.de/other/cases-of-spaces/), TOP, Berlin (15.02.2023)
-- Iterations, HfK Bremen Master Project Exhibition, Bremen (5-10.05.2022)
+- ["Propaganda Narrative Soundscapes"](https://www.hfk-bremen.de/de/neuigkeiten/kooperation-des-studiengangs-digitale-medien-der-hfk-bremen-mit-edit-wars/533), Tor40, Bremen (2-5.02.2023)
+- ["Cases of Spaces"](https://www.top-ev.de/other/cases-of-spaces/), TOP, Berlin (15-16.02.2023)
+- [Iterations](https://www.hfk-bremen.de/en/events/iterations-ausstellung-digitale-medien-master/5573), HfK Bremen Master Project Exhibition, Bremen (05-11.05.2023)
 - [Temporary Spaces class exhibition](https://vimeo.com/857817288), Hochschultage 2023, HfK Bremen (8-9.07.2023)
-- [In den Stadtlöchern](https://www.hausderwissenschaft.de/In-den-Startloechern.html) at Haus der Wissenschaft, Bremen (09.11.2023-21.02.2024)
+- [In den Startlöchern](https://www.hausderwissenschaft.de/In-den-Startloechern.html) at Haus der Wissenschaft, Bremen (09.11.2023-27.02.2024)
 - [International Symposium "Sybioses: Life in Future Imperfect"](https://www.nsuweb.org/study-circles/circle-2-cybioses-life-in-the-future-imperfect/), organized by Nordic Summer University, Vilnius (06-09.03.2024)
+- [DiscussDataLab: Challenges of Data Collection, Re-use, and Analysis](https://discuss-data.net/cs/eescca/section/blog/discussdatalab-workshop-report/), Research Centre for East European Studies (FSO), University of Bremen — presentation "Deconstructing Russian propaganda" and interactive dashboard showcase (25-27.08.2025)
 
 
 
@@ -131,5 +132,5 @@ Highlighted by esteemed media outlets such as [TAZ](https://taz.de/Kunstprojekt-
 - Nov 2023 - Feb 2024: Exhibition in Bremen
 - Mar 2024: Exhibition in Vilnius at the winter session of Cybioses Circle (Nordic Summer University)
 - Aug 2024: Presentation at the summer session of Cybioses Circle (NSU),Løgumkloster (DK)
-- Aug 2025: Presentation of the project at Discuss Data Lab Bremen with a small installation showcase
+- Aug 2025: [DiscussDataLab](https://discuss-data.net/cs/eescca/section/blog/discussdatalab-workshop-report/) presentation and interactive dashboard showcase at the University of Bremen
 
