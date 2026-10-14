@@ -112,9 +112,10 @@
 	}
 
 	&.major { // is used for main page
-		height: 30vh; //was 75
-		min-height: 20em; //was 30
-		max-height: 50em; //was 50
+		// Allow the homepage intro to grow with its text instead of overlapping project tiles.
+		height: auto;
+		min-height: 20em;
+		max-height: none;
 
 		&.alt {
 			  opacity: 0.75;
