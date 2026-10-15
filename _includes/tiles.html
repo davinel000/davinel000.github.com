@@ -1,7 +1,7 @@
 {% assign tiles = "" | split: "" %}
 
 {% if "posts" == site.tiles-source or "both" == site.tiles-source %}
-  {% assign post_tiles = site.posts | where_exp: "item", "item.show_tile == true and item.lang != 'de'" | sort: "position" %}
+  {% assign post_tiles = site.posts | where_exp: "item", "item.show_tile == true" | where_exp: "item", "item.lang != 'de'" | sort: "position" %}
   {% assign tiles = tiles | concat: post_tiles %}
 {% endif %}
 
