@@ -69,7 +69,7 @@ Durch die Dekontextualisierung der Negative, also den Verzicht auf konkrete Date
 
 Das Projekt verbindet mehrere Technologien und Materialien:
 
-- **Modifizierter Kodak-Carousel-Projektor**: ausgestattet mit einer sehr hellen LED (~200 W), drahtlos gesteuertem Mikrocontroller für Blitz und Dia-Transport (ESP32-C3 + MOSFET + Relais). Ein Weitwinkelobjektiv ermöglicht eine Projektion vom Boden bis zur Decke mit 81 Archivdias.
+- **Modifizierter Kodak-Carousel-Projektor**: ausgestattet mit einer sehr hellen LED-Lichtquelle, drahtlos gesteuertem Mikrocontroller für Blitz und Dia-Transport (ESP32-C3 + MOSFET + Relais). Ein Weitwinkelobjektiv ermöglicht eine Projektion vom Boden bis zur Decke mit 81 Archivdias.
 - **Negative Bilder**: Archivnegative aus Ost- und Westdeutschland der 1950er Jahre sowie Farbfotos aus dem frühen 2000er-Jahren aus Lüdenscheid, thematisch gruppiert (Verkehr, Kindheit, Gesellschaft, Tiere usw.).
 - **Generativer Ambient-Sound**: mit Bespoke Synth auf einem Intel NUC erzeugt und über ein 300-W-Bi-Amp-Stereosystem ausgegeben. Zufällige Klangtrigger im Abstand von 10 bis 40 Sekunden sind mit den Lichtimpulsen abgestimmt, während asynchrone LFO-basierte Muster eine sich kontinuierlich verändernde Klangtextur erzeugen.
 - **Installationsaufbau**: ein dunkler Raum mit neutralroter Sicherheitsbeleuchtung in geringer Intensität, um den Kontrast zu maximieren und die Nachbilder zu verstärken.
