@@ -69,7 +69,7 @@ By decontextualising these negatives, by removing explicit dates or locations, t
 
 The project utilises a combination of technologies and materials:
 
-- **Modified Kodak Carousel projector**: equipped with an ultra-bright LED (~200 W), a wireless microcontroller-controlled flash and slide advance (ESP32-C3 + MOSFET + relay). A wide-angle lens allows floor-to-ceiling projection of 81 archive slides.
+- **Modified Kodak Carousel projector**: equipped with a high-intensity LED light source, a wireless microcontroller-controlled flash and slide advance (ESP32-C3 + MOSFET + relay). A wide-angle lens allows floor-to-ceiling projection of 81 archive slides.
 - **Negative images**: archival negatives from East and West Germany from the 1950s and colour photos from the early 2000s in Lüdenscheid, grouped thematically (traffic, childhood, society, animals, etc.).
 - **Generative ambient sound**: created in Bespoke Synth on an Intel NUC and played through a 300 W bi-amp stereo system. Random sound triggers every 10 to 40 seconds align with bursts of light, while asynchronous LFO-based patterns create a constantly evolving audio texture.
 - **Installation setup**: a dark environment with low-light neutral red safety navigation, designed to maximise contrast and intensify afterimages.
